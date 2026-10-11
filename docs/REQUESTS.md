@@ -170,7 +170,7 @@ Progress updates are posted as replies to the requester's original Discord messa
 | R-163 | Mario | Clone my voice (consented) | already saved via Settings, verified in DB | live | 01:27 |
 | R-164 | Iraj | Festival Lights strand lying on the floor | integrator: poles + raised strand | live (89e6cd0) | 01:40 |
 | R-165 | Iraj | AI-driven villagers walk jittery (live players fine) | integrator: buffer one 1 Hz server step on the client | live (89e6cd0) | 01:40 |
-| R-166 | Iraj | Solana polish: SOL to XP shop for auditor, working SOL entry, payout modes (winner/proportional/ranked split) | FEAT-027 (Codex) | live (86bc24e) | 01:40 |
+| R-166 | Iraj | Solana polish: SOL to XP shop for auditor, working SOL entry, payout modes (winner/proportional/ranked split) | FEAT-027 (Codex) | live + devnet program 4m7x…Ehu wired | 01:40 |
 | R-167 | Lance | Bring back the welcome text under the logo (above the dashboard) | integrator CSS: dashboard top back to 195px | live | 01:47 |
 | R-168 | Lance | Inbox messages have no timestamps | integrator: time of day on each message | live | 01:48 |
 | R-169 | Iraj | Hidden judge Demo Lab: onboarding (new + join), interactive image→avatar and object→mesh pipeline, 50–100 person town, disasters, level 1→max futures | WEB-055 + WEB-056 (Codex) | live (86bc24e) | 01:50 |
@@ -188,4 +188,10 @@ Progress updates are posted as replies to the requester's original Discord messa
 | R-181 | Lance (found via screenshot) | Around the village showed "No activity yet": scheduler no-op ticks (~20/h) filled the feed window | integrator: feed query skips scheduler no-ops | live (cfe97d3) | 06:58 |
 | R-182 | Lance | Dashboard scrollbar looks ugly; match the theme | integrator CSS: thin sage scrollbar, no arrows | live (cfe97d3) | 06:58 |
 | R-183 | Iraj | When the AI walks *my* villager it still jumps around | integrator: own villager uses the buffered track while server-driven; median gap | live | 07:06 |
-| R-184 | Iraj | Repair tasks must be real-life actions (voice call 30 min, exercise 30 min, read a news article), not in-game chores | integrator: fixed IRL titles per task kind; Mayor picks kinds/targets only | deploying | 07:15 |
+| R-184 | Iraj | Repair tasks must be real-life actions (voice call 30 min, exercise 30 min, read a news article), not in-game chores | integrator: fixed IRL titles per task kind; Mayor picks kinds/targets only | live (b42e9b4) | 07:15 |
+| R-185 | Iraj | Make the repo public (MIT except third-party like LAM), devnet deploy steps, open-source checklist | integrator: clean snapshot at ../village-public (12ddd94) awaiting a new public GitHub repo; hack_private stays private | live: github.com/irajmoradi/hacklanta_2026_LIMS | 07:20 |
+| R-186 | Iraj | Photo item upload fails ("Upload a valid JPEG, PNG, or WebP") with an iPhone photo | integrator: accept MPO (iPhone multi-picture JPEG), re-save as JPEG | live | 07:43 |
+| R-187 | Iraj | Stefanny (AI, with pet) still walking in place | integrator: walkers follow the pet loop directly once on it; straight routing along a shared road (no bounce) | live | 07:49 |
+| R-188 | Iraj | Photo item still fails after R-186 ("processing failed") | integrator: bridge sandbox lacked writable data/cache dirs (systemd drop-in) + non-fatal stylize log | live (5c1b4e2) | 07:55 |
+| R-189 | Iraj | Lab avatar pipeline does not show Gemini | integrator: label the Gemini image-stylize step (avatar + object tracks) | live (4606ebc) | 08:39 |
+| R-190 | Iraj | Lab: show my face → my Gemini chibi | integrator: Lab loads member media with demo seats too (was Auth0-only) + photo→chibi view at the Gemini step | live (273e8ba) | 08:42 |

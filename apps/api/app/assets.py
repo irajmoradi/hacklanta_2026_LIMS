@@ -20,10 +20,11 @@ async def save_image(settings, file: UploadFile, prefix):
         with warnings.catch_warnings():
             warnings.simplefilter("error", Image.DecompressionBombWarning)
             with Image.open(io.BytesIO(content)) as img:
-                if img.format not in {"JPEG", "PNG", "WEBP"}:
+                # iPhone photos are often MPO (multi-picture JPEG): accept them, re-saved as plain JPEG.
+                if img.format not in {"JPEG", "MPO", "PNG", "WEBP"}:
                     raise ValueError("Unsupported image")
-                extension = {"JPEG": "jpg", "PNG": "png", "WEBP": "webp"}[img.format]
-                resize = len(content) > MAX_UPLOAD or max(img.size) > 4096
+                extension = {"JPEG": "jpg", "MPO": "jpg", "PNG": "png", "WEBP": "webp"}[img.format]
+                resize = len(content) > MAX_UPLOAD or max(img.size) > 4096 or img.format == "MPO"
                 img.verify()
             if resize:
                 with Image.open(io.BytesIO(content)) as img:

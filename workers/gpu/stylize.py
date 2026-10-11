@@ -64,10 +64,14 @@ def _api_key() -> str:
 
 
 def _log_call(entry: dict) -> None:
-    data = Path(os.environ.get("VILLAGE_DATA_DIR", _repo_root() / "data"))
-    (data / "logs").mkdir(parents=True, exist_ok=True)
-    with open(data / "logs" / "gemini_image_calls.jsonl", "a") as f:
-        f.write(json.dumps(entry) + "\n")
+    # Best effort: a read-only release dir must never fail the user's job (R-188).
+    try:
+        data = Path(os.environ.get("VILLAGE_DATA_DIR", _repo_root() / "data"))
+        (data / "logs").mkdir(parents=True, exist_ok=True)
+        with open(data / "logs" / "gemini_image_calls.jsonl", "a") as f:
+            f.write(json.dumps(entry) + "\n")
+    except OSError:
+        pass
 
 
 def stylize(face_png: str | Path, out_png: str | Path, traits: dict | None = None, prompt: str | None = None) -> dict:

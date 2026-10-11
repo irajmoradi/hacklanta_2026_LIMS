@@ -6,13 +6,7 @@ film**, and the retained **39-second square edit**. The new landscape exports ar
 edit has a separate Discord copy with a hard 24,000,000-byte limit.
 
 MP4s, contact sheets and personal source assets are gitignored. Transfer these
-separately from git. The team uploads `village-trailer-v4-long.mp4` to the
-Devpost submission video host and supplies that hosted URL in the submission.
-No published video URL is recorded in this checkout; the live village URL is
-the application, not a video publication link. Local player filenames are
-`village-trailer-v4-long.mp4`, `village-trailer-v4-90.mp4` and
-`village-trailer-v4-square.mp4`, with `-discord` copies for both landscape cuts.
-The committed poster contains no personal portrait.
+separately from git. The committed poster contains no personal portrait.
 
 ## Edit
 
@@ -170,9 +164,8 @@ files in the table, not delivered as final.
 Visual QA: all final encoded editorial-shot sheets reviewed, including the
 refreshed two-window room shots and square insert. The poster is portrait-free;
 all new headings and captions fit their safe areas. Contact sheets:
-`frames/contact-sheet-v4-long.jpg`, `frames/contact-sheet-v4-90.jpg`,
-`frames/contact-sheet-v4-square.jpg`. These require the separate media handoff;
-private imagery and MP4s remain ignored.
+[long](frames/contact-sheet-v4-long.jpg), [90-second](frames/contact-sheet-v4-90.jpg),
+[square](frames/contact-sheet-v4-square.jpg). Private imagery and MP4s remain ignored.
 
 ### Files and handoff
 

@@ -4,9 +4,7 @@
 exactly 1:30 cuts, with the retained 39-second square edit. The player now opens
 those films. The report below preserves the provenance of the original v4 sources.
 
-V4 is a 94-second main film and a 39-second square edit. The current `index.html`
-player presents the later long/short cuts and retained square; open the original
-`village-trailer-v4.mp4` separately to watch the 94-second master.
+V4 is a 94-second main film and a 39-second square edit. Open `index.html` to watch.
 The MP4s and private source media are ignored; transfer them separately from git.
 
 ## Deliverables

@@ -7,3 +7,9 @@
 .lab-overlay-note{position:absolute;bottom:0;background:#fffdf7eF;padding:12px;margin:0}.lab-voice{text-align:center;padding:20px}.lab-voice img{height:260px;max-width:100%;object-fit:contain}.lab-voice audio{display:block;max-width:100%;margin:auto}
 
 .lab-demo .lab-stage{min-width:0;width:100%;grid-template-columns:minmax(0,1fr)}.lab-head{min-width:0;max-width:100%}.lab-head-fallback p{white-space:normal;overflow-wrap:anywhere;width:100%;max-width:100%}.lab-head-controls{position:absolute;bottom:0;width:100%;text-align:center;background:#fffdf7ef;padding:8px}
+/* R-190: photo → Gemini chibi, side by side */
+.lab-chibi{display:flex;align-items:center;justify-content:center;gap:14px;height:100%;padding:12px;box-sizing:border-box}
+.lab-chibi figure{margin:0;flex:1 1 0;max-width:280px;text-align:center}
+.lab-chibi img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:16px;background:#fff;box-shadow:0 6px 18px #2a2f2433}
+.lab-chibi figcaption{margin-top:6px;font-size:13px;font-weight:600;color:#4c5b44}
+.lab-chibi>span{font-size:30px;color:#6f8460;flex:none}

@@ -290,7 +290,12 @@ class World:
                         # walker never stands at a corner in walking mode, animating in place.
                         x, z, heading = pet_loop((now+m['house_slot']*137)*PET_WALK_SPEED)
                         state.update(mode='walking', activity='walk_pet', x=x, z=z, heading=heading)
-                state = self.travel(old, state, dt)
+                # Already strolling the loop: follow it directly. Re-routing via roads every tick snapped the
+                # walker back to the nearest road column, so it bounced in place (R-187).
+                if state.get('activity') == 'walk_pet'                         and math.hypot(old['x']-state['x'], old['z']-state['z']) < 4:
+                    state.update(elevation=0., destination=None, route=[])
+                else:
+                    state = self.travel(old, state, dt)
             result = self.change(uid, state, now)
             if result: changed.append(result)
         return changed
@@ -318,8 +323,15 @@ class World:
             if target.get('attraction_id') in ('storefront_cafe','study_nook'):
                 approach_x += .95 if target['attraction_id']=='storefront_cafe' else (-.7 if target['slot']%2==0 else .7)
             road_x = round((sx+63)/21)*21-63
-            route = [*departure, [sx, road_z(sz)], [road_x, road_z(sz)],
-                     [road_x, road_z(tz)], [approach_x, road_z(tz)], [approach_x,tz], [tx,tz]]
+            same_row = abs(sz-tz) < .05 and abs(road_z(sz)-sz) < .05
+            same_col = abs(sx-tx) < .05 and abs(road_x-sx) < .05
+            if same_row or same_col:
+                # Already on the target's road: walk straight along it. Detouring via the nearest
+                # crossing made walkers bounce in place between two points (R-187).
+                route = [*departure, [tx, tz]]
+            else:
+                route = [*departure, [sx, road_z(sz)], [road_x, road_z(sz)],
+                         [road_x, road_z(tz)], [approach_x, road_z(tz)], [approach_x,tz], [tx,tz]]
         x, z, budget, heading = old['x'], old['z'], 2.8*dt, old['heading']
         while route and budget > 0:
             tx, tz = route[0]; dx, dz = tx-x, tz-z; distance = math.hypot(dx,dz)

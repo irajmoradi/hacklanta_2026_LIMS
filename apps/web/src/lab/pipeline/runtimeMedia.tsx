@@ -5,12 +5,13 @@ import type { AvatarManifest } from '../../api/types';
 export const IRAJ = '13370000-0000-4000-8000-000000000001';
 export const PLACEHOLDER = '/lab/placeholder.svg';
 export const SAMPLE_COLORS = { skin: '#d5ae88', hair: '#655647', shirt: '#658d7a', pants: '#2f3640', shoes: '#222222' };
-export type DemoMedia = { runtime: boolean; photo: string; crop?: string; head?: string; headHeaders?: Record<string, string>; audio?: string; masks: Record<string, string>; derivedMask?: boolean; colors: AvatarManifest['body']['colors'] };
+export type DemoMedia = { runtime: boolean; photo: string; chibi?: string; crop?: string; head?: string; headHeaders?: Record<string, string>; audio?: string; masks: Record<string, string>; derivedMask?: boolean; colors: AvatarManifest['body']['colors'] };
 const fallback: DemoMedia = { runtime: false, photo: PLACEHOLDER, masks: {}, colors: SAMPLE_COLORS };
 
 /** Only metadata for joined villages and Iraj's own assets; never generation. */
 export async function loadDemoMedia(keep: (blob: Blob) => string): Promise<DemoMedia> {
-  if (api.mode !== 'live' || !api.tokenProvider) return fallback;
+  // Demo seats (X-Demo-User) and Auth0 tokens both authorize these member-only GETs (R-190).
+  if (api.mode !== 'live') return fallback;
   const me = await api.me();
   for (const membership of me.villages) {
     const village = await api.village(membership.id);
@@ -26,8 +27,9 @@ export async function loadDemoMedia(keep: (blob: Blob) => string): Promise<DemoM
     };
     const optional = (value?: string) => asset(value).catch(() => undefined);
     const base = `/api/assets/avatars/${IRAJ}`;
-    const [photo, head, crop, ...masks] = await Promise.all([
+    const [photo, head, crop, chibi, ...masks] = await Promise.all([
       optional(person.avatar.portrait.asset_url), optional(person.avatar.portrait.head_package_url), optional(`${base}/full_body.png`),
+      optional(`${base}/body/stylized_head.png`),
       ...['person', 'hair', 'shirt'].map(part => optional(`${base}/segment/person_0/masks/${part}.png`)),
     ]);
     let derivedMask = false;
@@ -60,7 +62,7 @@ export async function loadDemoMedia(keep: (blob: Blob) => string): Promise<DemoM
         if (response.ok) audio = keep(await response.blob());
       }
     } catch { /* Voice is optional; never request synthesis. */ }
-    return { runtime: !!photo, photo: photo ?? PLACEHOLDER, head: head ? new URL(person.avatar.portrait.head_package_url!, location.origin).pathname : undefined, headHeaders: head ? await api.authHeaders() : undefined, crop, audio, derivedMask,
+    return { runtime: !!photo, photo: photo ?? PLACEHOLDER, chibi, head: head ? new URL(person.avatar.portrait.head_package_url!, location.origin).pathname : undefined, headHeaders: head ? await api.authHeaders() : undefined, crop, audio, derivedMask,
       masks: Object.fromEntries(['person', 'hair', 'shirt'].flatMap((part, i) => masks[i] ? [[part, masks[i]!]] : [])), colors: person.avatar.body.colors };
   }
   return fallback;

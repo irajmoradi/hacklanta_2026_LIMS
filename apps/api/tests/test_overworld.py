@@ -114,3 +114,18 @@ def test_pet_walk_loop_keeps_moving_and_stays_on_the_block():
     for (x0, z0, _), (x1, z1, _) in zip(points, points[1:]):
         assert math.hypot(x1-x0, z1-z0) > 1  # never parked at a corner
     assert all(abs(x) <= 21 and abs(z) <= 21 and (abs(x) == 21 or abs(z) == 21) for x, z, _ in points)
+
+
+def test_pet_walker_never_bounces_in_place_while_catching_up_r187():
+    from app.overworld import World, pet_loop, PET_WALK_SPEED
+    old = {'x': -30.0, 'z': -15.0, 'heading': 0., 'mode': 'idle', 'route': []}
+    trail = []
+    for i in range(120):
+        x, z, h = pet_loop((1000.0 + i + 3 * 137) * PET_WALK_SPEED)
+        state = {'mode': 'walking', 'activity': 'walk_pet', 'x': x, 'z': z, 'heading': h}
+        state = state if math.hypot(old['x'] - x, old['z'] - z) < 4 else World.travel(old, state, 1.0)
+        trail.append((round(state['x'], 3), round(state['z'], 3)))
+        old = state
+    bounces = sum(1 for a, _, c in zip(trail, trail[1:], trail[2:]) if a == c)
+    assert bounces == 0
+    assert len(set(trail)) > 100  # it keeps moving
