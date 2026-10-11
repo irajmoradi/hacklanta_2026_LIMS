@@ -1,0 +1,6 @@
+.friends-grid,.guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px}
+.friend-card,.guide-card{border:1px solid #d6d5c5;border-radius:16px;padding:18px;background:#fffdf6;min-width:0;overflow-wrap:anywhere}
+.friend-card header{display:flex;align-items:center;gap:12px}.friend-card h3,.guide-card h3{margin:0 0 6px}.friend-card p,.guide-card p{line-height:1.5}.friend-card small{color:#526252}.friend-actions{display:flex;flex-wrap:wrap;gap:8px}.dashboard-social{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 14px}
+@media(max-width:600px){.friends-grid,.guide-grid{grid-template-columns:1fr}.friend-card,.guide-card{padding:14px}.topbar-right .help-entry{display:inline-flex;padding:7px;font-size:12px}}
+
+.friend-card p,.guide-card p{margin:10px 0}.friend-card .text-button{font-size:12px;text-decoration:underline;min-height:32px}.tour-guide>div{flex-wrap:wrap}

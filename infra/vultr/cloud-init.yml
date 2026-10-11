@@ -1,0 +1,56 @@
+#cloud-config
+# Owner template: replace REPLACE_* values before submitting. Never commit a filled copy.
+package_update: true
+packages: [ca-certificates, curl, git, ufw]
+swap:
+  filename: /swapfile
+  size: 2G
+  maxsize: 2G
+write_files:
+  - path: /root/village.env.prod
+    permissions: '0600'
+    content: |
+      DOMAIN=REPLACE_DOMAIN
+      POSTGRES_PASSWORD=REPLACE_WITH_RANDOM_HEX
+      SERVICE_KEY=REPLACE_WITH_RANDOM_HEX
+      DEMO_AUTH=0
+      VITE_MOCK=1
+      IMESSAGE_ENABLED=0
+      # Paste optional runtime provider/Auth0 settings here. No VULTR_API_KEY needed.
+  - path: /root/bootstrap-village.sh
+    permissions: '0700'
+    content: |
+      #!/bin/bash
+      set -euo pipefail
+      # Use a public deployment mirror or pre-provision a read-only SSH deploy key.
+      REPO_URL='REPLACE_REPOSITORY_URL'
+      REPO_REF='REPLACE_COMMIT_OR_BRANCH'
+      ! grep -q REPLACE_ /root/village.env.prod
+      install -m 0755 -d /etc/apt/keyrings
+      curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+      chmod a+r /etc/apt/keyrings/docker.asc
+      . /etc/os-release
+      echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $VERSION_CODENAME stable" > /etc/apt/sources.list.d/docker.list
+      apt-get update
+      apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+      systemctl enable --now docker
+      ufw allow OpenSSH
+      ufw allow 80/tcp
+      ufw allow 443/tcp
+      ufw --force enable
+      git clone "$REPO_URL" /opt/village
+      cd /opt/village
+      git checkout "$REPO_REF"
+      install -m 0600 /root/village.env.prod infra/.env.prod
+      docker compose --env-file infra/.env.prod -f infra/compose.prod.yml config --quiet
+      # Serial builds limit peak memory on the 2 GB plan.
+      for service in api web imessage; do
+        docker compose --env-file infra/.env.prod -f infra/compose.prod.yml build "$service"
+      done
+      docker compose --env-file infra/.env.prod -f infra/compose.prod.yml up -d --wait --wait-timeout 240
+      set -a
+      . infra/.env.prod
+      set +a
+      sh infra/seed-assets.sh
+runcmd:
+  - [bash, /root/bootstrap-village.sh]

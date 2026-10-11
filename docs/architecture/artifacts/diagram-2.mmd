@@ -1,0 +1,15 @@
+sequenceDiagram
+    actor Member
+    participant API as FastAPI
+    participant DB as Postgres
+    participant AI as Gemini vision
+    actor Auditor as Human auditor
+    Member->>API: Upload photo, progress + evidence key + idempotency key
+    API->>DB: Commit check-in, hold evidence-backed progress XP
+    API-->>Member: Accepted, review pending
+    API->>AI: Budgeted background relevance pre-check
+    AI-->>API: Validated verdict, confidence, reason
+    API->>DB: Store review, verified proof releases keyed XP award
+    Auditor->>API: Inspect weekly evidence, optional AI suggestion
+    Auditor->>API: Submit human grades and finalize
+    API->>DB: Validate assignment and write weekly outcome

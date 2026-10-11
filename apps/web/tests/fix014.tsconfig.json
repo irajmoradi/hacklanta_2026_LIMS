@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "include": [
+    "../../../packages/lam-renderer/src/vendor.d.ts",
+    "../src",
+    "fix014-profile.tsx",
+    "fix014.spec.ts",
+    "../playwright.fix014.config.ts"
+  ],
+  "exclude": []
+}

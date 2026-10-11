@@ -1,0 +1,981 @@
+{
+  "entries": [
+    {
+      "id": "storefront_cafe",
+      "kind": "building",
+      "name": "Storefront Cafe",
+      "asset": {
+        "glb": "/models/storefront_cafe.glb"
+      },
+      "tags": [
+        "coffee",
+        "social"
+      ],
+      "placement": {
+        "district": "commercial",
+        "size": 5.5,
+        "color": "#bb8868"
+      }
+    },
+    {
+      "id": "storefront_records",
+      "kind": "building",
+      "name": "Storefront Records",
+      "asset": {
+        "glb": "/models/storefront_records.glb"
+      },
+      "tags": [
+        "music",
+        "vinyl"
+      ],
+      "placement": {
+        "district": "commercial",
+        "size": 5.5,
+        "color": "#839fa3"
+      }
+    },
+    {
+      "id": "storefront_bakery",
+      "kind": "building",
+      "name": "Storefront Bakery",
+      "asset": {
+        "glb": "/models/storefront_bakery.glb"
+      },
+      "tags": [
+        "baking",
+        "cooking"
+      ],
+      "placement": {
+        "district": "commercial",
+        "size": 5.5,
+        "color": "#d6aa87"
+      }
+    },
+    {
+      "id": "arcade",
+      "kind": "building",
+      "name": "Arcade",
+      "asset": {
+        "glb": "/models/arcade.glb"
+      },
+      "tags": [
+        "gaming",
+        "minecraft"
+      ],
+      "placement": {
+        "district": "commercial",
+        "size": 5.5,
+        "color": "#a194bc"
+      }
+    },
+    {
+      "id": "gym",
+      "kind": "building",
+      "name": "Gym",
+      "asset": {
+        "glb": "/models/gym.glb"
+      },
+      "tags": [
+        "fitness",
+        "workout",
+        "running",
+        "lance"
+      ],
+      "placement": {
+        "district": "commercial",
+        "size": 5.5,
+        "color": "#88a0b2"
+      }
+    },
+    {
+      "id": "studio_art",
+      "kind": "building",
+      "name": "Studio Art",
+      "asset": {
+        "glb": "/models/studio_art.glb"
+      },
+      "tags": [
+        "art",
+        "draw",
+        "paint",
+        "stefanny"
+      ],
+      "placement": {
+        "district": "commercial",
+        "size": 5.5,
+        "color": "#c99d9f"
+      }
+    },
+    {
+      "id": "library",
+      "kind": "building",
+      "name": "Library",
+      "asset": {
+        "glb": "/models/library.glb"
+      },
+      "tags": [
+        "read",
+        "study",
+        "learn"
+      ],
+      "placement": {
+        "district": "commercial",
+        "size": 5.5,
+        "color": "#9cab88"
+      }
+    },
+    {
+      "id": "town_hall",
+      "kind": "building",
+      "name": "Community Hall",
+      "asset": {
+        "glb": "/models/community_hall.glb"
+      },
+      "placement": {
+        "district": "plaza",
+        "size": 6,
+        "shape": "building"
+      }
+    },
+    {
+      "id": "mayor_podium",
+      "kind": "building",
+      "name": "Mayor's Plaza",
+      "asset": {
+        "glb": "/models/mayor_podium.glb"
+      },
+      "placement": {
+        "district": "plaza",
+        "size": 4,
+        "shape": "plaza",
+        "action": "mayor"
+      }
+    },
+    {
+      "id": "shop",
+      "kind": "building",
+      "name": "Shop",
+      "asset": {
+        "glb": "/models/shop.glb"
+      },
+      "placement": {
+        "district": "commercial",
+        "size": 5,
+        "shape": "building",
+        "action": "shop"
+      }
+    },
+    {
+      "id": "festival_stage",
+      "kind": "building",
+      "name": "Festival Stage",
+      "asset": {
+        "glb": "/models/festival_main_stage.glb"
+      },
+      "placement": {
+        "district": "festival",
+        "size": 5,
+        "shape": "stage"
+      }
+    },
+    {
+      "id": "ferris_wheel",
+      "kind": "building",
+      "name": "Ferris Wheel",
+      "asset": {
+        "glb": "/models/ferris_wheel.glb"
+      },
+      "placement": {
+        "district": "festival",
+        "size": 7,
+        "shape": "wheel"
+      },
+      "unlock": {
+        "id": "ferris_wheel"
+      }
+    },
+    {
+      "id": "food_truck",
+      "kind": "building",
+      "name": "Food Truck",
+      "asset": {
+        "glb": "/models/food_truck.glb"
+      },
+      "placement": {
+        "district": "festival",
+        "size": 4,
+        "shape": "building"
+      }
+    },
+    {
+      "id": "tent_merch",
+      "kind": "building",
+      "name": "Tent Merch",
+      "asset": {
+        "glb": "/models/tent_merch.glb"
+      },
+      "placement": {
+        "district": "festival",
+        "size": 4,
+        "shape": "building"
+      }
+    },
+    {
+      "id": "stage_lights",
+      "kind": "building",
+      "name": "Stage Lights",
+      "asset": {
+        "glb": "/models/stage_lights.glb"
+      },
+      "placement": {
+        "district": "festival",
+        "size": 5,
+        "shape": "prop"
+      }
+    },
+    {
+      "id": "pet_shelter",
+      "kind": "building",
+      "name": "Pet Shelter",
+      "asset": {
+        "glb": "/models/pet_shelter.glb"
+      },
+      "placement": {
+        "district": "park",
+        "size": 5,
+        "shape": "building"
+      },
+      "unlock": {
+        "id": "pet_shelter"
+      }
+    },
+    {
+      "id": "fountain",
+      "kind": "building",
+      "name": "Fountain",
+      "asset": {
+        "glb": "/models/fountain.glb"
+      },
+      "placement": {
+        "district": "park",
+        "size": 3,
+        "shape": "fountain"
+      }
+    },
+    {
+      "id": "lake_patch",
+      "kind": "building",
+      "name": "Lake Patch",
+      "asset": {
+        "glb": "/models/lake_patch.glb"
+      },
+      "placement": {
+        "district": "park",
+        "size": 8,
+        "shape": "lake"
+      }
+    },
+    {
+      "id": "apartment_small",
+      "kind": "building",
+      "name": "Apartment Small",
+      "asset": {
+        "glb": "/models/apartment_small.glb"
+      },
+      "placement": {
+        "district": "residential",
+        "size": 5,
+        "shape": "building"
+      }
+    },
+    {
+      "id": "house_lv1",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/house_lv1.glb"
+      },
+      "placement": {
+        "role": "home",
+        "level": 1,
+        "variant": false,
+        "size": 5.5
+      }
+    },
+    {
+      "id": "house_lv1_b",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/house_lv1_b.glb"
+      },
+      "placement": {
+        "role": "home",
+        "level": 1,
+        "variant": true,
+        "size": 5.5
+      }
+    },
+    {
+      "id": "house_lv2",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/house_lv2.glb"
+      },
+      "placement": {
+        "role": "home",
+        "level": 2,
+        "variant": false,
+        "size": 5.5
+      }
+    },
+    {
+      "id": "house_lv2_b",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/house_lv2_b.glb"
+      },
+      "placement": {
+        "role": "home",
+        "level": 2,
+        "variant": true,
+        "size": 5.5
+      }
+    },
+    {
+      "id": "house_lv3",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/house_lv3.glb"
+      },
+      "placement": {
+        "role": "home",
+        "level": 3,
+        "variant": false,
+        "size": 5.5
+      }
+    },
+    {
+      "id": "house_lv3_b",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/house_lv3_b.glb"
+      },
+      "placement": {
+        "role": "home",
+        "level": 3,
+        "variant": true,
+        "size": 5.5
+      }
+    },
+    {
+      "id": "house_lv4",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/house_lv4.glb"
+      },
+      "placement": {
+        "role": "home",
+        "level": 4,
+        "variant": false,
+        "size": 5.5
+      }
+    },
+    {
+      "id": "house_lv4_b",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/house_lv4_b.glb"
+      },
+      "placement": {
+        "role": "home",
+        "level": 4,
+        "variant": true,
+        "size": 5.5
+      }
+    },
+    {
+      "id": "house_lv5",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/house_lv5.glb"
+      },
+      "placement": {
+        "role": "home",
+        "level": 5,
+        "variant": false,
+        "size": 5.5
+      }
+    },
+    {
+      "id": "house_lv5_b",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/house_lv5_b.glb"
+      },
+      "placement": {
+        "role": "home",
+        "level": 5,
+        "variant": true,
+        "size": 5.5
+      }
+    },
+    {
+      "id": "upgrade_solar_roof",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/upgrade_solar_roof.glb",
+        "attach": {
+          "anchor": "house",
+          "offset": [
+            0,
+            3.2,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        }
+      },
+      "placement": {
+        "role": "attachment",
+        "size": 2
+      }
+    },
+    {
+      "id": "upgrade_porch",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/upgrade_porch.glb",
+        "attach": {
+          "anchor": "house",
+          "offset": [
+            0,
+            0,
+            2.8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        }
+      },
+      "placement": {
+        "role": "attachment",
+        "size": 2.5
+      }
+    },
+    {
+      "id": "upgrade_garden_gnome",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/upgrade_garden_gnome.glb",
+        "attach": {
+          "anchor": "house",
+          "offset": [
+            -2.6,
+            0,
+            2.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        }
+      },
+      "placement": {
+        "role": "attachment",
+        "size": 0.8
+      }
+    },
+    {
+      "id": "upgrade_neon_sign",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/upgrade_neon_sign.glb",
+        "attach": {
+          "anchor": "house",
+          "offset": [
+            0,
+            2,
+            2.6
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        }
+      },
+      "placement": {
+        "role": "attachment",
+        "size": 1.5
+      }
+    },
+    {
+      "id": "house_backyard",
+      "kind": "house",
+      "asset": {
+        "glb": "/models/house_backyard.glb",
+        "attach": {
+          "anchor": "house",
+          "offset": [
+            0,
+            0,
+            -2.7
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        }
+      },
+      "placement": {
+        "role": "attachment",
+        "size": 2.5
+      }
+    },
+    {
+      "id": "road_straight",
+      "kind": "decoration",
+      "asset": {
+        "glb": "/models/road_straight.glb"
+      },
+      "placement": {
+        "role": "road",
+        "color": "#8b9592",
+        "size": 4
+      }
+    },
+    {
+      "id": "road_cross",
+      "kind": "decoration",
+      "asset": {
+        "glb": "/models/road_cross.glb"
+      },
+      "placement": {
+        "role": "intersection",
+        "color": "#8b9592",
+        "size": 4
+      }
+    },
+    {
+      "id": "crosswalk",
+      "kind": "decoration",
+      "asset": {
+        "glb": "/models/crosswalk.glb"
+      },
+      "placement": {
+        "role": "crosswalk",
+        "color": "#f5ead0",
+        "size": 4
+      }
+    },
+    {
+      "id": "sidewalk",
+      "kind": "decoration",
+      "asset": {
+        "glb": "/models/sidewalk.glb"
+      },
+      "placement": {
+        "role": "sidewalk",
+        "color": "#ded4bd",
+        "size": 4
+      }
+    },
+    {
+      "id": "streetlight",
+      "kind": "decoration",
+      "asset": {
+        "glb": "/models/streetlight.glb"
+      },
+      "placement": {
+        "role": "streetlight",
+        "color": "#677c76",
+        "size": 3
+      }
+    },
+    {
+      "id": "plaza_tile",
+      "kind": "decoration",
+      "asset": {
+        "glb": "/models/plaza_tile.glb"
+      },
+      "placement": {
+        "role": "plaza_tile",
+        "color": "#d4c2a3",
+        "size": 8
+      }
+    },
+    {
+      "id": "for_sale",
+      "kind": "decoration",
+      "asset": {
+        "glb": "/models/for_sale.glb"
+      },
+      "placement": {
+        "role": "vacancy",
+        "color": "#ecdfbc",
+        "size": 1
+      }
+    },
+    {
+      "id": "tree_c",
+      "kind": "decoration",
+      "asset": {
+        "glb": "/models/tree_c.glb"
+      },
+      "placement": {
+        "role": "tree",
+        "color": "#91aa80",
+        "size": 3
+      }
+    },
+    {
+      "id": "bus_stop",
+      "kind": "decoration",
+      "asset": {
+        "glb": "/models/bus_stop.glb"
+      },
+      "placement": {
+        "role": "street_prop",
+        "color": "#779ca0",
+        "size": 2
+      }
+    },
+    {
+      "id": "hedge_row",
+      "kind": "decoration",
+      "asset": {
+        "glb": "/models/hedge_row.glb"
+      },
+      "placement": {
+        "role": "hedge",
+        "color": "#91a77a",
+        "size": 3
+      }
+    },
+    {
+      "id": "main_street",
+      "kind": "decoration",
+      "asset": {
+        "glb": "/models/road_straight.glb"
+      },
+      "placement": {
+        "role": "main_road",
+        "color": "#6c8386",
+        "size": 4
+      }
+    },
+    {
+      "id": "farm_store",
+      "kind": "building",
+      "name": "Farm Store",
+      "description": "A red barn with baby animals for your house paddock.",
+      "price_coins": 0,
+      "unlock": {
+        "village_level": 4
+      },
+      "asset": {
+        "glb": "/models/farm_store.glb"
+      },
+      "tags": [
+        "farm"
+      ],
+      "placement": {
+        "district": "commercial",
+        "size": 4,
+        "color": "#ad443c",
+        "action": "shop"
+      }
+    },
+    {
+      "id": "house_paddock",
+      "kind": "house_addon",
+      "slot": "house_addon",
+      "name": "House Paddock",
+      "description": "A fenced side yard for up to six farm animals.",
+      "price_coins": 80,
+      "requires": [
+        "farm_store"
+      ],
+      "asset": {
+        "glb": "/models/paddock_fence.glb"
+      },
+      "tags": [
+        "shop",
+        "farm"
+      ]
+    },
+    {
+      "id": "goat_kid",
+      "kind": "farm_animal",
+      "slot": "farm_animal",
+      "name": "Goat Kid",
+      "description": "Lives in the house paddock; does not follow villagers.",
+      "price_coins": 60,
+      "requires": [
+        "farm_store",
+        "house_paddock"
+      ],
+      "asset": {
+        "glb": "/models/goat_kid.glb"
+      },
+      "tags": [
+        "shop",
+        "farm",
+        "non_followable"
+      ]
+    },
+    {
+      "id": "goat_kid_friend",
+      "kind": "farm_animal",
+      "slot": "farm_animal",
+      "name": "Goat Kid Friend",
+      "description": "Lives in the house paddock; does not follow villagers.",
+      "price_coins": 60,
+      "requires": [
+        "farm_store",
+        "house_paddock"
+      ],
+      "asset": {
+        "glb": "/models/goat_kid.glb"
+      },
+      "tags": [
+        "shop",
+        "farm",
+        "non_followable"
+      ]
+    },
+    {
+      "id": "duckling",
+      "kind": "farm_animal",
+      "slot": "farm_animal",
+      "name": "Duckling",
+      "description": "Lives in the house paddock; does not follow villagers.",
+      "price_coins": 25,
+      "requires": [
+        "farm_store",
+        "house_paddock"
+      ],
+      "asset": {
+        "glb": "/models/duckling.glb"
+      },
+      "tags": [
+        "shop",
+        "farm",
+        "non_followable"
+      ]
+    },
+    {
+      "id": "duckling_friend",
+      "kind": "farm_animal",
+      "slot": "farm_animal",
+      "name": "Duckling Friend",
+      "description": "Lives in the house paddock; does not follow villagers.",
+      "price_coins": 25,
+      "requires": [
+        "farm_store",
+        "house_paddock"
+      ],
+      "asset": {
+        "glb": "/models/duckling.glb"
+      },
+      "tags": [
+        "shop",
+        "farm",
+        "non_followable"
+      ]
+    },
+    {
+      "id": "calf",
+      "kind": "farm_animal",
+      "slot": "farm_animal",
+      "name": "Calf",
+      "description": "Lives in the house paddock; does not follow villagers.",
+      "price_coins": 75,
+      "requires": [
+        "farm_store",
+        "house_paddock"
+      ],
+      "asset": {
+        "glb": "/models/calf.glb"
+      },
+      "tags": [
+        "shop",
+        "farm",
+        "non_followable"
+      ]
+    },
+    {
+      "id": "calf_friend",
+      "kind": "farm_animal",
+      "slot": "farm_animal",
+      "name": "Calf Friend",
+      "description": "Lives in the house paddock; does not follow villagers.",
+      "price_coins": 75,
+      "requires": [
+        "farm_store",
+        "house_paddock"
+      ],
+      "asset": {
+        "glb": "/models/calf.glb"
+      },
+      "tags": [
+        "shop",
+        "farm",
+        "non_followable"
+      ]
+    },
+    {
+      "id": "chicken",
+      "kind": "farm_animal",
+      "slot": "farm_animal",
+      "name": "Chicken",
+      "description": "Lives in the house paddock; does not follow villagers.",
+      "price_coins": 30,
+      "requires": [
+        "farm_store",
+        "house_paddock"
+      ],
+      "asset": {
+        "glb": "/models/chicken.glb"
+      },
+      "tags": [
+        "shop",
+        "farm",
+        "non_followable"
+      ]
+    },
+    {
+      "id": "chicken_friend",
+      "kind": "farm_animal",
+      "slot": "farm_animal",
+      "name": "Chicken Friend",
+      "description": "Lives in the house paddock; does not follow villagers.",
+      "price_coins": 30,
+      "requires": [
+        "farm_store",
+        "house_paddock"
+      ],
+      "asset": {
+        "glb": "/models/chicken.glb"
+      },
+      "tags": [
+        "shop",
+        "farm",
+        "non_followable"
+      ]
+    },
+    {
+      "id": "pigeon",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Plaza Pigeon",
+      "description": "Ambient fountain flock, instanced without shadows.",
+      "price_coins": 0,
+      "asset": {
+        "glb": "/models/pigeon.glb"
+      },
+      "tags": [
+        "ambient"
+      ]
+    },
+    {
+      "id": "study_nook",
+      "kind": "building",
+      "name": "Study Spot",
+      "description": "A cozy park study nook with three shared picnic tables, books, laptops and warm pergola lights.",
+      "price_coins": 0,
+      "tags": [
+        "park",
+        "study",
+        "social"
+      ],
+      "asset": {
+        "glb": "/models/study_nook.glb",
+        "tint_materials": [
+          "wood",
+          "wall",
+          "leaf"
+        ]
+      },
+      "placement": {
+        "district": "park",
+        "size": 5.5,
+        "shape": "study_nook",
+        "color": "#91a58a"
+      }
+    },
+    {
+      "id": "fitness_corner",
+      "kind": "building",
+      "name": "Fitness Corner",
+      "asset": {
+        "glb": "/models/fitness_corner.glb"
+      },
+      "placement": {
+        "district": "park",
+        "size": 8
+      },
+      "unlock": {
+        "village_level": 1
+      }
+    },
+    {
+      "id": "cafe_patio",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Café patio",
+      "description": "Shared café yard with bistro seating, striped parasols, herbs, flowers and warm string lights. Attached to the café; not sold.",
+      "price_coins": 0,
+      "source": "earned:village_progression",
+      "rarity": "common",
+      "tags": [
+        "scene",
+        "cafe",
+        "social",
+        "not_sold"
+      ],
+      "asset": {
+        "glb": "/models/cafe_patio.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            4.6
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "stone",
+          "cream",
+          "copper",
+          "sage",
+          "wood",
+          "hay",
+          "soil",
+          "leaf",
+          "flower",
+          "chalk",
+          "patio_bulb",
+          "metal"
+        ]
+      }
+    }
+  ]
+}

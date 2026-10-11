@@ -1,0 +1,53 @@
+"""Shared ASSET-002 requirements for validation and generated catalog."""
+# name: (required tintable materials, intended use)
+ADDITIONS = {
+    'stage_lights': ({'metal','light'}, 'Stage truss; aim lamp_0..3 individually'),
+    'food_truck': ({'accent','wall','glass'}, 'Festival food vendor; service window faces +Z'),
+    'ferris_wheel': ({'accent','roof'}, 'Festival unlock; rotate wheel, counter-rotate gondolas'),
+    'tent_merch': ({'roof','wall','accent'}, 'Festival merchandise stall'),
+    'speaker_stack': ({'metal','stone'}, 'Modular stage audio stack'),
+    'string_lights': ({'metal','light'}, 'Straight 10 m strand along X; raise to desired height'),
+    'banner_flag': ({'accent','wood'}, 'Festival wayfinding banner'),
+    'picnic_table': ({'wood'}, 'Shared festival seating'),
+    'hay_bale': ({'hay'}, 'Rustic seat or grounds decoration'),
+    'pet_shelter': ({'wall','roof','accent'}, 'Dog shelter community unlock'),
+    'fountain': ({'water','stone'}, 'Plaza landmark; tint or animate water surface'),
+    'lake_patch': ({'water'}, 'Flat organic lake; place just above terrain'),
+    'bridge': ({'wood','stone'}, '3.95 m footbridge along Z across water'),
+    'well': ({'wood','stone','water'}, 'Village well landmark'),
+    'garden_plot': ({'soil','leaf'}, 'Vegetable garden unlock'),
+    'campfire': ({'fire','wood','stone'}, 'Gathering point; scale fire about its base'),
+    'mailbox': ({'accent','wood'}, 'House message marker'),
+    'signpost': ({'accent','roof','wood'}, 'Two-way village wayfinding'),
+    **{f'house_lv{i}_b': ({'wall','roof','trim','accent'}, f'Level {i} teal cottage alternate; original footprint') for i in range(1,4)},
+    'house_backyard': ({'wall','wood','roof'}, 'Fence and doghouse; place at house+(0,0,-2.75)'),
+    'rock_a': ({'stone'}, 'Tall faceted stone scatter'),
+    'rock_b': ({'stone','leaf'}, 'Low mossy stone scatter'),
+    'bush_a': ({'leaf'}, 'Low foliage scatter'),
+    'flowers_a': ({'leaf','blossom'}, 'Pink wildflower clump'),
+    'tree_c': ({'wood','blossom'}, 'Blossom tree'),
+    'mushroom_cluster': ({'wall','roof'}, 'Woodland mushroom clump'),
+    'hat_festival': ({'accent','blossom'}, 'Bucket hat; Head offset (0,0.68,0)'),
+    'hat_headphones': ({'metal','accent'}, 'Headphones; Head offset (0,0.20,0)'),
+    'glasses_round': ({'metal'}, 'Round frames; Head offset (0,0.25,0.31)'),
+    'jacket_denim': ({'jacket'}, 'Sleeveless torso overlay; Spine offset (0,-0.065,0)'),
+    'scarf': ({'roof'}, 'Neck scarf; Head offset (0,-0.165,0)'),
+    'pet_dog_b': ({'fur','wall','accent'}, 'Short-legged corgi companion'),
+    'bird': ({'wall','accent'}, 'Ambient bird; flap wing_l and wing_r'),
+    'butterfly': ({'blossom','accent'}, 'Ambient butterfly; flap wing_l and wing_r'),
+}
+REQUIRED_NODES = {
+    'stage_lights': {f'lamp_{i}' for i in range(4)},
+    'ferris_wheel': {'wheel', *[f'gondola_{i}' for i in range(10)]},
+    'fountain': {'water'}, 'lake_patch': {'water'}, 'campfire': {'fire'},
+    'bird': {'wing_l','wing_r'}, 'butterfly': {'wing_l','wing_r'},
+}
+LANDMARKS = {'ferris_wheel','pet_shelter','fountain','lake_patch','bridge','well',
+             'garden_plot','campfire','mailbox','signpost'}
+ATTACHMENTS = {
+    'hat_festival': ('Head',(0,.68,0)),
+    'hat_headphones': ('Head',(0,.20,0)),
+    'glasses_round': ('Head',(0,.25,.31)),
+    'jacket_denim': ('Spine',(0,-.065,0)),
+    'scarf': ('Head',(0,-.165,0)),
+}

@@ -1,0 +1,1533 @@
+{
+  "started": "2026-10-10T19:52:43.057Z",
+  "steps": [
+    {
+      "seat": "Iraj",
+      "stage": "seat",
+      "status": "pass",
+      "ms": 6578
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "status": "pass",
+      "ms": 34794,
+      "reveals": [
+        {
+          "dy": 35,
+          "revealed": false,
+          "tooltip": []
+        },
+        {
+          "dy": 65,
+          "revealed": false,
+          "tooltip": []
+        },
+        {
+          "dy": 95,
+          "revealed": false,
+          "tooltip": []
+        }
+      ],
+      "options": [
+        {
+          "value": "home",
+          "disabled": false
+        },
+        {
+          "value": "gardening",
+          "disabled": false
+        },
+        {
+          "value": "dancing",
+          "disabled": false
+        },
+        {
+          "value": "reading",
+          "disabled": false
+        },
+        {
+          "value": "food",
+          "disabled": false
+        },
+        {
+          "value": "walk_pet",
+          "disabled": true
+        }
+      ],
+      "checks": [
+        {
+          "value": "home",
+          "ms": 4723,
+          "badge": "🏠 Chilling at Home"
+        },
+        {
+          "value": "gardening",
+          "ms": 3533,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "dancing",
+          "ms": 2462,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "reading",
+          "ms": 4776,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "food",
+          "ms": 5196,
+          "badge": "🚶 Walking"
+        }
+      ]
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "status": "pass",
+      "ms": 20726,
+      "colorSave": "Draft only: original palette unset; API has no reset-to-null operation"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "status": "pass",
+      "ms": 15842,
+      "interactionMs": 5984,
+      "restoreStatus": 200
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "status": "pass",
+      "ms": 4913,
+      "interactionMs": 1637
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-status",
+      "status": "pass",
+      "ms": 7738,
+      "http": 200,
+      "interactionMs": 5088,
+      "xp": 10,
+      "resultKeys": [
+        "check_in",
+        "xp_awarded"
+      ]
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-progress",
+      "status": "failed",
+      "error": "expect(locator).toHaveCount(expected) failed\n\nLocator:  locator('#checkin-body')\nExpected: 0\nReceived: 1\nTimeout:  5000ms\n\nCall log:\n  - Expect \"to.have.count\" with timeout 5000ms\n  - waiting for locator('#checkin-body')\n    8 × locator resolved to 1 element\n      - unexpected value \"1\"\n",
+      "ms": 12120
+    },
+    {
+      "seat": "Iraj",
+      "stage": "goal-save-existing",
+      "status": "pass",
+      "ms": 5563,
+      "http": 200,
+      "interactionMs": 3173
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments-reaction",
+      "status": "pass",
+      "ms": 2719,
+      "cards": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "status": "failed",
+      "error": "locator.waitFor: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-testid=\"shop-balance\"]') to be visible\u001b[22m\n",
+      "ms": 11500
+    },
+    {
+      "seat": "Iraj",
+      "stage": "gazette-archive",
+      "status": "pass",
+      "ms": 11582,
+      "issues": 1
+    },
+    {
+      "seat": "Iraj",
+      "stage": "colosseum",
+      "status": "failed",
+      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'â† Back to arena', exact: true })\u001b[22m\n",
+      "ms": 12699
+    },
+    {
+      "seat": "Iraj",
+      "stage": "group-photo",
+      "status": "failed",
+      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Village', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button title=\"Village - V\" aria-pressed=\"false\" aria-keyshortcuts=\"v\" class=\"village-action\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <canvas width=\"1440\" height=\"1000\" data-engine=\"three.js r170\"></canvas> from <dialog open=\"\" aria-labelledby=\":ru:\" class=\"modal wide arena-modal \">…</dialog> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <canvas width=\"1440\" height=\"1000\" data-engine=\"three.js r170\"></canvas> from <dialog open=\"\" aria-labelledby=\":ru:\" class=\"modal wide arena-modal \">…</dialog> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    13 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <canvas width=\"1440\" height=\"1000\" data-engine=\"three.js r170\"></canvas> from <dialog open=\"\" aria-labelledby=\":ru:\" class=\"modal wide arena-modal \">…</dialog> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+      "ms": 10004
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "status": "failed",
+      "error": "locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Open Settings', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button aria-pressed=\"false\" aria-label=\"Open Settings\" class=\"button secondary settings-entry\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <canvas width=\"390\" height=\"844\" data-engine=\"three.js r170\"></canvas> from <dialog open=\"\" aria-labelledby=\":ru:\" class=\"modal wide arena-modal \">…</dialog> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <canvas width=\"390\" height=\"844\" data-engine=\"three.js r170\"></canvas> from <dialog open=\"\" aria-labelledby=\":ru:\" class=\"modal wide arena-modal \">…</dialog> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    16 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <canvas width=\"390\" height=\"844\" data-engine=\"three.js r170\"></canvas> from <dialog open=\"\" aria-labelledby=\":ru:\" class=\"modal wide arena-modal \">…</dialog> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and stable\u001b[22m\n",
+      "ms": 10260
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "status": "pass",
+      "ms": 12972
+    }
+  ],
+  "requests": [
+    {
+      "seat": "Iraj",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2084
+    },
+    {
+      "seat": "Iraj",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 49
+    },
+    {
+      "seat": "Iraj",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 16
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 92
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 93
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1162
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1861
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 1869
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3308
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 55
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 429
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1887
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 28
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1535
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 270
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3107
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 225
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1117
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 694
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3260
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 3271
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2899
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 69
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1633
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 177
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 360
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 92
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/shop",
+      "status": 200,
+      "ms": 1246
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1061
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1268
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 2907
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 3752
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 3759
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 40
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 5403
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 7264
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 9612
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 23
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1529
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1530
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1931
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1986
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 1988
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 1994
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 2599
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 1265
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2632
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 444
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 4375
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 4398
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2597
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 27
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 25
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1449
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1454
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1354
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1362
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1549
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 4130
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 1184
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 384
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 334
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 6628
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 6731
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 229
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 124
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1120
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3626
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 289
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1011
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 1027
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 1030
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1555
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1540
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 1088
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1829
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 863
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 299
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-status",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 5202
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-status",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 5211
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/check-ins",
+      "status": 200,
+      "ms": 325
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-status",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2663
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 114
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 100
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-progress",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1106
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-progress",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1109
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/check-ins",
+      "status": 200,
+      "ms": 4472
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-progress",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 4757
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 97
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-progress",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 7283
+    },
+    {
+      "seat": "Iraj",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 7800
+    },
+    {
+      "seat": "Iraj",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Iraj",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 122
+    },
+    {
+      "seat": "Iraj",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/goals",
+      "status": 200,
+      "ms": 77
+    },
+    {
+      "seat": "Iraj",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1414
+    },
+    {
+      "seat": "Iraj",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 147
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 113
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 91
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments-reaction",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1493
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments-reaction",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 1619
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments-reaction",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 1748
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments-reaction",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1761
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 461
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments-reaction",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2389
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 435
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 4478
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 4947
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/villagergrams/options",
+      "status": 200,
+      "ms": 1609
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/shop",
+      "status": 200,
+      "ms": 2099
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/shop",
+      "status": 200,
+      "ms": 2541
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 2546
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 2553
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 358
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 8119
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 11536
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1098
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1550
+    },
+    {
+      "seat": "Iraj",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 337
+    },
+    {
+      "seat": "Iraj",
+      "stage": "gazette-archive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 3801
+    },
+    {
+      "seat": "Iraj",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 137
+    },
+    {
+      "seat": "Iraj",
+      "stage": "gazette-archive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 6774
+    },
+    {
+      "seat": "Iraj",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 97
+    },
+    {
+      "seat": "Iraj",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 368
+    },
+    {
+      "seat": "Iraj",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1047
+    },
+    {
+      "seat": "Iraj",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1061
+    },
+    {
+      "seat": "Iraj",
+      "stage": "colosseum",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 1095
+    },
+    {
+      "seat": "Iraj",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1435
+    },
+    {
+      "seat": "Iraj",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1435
+    },
+    {
+      "seat": "Iraj",
+      "stage": "colosseum",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 187
+    },
+    {
+      "seat": "Iraj",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 4028
+    },
+    {
+      "seat": "Iraj",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 4034
+    },
+    {
+      "seat": "Iraj",
+      "stage": "colosseum",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 152
+    },
+    {
+      "seat": "Iraj",
+      "stage": "group-photo",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1649
+    },
+    {
+      "seat": "Iraj",
+      "stage": "group-photo",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 2218
+    },
+    {
+      "seat": "Iraj",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 702
+    },
+    {
+      "seat": "Iraj",
+      "stage": "group-photo",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 6183
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/competitions/eb13f1f3-9c4e-4b75-8886-3437c862b7a9",
+      "status": 200,
+      "ms": 1803
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 15421
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 466
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1140
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1587
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 2300
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 2813
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 2814
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 3138
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 3192
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 3193
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 1878
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/competitions",
+      "status": 200,
+      "ms": 2727
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/competitions/eb13f1f3-9c4e-4b75-8886-3437c862b7a9",
+      "status": 200,
+      "ms": 2728
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 4052
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 185
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000002/body/head.glb",
+      "status": 200,
+      "ms": 1639
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000004/body/head.glb",
+      "status": 200,
+      "ms": 1643
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000005/body/head.glb",
+      "status": 200,
+      "ms": 1645
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000001/body/head.glb",
+      "status": 200,
+      "ms": 1643
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000003/body/head.glb",
+      "status": 200,
+      "ms": 1645
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000002/face_512.png",
+      "status": 200,
+      "ms": 1395
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000004/face_512.png",
+      "status": 200,
+      "ms": 1397
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000001/face_512.png",
+      "status": 200,
+      "ms": 1397
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000003/face_512.png",
+      "status": 200,
+      "ms": 1458
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 1439
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000005/face_512.png",
+      "status": 200,
+      "ms": 1461
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 2117
+    },
+    {
+      "seat": "Lance",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 353
+    }
+  ],
+  "errors": [],
+  "blocked": []
+}

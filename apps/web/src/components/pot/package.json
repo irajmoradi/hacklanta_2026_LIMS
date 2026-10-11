@@ -1,0 +1,14 @@
+{
+  "name": "@village/web-pot-panel",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@village/pot-client": "file:../../../../../packages/pot-client",
+    "@solana/kit": "8.4.0",
+    "@solana/kit-plugin-wallet": "0.20.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": { "@types/react": "19.2.2", "@types/react-dom": "19.2.2" }
+}
+

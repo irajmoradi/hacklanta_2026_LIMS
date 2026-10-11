@@ -1,0 +1,21 @@
+flowchart LR
+    Browser["Browser: React 18 + R3F<br/>Town, cinematics, interiors"] --> Caddy["Vultr: public Caddy HTTPS"]
+    Caddy --> Web["VM: static web + API proxy"]
+    Web <--> API["FastAPI / Python 3.12"]
+    API <--> DB[("VM: Postgres 17 + TimescaleDB")]
+    API <--> Tiger[("TigerData: house state<br/>NOTIFY + hypertable move log")]
+    Tiger --> Reducer["API house reducers + WebSocket"]
+    Reducer --> Browser
+    DB <--> Bridge["CPU bridge: durable job queue"]
+    Bridge <--> Gateway["Keyed GPU gateway"]
+    API <--> Gateway
+    Gateway --> Modal["Modal: scale-to-zero L4s<br/>SAM 3 / LAM Gaussian heads<br/>Audio2Expression / Hunyuan3D"]
+    Gateway -. optional local route .-> Local["WSL / RTX 5090"]
+    Bridge --> Assets["Private assets + manifests"]
+    Assets --> API
+    API <--> Gemini["Gemini 2.5 Flash-Lite / Vertex<br/>OpenRouter alternative"]
+    API <--> Eleven[ElevenLabs]
+    Agent["Bun: Photon Spectrum iMessage"] <--> API
+    Browser <--> Auth[Auth0]
+    API --> Auth
+    Browser -. wallet controls / intent .-> Solana["Solana devnet pot program"]

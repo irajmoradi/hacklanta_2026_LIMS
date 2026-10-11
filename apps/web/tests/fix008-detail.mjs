@@ -1,0 +1,2 @@
+import { chromium } from '@playwright/test';
+const browser=await chromium.launch({args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});const page=await browser.newPage();await page.goto('http://127.0.0.1:5298/tests/fix008.html');await page.waitForFunction(()=>window.fitMatrix);await page.evaluate(()=>window.fitMatrix.person(1));console.log(await page.evaluate(()=>window.fitMatrix.outfit(['shirt_hoodie','hat_headphones','glasses_round','scarf']).failures));await page.locator('canvas').screenshot({path:'artifacts/fix008/detail_iraj.png'});await browser.close();

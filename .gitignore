@@ -1,0 +1,35 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+API Keys.md
+*.pem
+*.key
+
+# Dependencies / build
+node_modules/
+dist/
+build/
+.venv/
+__pycache__/
+*.pyc
+
+# Private data & large artifacts
+*.ckpt
+*.safetensors
+*.pt
+outputs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Runtime data (uploads, generated assets, model weights, envs)
+data/
+workers/gpu/envs/
+workers/gpu/checkpoints/
+workers/gpu/repos/
+ops/reports/
+apps/web/tests/screenshots/QA-014/
+apps/web/tests/screenshots/QA-015/

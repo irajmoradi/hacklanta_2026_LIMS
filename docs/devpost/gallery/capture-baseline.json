@@ -1,0 +1,169 @@
+{
+  "source": "https://207-246-81-187.sslip.io",
+  "captured_at": "2026-10-11T01:24:29.866Z",
+  "viewport": [
+    1500,
+    1000
+  ],
+  "head_warmup_grace_ms": 120000,
+  "head_pixels": {
+    "colors": 75,
+    "width": 132,
+    "height": 147
+  },
+  "forwarded_mutations": 0,
+  "websocket_connections_forwarded": 0,
+  "blocked": {
+    "POST /api/demo/seat": 2,
+    "POST /api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat": 3
+  },
+  "privacy_checks_passed": 12,
+  "frames": [
+    "01-town-day",
+    "03-profile-head",
+    "04-wardrobe-try-on",
+    "05-house-interior",
+    "06-colosseum",
+    "07-check-in",
+    "08-mayor",
+    "09-gazette",
+    "10-group-photo",
+    "00-cover",
+    "11-imessage-placeholder",
+    "02-town-night"
+  ],
+  "new_frames": [
+    "03-profile-head"
+  ],
+  "failures": [],
+  "errors": [],
+  "renderer_errors": [
+    "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "failed_reads": [
+    {
+      "path": "/api/demo/debug",
+      "status": 404
+    }
+  ],
+  "previous_run": {
+    "source": "https://207-246-81-187.sslip.io",
+    "captured_at": "2026-10-11T01:08:36.321Z",
+    "viewport": [
+      1500,
+      1000
+    ],
+    "head_warmup_grace_ms": 120000,
+    "forwarded_mutations": 0,
+    "websocket_connections_forwarded": 0,
+    "blocked": {
+      "POST /api/demo/seat": 2,
+      "POST /api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat": 2
+    },
+    "privacy_checks_passed": 12,
+    "frames": [
+      "01-town-day",
+      "03-profile-head",
+      "04-wardrobe-try-on",
+      "05-house-interior",
+      "06-colosseum",
+      "07-check-in",
+      "08-mayor",
+      "09-gazette",
+      "10-group-photo",
+      "00-cover",
+      "11-imessage-placeholder",
+      "02-town-night"
+    ],
+    "new_frames": [
+      "03-profile-head"
+    ],
+    "failures": [],
+    "errors": [],
+    "renderer_errors": [
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)",
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "previous_run": {
+      "source": "https://207-246-81-187.sslip.io",
+      "captured_at": "2026-10-11T00:50:29.054Z",
+      "viewport": [
+        1500,
+        1000
+      ],
+      "forwarded_mutations": 0,
+      "websocket_connections_forwarded": 0,
+      "blocked": {
+        "POST /api/demo/seat": 5,
+        "POST /api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat": 8
+      },
+      "privacy_checks_passed": 12,
+      "frames": [
+        "01-town-day",
+        "03-profile-head",
+        "04-wardrobe-try-on",
+        "05-house-interior",
+        "06-colosseum",
+        "07-check-in",
+        "08-mayor",
+        "09-gazette",
+        "10-group-photo",
+        "00-cover",
+        "11-imessage-placeholder",
+        "02-town-night"
+      ],
+      "new_frames": [
+        "05-house-interior",
+        "06-colosseum",
+        "02-town-night"
+      ],
+      "failures": [
+        {
+          "name": "profile",
+          "error": "locator.waitFor: Timeout 60000ms exceeded."
+        }
+      ],
+      "errors": [],
+      "previous_run": {
+        "source": "https://207-246-81-187.sslip.io",
+        "captured_at": "2026-10-11T00:26:06.823Z",
+        "viewport": [
+          1500,
+          1000
+        ],
+        "forwarded_mutations": 0,
+        "websocket_connections_forwarded": 0,
+        "blocked": {
+          "POST /api/demo/seat": 8,
+          "POST /api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat": 10,
+          "POST /api/villages/13370000-0000-4000-8000-000000000000/scene-voice/checkin": 1,
+          "POST /api/villages/13370000-0000-4000-8000-000000000000/scene-voice/mayor": 1
+        },
+        "privacy_checks_passed": 11,
+        "frames": [
+          "01-town-day",
+          "03-profile-head",
+          "04-wardrobe-try-on",
+          "05-house-interior",
+          "06-colosseum",
+          "07-check-in",
+          "08-mayor",
+          "09-gazette",
+          "10-group-photo",
+          "00-cover",
+          "11-imessage-placeholder"
+        ],
+        "failures": [
+          {
+            "name": "night",
+            "error": "page.screenshot: Timeout 30000ms exceeded."
+          }
+        ],
+        "errors": [
+          "Failed to read the 'localStorage' property from 'Window': Access is denied for this document."
+        ]
+      }
+    }
+  }
+}

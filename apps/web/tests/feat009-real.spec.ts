@@ -1,0 +1,50 @@
+import { useDemoSeat } from './demoSeat';
+useDemoSeat();
+import { expect, test } from '@playwright/test';
+// Run through the scratch API integration harness or feat009_preview.py.
+const backend = process.env.VILLAGE_API_URL ?? 'http://127.0.0.1:8029';
+test('real API persistence and day/night study nook screenshots', async ({page,request}) => {
+  test.setTimeout(240000);
+  expect((await request.patch(`${backend}/api/me`,{headers:{'X-Demo-User':'13370000-0000-4000-8000-000000000001'},data:{idle_activity:'studying'}})).ok()).toBe(true);
+  await page.addInitScript(() => {Date.now=()=>1800000000000;});
+  expect((await request.get(`${backend}/api/health`)).ok()).toBe(true);
+  expect((await request.post(`${backend}/qa/day`)).ok()).toBe(true);
+  await page.goto('/');
+  await expect(page.getByText('Connected',{exact:true})).toBeVisible();
+  await expect(page.getByTestId('villager-Iraj')).toBeVisible();
+  await page.getByRole('button',{name:'My profile',exact:true}).click();
+  await expect(page.getByLabel('Idle activity')).toHaveValue('studying');
+  await page.getByLabel('Idle activity').selectOption('home');
+  await expect(page.getByLabel('Idle activity')).toBeEnabled();
+  const saved=page.waitForResponse(r=>r.url().endsWith('/api/me')&&r.request().method()==='PATCH');
+  await page.getByLabel('Idle activity').selectOption('studying');
+  expect((await saved).status()).toBe(200);
+  await expect(page.getByLabel('Idle activity')).toBeEnabled();
+  await page.getByRole('button',{name:'Close profile'}).click();
+  await page.mouse.move(0,0);
+  await expect(page.getByTestId('villager-Iraj').getByTestId('activity-badge')).toContainText('Studying',{timeout:180000});
+  await expect(page.locator('[data-study-seat]')).toHaveCount(4,{timeout:180000});
+  await page.getByRole('button',{name:'My profile',exact:true}).click();
+  await page.waitForTimeout(1800);
+  await page.getByRole('button',{name:'Close profile'}).click();
+  // Camera stays focused after closing the card. Zoom toward the actual nook label.
+  const sign=await page.getByTestId('study-spot').boundingBox();
+  if(sign) { await page.mouse.move(sign.x+sign.width/2,sign.y+sign.height/2);for(let i=0;i<9;i++){await page.mouse.wheel(0,-150);await page.waitForTimeout(60);} }
+  await page.mouse.move(0,0);
+  await page.waitForTimeout(1200);
+  await page.screenshot({path:'test-results/feat009/day-real.png'});
+  expect((await request.post(`${backend}/qa/night`)).ok()).toBe(true);
+  await page.getByRole('button',{name:'My profile',exact:true}).click();
+  await page.getByLabel('Idle activity').selectOption('home');
+  await expect(page.getByLabel('Idle activity')).toBeEnabled();
+  await page.getByLabel('Idle activity').selectOption('studying');
+  await expect(page.getByLabel('Idle activity')).toBeEnabled();
+  await page.getByRole('button',{name:'Close profile'}).click();
+  await page.mouse.move(0,0);
+  await expect(page.getByTestId('villager-Iraj').getByTestId('activity-badge')).toContainText('Studying');
+  await expect(page.locator('[data-study-seat]')).toHaveCount(4,{timeout:30000});
+  await page.waitForTimeout(1800);
+  await page.screenshot({path:'test-results/feat009/night-real.png'});
+  const me=await request.get(`${backend}/api/me`,{headers:{'X-Demo-User':'13370000-0000-4000-8000-000000000001'}});
+  expect((await me.json()).user.idle_activity).toBe('studying');
+});

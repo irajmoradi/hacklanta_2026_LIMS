@@ -1,0 +1,453 @@
+{
+  "at": "2026-10-10T23:48:06.023Z",
+  "results": [
+    {
+      "id": "auditor_badge",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "207705",
+      "ms": 77
+    },
+    {
+      "id": "calf",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "187976",
+      "ms": 86
+    },
+    {
+      "id": "calf_friend",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "187976",
+      "ms": 89
+    },
+    {
+      "id": "champion_mantle",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "272259",
+      "ms": 114
+    },
+    {
+      "id": "chicken",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "178696",
+      "ms": 106
+    },
+    {
+      "id": "chicken_friend",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "178696",
+      "ms": 87
+    },
+    {
+      "id": "competition_laurels",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "155142",
+      "ms": 114
+    },
+    {
+      "id": "decor_flowers",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "182561",
+      "ms": 89
+    },
+    {
+      "id": "decor_fountain",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "224888",
+      "ms": 89
+    },
+    {
+      "id": "decor_lamp",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "152554",
+      "ms": 89
+    },
+    {
+      "id": "duckling",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "176040",
+      "ms": 91
+    },
+    {
+      "id": "duckling_friend",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "176040",
+      "ms": 89
+    },
+    {
+      "id": "festival_vip",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "159989",
+      "ms": 77
+    },
+    {
+      "id": "glasses_round",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "170308",
+      "ms": 90
+    },
+    {
+      "id": "goat_kid",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "195196",
+      "ms": 79
+    },
+    {
+      "id": "goat_kid_friend",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "195196",
+      "ms": 78
+    },
+    {
+      "id": "hat_beanie",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "195438",
+      "ms": 106
+    },
+    {
+      "id": "hat_cap",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "144739",
+      "ms": 88
+    },
+    {
+      "id": "hat_cowboy",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "176273",
+      "ms": 80
+    },
+    {
+      "id": "hat_crown",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "183959",
+      "ms": 89
+    },
+    {
+      "id": "hat_festival",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "164363",
+      "ms": 89
+    },
+    {
+      "id": "hat_headphones",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "186554",
+      "ms": 92
+    },
+    {
+      "id": "house_backyard",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "202497",
+      "ms": 90
+    },
+    {
+      "id": "house_lv2",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "300458",
+      "ms": 95
+    },
+    {
+      "id": "house_lv3",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "263743",
+      "ms": 80
+    },
+    {
+      "id": "house_paddock",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "141076",
+      "ms": 89
+    },
+    {
+      "id": "jacket_denim",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "227442",
+      "ms": 78
+    },
+    {
+      "id": "mayor_medal",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "230461",
+      "ms": 81
+    },
+    {
+      "id": "outfit_backpack",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "244348",
+      "ms": 80
+    },
+    {
+      "id": "outfit_bandana",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "172219",
+      "ms": 78
+    },
+    {
+      "id": "outfit_beanie",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "192836",
+      "ms": 84
+    },
+    {
+      "id": "outfit_beret",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "161559",
+      "ms": 91
+    },
+    {
+      "id": "outfit_bow",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "160964",
+      "ms": 91
+    },
+    {
+      "id": "outfit_bucket",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "150895",
+      "ms": 92
+    },
+    {
+      "id": "outfit_earmuffs",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "145072",
+      "ms": 78
+    },
+    {
+      "id": "outfit_flannel",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "183895",
+      "ms": 87
+    },
+    {
+      "id": "outfit_flower_crown",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "149954",
+      "ms": 88
+    },
+    {
+      "id": "outfit_hoodie",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "176936",
+      "ms": 89
+    },
+    {
+      "id": "outfit_overalls",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "171904",
+      "ms": 78
+    },
+    {
+      "id": "outfit_sunhat",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "137655",
+      "ms": 89
+    },
+    {
+      "id": "outfit_sweater",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "172891",
+      "ms": 90
+    },
+    {
+      "id": "outfit_tee",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "169432",
+      "ms": 80
+    },
+    {
+      "id": "outfit_tote",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "174523",
+      "ms": 87
+    },
+    {
+      "id": "outfit_varsity",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "167161",
+      "ms": 78
+    },
+    {
+      "id": "perfect_week_halo",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "106672",
+      "ms": 97
+    },
+    {
+      "id": "pet_bunny",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "57909",
+      "ms": 78
+    },
+    {
+      "id": "pet_cat_black",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "43060",
+      "ms": 80
+    },
+    {
+      "id": "pet_cat_calico",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "52031",
+      "ms": 88
+    },
+    {
+      "id": "pet_cat_tabby",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "52782",
+      "ms": 89
+    },
+    {
+      "id": "pet_dog",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "195242",
+      "ms": 88
+    },
+    {
+      "id": "pet_dog_b",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "210334",
+      "ms": 80
+    },
+    {
+      "id": "pet_hamster",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "137313",
+      "ms": 77
+    },
+    {
+      "id": "pet_husky",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "51700",
+      "ms": 90
+    },
+    {
+      "id": "pet_pug",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "48735",
+      "ms": 91
+    },
+    {
+      "id": "photo_token",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "185328",
+      "ms": 89
+    },
+    {
+      "id": "revival_potion",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "176588",
+      "ms": 77
+    },
+    {
+      "id": "scarf",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "196742",
+      "ms": 96
+    },
+    {
+      "id": "shirt_hoodie",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "250212",
+      "ms": 88
+    },
+    {
+      "id": "shirt_stripes",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "175610",
+      "ms": 90
+    },
+    {
+      "id": "streak_flame_scarf",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "271392",
+      "ms": 79
+    },
+    {
+      "id": "villagergram",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "210281",
+      "ms": 84
+    },
+    {
+      "id": "voice_hype_coach",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "193562",
+      "ms": 82
+    },
+    {
+      "id": "voice_pirate",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "205773",
+      "ms": 79
+    },
+    {
+      "id": "voice_shakespearean",
+      "status": 200,
+      "type": "image/png",
+      "bytes": "196763",
+      "ms": 80
+    }
+  ]
+}

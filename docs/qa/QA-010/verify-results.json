@@ -1,0 +1,714 @@
+{
+  "started": "2026-10-10T20:16:28.191Z",
+  "seats": [
+    {
+      "seat": "Iraj",
+      "toggles": [
+        {
+          "label": "Friends may use my avatar and AI voice for Villager-grams",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Receive Villager-grams on my phone",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Mayor may text me",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Roast me",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Sound on",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Reduced sound",
+          "before": false,
+          "flippedAndRestored": true
+        }
+      ],
+      "hover": [
+        {
+          "dx": 0,
+          "dy": -20,
+          "revealed": true
+        }
+      ],
+      "uid": "13370000-0000-4000-8000-000000000001",
+      "seatMs": 7020,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "shop": {
+        "balance": "244",
+        "tokenDisabled": false,
+        "tokenLabel": "Buy photo token · 25 XP"
+      },
+      "evidence": "← Back to arena\nPARTICIPANT PROGRESS\nIraj\n\nRank #1 · 0 points\n\nEvidence\n\nNo evidence submitted yet.",
+      "arenaButtons": [
+        {
+          "text": "Take a photo",
+          "color": "rgb(41, 37, 56)",
+          "background": "rgb(241, 243, 233)",
+          "disabled": false,
+          "fontSize": "14px"
+        },
+        {
+          "text": "Submit entry",
+          "color": "rgb(41, 37, 56)",
+          "background": "rgb(67, 95, 55)",
+          "disabled": true,
+          "fontSize": "14px"
+        }
+      ],
+      "groupPhoto": "A VILLAGE STARTS WITH YOUR PEOPLE\n\nOur group photo\n\nFind yourself in the group, then choose “This is me” to build your villager. Your preset works while you wait.\n\nTake a photo\nGroup photo\nEveryone in this group photo consents to its use to build their avatar.\nFind our people\nOpen a shared photo job",
+      "viewport": {
+        "width": 390,
+        "scrollWidth": 390,
+        "controls": [
+          {
+            "text": "Village",
+            "x": 12,
+            "y": 56,
+            "width": 366,
+            "height": 44,
+            "display": "block"
+          },
+          {
+            "text": "Mute sound",
+            "x": 12,
+            "y": 104,
+            "width": 53.28125,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Testing as Iraj · switch",
+            "x": 214.28125,
+            "y": 8,
+            "width": 119.71875,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Debug menu",
+            "x": 334,
+            "y": 16,
+            "width": 44,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Inbox",
+            "x": 214.28125,
+            "y": 104,
+            "width": 47.71875,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Open Settings",
+            "x": 284.015625,
+            "y": 104,
+            "width": 93.984375,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "▶ Tour",
+            "x": 12,
+            "y": 152,
+            "width": 46,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "AI at work",
+            "x": 214.28125,
+            "y": 152,
+            "width": 163.71875,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Play as",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-block"
+          }
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "seat": "Lance",
+      "toggles": [
+        {
+          "label": "Friends may use my avatar and AI voice for Villager-grams",
+          "before": false,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Receive Villager-grams on my phone",
+          "before": false,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Mayor may text me",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Roast me",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Sound on",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Reduced sound",
+          "before": false,
+          "flippedAndRestored": true
+        }
+      ],
+      "hover": [
+        {
+          "dx": 0,
+          "dy": -20,
+          "revealed": true
+        }
+      ],
+      "uid": "13370000-0000-4000-8000-000000000002",
+      "seatMs": 8802,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "shop": {
+        "balance": "640",
+        "tokenDisabled": false,
+        "tokenLabel": "Buy photo token · 25 XP"
+      },
+      "evidence": "← Back to arena\nPARTICIPANT PROGRESS\nIraj\n\nRank #1 · 0 points\n\nEvidence\n\nNo evidence submitted yet.",
+      "arenaButtons": [
+        {
+          "text": "Read terms & join",
+          "color": "rgb(41, 37, 56)",
+          "background": "rgb(241, 243, 233)",
+          "disabled": false,
+          "fontSize": "14px"
+        }
+      ],
+      "groupPhoto": "A VILLAGE STARTS WITH YOUR PEOPLE\n\nOur group photo\n\nFind yourself in the group, then choose “This is me” to build your villager. Your preset works while you wait.\n\nThe village owner uploads the shared photo. Each person claims only themselves.\n\nOpen a shared photo job",
+      "viewport": {
+        "width": 390,
+        "scrollWidth": 390,
+        "controls": [
+          {
+            "text": "Village",
+            "x": 12,
+            "y": 56,
+            "width": 366,
+            "height": 44,
+            "display": "block"
+          },
+          {
+            "text": "Mute sound",
+            "x": 12,
+            "y": 104,
+            "width": 53.28125,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Testing as Lance · switch",
+            "x": 206.296875,
+            "y": 8,
+            "width": 127.703125,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Debug menu",
+            "x": 334,
+            "y": 16,
+            "width": 44,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Inbox",
+            "x": 206.296875,
+            "y": 104,
+            "width": 47.71875,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Open Settings",
+            "x": 284.015625,
+            "y": 104,
+            "width": 93.984375,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "▶ Tour",
+            "x": 12,
+            "y": 152,
+            "width": 46,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "AI at work",
+            "x": 206.296875,
+            "y": 152,
+            "width": 171.703125,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Play as",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-block"
+          }
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "seat": "Stefanny",
+      "toggles": [
+        {
+          "label": "Friends may use my avatar and AI voice for Villager-grams",
+          "before": false,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Receive Villager-grams on my phone",
+          "before": false,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Mayor may text me",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Roast me",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Sound on",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Reduced sound",
+          "before": false,
+          "flippedAndRestored": true
+        }
+      ],
+      "hover": [
+        {
+          "dx": 0,
+          "dy": -20,
+          "revealed": true
+        }
+      ],
+      "uid": "13370000-0000-4000-8000-000000000003",
+      "seatMs": 7132,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "shop": {
+        "balance": "3720",
+        "tokenDisabled": false,
+        "tokenLabel": "Buy photo token · 25 XP"
+      },
+      "evidence": "← Back to arena\nPARTICIPANT PROGRESS\nIraj\n\nRank #1 · 0 points\n\nEvidence\n\nNo evidence submitted yet.",
+      "arenaButtons": [
+        {
+          "text": "Settle competition",
+          "color": "rgb(41, 37, 56)",
+          "background": "rgb(67, 95, 55)",
+          "disabled": false,
+          "fontSize": "14px"
+        }
+      ],
+      "groupPhoto": "A VILLAGE STARTS WITH YOUR PEOPLE\n\nOur group photo\n\nFind yourself in the group, then choose “This is me” to build your villager. Your preset works while you wait.\n\nThe village owner uploads the shared photo. Each person claims only themselves.\n\nOpen a shared photo job",
+      "viewport": {
+        "width": 390,
+        "scrollWidth": 390,
+        "controls": [
+          {
+            "text": "Village",
+            "x": 12,
+            "y": 56,
+            "width": 366,
+            "height": 44,
+            "display": "block"
+          },
+          {
+            "text": "Mute sound",
+            "x": 12,
+            "y": 104,
+            "width": 53.28125,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Testing as Stefanny · switch",
+            "x": 191.640625,
+            "y": 8,
+            "width": 142.359375,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Debug menu",
+            "x": 334,
+            "y": 16,
+            "width": 44,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Inbox",
+            "x": 191.640625,
+            "y": 104,
+            "width": 47.71875,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Open Settings",
+            "x": 284.015625,
+            "y": 104,
+            "width": 93.984375,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "▶ Tour",
+            "x": 12,
+            "y": 152,
+            "width": 46,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "AI at work",
+            "x": 191.640625,
+            "y": 152,
+            "width": 186.359375,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Play as",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-block"
+          }
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "seat": "Maya",
+      "toggles": [
+        {
+          "label": "Friends may use my avatar and AI voice for Villager-grams",
+          "before": false,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Receive Villager-grams on my phone",
+          "before": false,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Mayor may text me",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Roast me",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Sound on",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Reduced sound",
+          "before": false,
+          "flippedAndRestored": true
+        }
+      ],
+      "hover": [
+        {
+          "dx": 0,
+          "dy": -20,
+          "revealed": true
+        }
+      ],
+      "uid": "13370000-0000-4000-8000-000000000004",
+      "seatMs": 8386,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "shop": {
+        "balance": "380",
+        "tokenDisabled": false,
+        "tokenLabel": "Buy photo token · 25 XP"
+      },
+      "evidence": "← Back to arena\nPARTICIPANT PROGRESS\nIraj\n\nRank #1 · 0 points\n\nEvidence\n\nNo evidence submitted yet.",
+      "arenaButtons": [
+        {
+          "text": "Read terms & join",
+          "color": "rgb(41, 37, 56)",
+          "background": "rgb(241, 243, 233)",
+          "disabled": true,
+          "fontSize": "14px"
+        }
+      ],
+      "groupPhoto": "A VILLAGE STARTS WITH YOUR PEOPLE\n\nOur group photo\n\nFind yourself in the group, then choose “This is me” to build your villager. Your preset works while you wait.\n\nThe village owner uploads the shared photo. Each person claims only themselves.\n\nOpen a shared photo job",
+      "viewport": {
+        "width": 390,
+        "scrollWidth": 390,
+        "controls": [
+          {
+            "text": "Village",
+            "x": 12,
+            "y": 56,
+            "width": 366,
+            "height": 44,
+            "display": "block"
+          },
+          {
+            "text": "Mute sound",
+            "x": 12,
+            "y": 104,
+            "width": 53.28125,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Testing as Maya · switch",
+            "x": 210.203125,
+            "y": 8,
+            "width": 123.796875,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Debug menu",
+            "x": 334,
+            "y": 16,
+            "width": 44,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Inbox",
+            "x": 210.203125,
+            "y": 104,
+            "width": 47.71875,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Open Settings",
+            "x": 284.015625,
+            "y": 104,
+            "width": 93.984375,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "▶ Tour",
+            "x": 12,
+            "y": 152,
+            "width": 46,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "AI at work",
+            "x": 210.203125,
+            "y": 152,
+            "width": 167.796875,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Play as",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-block"
+          }
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "seat": "Mario",
+      "toggles": [
+        {
+          "label": "Friends may use my avatar and AI voice for Villager-grams",
+          "before": false,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Receive Villager-grams on my phone",
+          "before": false,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Mayor may text me",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Roast me",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Sound on",
+          "before": true,
+          "flippedAndRestored": true
+        },
+        {
+          "label": "Reduced sound",
+          "before": false,
+          "flippedAndRestored": true
+        }
+      ],
+      "hover": [
+        {
+          "dx": 0,
+          "dy": -20,
+          "revealed": true
+        }
+      ],
+      "uid": "13370000-0000-4000-8000-000000000005",
+      "seatMs": 7676,
+      "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "shop": {
+        "balance": "10",
+        "tokenDisabled": false,
+        "tokenLabel": "Buy photo token · 25 XP"
+      },
+      "evidence": "← Back to arena\nPARTICIPANT PROGRESS\nIraj\n\nRank #1 · 0 points\n\nEvidence\n\nNo evidence submitted yet.",
+      "arenaButtons": [
+        {
+          "text": "Read terms & join",
+          "color": "rgb(41, 37, 56)",
+          "background": "rgb(241, 243, 233)",
+          "disabled": false,
+          "fontSize": "14px"
+        }
+      ],
+      "groupPhoto": "A VILLAGE STARTS WITH YOUR PEOPLE\n\nOur group photo\n\nFind yourself in the group, then choose “This is me” to build your villager. Your preset works while you wait.\n\nThe village owner uploads the shared photo. Each person claims only themselves.\n\nOpen a shared photo job",
+      "viewport": {
+        "width": 390,
+        "scrollWidth": 390,
+        "controls": [
+          {
+            "text": "Village",
+            "x": 12,
+            "y": 56,
+            "width": 366,
+            "height": 44,
+            "display": "block"
+          },
+          {
+            "text": "Mute sound",
+            "x": 12,
+            "y": 104,
+            "width": 53.28125,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Testing as Mario · switch",
+            "x": 208.515625,
+            "y": 8,
+            "width": 125.484375,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Debug menu",
+            "x": 334,
+            "y": 16,
+            "width": 44,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Inbox",
+            "x": 208.515625,
+            "y": 104,
+            "width": 47.71875,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Open Settings",
+            "x": 284.015625,
+            "y": 104,
+            "width": 93.984375,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "▶ Tour",
+            "x": 12,
+            "y": 152,
+            "width": 46,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "AI at work",
+            "x": 208.515625,
+            "y": 152,
+            "width": 169.484375,
+            "height": 44,
+            "display": "flex"
+          },
+          {
+            "text": "Play as",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "inline-block"
+          }
+        ]
+      },
+      "status": "pass"
+    }
+  ],
+  "network": [],
+  "blocked": []
+}

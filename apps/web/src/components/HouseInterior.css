@@ -1,0 +1,235 @@
+.interior-dialog {
+  position: fixed;
+  inset: 0;
+  width: min(1440px, 96vw);
+  height: 92dvh;
+  max-width: none;
+  max-height: none;
+  padding: 0;
+  border: 1px solid #d5cbb8;
+  border-radius: 6px;
+  background: #faf6ec;
+  color: #35453d;
+  box-shadow: 0 30px 100px #17312755;
+  overflow: hidden;
+}
+.interior-dialog::backdrop {
+  background: #263e37a8;
+  backdrop-filter: blur(7px);
+}
+.interior-head {
+  padding: 20px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid #ded8c9;
+}
+.interior-head h2 {
+  font:
+    24px Georgia,
+    serif;
+  margin: 5px 0;
+}
+.interior-head small {
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+.interior-head span {
+  font-size: 12px;
+  color: #668171;
+}
+.interior-dialog button {
+  border: 1px solid #d1c9b6;
+  border-radius: 3px;
+  background: #fffdf7;
+  color: #364d40;
+  padding: 7px 10px;
+  cursor: pointer;
+  margin: 3px;
+}
+.interior-dialog button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.interior-dialog button:hover:not(:disabled) {
+  background: #e1ebdb;
+}
+.interior-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 246px;
+  height: calc(100% - 150px);
+}
+.interior-canvas {
+  min-height: 0;
+  position: relative;
+  touch-action: none;
+}
+.interior-sidebar {
+  padding: 16px;
+  overflow: auto;
+  border-left: 1px solid #ded8c9;
+  font-size: 13px;
+}
+.interior-sidebar h3 {
+  font:
+    18px Georgia,
+    serif;
+  margin: 8px 0 16px;
+}
+.interior-inventory {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  margin: 14px 0;
+}
+.interior-inventory button {
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  text-align: left;
+}
+.interior-inventory img {
+  width: 100%;
+  height: 62px;
+  object-fit: contain;
+}
+.interior-inventory span {
+  font-size: 11px;
+}
+.interior-inventory small {
+  font-size: 10px;
+  color: #778573;
+}
+.interior-hint {
+  position: absolute;
+  bottom: 18px;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+  font-size: 12px;
+  background: #fffbefdb;
+  padding: 12px;
+  border-radius: 3px;
+  pointer-events: none;
+}
+.interior-error {
+  position: absolute;
+  top: 88px;
+  left: 24px;
+  z-index: 5;
+  padding: 10px;
+  border-radius: 8px;
+  background: #ffeedc;
+  color: #8b4c32;
+}
+.interior-peer {
+  border-left: 3px solid #a185c1;
+  padding-left: 8px;
+}
+.interior-sidebar select,
+.interior-sidebar input {
+  width: 100%;
+  margin: 10px 0;
+}
+.interior-tools {
+  display: flex;
+  flex-wrap: wrap;
+}
+.interior-tools button {
+  font-size: 12px;
+}
+@media (max-width: 700px) {
+  .interior-dialog {
+    width: 100vw;
+    height: 100dvh;
+    border-radius: 0;
+  }
+  .interior-head {
+    padding: 12px;
+  }
+  .interior-head h2 {
+    font-size: 22px;
+  }
+  .interior-head button {
+    font-size: 11px;
+  }
+  .interior-body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 55% 45%;
+    height: calc(100% - 150px);
+  }
+  .interior-sidebar {
+    border-top: 1px solid #ded8c9;
+  }
+  .interior-inventory {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Grid children must shrink when a desktop room is resized to a phone. */
+.interior-dialog {
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+}
+.interior-body,
+.interior-canvas,
+.interior-sidebar {
+  min-width: 0;
+}
+.interior-inventory button {
+  min-width: 0;
+}
+@media (max-width: 700px) {
+  .interior-body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .interior-inventory {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .interior-head small {
+    letter-spacing: 1px;
+  }
+}
+
+.interior-floors {display:flex;align-items:center;gap:6px;padding:5px 20px;border-bottom:1px solid #ded8c9;height:35px;}
+.interior-floors span {margin-left:auto;font-size:11px;color:#72776d;}
+.interior-floors [aria-selected=true],.interior-categories [aria-pressed=true] {background:#dfe4d9;border-color:#8b9986;}
+.interior-categories {display:flex;gap:3px;flex-wrap:wrap;margin-top:12px;}
+.interior-categories button {display:flex;align-items:center;gap:5px;font-size:11px;margin:0;}
+.interior-context {display:flex;background:#faf8f0;box-shadow:0 4px 16px #293b3030;border:1px solid #c9c9b8;border-radius:4px;}
+.interior-context button {display:flex;margin:2px;padding:8px;}
+.interior-credit {display:block;white-space:nowrap;background:#f7f4e8ed;padding:5px 8px;font-size:11px;color:#435147;}
+.interior-stairs {white-space:nowrap;font-size:10px!important;}
+.interior-dialog button:focus-visible {outline:2px solid #647d70;outline-offset:2px;}
+.interior-hint {padding:8px;background:#f5f2e5d9;font-size:11px;}
+.interior-peer {border-color:#8b9e88;font-size:11px;}
+@media(max-width:700px){.interior-floors {padding:5px 8px;}.interior-floors span{display:none;}.interior-head h2{font-size:19px;}.interior-inventory{grid-template-columns:repeat(3,minmax(0,1fr));}}
+
+.interior-head h2,.interior-sidebar h3{font-family:Manrope,"DM Sans",sans-serif;font-weight:600;letter-spacing:-.5px;}
+.hall-entry{position:absolute;right:30px;top:115px;z-index:5;background:#faf9f3ed!important;border:1px solid #d5ddc8!important;}
+
+.interior-dialog button{font:inherit;font-size:12px;}
+
+.interior-dialog[open]{display:flex;flex-direction:column;}
+.interior-head,.interior-floors{flex-shrink:0;}
+.interior-head h2{overflow-wrap:anywhere;}
+.interior-body{flex:1;min-height:0;height:auto;}
+@media(max-width:700px){.interior-body{height:auto;}}
+/* The room stays visible while only furniture controls scroll. */
+.interior-dialog[open] { display:flex; flex-direction:column; }
+.interior-head { flex-shrink:0; }
+.interior-body { flex:1; min-height:0; height:auto; }
+.interior-sidebar { display:flex; flex-direction:column; min-height:0; overflow:hidden; padding:0; }
+.interior-scroll { overflow:auto; overscroll-behavior:contain; min-height:0; flex:1; padding:16px; }
+.interior-sidebar .editor-actions { padding:8px; }
+@media(max-width:700px) {
+  .is-decorating .interior-body { grid-template-rows:clamp(150px,28dvh,235px) minmax(0,1fr); }
+  .is-decorating .interior-hint { bottom:4px; padding:5px; font-size:10px; }
+  .is-decorating .interior-head { padding:8px 12px; }
+}
+
+.interior-canvas { transition: opacity 180ms ease; }
+.interior-floor-fade { opacity: .25; }
+@media (prefers-reduced-motion: reduce) { .interior-canvas { transition: none; } }

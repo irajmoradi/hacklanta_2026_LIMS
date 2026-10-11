@@ -1,0 +1,1932 @@
+{
+  "started": "2026-10-10T19:48:28.181Z",
+  "steps": [
+    {
+      "seat": "Iraj",
+      "stage": "seat",
+      "status": "pass",
+      "ms": 5484,
+      "identity": "13370000-0000-4000-8000-000000000001"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "map",
+      "status": "pass",
+      "ms": 10067,
+      "canvases": 1,
+      "labels": [
+        {
+          "id": "villager-Iraj",
+          "head": "glb",
+          "text": "Iraj🏠 Chilling at Home ★"
+        },
+        {
+          "id": "villager-Lance",
+          "head": "glb",
+          "text": "Lance🚶 Walking"
+        },
+        {
+          "id": "villager-Stefanny",
+          "head": "glb",
+          "text": "♛Stefanny🚶 Walking ♛ ★"
+        },
+        {
+          "id": "villager-Maya",
+          "head": "glb",
+          "text": "Maya🏠 Chilling at Home ★Auditor · sits out"
+        },
+        {
+          "id": "villager-Mario",
+          "head": "glb",
+          "text": "Mario🚶 Walking"
+        }
+      ]
+    },
+    {
+      "seat": "Iraj",
+      "stage": "profile",
+      "status": "pass",
+      "ms": 2564,
+      "tabs": [
+        "Profile",
+        "Wardrobe",
+        "House"
+      ],
+      "text": "YOUR NEIGHBOR\nLOADING 3D PORTRAIT…\nIraj\n4 day streak\n\n“Iraj is making progress. One small step closer!”\n\nHear them\n\nAI-generated voice\n\nIdle activity\n🏠 Chilling at Home\n🌱 Gardening\n💃 Dancing\n📖 Reading\n🍔 Grabbing Food\n🐕 Walking Pet\n\nEquip a pet in your wardrobe to choose Walking Pet.\n\nTHE COLLECTION\nVillager showcase\n\nA little personality, earned day by day.\n\nHEAD / HAT\nHeadphones\nEquipped\nFACE / GLASSES\nRound Glasses\nEquipped\nTOP / JACKET\nHackathon Hoodie\nEquipped\nNECK / SCARF\nEmpty slot\nDrag to rotate · Scroll or pinch to zoom · Double-click to reset\nPET\nEmpty slot\nVOICE STYLE\nPirate\nEquipped\nHOUSE\nHouse Level 2\nEquipped\nPHOTO ITEMS / EXTRA\nEmpty slot\nOwned items · choose an outfit\nEarn your next signature · 7 rewards\n\nNo custom photo items equipped.\n\nA PLACE TO CALL YOUR OWN\nHouse showcase\n\nLevel 2 · Iraj’s home\n\nHouse Level 2\nEquipped\nDrag to rotate · Scroll or pinch to zoom · Double-click to reset\n\nNo decorations placed yet.\n\nLevel 3\n229 / 450 XP\nSettingsCustomize my avatar\nProfile\nWardrobe\nHouse\nTHIS WEEK’S GOAL\nShip the hackathon project\n\nSmall daily updates; attach evidence when there is something to show.\n\n5 progress check-ins\n\nGoal: active\n\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMark done\nMark missed\nShare a little progress\nRECENT CHECK-INS\n↗ Progress\nToday\n\nIraj is making progress. One small step closer!\n\n↗ Progress\nToday\n\nDemo rehearsal survived. One bug left and it knows I am looking.\n\n✓ VerifiedOverride review\nView evidence ↗\n↗ Progress\nYesterday\n\nAPI and village finally talking. Unlike me before coffee.\n\n↗ Progress\nOct 8\n\nFixed the login loop. I have now logged in enough times for all five of us.\n\n↗ Progress\nOct 7\n\nThe village loads! The mayor currently has more personality than my error messages.\n\nPAST GOALS\n✓\nPrototype the village\n2026-09-28 · done\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "wardrobe",
+      "status": "pass",
+      "ms": 5481,
+      "invalidDisabled": true,
+      "text": "Drag to rotate · Scroll or pinch to zoom · Double-click to reset\n\nYour collection. One item per slot.\n\n229\nXP\nTalking style\nNatural voice\nPirate\nHype coach\n\n“One small win today. Your village is cheering you on!”\n\nPreview sample line\nAI-generated voice · generated only when you click\nRound Glasses\n\nFace · Equipped\n\nOwnedUnequipChoose colors\nHackathon Hoodie\n\nTorso · Equipped\n\nOwnedUnequipChoose colors\nPirate\n\nVoice Style · Equipped\n\nOwnedUnequip\nHeadphones\n\nHead · Equipped\n\nOwnedUnequipChoose colors\nHouse Level 2\n\nHouse · Equipped\n\nOwnedUnequip\nHype coach\n\nVoice Style · Owned\n\nOwnedEquip"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house",
+      "status": "pass",
+      "ms": 4409,
+      "model": "house_modern_lv2",
+      "text": "A home that feels like you\n\nChoose a shape, then make it your own.\n\nHouse style\nCottage\nModern\nA-frame\nTudor\nBeach\nTownhouse\nAuto style\n\nHouse level 2. All six styles are available.\n\n✓ Level 1\n✓ Level 2\n🔒 Level 3\n🔒 Level 4\n🔒 Level 5\nReady-made palettes\nUse automatic palette\nPaint each part\nWall\nRoof\nTrim\nDoor\nAccent\nCustom wall hex\nApply hex\nSave house"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings",
+      "status": "pass",
+      "ms": 15863,
+      "states": [
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        }
+      ],
+      "checkboxes": 0,
+      "text": "YOUR PROFILE & VOICE\n\nSettings\n\nMake yourself at home. Choose how you show up and stay in touch.\n\nProfile\nDisplay name\nIdle activity\n🏠 Chilling at Home\n🌱 Gardening\n💃 Dancing\n📖 Reading\n🍔 Grabbing Food\n🐕 Walking Pet\n\nEquip a pet in your wardrobe to choose Walking Pet.\n\nVillager-grams & voice\nFriends may use my avatar and AI voice for Villager-grams\n\nFriends can write short fictional lines in your avatar's voice. Every use appears in your village feed. Turn off and save to revoke permission and cancel queued grams.\n\nReceive Villager-grams on my phone\n\nUp to five per day. Both permissions are off by default.\n\nPhone (E.164)\n\nYour own number for opted-in Village iMessages. Leave blank to clear it.\n\nMy voice\n\nVoice ready. AI-generated voice.\n\nConsent: village-voice-v1 · 10/10/2026, 1:06:07 PM\n\nDelete my voice\nMessages\nMayor may text me\n\nGet village updates from the Mayor on your linked phone.\n\nRoast me\n\nLet the Mayor include playful roasts in your updates.\n\nSound\nSound on\n\nVillage effects and ambience. Sounds start after you interact.\n\nSound volume\n65%\n\nSound preferences save immediately on this device.\n\nReduced sound\n\nSilence effects and ambience. Your device's reduced motion preference also silences them.\n\nFace check\n\nOptional fun recognition, with no liveness check.\n\nRefresh my face check\nDanger zone\n\nPermanently remove your Village account, messages, progress and generated assets.\n\nType DELETE to confirm\nDelete my account"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin",
+      "status": "pass",
+      "ms": 3708,
+      "text": "A MOMENT TO SHOW UP\n\nHow’s your little corner?\n\nBig wins, small steps, and everything in between.\n\n☀ Daily note\n+10 XP / day\n↗ Goal progress\n+25 XP\nShip the hackathon project\nWhat did you make progress on?\n33 / 1000\nAdd a photo\nOptional · JPG, PNG, WebP · up to 5 MB\nShare check-in\n\nShowing up is the part that matters."
+    },
+    {
+      "seat": "Iraj",
+      "stage": "goal",
+      "status": "pass",
+      "ms": 3270,
+      "text": "YOUR WEEK, YOUR PACE\n\nMy goal\n\nPick something meaningful. Your village will cheer you on.\n\nThis week, I want to…\nWhat would a small win look like?\nSave my goal\n\n+20 XP for your first goal each week. Edits are always welcome."
+    },
+    {
+      "seat": "Iraj",
+      "stage": "week",
+      "status": "pass",
+      "ms": 2389,
+      "text": "SMALL STEPS, FAIRLY CELEBRATED\n\nWeekly review\nAuditor: Maya · sits out\n2026-10-05 · open\n1d 4h 10m 35s until weekly wrap-up (UTC)\n\nAI helps assess ambition, evidence and progress. The human auditor has the final say. All assigned auditors sit out this week.\n\nIraj\nAwaiting grade\nShip the hackathon project\n\nSmall daily updates; attach evidence when there is something to show.\n\nSelf-reported: active · 5 progress updates\n\nProgress & evidence (5)\nLance\nAwaiting grade\n45 hours of Overwatch\n\nSelf-reported: done · 4 progress updates\n\nProgress & evidence (4)\nStefanny\nAwaiting grade\nFinish a painting series\n\nSmall daily updates; attach evidence when there is something to show.\n\nSelf-reported: done · 6 progress updates\n\nProgress & evidence (6)\nMaya\nAuditor · sits out\nStudy for an exam\n\nPersonal progress only; Maya sits out the weekly prize as auditor.\n\nSelf-reported: missed · 3 progress updates\n\nProgress & evidence (3)\nMario\nAwaiting grade\nRun 15 miles\n\nSmall daily updates; attach evidence when there is something to show.\n\nSelf-reported: done · 5 progress updates\n\nProgress & evidence (5)\nEmergency: auditor insufficient"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments",
+      "status": "pass",
+      "ms": 2371,
+      "text": "SMALL WINS, SHARED JOY\n\nAccomplishments\n\nA little applause for the people growing beside you.\n\nLance\nGoal completed\n✦\n45 hours of Overwatch\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nGoal completed\n✦\nFinish a painting series\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMario\nGoal completed\n✦\nRun 15 miles\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMaya\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nIraj\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nGoal completed\n✦\nPaint three sunset studies\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMario\nGoal completed\n✦\nRun 10 miles\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMaya\nGoal completed\n✦\nFinish two practice exams\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nIraj\nGoal completed\n✦\nPrototype the village\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "gazette",
+      "status": "pass",
+      "ms": 2347,
+      "text": "SMALL MOMENTS, WORTH PRINTING\n\nThe Village Gazette\n\nHacklanta Crew · Your neighborhood, in print\n\nThe Village Gazette\nOctober 10, 2026\nFoggy — Town Hall Misplaced The Horizon Again, But The Festival Lights Faintly Glow Through The Mist.\nTHE BIG LITTLE STORY\nFog Lifts, Barely — Village Creeps Forward Toward Finish Line\n\nThick fog descended on our village, but industrious villagers still checked in. Stefanny's nearly finished her painting series (titled 'Things I Painted Instead of Sleeping'), Maya aced a practice exam, Dev ran twelve miles, and Iraj survived a demo rehearsal with one bug left. Lance made progress but used an old gym screenshot. A wandering musician is offering harmony workshops by the old crater, the 'Touch Grass' challenge is active, and the movie-night crater remains. XP ticked toward the Ferris Wheel at level 5.\n\nCheck Ins\n\nStefanny's painting series is nearly complete! She cheekily named it 'Things I Painted Instead of Sleeping' and our auditor confirmed the evidence looks solid. A highly creative week for the village's resident artist.\n\nVisit Stefanny →\nCheck Ins\n\nMaya scored 82% on her practice exam and has volunteered to sit out the weekly prize while auditing her fellow villagers. A generous (and sharp-eyed) move from our temporary guild inspector.\n\nVisit Maya →\nCheck Ins\n\nDev smashed twelve miles this week, saving the last three for a victory lap after the demo. The auditor confirmed the evidence — strong work from Dev's running shoes.\n\nVisit Mario →\nCheck Ins\n\nIraj ran a successful demo rehearsal and is now hunting down one last bug. 'It knows I'm looking,' he said. The village has faith the bug will surrender before the final demo.\n\nVisit Iraj →\nCheck Ins\n\nLance is making progress toward his gym goal, though his latest screenshot raised eyebrows — the auditor spotted it was the same photo from his first visit. A gentle reminder: fresh evidence, please, Lance!\n\nVisit Lance →\nOver the garden fence\n\nHeard tell that Lance's tired battery photo has become a running joke in the gardening club — someone suggested he watermark his screenshots with the current date so future efforts aren't flagged.\n\nAI-generated · Model: deepseek/deepseek-v4-flash:gazette-v1\nPast issues\n2026-10-10 — Fog Lifts, Barely — Village Creeps Forward Toward Finish Line"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "mayor",
+      "status": "pass",
+      "ms": 2808,
+      "text": "KEEPER OF OUR LITTLE VILLAGE\n\nA word with the Mayor\n♛\n\nA village grows when its people do.\nWhat’s on your mind, neighbor?\n\nPray to the Mayor\nSend a little wish\nWeekly recap\nVillage journal\nWeekly recap\nThe Final Sprint Spectacular\n\n[AI Mayor] This week in the village was a glorious symphony of near-victories! **Iraj** wrestled his demo into submission, surviving rehearsals and leaving only one bug that knows it's being watched. **Lance** conquered leg day (stairs are now a paid expansion), and though his tummy hurt, he bravely hit gym visit three with a borrowed screenshot. **Stefanny** turned sleepless nights into a painting series titled *Things I Painted Instead of Sleeping*, and kept her crown on while washing brushes. **Maya** aced a practice exam at 82% and suspiciously calls her own flashcards 'legally unhelpful.' **Dev** (a.k.a. Mario) blazed through twelve of fifteen miles, his shoes now demanding a formal meeting after two bakery-motivated detours. The village hummed so well the AI Mayor simply said 'keep going' and everyone kept going!\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nPrayer response\nThe real treasure is in your own effort\n\n[AI Mayor] I hear you! While I can't sprinkle XP directly, you've already been earning it all week with your consistent check-ins and progress. Keep up that momentum, and the XP will follow naturally.\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nPrayer response\nThe final stretch – you've got this!\n\n[AI Mayor] Villagers, you're all so close to your goals that I can practically taste the finish line confetti. One last gentle push to cross that finish line with a smile.\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nShow 4 more\nBribe the Mayor\n\nA little XP, a hopeful wish. An event outcome is never guaranteed.\n\nSpend 50 XP - 229 available\nYour wish\nOffer XP\n\nReceipts from this session. Status is recorded at purchase; refreshed pending/consumed history is not available yet.\n\nAI Mayor messages are generated after your request."
+    },
+    {
+      "seat": "Iraj",
+      "stage": "inbox",
+      "status": "pass",
+      "ms": 2864,
+      "text": "Conversation inspected; content intentionally omitted."
+    },
+    {
+      "seat": "Iraj",
+      "stage": "compete",
+      "status": "pass",
+      "ms": 1558,
+      "text": "A LITTLE FRIENDLY MOTIVATION\n\nCompetitions\n\nAgree on the terms, opt in, and cheer each other on.\n\nCreate competition\nAll competitions\nOpen to join\nCurrent competitions\nh\nAI evidence + human auditor · open\nMinecraft hours\nFriendly · no XP or stakes · open\nStudy streak\nAI evidence + human auditor · open"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop",
+      "status": "pass",
+      "ms": 2059,
+      "text": "MAKE YOURSELF AT HOME\n\nThe little shop\nFROM YOUR WORLD TO OURS\nMake it real\n\nTurn a photo into a wearable or a decoration for your home.\n\n0 photo tokens · One per creation. Failed jobs refund automatically.\n\nBuy photo token · 25 XP\nUpload photo\nTake a photo\nMake a\nWearable\n3D decoration\nWear it on\nTorso\nHead\nObject description (optional)\nI have permission to use this photo and consent to processing it.\nCreate\nVillager-gram\n\nA friend's fictional avatar greeting, sent over iMessage. 150 XP per gram. Three sends per day; five received.\n\nBuy Villager-gram · 150 XPSpeaker villager\nChoose an opted-in speaker\nFictional line\n\n0/140 · Kind, fictional lines only. No links, phone numbers or real-world claims.\n\nRecipient member\nChoose an opted-in recipient\n\nMissing someone? They must enable the relevant permission in Settings. Recipients must enter their own phone number.\n\nPreview gram\nOpening the shutters...\n\nOutfits equip immediately. Villager-grams are consumed when queued."
+    },
+    {
+      "seat": "Iraj",
+      "stage": "village",
+      "status": "pass",
+      "ms": 2428,
+      "text": "Hacklanta Crew\n\nVillage growth\nLevel 5\n6,970 collective XP\n\n1,030 XP to the next level\n\n☀ fog · night\n\nOur buildings\n✦\nGarden\nUnlocked\n✦\nFestival Lights\nUnlocked\n✦\nPet Shelter\nUnlocked\n✦\nFerris Wheel\nUnlocked\nGrowing toward\nLake Bridge\n1,030 XP needed\n\nLATEST FROM THE MAYOR\n\nSwan Song Serenade\n\n[AI Mayor] A wandering musician has set up camp by the crater! She's offering a free harmony workshop for any pair of villagers willing to learn a duet. Join up and earn a little XP... or just hum along from a safe distance.\n\nOur group photo\nRefresh village"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "debug",
+      "status": "pass",
+      "ms": 2408,
+      "text": "Demo rehearsal\n\nDebug · Iraj\n\nActions affect this seat. Events, weather and village reset affect everyone.\n\nReason\nStart as a new person\nRemove guest users\n+100 XP\n+500 XP\n+2000 XP\nClear my inventory\nReset my week\nMark my goal done\nRandom Mayor event\nToggle festival night\nReset whole demo village"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "seat-persistence",
+      "status": "pass",
+      "ms": 1840,
+      "pickerVisible": false
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "status": "pass",
+      "ms": 6595,
+      "identity": "13370000-0000-4000-8000-000000000002"
+    },
+    {
+      "seat": "Lance",
+      "stage": "map",
+      "status": "pass",
+      "ms": 9617,
+      "canvases": 1,
+      "labels": [
+        {
+          "id": "villager-Iraj",
+          "head": "glb",
+          "text": "Iraj🚶 Walking ★"
+        },
+        {
+          "id": "villager-Lance",
+          "head": "glb",
+          "text": "Lance🏠 Chilling at Home"
+        },
+        {
+          "id": "villager-Stefanny",
+          "head": "glb",
+          "text": "♛Stefanny🚶 Walking ♛ ★"
+        },
+        {
+          "id": "villager-Maya",
+          "head": "glb",
+          "text": "Maya🏠 Chilling at Home ★Auditor · sits out"
+        },
+        {
+          "id": "villager-Mario",
+          "head": "glb",
+          "text": "Mario🏠 Chilling at Home"
+        }
+      ]
+    },
+    {
+      "seat": "Lance",
+      "stage": "profile",
+      "status": "pass",
+      "ms": 2421,
+      "tabs": [
+        "Profile",
+        "Wardrobe",
+        "House"
+      ],
+      "text": "YOUR NEIGHBOR\nLOADING 3D PORTRAIT…\nLance\n3 day streak\n\n“my tummy hurt”\n\nHear them\n\nAI-generated voice\n\nIdle activity\n🏠 Chilling at Home\n🌱 Gardening\n💃 Dancing\n📖 Reading\n🍔 Grabbing Food\n🐕 Walking Pet\nTHE COLLECTION\nVillager showcase\n\nA little personality, earned day by day.\n\nHEAD / HAT\nFestival Hat\nEquipped\nFACE / GLASSES\nEmpty slot\nTOP / JACKET\nEmpty slot\nNECK / SCARF\nEmpty slot\nDrag to rotate · Scroll or pinch to zoom · Double-click to reset\nPET\nVillage Dog\nEquipped\nVOICE STYLE\nNatural voice\nHOUSE\nBackyard\nEquipped\nPHOTO ITEMS / EXTRA\nEmpty slot\nOwned items · choose an outfit\nEarn your next signature · 7 rewards\n\nNo custom photo items equipped.\n\nA PLACE TO CALL YOUR OWN\nHouse showcase\n\nLevel 1 · Lance’s home\n\nBackyard\nEquipped\nDrag to rotate · Scroll or pinch to zoom · Double-click to reset\n\nNo decorations placed yet.\n\nLevel 4\n685 / 800 XP\nSettingsCustomize my avatar\nProfile\nWardrobe\nHouse\nTHIS WEEK’S GOAL\n45 hours of Overwatch\n4 progress check-ins\n\nGoal: done\n\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nShare a little progress\nRECENT CHECK-INS\n☀ Daily note\nToday\n\nmy tummy hurt\n\n↗ Progress\nToday\n\nLance is making progress. One small step closer!\n\n↗ Progress\nToday\n\nThird visit! Accidentally attached the old workout screenshot. Please clap cautiously.\n\n⚠ Suspicious\nView evidence ↗\n↗ Progress\nYesterday\n\nLeg day complete. Stairs are now a paid expansion.\n\n↗ Progress\nOct 8\n\nGym visit one. The warmup had a warmup.\n\nPAST GOALS\n○\nGym 3x\n2026-09-28 · missed\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑"
+    },
+    {
+      "seat": "Lance",
+      "stage": "wardrobe",
+      "status": "pass",
+      "ms": 5834,
+      "invalidDisabled": true,
+      "text": "Drag to rotate · Scroll or pinch to zoom · Double-click to reset\n\nYour collection. One item per slot.\n\n685\nXP\nTalking style\nNatural voice\n\n“One small win today. Your village is cheering you on!”\n\nPreview sample line\nAI-generated voice · generated only when you click\nFestival Hat\n\nHead · Equipped\n\nOwnedUnequipChoose colors\nBackyard\n\nHouse · Equipped\n\nOwnedUnequip\nVillage Dog\n\nPet · Equipped\n\nOwnedUnequip"
+    },
+    {
+      "seat": "Lance",
+      "stage": "house",
+      "status": "pass",
+      "ms": 4411,
+      "model": "house_modern_lv1",
+      "text": "A home that feels like you\n\nChoose a shape, then make it your own.\n\nHouse style\nCottage\nModern\nA-frame\nTudor\nBeach\nTownhouse\nAuto style\n\nHouse level 1. All six styles are available.\n\n✓ Level 1\n🔒 Level 2\n🔒 Level 3\n🔒 Level 4\n🔒 Level 5\nReady-made palettes\nUse automatic palette\nPaint each part\nWall\nRoof\nTrim\nDoor\nAccent\nCustom wall hex\nApply hex\nSave house"
+    },
+    {
+      "seat": "Lance",
+      "stage": "settings",
+      "status": "pass",
+      "ms": 15478,
+      "states": [
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        }
+      ],
+      "checkboxes": 0,
+      "text": "YOUR PROFILE & VOICE\n\nSettings\n\nMake yourself at home. Choose how you show up and stay in touch.\n\nProfile\nDisplay name\nIdle activity\n🏠 Chilling at Home\n🌱 Gardening\n💃 Dancing\n📖 Reading\n🍔 Grabbing Food\n🐕 Walking Pet\nVillager-grams & voice\nFriends may use my avatar and AI voice for Villager-grams\n\nFriends can write short fictional lines in your avatar's voice. Every use appears in your village feed. Turn off and save to revoke permission and cancel queued grams.\n\nReceive Villager-grams on my phone\n\nUp to five per day. Both permissions are off by default.\n\nPhone (E.164)\n\nYour own number for opted-in Village iMessages. Leave blank to clear it.\n\nMy voice\n\nVoice ready. AI-generated voice.\n\nConsent: village-voice-v1 · 10/10/2026, 2:39:04 PM\n\nDelete my voice\nMessages\nMayor may text me\n\nGet village updates from the Mayor on your linked phone.\n\nRoast me\n\nLet the Mayor include playful roasts in your updates.\n\nSound\nSound on\n\nVillage effects and ambience. Sounds start after you interact.\n\nSound volume\n65%\n\nSound preferences save immediately on this device.\n\nReduced sound\n\nSilence effects and ambience. Your device's reduced motion preference also silences them.\n\nFace check\n\nOptional fun recognition, with no liveness check.\n\nRefresh my face check\nDanger zone\n\nPermanently remove your Village account, messages, progress and generated assets.\n\nType DELETE to confirm\nDelete my account"
+    },
+    {
+      "seat": "Lance",
+      "stage": "checkin",
+      "status": "pass",
+      "ms": 2845,
+      "text": "A MOMENT TO SHOW UP\n\nHow’s your little corner?\n\nBig wins, small steps, and everything in between.\n\n☀ Daily note\n+10 XP / day\n↗ Goal progress\n+25 XP\nWhat’s on your mind today?\n33 / 1000\nAdd a photo\nOptional · JPG, PNG, WebP · up to 5 MB\nShare check-in\n\nShowing up is the part that matters."
+    },
+    {
+      "seat": "Lance",
+      "stage": "goal",
+      "status": "pass",
+      "ms": 2824,
+      "text": "YOUR WEEK, YOUR PACE\n\nMy goal\n\nPick something meaningful. Your village will cheer you on.\n\nThis week, I want to…\nWhat would a small win look like?\nSave my goal\n\n+20 XP for your first goal each week. Edits are always welcome."
+    },
+    {
+      "seat": "Lance",
+      "stage": "week",
+      "status": "pass",
+      "ms": 2223,
+      "text": "SMALL STEPS, FAIRLY CELEBRATED\n\nWeekly review\nAuditor: Maya · sits out\n2026-10-05 · open\n1d 4h 9m 7s until weekly wrap-up (UTC)\n\nAI helps assess ambition, evidence and progress. The human auditor has the final say. All assigned auditors sit out this week.\n\nIraj\nAwaiting grade\nShip the hackathon project\n\nSmall daily updates; attach evidence when there is something to show.\n\nSelf-reported: active · 5 progress updates\n\nProgress & evidence (5)\nLance\nAwaiting grade\n45 hours of Overwatch\n\nSelf-reported: done · 4 progress updates\n\nProgress & evidence (4)\nStefanny\nAwaiting grade\nFinish a painting series\n\nSmall daily updates; attach evidence when there is something to show.\n\nSelf-reported: done · 6 progress updates\n\nProgress & evidence (6)\nMaya\nAuditor · sits out\nStudy for an exam\n\nPersonal progress only; Maya sits out the weekly prize as auditor.\n\nSelf-reported: missed · 3 progress updates\n\nProgress & evidence (3)\nMario\nAwaiting grade\nRun 15 miles\n\nSmall daily updates; attach evidence when there is something to show.\n\nSelf-reported: done · 5 progress updates\n\nProgress & evidence (5)\nEmergency: auditor insufficient"
+    },
+    {
+      "seat": "Lance",
+      "stage": "accomplishments",
+      "status": "pass",
+      "ms": 2626,
+      "text": "SMALL WINS, SHARED JOY\n\nAccomplishments\n\nA little applause for the people growing beside you.\n\nLance\nGoal completed\n✦\n45 hours of Overwatch\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nGoal completed\n✦\nFinish a painting series\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMario\nGoal completed\n✦\nRun 15 miles\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMaya\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nIraj\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nGoal completed\n✦\nPaint three sunset studies\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMario\nGoal completed\n✦\nRun 10 miles\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMaya\nGoal completed\n✦\nFinish two practice exams\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nIraj\nGoal completed\n✦\nPrototype the village\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑"
+    },
+    {
+      "seat": "Lance",
+      "stage": "gazette",
+      "status": "pass",
+      "ms": 2708,
+      "text": "SMALL MOMENTS, WORTH PRINTING\n\nThe Village Gazette\n\nHacklanta Crew · Your neighborhood, in print\n\nThe Village Gazette\nOctober 10, 2026\nFoggy — Town Hall Misplaced The Horizon Again, But The Festival Lights Faintly Glow Through The Mist.\nTHE BIG LITTLE STORY\nFog Lifts, Barely — Village Creeps Forward Toward Finish Line\n\nThick fog descended on our village, but industrious villagers still checked in. Stefanny's nearly finished her painting series (titled 'Things I Painted Instead of Sleeping'), Maya aced a practice exam, Dev ran twelve miles, and Iraj survived a demo rehearsal with one bug left. Lance made progress but used an old gym screenshot. A wandering musician is offering harmony workshops by the old crater, the 'Touch Grass' challenge is active, and the movie-night crater remains. XP ticked toward the Ferris Wheel at level 5.\n\nCheck Ins\n\nStefanny's painting series is nearly complete! She cheekily named it 'Things I Painted Instead of Sleeping' and our auditor confirmed the evidence looks solid. A highly creative week for the village's resident artist.\n\nVisit Stefanny →\nCheck Ins\n\nMaya scored 82% on her practice exam and has volunteered to sit out the weekly prize while auditing her fellow villagers. A generous (and sharp-eyed) move from our temporary guild inspector.\n\nVisit Maya →\nCheck Ins\n\nDev smashed twelve miles this week, saving the last three for a victory lap after the demo. The auditor confirmed the evidence — strong work from Dev's running shoes.\n\nVisit Mario →\nCheck Ins\n\nIraj ran a successful demo rehearsal and is now hunting down one last bug. 'It knows I'm looking,' he said. The village has faith the bug will surrender before the final demo.\n\nVisit Iraj →\nCheck Ins\n\nLance is making progress toward his gym goal, though his latest screenshot raised eyebrows — the auditor spotted it was the same photo from his first visit. A gentle reminder: fresh evidence, please, Lance!\n\nVisit Lance →\nOver the garden fence\n\nHeard tell that Lance's tired battery photo has become a running joke in the gardening club — someone suggested he watermark his screenshots with the current date so future efforts aren't flagged.\n\nAI-generated · Model: deepseek/deepseek-v4-flash:gazette-v1\nPast issues\n2026-10-10 — Fog Lifts, Barely — Village Creeps Forward Toward Finish Line"
+    },
+    {
+      "seat": "Lance",
+      "stage": "mayor",
+      "status": "pass",
+      "ms": 3031,
+      "text": "KEEPER OF OUR LITTLE VILLAGE\n\nA word with the Mayor\n♛\n\nA village grows when its people do.\nWhat’s on your mind, neighbor?\n\nPray to the Mayor\nSend a little wish\nWeekly recap\nVillage journal\nWeekly recap\nThe Final Sprint Spectacular\n\n[AI Mayor] This week in the village was a glorious symphony of near-victories! **Iraj** wrestled his demo into submission, surviving rehearsals and leaving only one bug that knows it's being watched. **Lance** conquered leg day (stairs are now a paid expansion), and though his tummy hurt, he bravely hit gym visit three with a borrowed screenshot. **Stefanny** turned sleepless nights into a painting series titled *Things I Painted Instead of Sleeping*, and kept her crown on while washing brushes. **Maya** aced a practice exam at 82% and suspiciously calls her own flashcards 'legally unhelpful.' **Dev** (a.k.a. Mario) blazed through twelve of fifteen miles, his shoes now demanding a formal meeting after two bakery-motivated detours. The village hummed so well the AI Mayor simply said 'keep going' and everyone kept going!\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nPrayer response\nThe real treasure is in your own effort\n\n[AI Mayor] I hear you! While I can't sprinkle XP directly, you've already been earning it all week with your consistent check-ins and progress. Keep up that momentum, and the XP will follow naturally.\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nPrayer response\nThe final stretch – you've got this!\n\n[AI Mayor] Villagers, you're all so close to your goals that I can practically taste the finish line confetti. One last gentle push to cross that finish line with a smile.\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nShow 4 more\nBribe the Mayor\n\nA little XP, a hopeful wish. An event outcome is never guaranteed.\n\nSpend 50 XP - 685 available\nYour wish\nOffer XP\n\nReceipts from this session. Status is recorded at purchase; refreshed pending/consumed history is not available yet.\n\nAI Mayor messages are generated after your request."
+    },
+    {
+      "seat": "Lance",
+      "stage": "inbox",
+      "status": "pass",
+      "ms": 3035,
+      "text": "Conversation inspected; content intentionally omitted."
+    },
+    {
+      "seat": "Lance",
+      "stage": "compete",
+      "status": "pass",
+      "ms": 1650,
+      "text": "A LITTLE FRIENDLY MOTIVATION\n\nCompetitions\n\nAgree on the terms, opt in, and cheer each other on.\n\nCreate competition\nAll competitions\nOpen to join\nCurrent competitions\nh\nAI evidence + human auditor · open\nMinecraft hours\nFriendly · no XP or stakes · open\nStudy streak\nAI evidence + human auditor · open"
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop",
+      "status": "pass",
+      "ms": 2165,
+      "text": "MAKE YOURSELF AT HOME\n\nThe little shop\nFROM YOUR WORLD TO OURS\nMake it real\n\nTurn a photo into a wearable or a decoration for your home.\n\n0 photo tokens · One per creation. Failed jobs refund automatically.\n\nBuy photo token · 25 XP\nUpload photo\nTake a photo\nMake a\nWearable\n3D decoration\nWear it on\nTorso\nHead\nObject description (optional)\nI have permission to use this photo and consent to processing it.\nCreate\nVillager-gram\n\nA friend's fictional avatar greeting, sent over iMessage. 150 XP per gram. Three sends per day; five received.\n\nBuy Villager-gram · 150 XPSpeaker villager\nChoose an opted-in speaker\nFictional line\n\n0/140 · Kind, fictional lines only. No links, phone numbers or real-world claims.\n\nRecipient member\nChoose an opted-in recipient\n\nMissing someone? They must enable the relevant permission in Settings. Recipients must enter their own phone number.\n\nPreview gram\nOpening the shutters...\n\nOutfits equip immediately. Villager-grams are consumed when queued."
+    },
+    {
+      "seat": "Lance",
+      "stage": "village",
+      "status": "pass",
+      "ms": 2704,
+      "text": "Hacklanta Crew\n\nVillage growth\nLevel 5\n6,970 collective XP\n\n1,030 XP to the next level\n\n☀ fog · night\n\nOur buildings\n✦\nGarden\nUnlocked\n✦\nFestival Lights\nUnlocked\n✦\nPet Shelter\nUnlocked\n✦\nFerris Wheel\nUnlocked\nGrowing toward\nLake Bridge\n1,030 XP needed\n\nLATEST FROM THE MAYOR\n\nSwan Song Serenade\n\n[AI Mayor] A wandering musician has set up camp by the crater! She's offering a free harmony workshop for any pair of villagers willing to learn a duet. Join up and earn a little XP... or just hum along from a safe distance.\n\nOur group photo\nRefresh village"
+    },
+    {
+      "seat": "Lance",
+      "stage": "debug",
+      "status": "pass",
+      "ms": 2492,
+      "text": "Demo rehearsal\n\nDebug · Lance\n\nActions affect this seat. Events, weather and village reset affect everyone.\n\nReason\nStart as a new person\nRemove guest users\n+100 XP\n+500 XP\n+2000 XP\nClear my inventory\nReset my week\nMark my goal done\nRandom Mayor event\nToggle festival night\nReset whole demo village"
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat-persistence",
+      "status": "pass",
+      "ms": 1885,
+      "pickerVisible": false
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "seat",
+      "status": "pass",
+      "ms": 6311,
+      "identity": "13370000-0000-4000-8000-000000000003"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "map",
+      "status": "pass",
+      "ms": 9046,
+      "canvases": 1,
+      "labels": [
+        {
+          "id": "villager-Iraj",
+          "head": "glb",
+          "text": "Iraj🚶 Walking ★"
+        },
+        {
+          "id": "villager-Lance",
+          "head": "glb",
+          "text": "Lance🏠 Chilling at Home"
+        },
+        {
+          "id": "villager-Stefanny",
+          "head": "glb",
+          "text": "♛Stefanny🚶 Walking ♛ ★"
+        },
+        {
+          "id": "villager-Maya",
+          "head": "glb",
+          "text": "Maya🏠 Chilling at Home ★Auditor · sits out"
+        },
+        {
+          "id": "villager-Mario",
+          "head": "glb",
+          "text": "Mario🚶 Walking"
+        }
+      ]
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "profile",
+      "status": "pass",
+      "ms": 2266,
+      "tabs": [
+        "Profile",
+        "Wardrobe",
+        "House"
+      ],
+      "text": "YOUR NEIGHBOR\nLOADING 3D PORTRAIT…\n♛\nStefanny\n5 day streak\n\n“I LOVE THIS VILLAGE”\n\nHear them\n\nAI-generated voice\n\nIdle activity\n🏠 Chilling at Home\n🌱 Gardening\n💃 Dancing\n📖 Reading\n🍔 Grabbing Food\n🐕 Walking Pet\nTHE COLLECTION\nVillager showcase\n\nA little personality, earned day by day.\n\nHEAD / HAT\nVillage Crown\nEquipped\nFACE / GLASSES\nEmpty slot\nTOP / JACKET\nEmpty slot\nNECK / SCARF\nCozy Scarf\nEquipped\nDrag to rotate · Scroll or pinch to zoom · Double-click to reset\nPET\nVillage Dog\nEquipped\nVOICE STYLE\nHype coach\nEquipped\nHOUSE\nBackyard\nEquipped\nPHOTO ITEMS / EXTRA\nFlower Bed\nEquipped\nOwned items · choose an outfit\nEarn your next signature · 7 rewards\n\nNo custom photo items equipped.\n\nA PLACE TO CALL YOUR OWN\nHouse showcase\n\nLevel 2 · Stefanny’s home\n\nFlower Bed\nEquipped\nDrag to rotate · Scroll or pinch to zoom · Double-click to reset\nBackyard\nEquipped\nLevel 9\n3770 / 4050 XP\nSettingsCustomize my avatar\nProfile\nWardrobe\nHouse\nTHIS WEEK’S GOAL\nFinish a painting series\n\nSmall daily updates; attach evidence when there is something to show.\n\n6 progress check-ins\n\nGoal: done\n\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nShare a little progress\nRECENT CHECK-INS\n☀ Daily note\nToday\n\nI LOVE THIS VILLAGE\n\n☀ Daily note\nToday\n\nwhat up\n\n↗ Progress\nToday\n\nStefanny is making progress. One small step closer!\n\n↗ Progress\nToday\n\nSeries nearly ready; naming it Things I Painted Instead of Sleeping.\n\n✓ Verified\nView evidence ↗\n↗ Progress\nYesterday\n\nThird color study finished. Crown stays on even while washing brushes.\n\n↗ Progress\nOct 8\n\nSecond canvas drying. The dog is banned from art direction.\n\nPAST GOALS\n✓\nPaint three sunset studies\n2026-09-28 · done\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "wardrobe",
+      "status": "pass",
+      "ms": 5074,
+      "invalidDisabled": true,
+      "text": "Drag to rotate · Scroll or pinch to zoom · Double-click to reset\n\nYour collection. One item per slot.\n\n3770\nXP\nTalking style\nNatural voice\nHype coach\n\n“One small win today. Your village is cheering you on!”\n\nPreview sample line\nAI-generated voice · generated only when you click\nFlower Bed\n\nDecoration · Equipped\n\nOwnedUnequip\nCozy Scarf\n\nNeck · Equipped\n\nOwnedUnequipChoose colors\nPorch Lamp\n\nDecoration · Owned\n\nOwnedEquip\nBackyard\n\nHouse · Equipped\n\nOwnedUnequip\nVillage Dog\n\nPet · Equipped\n\nOwnedUnequip\nHouse Level 2\n\nHouse · Owned\n\nOwnedEquip\nHype coach\n\nVoice Style · Equipped\n\nOwnedUnequip\nVillage Crown\n\nHead · Equipped\n\nOwnedUnequipChoose colors"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "house",
+      "status": "pass",
+      "ms": 4259,
+      "model": "house_modern_lv2",
+      "text": "A home that feels like you\n\nChoose a shape, then make it your own.\n\nHouse style\nCottage\nModern\nA-frame\nTudor\nBeach\nTownhouse\nAuto style\n\nHouse level 2. All six styles are available.\n\n✓ Level 1\n✓ Level 2\n🔒 Level 3\n🔒 Level 4\n🔒 Level 5\nReady-made palettes\nUse automatic palette\nPaint each part\nWall\nRoof\nTrim\nDoor\nAccent\nCustom wall hex\nApply hex\nSave house"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "settings",
+      "status": "pass",
+      "ms": 16761,
+      "states": [
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        }
+      ],
+      "checkboxes": 0,
+      "text": "YOUR PROFILE & VOICE\n\nSettings\n\nMake yourself at home. Choose how you show up and stay in touch.\n\nProfile\nDisplay name\nIdle activity\n🏠 Chilling at Home\n🌱 Gardening\n💃 Dancing\n📖 Reading\n🍔 Grabbing Food\n🐕 Walking Pet\nVillager-grams & voice\nFriends may use my avatar and AI voice for Villager-grams\n\nFriends can write short fictional lines in your avatar's voice. Every use appears in your village feed. Turn off and save to revoke permission and cancel queued grams.\n\nReceive Villager-grams on my phone\n\nUp to five per day. Both permissions are off by default.\n\nPhone (E.164)\n\nYour own number for opted-in Village iMessages. Leave blank to clear it.\n\nMy voice\n\nVoice ready. AI-generated voice.\n\nConsent: village-voice-v1 · 10/10/2026, 2:42:57 PM\n\nDelete my voice\nMessages\nMayor may text me\n\nGet village updates from the Mayor on your linked phone.\n\nRoast me\n\nLet the Mayor include playful roasts in your updates.\n\nSound\nSound on\n\nVillage effects and ambience. Sounds start after you interact.\n\nSound volume\n65%\n\nSound preferences save immediately on this device.\n\nReduced sound\n\nSilence effects and ambience. Your device's reduced motion preference also silences them.\n\nFace check\n\nOptional fun recognition, with no liveness check.\n\nRefresh my face check\nDanger zone\n\nPermanently remove your Village account, messages, progress and generated assets.\n\nType DELETE to confirm\nDelete my account"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "checkin",
+      "status": "pass",
+      "ms": 2632,
+      "text": "A MOMENT TO SHOW UP\n\nHow’s your little corner?\n\nBig wins, small steps, and everything in between.\n\n☀ Daily note\n+10 XP / day\n↗ Goal progress\n+25 XP\nWhat’s on your mind today?\n33 / 1000\nAdd a photo\nOptional · JPG, PNG, WebP · up to 5 MB\nShare check-in\n\nShowing up is the part that matters."
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "goal",
+      "status": "pass",
+      "ms": 2919,
+      "text": "YOUR WEEK, YOUR PACE\n\nMy goal\n\nPick something meaningful. Your village will cheer you on.\n\nThis week, I want to…\nWhat would a small win look like?\nSave my goal\n\n+20 XP for your first goal each week. Edits are always welcome."
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "week",
+      "status": "pass",
+      "ms": 2635,
+      "text": "SMALL STEPS, FAIRLY CELEBRATED\n\nWeekly review\nAuditor: Maya · sits out\n2026-10-05 · open\n1d 4h 7m 38s until weekly wrap-up (UTC)\n\nAI helps assess ambition, evidence and progress. The human auditor has the final say. All assigned auditors sit out this week.\n\nIraj\nAwaiting grade\nShip the hackathon project\n\nSmall daily updates; attach evidence when there is something to show.\n\nSelf-reported: active · 5 progress updates\n\nProgress & evidence (5)\nLance\nAwaiting grade\n45 hours of Overwatch\n\nSelf-reported: done · 4 progress updates\n\nProgress & evidence (4)\nStefanny\nAwaiting grade\nFinish a painting series\n\nSmall daily updates; attach evidence when there is something to show.\n\nSelf-reported: done · 6 progress updates\n\nProgress & evidence (6)\nMaya\nAuditor · sits out\nStudy for an exam\n\nPersonal progress only; Maya sits out the weekly prize as auditor.\n\nSelf-reported: missed · 3 progress updates\n\nProgress & evidence (3)\nMario\nAwaiting grade\nRun 15 miles\n\nSmall daily updates; attach evidence when there is something to show.\n\nSelf-reported: done · 5 progress updates\n\nProgress & evidence (5)\nEmergency: auditor insufficient"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "accomplishments",
+      "status": "pass",
+      "ms": 2613,
+      "text": "SMALL WINS, SHARED JOY\n\nAccomplishments\n\nA little applause for the people growing beside you.\n\nLance\nGoal completed\n✦\n45 hours of Overwatch\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nGoal completed\n✦\nFinish a painting series\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMario\nGoal completed\n✦\nRun 15 miles\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMaya\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nIraj\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nGoal completed\n✦\nPaint three sunset studies\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMario\nGoal completed\n✦\nRun 10 miles\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMaya\nGoal completed\n✦\nFinish two practice exams\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nIraj\nGoal completed\n✦\nPrototype the village\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "gazette",
+      "status": "pass",
+      "ms": 2463,
+      "text": "SMALL MOMENTS, WORTH PRINTING\n\nThe Village Gazette\n\nHacklanta Crew · Your neighborhood, in print\n\nThe Village Gazette\nOctober 10, 2026\nFoggy — Town Hall Misplaced The Horizon Again, But The Festival Lights Faintly Glow Through The Mist.\nTHE BIG LITTLE STORY\nFog Lifts, Barely — Village Creeps Forward Toward Finish Line\n\nThick fog descended on our village, but industrious villagers still checked in. Stefanny's nearly finished her painting series (titled 'Things I Painted Instead of Sleeping'), Maya aced a practice exam, Dev ran twelve miles, and Iraj survived a demo rehearsal with one bug left. Lance made progress but used an old gym screenshot. A wandering musician is offering harmony workshops by the old crater, the 'Touch Grass' challenge is active, and the movie-night crater remains. XP ticked toward the Ferris Wheel at level 5.\n\nCheck Ins\n\nStefanny's painting series is nearly complete! She cheekily named it 'Things I Painted Instead of Sleeping' and our auditor confirmed the evidence looks solid. A highly creative week for the village's resident artist.\n\nVisit Stefanny →\nCheck Ins\n\nMaya scored 82% on her practice exam and has volunteered to sit out the weekly prize while auditing her fellow villagers. A generous (and sharp-eyed) move from our temporary guild inspector.\n\nVisit Maya →\nCheck Ins\n\nDev smashed twelve miles this week, saving the last three for a victory lap after the demo. The auditor confirmed the evidence — strong work from Dev's running shoes.\n\nVisit Mario →\nCheck Ins\n\nIraj ran a successful demo rehearsal and is now hunting down one last bug. 'It knows I'm looking,' he said. The village has faith the bug will surrender before the final demo.\n\nVisit Iraj →\nCheck Ins\n\nLance is making progress toward his gym goal, though his latest screenshot raised eyebrows — the auditor spotted it was the same photo from his first visit. A gentle reminder: fresh evidence, please, Lance!\n\nVisit Lance →\nOver the garden fence\n\nHeard tell that Lance's tired battery photo has become a running joke in the gardening club — someone suggested he watermark his screenshots with the current date so future efforts aren't flagged.\n\nAI-generated · Model: deepseek/deepseek-v4-flash:gazette-v1\nPast issues\n2026-10-10 — Fog Lifts, Barely — Village Creeps Forward Toward Finish Line"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "mayor",
+      "status": "pass",
+      "ms": 2850,
+      "text": "KEEPER OF OUR LITTLE VILLAGE\n\nA word with the Mayor\n♛\n\nA village grows when its people do.\nWhat’s on your mind, neighbor?\n\nPray to the Mayor\nSend a little wish\nWeekly recap\nVillage journal\nWeekly recap\nThe Final Sprint Spectacular\n\n[AI Mayor] This week in the village was a glorious symphony of near-victories! **Iraj** wrestled his demo into submission, surviving rehearsals and leaving only one bug that knows it's being watched. **Lance** conquered leg day (stairs are now a paid expansion), and though his tummy hurt, he bravely hit gym visit three with a borrowed screenshot. **Stefanny** turned sleepless nights into a painting series titled *Things I Painted Instead of Sleeping*, and kept her crown on while washing brushes. **Maya** aced a practice exam at 82% and suspiciously calls her own flashcards 'legally unhelpful.' **Dev** (a.k.a. Mario) blazed through twelve of fifteen miles, his shoes now demanding a formal meeting after two bakery-motivated detours. The village hummed so well the AI Mayor simply said 'keep going' and everyone kept going!\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nPrayer response\nThe real treasure is in your own effort\n\n[AI Mayor] I hear you! While I can't sprinkle XP directly, you've already been earning it all week with your consistent check-ins and progress. Keep up that momentum, and the XP will follow naturally.\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nPrayer response\nThe final stretch – you've got this!\n\n[AI Mayor] Villagers, you're all so close to your goals that I can practically taste the finish line confetti. One last gentle push to cross that finish line with a smile.\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nShow 4 more\nBribe the Mayor\n\nA little XP, a hopeful wish. An event outcome is never guaranteed.\n\nSpend 50 XP - 3770 available\nYour wish\nOffer XP\n\nReceipts from this session. Status is recorded at purchase; refreshed pending/consumed history is not available yet.\n\nAI Mayor messages are generated after your request."
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "inbox",
+      "status": "pass",
+      "ms": 3577,
+      "text": "Conversation inspected; content intentionally omitted."
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "compete",
+      "status": "pass",
+      "ms": 1509,
+      "text": "A LITTLE FRIENDLY MOTIVATION\n\nCompetitions\n\nAgree on the terms, opt in, and cheer each other on.\n\nCreate competition\nAll competitions\nOpen to join\nCurrent competitions\nh\nAI evidence + human auditor · open\nMinecraft hours\nFriendly · no XP or stakes · open\nStudy streak\nAI evidence + human auditor · open"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "shop",
+      "status": "pass",
+      "ms": 1953,
+      "text": "MAKE YOURSELF AT HOME\n\nThe little shop\nFROM YOUR WORLD TO OURS\nMake it real\n\nTurn a photo into a wearable or a decoration for your home.\n\n1 photo token · One per creation. Failed jobs refund automatically.\n\nBuy photo token · 25 XP\nUpload photo\nTake a photo\nMake a\nWearable\n3D decoration\nWear it on\nTorso\nHead\nObject description (optional)\nI have permission to use this photo and consent to processing it.\nCreate\nVillager-gram\n\nA friend's fictional avatar greeting, sent over iMessage. 150 XP per gram. Three sends per day; five received.\n\nBuy Villager-gram · 150 XPSpeaker villager\nChoose an opted-in speaker\nFictional line\n\n0/140 · Kind, fictional lines only. No links, phone numbers or real-world claims.\n\nRecipient member\nChoose an opted-in recipient\n\nMissing someone? They must enable the relevant permission in Settings. Recipients must enter their own phone number.\n\nPreview gram\nOpening the shutters...\n\nOutfits equip immediately. Villager-grams are consumed when queued."
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "village",
+      "status": "pass",
+      "ms": 2451,
+      "text": "Hacklanta Crew\n\nVillage growth\nLevel 5\n6,970 collective XP\n\n1,030 XP to the next level\n\n☀ fog · night\n\nOur buildings\n✦\nGarden\nUnlocked\n✦\nFestival Lights\nUnlocked\n✦\nPet Shelter\nUnlocked\n✦\nFerris Wheel\nUnlocked\nGrowing toward\nLake Bridge\n1,030 XP needed\n\nLATEST FROM THE MAYOR\n\nSwan Song Serenade\n\n[AI Mayor] A wandering musician has set up camp by the crater! She's offering a free harmony workshop for any pair of villagers willing to learn a duet. Join up and earn a little XP... or just hum along from a safe distance.\n\nOur group photo\nRefresh village"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "debug",
+      "status": "pass",
+      "ms": 2499,
+      "text": "Demo rehearsal\n\nDebug · Stefanny\n\nActions affect this seat. Events, weather and village reset affect everyone.\n\nReason\nStart as a new person\nRemove guest users\n+100 XP\n+500 XP\n+2000 XP\nClear my inventory\nReset my week\nMark my goal done\nRandom Mayor event\nToggle festival night\nReset whole demo village"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "seat-persistence",
+      "status": "pass",
+      "ms": 1823,
+      "pickerVisible": false
+    },
+    {
+      "seat": "Maya",
+      "stage": "seat",
+      "status": "pass",
+      "ms": 7209,
+      "identity": "13370000-0000-4000-8000-000000000004"
+    },
+    {
+      "seat": "Maya",
+      "stage": "map",
+      "status": "pass",
+      "ms": 9734,
+      "canvases": 1,
+      "labels": [
+        {
+          "id": "villager-Iraj",
+          "head": "glb",
+          "text": "Iraj🏠 Chilling at Home ★"
+        },
+        {
+          "id": "villager-Lance",
+          "head": "glb",
+          "text": "Lance🏠 Chilling at Home"
+        },
+        {
+          "id": "villager-Stefanny",
+          "head": "glb",
+          "text": "♛Stefanny🚶 Walking ♛ ★"
+        },
+        {
+          "id": "villager-Maya",
+          "head": "glb",
+          "text": "Maya🚶 Walking ★Auditor · sits out"
+        },
+        {
+          "id": "villager-Mario",
+          "head": "glb",
+          "text": "Mario🚶 Walking"
+        }
+      ]
+    },
+    {
+      "seat": "Maya",
+      "stage": "profile",
+      "status": "pass",
+      "ms": 2623,
+      "tabs": [
+        "Profile",
+        "Wardrobe",
+        "House"
+      ],
+      "text": "YOUR NEIGHBOR\nLOADING 3D PORTRAIT…\nMaya\n2 day streak\n\n“Maya is making progress. One small step closer!”\n\nHear them\n\nAI-generated voice\n\nIdle activity\n🏠 Chilling at Home\n🌱 Gardening\n💃 Dancing\n📖 Reading\n🍔 Grabbing Food\n🐕 Walking Pet\n\nEquip a pet in your wardrobe to choose Walking Pet.\n\nTHE COLLECTION\nVillager showcase\n\nA little personality, earned day by day.\n\nHEAD / HAT\nEmpty slot\nFACE / GLASSES\nEmpty slot\nTOP / JACKET\nDenim Jacket\nEquipped\nNECK / SCARF\nEmpty slot\nDrag to rotate · Scroll or pinch to zoom · Double-click to reset\nPET\nEmpty slot\nVOICE STYLE\nNatural voice\nHOUSE\nEmpty slot\nPHOTO ITEMS / EXTRA\nEmpty slot\nOwned items · choose an outfit\nEarn your next signature · 7 rewards\n\nNo custom photo items equipped.\n\nA PLACE TO CALL YOUR OWN\nHouse showcase\n\nLevel 1 · Maya’s home\n\nDrag to rotate · Scroll or pinch to zoom · Double-click to reset\n\nNo decorations placed yet.\n\nLevel 3\n415 / 450 XP\nSettingsCustomize my avatar\nProfile\nWardrobe\nHouse\nTHIS WEEK’S GOAL\nStudy for an exam\n\nPersonal progress only; Maya sits out the weekly prize as auditor.\n\n3 progress check-ins\n\nGoal: missed\n\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nShare a little progress\nRECENT CHECK-INS\n↗ Progress\nToday\n\nMaya is making progress. One small step closer!\n\n↗ Progress\nToday\n\nPractice exam: 82 percent! Sitting out the weekly prize while I audit you gremlins.\n\n✓ Verified\nView evidence ↗\n↗ Progress\nYesterday\n\nExam flashcards made. Half say remember this, which feels legally unhelpful.\n\nPAST GOALS\n✓\nFinish two practice exams\n2026-09-28 · done\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑"
+    },
+    {
+      "seat": "Maya",
+      "stage": "wardrobe",
+      "status": "pass",
+      "ms": 7644,
+      "invalidDisabled": true,
+      "text": "Drag to rotate · Scroll or pinch to zoom · Double-click to reset\n\nYour collection. One item per slot.\n\n415\nXP\nTalking style\nNatural voice\n\n“One small win today. Your village is cheering you on!”\n\nPreview sample line\nAI-generated voice · generated only when you click\nDenim Jacket\n\nTorso · Equipped\n\nOwnedUnequipChoose colors"
+    },
+    {
+      "seat": "Maya",
+      "stage": "house",
+      "status": "pass",
+      "ms": 4747,
+      "model": "house_modern_lv1",
+      "text": "A home that feels like you\n\nChoose a shape, then make it your own.\n\nHouse style\nCottage\nModern\nA-frame\nTudor\nBeach\nTownhouse\nAuto style\n\nHouse level 1. All six styles are available.\n\n✓ Level 1\n🔒 Level 2\n🔒 Level 3\n🔒 Level 4\n🔒 Level 5\nReady-made palettes\nUse automatic palette\nPaint each part\nWall\nRoof\nTrim\nDoor\nAccent\nCustom wall hex\nApply hex\nSave house"
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings",
+      "status": "pass",
+      "ms": 22997,
+      "states": [
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        }
+      ],
+      "checkboxes": 1,
+      "text": "YOUR PROFILE & VOICE\n\nSettings\n\nMake yourself at home. Choose how you show up and stay in touch.\n\nProfile\nDisplay name\nIdle activity\n🏠 Chilling at Home\n🌱 Gardening\n💃 Dancing\n📖 Reading\n🍔 Grabbing Food\n🐕 Walking Pet\n\nEquip a pet in your wardrobe to choose Walking Pet.\n\nVillager-grams & voice\nFriends may use my avatar and AI voice for Villager-grams\n\nFriends can write short fictional lines in your avatar's voice. Every use appears in your village feed. Turn off and save to revoke permission and cancel queued grams.\n\nReceive Villager-grams on my phone\n\nUp to five per day. Both permissions are off by default.\n\nPhone (E.164)\n\nYour own number for opted-in Village iMessages. Leave blank to clear it.\n\nMy voice\n\nNo voice clone yet.\n\nRecord or upload 1–3 short memos of your own voice, up to 10 MiB each. Recordings stop after 60 seconds. Samples are sent to ElevenLabs only when you choose Create my voice.\n\nRecord a memo\nUpload voice memos\nI confirm these recordings are my own voice and consent to ElevenLabs cloning it for AI-generated speech in Village, including speech requested by village friends.\nConsent text version: village-voice-v1\nCreate my voice\nMessages\nMayor may text me\n\nGet village updates from the Mayor on your linked phone.\n\nRoast me\n\nLet the Mayor include playful roasts in your updates.\n\nSound\nSound on\n\nVillage effects and ambience. Sounds start after you interact.\n\nSound volume\n65%\n\nSound preferences save immediately on this device.\n\nReduced sound\n\nSilence effects and ambience. Your device's reduced motion preference also silences them.\n\nFace check\n\nOptional fun recognition, with no liveness check.\n\nRefresh my face check\nDanger zone\n\nPermanently remove your Village account, messages, progress and generated assets.\n\nType DELETE to confirm\nDelete my account"
+    },
+    {
+      "seat": "Maya",
+      "stage": "checkin",
+      "status": "pass",
+      "ms": 3477,
+      "text": "A MOMENT TO SHOW UP\n\nHow’s your little corner?\n\nBig wins, small steps, and everything in between.\n\n☀ Daily note\n+10 XP / day\n↗ Goal progress\n+25 XP\nWhat’s on your mind today?\n33 / 1000\nAdd a photo\nOptional · JPG, PNG, WebP · up to 5 MB\nShare check-in\n\nShowing up is the part that matters."
+    },
+    {
+      "seat": "Maya",
+      "stage": "goal",
+      "status": "pass",
+      "ms": 3574,
+      "text": "YOUR WEEK, YOUR PACE\n\nMy goal\n\nPick something meaningful. Your village will cheer you on.\n\nThis week, I want to…\nWhat would a small win look like?\nSave my goal\n\n+20 XP for your first goal each week. Edits are always welcome."
+    },
+    {
+      "seat": "Maya",
+      "stage": "week",
+      "status": "pass",
+      "ms": 2665,
+      "text": "SMALL STEPS, FAIRLY CELEBRATED\n\nWeekly review\nGathering this week’s small wins..."
+    },
+    {
+      "seat": "Maya",
+      "stage": "accomplishments",
+      "status": "pass",
+      "ms": 3319,
+      "text": "SMALL WINS, SHARED JOY\n\nAccomplishments\n\nA little applause for the people growing beside you.\n\nLance\nGoal completed\n✦\n45 hours of Overwatch\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nGoal completed\n✦\nFinish a painting series\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMario\nGoal completed\n✦\nRun 15 miles\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMaya\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nIraj\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nGoal completed\n✦\nPaint three sunset studies\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMario\nGoal completed\n✦\nRun 10 miles\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMaya\nGoal completed\n✦\nFinish two practice exams\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nIraj\nGoal completed\n✦\nPrototype the village\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑"
+    },
+    {
+      "seat": "Maya",
+      "stage": "gazette",
+      "status": "pass",
+      "ms": 2856,
+      "text": "SMALL MOMENTS, WORTH PRINTING\n\nThe Village Gazette\n\nHacklanta Crew · Your neighborhood, in print\n\nThe Village Gazette\nOctober 10, 2026\nFoggy — Town Hall Misplaced The Horizon Again, But The Festival Lights Faintly Glow Through The Mist.\nTHE BIG LITTLE STORY\nFog Lifts, Barely — Village Creeps Forward Toward Finish Line\n\nThick fog descended on our village, but industrious villagers still checked in. Stefanny's nearly finished her painting series (titled 'Things I Painted Instead of Sleeping'), Maya aced a practice exam, Dev ran twelve miles, and Iraj survived a demo rehearsal with one bug left. Lance made progress but used an old gym screenshot. A wandering musician is offering harmony workshops by the old crater, the 'Touch Grass' challenge is active, and the movie-night crater remains. XP ticked toward the Ferris Wheel at level 5.\n\nCheck Ins\n\nStefanny's painting series is nearly complete! She cheekily named it 'Things I Painted Instead of Sleeping' and our auditor confirmed the evidence looks solid. A highly creative week for the village's resident artist.\n\nVisit Stefanny →\nCheck Ins\n\nMaya scored 82% on her practice exam and has volunteered to sit out the weekly prize while auditing her fellow villagers. A generous (and sharp-eyed) move from our temporary guild inspector.\n\nVisit Maya →\nCheck Ins\n\nDev smashed twelve miles this week, saving the last three for a victory lap after the demo. The auditor confirmed the evidence — strong work from Dev's running shoes.\n\nVisit Mario →\nCheck Ins\n\nIraj ran a successful demo rehearsal and is now hunting down one last bug. 'It knows I'm looking,' he said. The village has faith the bug will surrender before the final demo.\n\nVisit Iraj →\nCheck Ins\n\nLance is making progress toward his gym goal, though his latest screenshot raised eyebrows — the auditor spotted it was the same photo from his first visit. A gentle reminder: fresh evidence, please, Lance!\n\nVisit Lance →\nOver the garden fence\n\nHeard tell that Lance's tired battery photo has become a running joke in the gardening club — someone suggested he watermark his screenshots with the current date so future efforts aren't flagged.\n\nAI-generated · Model: deepseek/deepseek-v4-flash:gazette-v1\nPast issues\n2026-10-10 — Fog Lifts, Barely — Village Creeps Forward Toward Finish Line"
+    },
+    {
+      "seat": "Maya",
+      "stage": "mayor",
+      "status": "pass",
+      "ms": 3340,
+      "text": "KEEPER OF OUR LITTLE VILLAGE\n\nA word with the Mayor\n♛\n\nA village grows when its people do.\nWhat’s on your mind, neighbor?\n\nPray to the Mayor\nSend a little wish\nWeekly recap\nVillage journal\nWeekly recap\nThe Final Sprint Spectacular\n\n[AI Mayor] This week in the village was a glorious symphony of near-victories! **Iraj** wrestled his demo into submission, surviving rehearsals and leaving only one bug that knows it's being watched. **Lance** conquered leg day (stairs are now a paid expansion), and though his tummy hurt, he bravely hit gym visit three with a borrowed screenshot. **Stefanny** turned sleepless nights into a painting series titled *Things I Painted Instead of Sleeping*, and kept her crown on while washing brushes. **Maya** aced a practice exam at 82% and suspiciously calls her own flashcards 'legally unhelpful.' **Dev** (a.k.a. Mario) blazed through twelve of fifteen miles, his shoes now demanding a formal meeting after two bakery-motivated detours. The village hummed so well the AI Mayor simply said 'keep going' and everyone kept going!\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nPrayer response\nThe real treasure is in your own effort\n\n[AI Mayor] I hear you! While I can't sprinkle XP directly, you've already been earning it all week with your consistent check-ins and progress. Keep up that momentum, and the XP will follow naturally.\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nPrayer response\nThe final stretch – you've got this!\n\n[AI Mayor] Villagers, you're all so close to your goals that I can practically taste the finish line confetti. One last gentle push to cross that finish line with a smile.\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nShow 4 more\nBribe the Mayor\n\nA little XP, a hopeful wish. An event outcome is never guaranteed.\n\nSpend 50 XP - 415 available\nYour wish\nOffer XP\n\nReceipts from this session. Status is recorded at purchase; refreshed pending/consumed history is not available yet.\n\nAI Mayor messages are generated after your request."
+    },
+    {
+      "seat": "Maya",
+      "stage": "inbox",
+      "status": "pass",
+      "ms": 2666,
+      "text": "Conversation inspected; content intentionally omitted."
+    },
+    {
+      "seat": "Maya",
+      "stage": "compete",
+      "status": "pass",
+      "ms": 1736,
+      "text": "A LITTLE FRIENDLY MOTIVATION\n\nCompetitions\n\nAgree on the terms, opt in, and cheer each other on.\n\nCreate competition\nAll competitions\nOpen to join\nCurrent competitions\nh\nAI evidence + human auditor · open\nMinecraft hours\nFriendly · no XP or stakes · open\nStudy streak\nAI evidence + human auditor · open"
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop",
+      "status": "pass",
+      "ms": 2481,
+      "text": "MAKE YOURSELF AT HOME\n\nThe little shop\nFROM YOUR WORLD TO OURS\nMake it real\n\nTurn a photo into a wearable or a decoration for your home.\n\n0 photo tokens · One per creation. Failed jobs refund automatically.\n\nBuy photo token · 25 XP\nUpload photo\nTake a photo\nMake a\nWearable\n3D decoration\nWear it on\nTorso\nHead\nObject description (optional)\nI have permission to use this photo and consent to processing it.\nCreate\nVillager-gram\n\nA friend's fictional avatar greeting, sent over iMessage. 150 XP per gram. Three sends per day; five received.\n\nBuy Villager-gram · 150 XPSpeaker villager\nChoose an opted-in speaker\nFictional line\n\n0/140 · Kind, fictional lines only. No links, phone numbers or real-world claims.\n\nRecipient member\nChoose an opted-in recipient\n\nMissing someone? They must enable the relevant permission in Settings. Recipients must enter their own phone number.\n\nPreview gram\nOpening the shutters...\n\nOutfits equip immediately. Villager-grams are consumed when queued."
+    },
+    {
+      "seat": "Maya",
+      "stage": "village",
+      "status": "pass",
+      "ms": 2839,
+      "text": "Hacklanta Crew\n\nVillage growth\nLevel 5\n6,980 collective XP\n\n1,020 XP to the next level\n\n☀ fog · night\n\nOur buildings\n✦\nGarden\nUnlocked\n✦\nFestival Lights\nUnlocked\n✦\nPet Shelter\nUnlocked\n✦\nFerris Wheel\nUnlocked\nGrowing toward\nLake Bridge\n1,020 XP needed\n\nLATEST FROM THE MAYOR\n\nSwan Song Serenade\n\n[AI Mayor] A wandering musician has set up camp by the crater! She's offering a free harmony workshop for any pair of villagers willing to learn a duet. Join up and earn a little XP... or just hum along from a safe distance.\n\nOur group photo\nRefresh village"
+    },
+    {
+      "seat": "Maya",
+      "stage": "debug",
+      "status": "pass",
+      "ms": 3113,
+      "text": "Demo rehearsal\n\nDebug · Maya\n\nActions affect this seat. Events, weather and village reset affect everyone.\n\nReason\nStart as a new person\nRemove guest users\n+100 XP\n+500 XP\n+2000 XP\nClear my inventory\nReset my week\nMark my goal done\nRandom Mayor event\nToggle festival night\nReset whole demo village"
+    },
+    {
+      "seat": "Maya",
+      "stage": "seat-persistence",
+      "status": "pass",
+      "ms": 2524,
+      "pickerVisible": false
+    },
+    {
+      "seat": "Mario",
+      "stage": "seat",
+      "status": "failed",
+      "ms": 12095,
+      "error": "locator.waitFor: Timeout 7000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Testing as Mario · switch' }) to be visible\u001b[22m\n"
+    },
+    {
+      "seat": "Mario",
+      "stage": "map",
+      "status": "pass",
+      "ms": 8710,
+      "canvases": 1,
+      "labels": [
+        {
+          "id": "villager-Iraj",
+          "head": "glb",
+          "text": "Iraj🏠 Chilling at Home ★"
+        },
+        {
+          "id": "villager-Lance",
+          "head": "glb",
+          "text": "Lance🏠 Chilling at Home"
+        },
+        {
+          "id": "villager-Stefanny",
+          "head": "glb",
+          "text": "♛Stefanny🏠 Chilling at Home ♛ ★"
+        },
+        {
+          "id": "villager-Maya",
+          "head": "glb",
+          "text": "Maya🚶 Walking ★Auditor · sits out"
+        },
+        {
+          "id": "villager-Mario",
+          "head": "glb",
+          "text": "Mario🚶 Walking"
+        }
+      ]
+    },
+    {
+      "seat": "Mario",
+      "stage": "profile",
+      "status": "pass",
+      "ms": 3648,
+      "tabs": [
+        "Profile",
+        "Wardrobe",
+        "House"
+      ],
+      "text": "YOUR NEIGHBOR\nLOADING 3D PORTRAIT…\nMario\n2 day streak\n\n“Dev is making progress. One small step closer!”\n\nHear them\n\nAI-generated voice\n\nIdle activity\n🏠 Chilling at Home\n🌱 Gardening\n💃 Dancing\n📖 Reading\n🍔 Grabbing Food\n🐕 Walking Pet\n\nEquip a pet in your wardrobe to choose Walking Pet.\n\nTHE COLLECTION\nVillager showcase\n\nA little personality, earned day by day.\n\nHEAD / HAT\nVillage Cap\nEquipped\nFACE / GLASSES\nEmpty slot\nTOP / JACKET\nEmpty slot\nNECK / SCARF\nEmpty slot\nDrag to rotate · Scroll or pinch to zoom · Double-click to reset\nPET\nEmpty slot\nVOICE STYLE\nNatural voice\nHOUSE\nHouse Level 3\nEquipped\nPHOTO ITEMS / EXTRA\nEmpty slot\nOwned items · choose an outfit\nEarn your next signature · 7 rewards\n\nNo custom photo items equipped.\n\nA PLACE TO CALL YOUR OWN\nHouse showcase\n\nLevel 3 · Mario’s home\n\nHouse Level 3\nEquipped\nDrag to rotate · Scroll or pinch to zoom · Double-click to reset\n\nNo decorations placed yet.\n\nLevel 1\n0 / 50 XP\nSettingsCustomize my avatar\nProfile\nWardrobe\nHouse\nTHIS WEEK’S GOAL\nRun 15 miles\n\nSmall daily updates; attach evidence when there is something to show.\n\n5 progress check-ins\n\nGoal: done\n\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nShare a little progress\nRECENT CHECK-INS\n↗ Progress\nToday\n\nDev is making progress. One small step closer!\n\n↗ Progress\nToday\n\nTwelve miles! Saving the last three for a victory lap after the demo.\n\n✓ Verified\nView evidence ↗\n↗ Progress\nYesterday\n\nTen miles banked. Five to go; my shoes have requested a meeting.\n\n↗ Progress\nOct 7\n\nSix miles total. Ran past the bakery twice for motivational reasons.\n\n↗ Progress\nOct 5\n\nThree easy miles. Easy is a strong word chosen by the running app.\n\nPAST GOALS\n✓\nRun 10 miles\n2026-09-28 · done\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑"
+    },
+    {
+      "seat": "Mario",
+      "stage": "wardrobe",
+      "status": "pass",
+      "ms": 9003,
+      "invalidDisabled": true,
+      "text": "Drag to rotate · Scroll or pinch to zoom · Double-click to reset\n\nYour collection. One item per slot.\n\n0\nXP\nTalking style\nNatural voice\n\n“One small win today. Your village is cheering you on!”\n\nPreview sample line\nAI-generated voice · generated only when you click\nVillage Cap\n\nHead · Equipped\n\nOwnedUnequipChoose colors\nHouse Level 2\n\nHouse · Owned\n\nOwnedEquip\nHouse Level 3\n\nHouse · Equipped\n\nOwnedUnequip"
+    },
+    {
+      "seat": "Mario",
+      "stage": "house",
+      "status": "pass",
+      "ms": 6872,
+      "model": "house_modern_lv3",
+      "text": "A home that feels like you\n\nChoose a shape, then make it your own.\n\nHouse style\nCottage\nModern\nA-frame\nTudor\nBeach\nTownhouse\nAuto style\n\nHouse level 3. All six styles are available.\n\n✓ Level 1\n✓ Level 2\n✓ Level 3\n🔒 Level 4\n🔒 Level 5\nReady-made palettes\nUse automatic palette\nPaint each part\nWall\nRoof\nTrim\nDoor\nAccent\nCustom wall hex\nApply hex\nSave house"
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "status": "pass",
+      "ms": 30512,
+      "states": [
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        },
+        {
+          "label": null,
+          "before": null,
+          "after": null
+        }
+      ],
+      "checkboxes": 1,
+      "text": "YOUR PROFILE & VOICE\n\nSettings\n\nMake yourself at home. Choose how you show up and stay in touch.\n\nProfile\nDisplay name\nIdle activity\n🏠 Chilling at Home\n🌱 Gardening\n💃 Dancing\n📖 Reading\n🍔 Grabbing Food\n🐕 Walking Pet\n\nEquip a pet in your wardrobe to choose Walking Pet.\n\nVillager-grams & voice\nFriends may use my avatar and AI voice for Villager-grams\n\nFriends can write short fictional lines in your avatar's voice. Every use appears in your village feed. Turn off and save to revoke permission and cancel queued grams.\n\nReceive Villager-grams on my phone\n\nUp to five per day. Both permissions are off by default.\n\nPhone (E.164)\n\nYour own number for opted-in Village iMessages. Leave blank to clear it.\n\nMy voice\n\nNo voice clone yet.\n\nRecord or upload 1–3 short memos of your own voice, up to 10 MiB each. Recordings stop after 60 seconds. Samples are sent to ElevenLabs only when you choose Create my voice.\n\nRecord a memo\nUpload voice memos\nI confirm these recordings are my own voice and consent to ElevenLabs cloning it for AI-generated speech in Village, including speech requested by village friends.\nConsent text version: village-voice-v1\nCreate my voice\nMessages\nMayor may text me\n\nGet village updates from the Mayor on your linked phone.\n\nRoast me\n\nLet the Mayor include playful roasts in your updates.\n\nSound\nSound on\n\nVillage effects and ambience. Sounds start after you interact.\n\nSound volume\n65%\n\nSound preferences save immediately on this device.\n\nReduced sound\n\nSilence effects and ambience. Your device's reduced motion preference also silences them.\n\nFace check\n\nOptional fun recognition, with no liveness check.\n\nRefresh my face check\nDanger zone\n\nPermanently remove your Village account, messages, progress and generated assets.\n\nType DELETE to confirm\nDelete my account"
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin",
+      "status": "pass",
+      "ms": 5018,
+      "text": "A MOMENT TO SHOW UP\n\nHow’s your little corner?\n\nBig wins, small steps, and everything in between.\n\n☀ Daily note\n+10 XP / day\n↗ Goal progress\n+25 XP\nWhat’s on your mind today?\n33 / 1000\nAdd a photo\nOptional · JPG, PNG, WebP · up to 5 MB\nShare check-in\n\nShowing up is the part that matters."
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal",
+      "status": "pass",
+      "ms": 4426,
+      "text": "YOUR WEEK, YOUR PACE\n\nMy goal\n\nPick something meaningful. Your village will cheer you on.\n\nThis week, I want to…\nWhat would a small win look like?\nSave my goal\n\n+20 XP for your first goal each week. Edits are always welcome."
+    },
+    {
+      "seat": "Mario",
+      "stage": "week",
+      "status": "pass",
+      "ms": 2928,
+      "text": "SMALL STEPS, FAIRLY CELEBRATED\n\nWeekly review\nGathering this week’s small wins..."
+    },
+    {
+      "seat": "Mario",
+      "stage": "accomplishments",
+      "status": "pass",
+      "ms": 2822,
+      "text": "SMALL WINS, SHARED JOY\n\nAccomplishments\n\nA little applause for the people growing beside you.\n\nLance\nGoal completed\n✦\n45 hours of Overwatch\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nGoal completed\n✦\nFinish a painting series\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMario\nGoal completed\n✦\nRun 15 miles\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMaya\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nIraj\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nBadge earned\n✦\nWeekly completion star\nOct 4, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\n♛\nStefanny\nGoal completed\n✦\nPaint three sunset studies\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMario\nGoal completed\n✦\nRun 10 miles\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nMaya\nGoal completed\n✦\nFinish two practice exams\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑\nIraj\nGoal completed\n✦\nPrototype the village\nSep 27, 2026\n🎉\n🔥\n👏\n💪\n❤️\n😂\n🤯\n👑"
+    },
+    {
+      "seat": "Mario",
+      "stage": "gazette",
+      "status": "pass",
+      "ms": 2869,
+      "text": "SMALL MOMENTS, WORTH PRINTING\n\nThe Village Gazette\n\nHacklanta Crew · Your neighborhood, in print\n\nThe Village Gazette\nOctober 10, 2026\nFoggy — Town Hall Misplaced The Horizon Again, But The Festival Lights Faintly Glow Through The Mist.\nTHE BIG LITTLE STORY\nFog Lifts, Barely — Village Creeps Forward Toward Finish Line\n\nThick fog descended on our village, but industrious villagers still checked in. Stefanny's nearly finished her painting series (titled 'Things I Painted Instead of Sleeping'), Maya aced a practice exam, Dev ran twelve miles, and Iraj survived a demo rehearsal with one bug left. Lance made progress but used an old gym screenshot. A wandering musician is offering harmony workshops by the old crater, the 'Touch Grass' challenge is active, and the movie-night crater remains. XP ticked toward the Ferris Wheel at level 5.\n\nCheck Ins\n\nStefanny's painting series is nearly complete! She cheekily named it 'Things I Painted Instead of Sleeping' and our auditor confirmed the evidence looks solid. A highly creative week for the village's resident artist.\n\nVisit Stefanny →\nCheck Ins\n\nMaya scored 82% on her practice exam and has volunteered to sit out the weekly prize while auditing her fellow villagers. A generous (and sharp-eyed) move from our temporary guild inspector.\n\nVisit Maya →\nCheck Ins\n\nDev smashed twelve miles this week, saving the last three for a victory lap after the demo. The auditor confirmed the evidence — strong work from Dev's running shoes.\n\nVisit Mario →\nCheck Ins\n\nIraj ran a successful demo rehearsal and is now hunting down one last bug. 'It knows I'm looking,' he said. The village has faith the bug will surrender before the final demo.\n\nVisit Iraj →\nCheck Ins\n\nLance is making progress toward his gym goal, though his latest screenshot raised eyebrows — the auditor spotted it was the same photo from his first visit. A gentle reminder: fresh evidence, please, Lance!\n\nVisit Lance →\nOver the garden fence\n\nHeard tell that Lance's tired battery photo has become a running joke in the gardening club — someone suggested he watermark his screenshots with the current date so future efforts aren't flagged.\n\nAI-generated · Model: deepseek/deepseek-v4-flash:gazette-v1\nPast issues\n2026-10-10 — Fog Lifts, Barely — Village Creeps Forward Toward Finish Line"
+    },
+    {
+      "seat": "Mario",
+      "stage": "mayor",
+      "status": "pass",
+      "ms": 2990,
+      "text": "KEEPER OF OUR LITTLE VILLAGE\n\nA word with the Mayor\n♛\n\nA village grows when its people do.\nWhat’s on your mind, neighbor?\n\nPray to the Mayor\nSend a little wish\nWeekly recap\nVillage journal\nWeekly recap\nThe Final Sprint Spectacular\n\n[AI Mayor] This week in the village was a glorious symphony of near-victories! **Iraj** wrestled his demo into submission, surviving rehearsals and leaving only one bug that knows it's being watched. **Lance** conquered leg day (stairs are now a paid expansion), and though his tummy hurt, he bravely hit gym visit three with a borrowed screenshot. **Stefanny** turned sleepless nights into a painting series titled *Things I Painted Instead of Sleeping*, and kept her crown on while washing brushes. **Maya** aced a practice exam at 82% and suspiciously calls her own flashcards 'legally unhelpful.' **Dev** (a.k.a. Mario) blazed through twelve of fifteen miles, his shoes now demanding a formal meeting after two bakery-motivated detours. The village hummed so well the AI Mayor simply said 'keep going' and everyone kept going!\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nPrayer response\nThe real treasure is in your own effort\n\n[AI Mayor] I hear you! While I can't sprinkle XP directly, you've already been earning it all week with your consistent check-ins and progress. Keep up that momentum, and the XP will follow naturally.\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nPrayer response\nThe final stretch – you've got this!\n\n[AI Mayor] Villagers, you're all so close to your goals that I can practically taste the finish line confetti. One last gentle push to cross that finish line with a smile.\n\nactive\nAI · deepseek/deepseek-v4-flash:v2\nShow 4 more\nBribe the Mayor\n\nA little XP, a hopeful wish. An event outcome is never guaranteed.\n\nSpend 0 XP - 0 available\nYour wish\nOffer XP\n\nReceipts from this session. Status is recorded at purchase; refreshed pending/consumed history is not available yet.\n\nAI Mayor messages are generated after your request."
+    },
+    {
+      "seat": "Mario",
+      "stage": "inbox",
+      "status": "pass",
+      "ms": 3087,
+      "text": "Conversation inspected; content intentionally omitted."
+    },
+    {
+      "seat": "Mario",
+      "stage": "compete",
+      "status": "pass",
+      "ms": 1761,
+      "text": "A LITTLE FRIENDLY MOTIVATION\n\nCompetitions\n\nAgree on the terms, opt in, and cheer each other on.\n\nCreate competition\nAll competitions\nOpen to join\nCurrent competitions\nh\nAI evidence + human auditor · open\nMinecraft hours\nFriendly · no XP or stakes · open\nStudy streak\nAI evidence + human auditor · open"
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop",
+      "status": "pass",
+      "ms": 2043,
+      "text": "MAKE YOURSELF AT HOME\n\nThe little shop\nFROM YOUR WORLD TO OURS\nMake it real\n\nTurn a photo into a wearable or a decoration for your home.\n\n0 photo tokens · One per creation. Failed jobs refund automatically.\n\nBuy photo token · 25 XP\nUpload photo\nTake a photo\nMake a\nWearable\n3D decoration\nWear it on\nTorso\nHead\nObject description (optional)\nI have permission to use this photo and consent to processing it.\nCreate\nVillager-gram\n\nA friend's fictional avatar greeting, sent over iMessage. 150 XP per gram. Three sends per day; five received.\n\nBuy Villager-gram · 150 XPSpeaker villager\nChoose an opted-in speaker\nFictional line\n\n0/140 · Kind, fictional lines only. No links, phone numbers or real-world claims.\n\nRecipient member\nChoose an opted-in recipient\n\nMissing someone? They must enable the relevant permission in Settings. Recipients must enter their own phone number.\n\nPreview gram\nOpening the shutters...\n\nOutfits equip immediately. Villager-grams are consumed when queued."
+    },
+    {
+      "seat": "Mario",
+      "stage": "village",
+      "status": "pass",
+      "ms": 2198,
+      "text": "Hacklanta Crew\n\nVillage growth\nLevel 5\n7,005 collective XP\n\n995 XP to the next level\n\n☀ fog · night\n\nOur buildings\n✦\nGarden\nUnlocked\n✦\nFestival Lights\nUnlocked\n✦\nPet Shelter\nUnlocked\n✦\nFerris Wheel\nUnlocked\nGrowing toward\nLake Bridge\n995 XP needed\n\nLATEST FROM THE MAYOR\n\nSwan Song Serenade\n\n[AI Mayor] A wandering musician has set up camp by the crater! She's offering a free harmony workshop for any pair of villagers willing to learn a duet. Join up and earn a little XP... or just hum along from a safe distance.\n\nOur group photo\nRefresh village"
+    },
+    {
+      "seat": "Mario",
+      "stage": "debug",
+      "status": "pass",
+      "ms": 2586,
+      "text": "Demo rehearsal\n\nDebug · Mario\n\nActions affect this seat. Events, weather and village reset affect everyone.\n\nReason\nStart as a new person\nRemove guest users\n+100 XP\n+500 XP\n+2000 XP\nClear my inventory\nReset my week\nMark my goal done\nRandom Mayor event\nToggle festival night\nReset whole demo village"
+    },
+    {
+      "seat": "Mario",
+      "stage": "seat-persistence",
+      "status": "pass",
+      "ms": 1939,
+      "pickerVisible": false
+    }
+  ],
+  "network": [
+    {
+      "seat": "Iraj",
+      "stage": "profile",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1267
+    },
+    {
+      "seat": "Iraj",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1078
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1033
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1001
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 1005
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1364
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 1370
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2051
+    },
+    {
+      "seat": "Iraj",
+      "stage": "village",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3006
+    },
+    {
+      "seat": "Iraj",
+      "stage": "seat-persistence",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/stream",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1012
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/stream",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "seat": "Lance",
+      "stage": "profile",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1167
+    },
+    {
+      "seat": "Lance",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1014
+    },
+    {
+      "seat": "Lance",
+      "stage": "gazette",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1230
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 1103
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2027
+    },
+    {
+      "seat": "Lance",
+      "stage": "village",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3300
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat-persistence",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/stream",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "seat",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/stream",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1516
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "checkin",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1250
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "gazette",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2018
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1023
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1415
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1982
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "seat-persistence",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/stream",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "seat": "Maya",
+      "stage": "seat",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1311
+    },
+    {
+      "seat": "Maya",
+      "stage": "seat",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/stream",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "seat": "Maya",
+      "stage": "profile",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1918
+    },
+    {
+      "seat": "Maya",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2389
+    },
+    {
+      "seat": "Maya",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 2320
+    },
+    {
+      "seat": "Maya",
+      "stage": "house",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 1189
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 1565
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1730
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1745
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1913
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1770
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3610
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings",
+      "method": "POST",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 1113
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/messages/unread",
+      "status": 200,
+      "ms": 1116
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1119
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 5283
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2083
+    },
+    {
+      "seat": "Maya",
+      "stage": "goal",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2353
+    },
+    {
+      "seat": "Maya",
+      "stage": "week",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 2822
+    },
+    {
+      "seat": "Maya",
+      "stage": "week",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 1885
+    },
+    {
+      "seat": "Maya",
+      "stage": "week",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1886
+    },
+    {
+      "seat": "Maya",
+      "stage": "week",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 1889
+    },
+    {
+      "seat": "Maya",
+      "stage": "week",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 2169
+    },
+    {
+      "seat": "Maya",
+      "stage": "week",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2807
+    },
+    {
+      "seat": "Maya",
+      "stage": "accomplishments",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 4002
+    },
+    {
+      "seat": "Maya",
+      "stage": "gazette",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1293
+    },
+    {
+      "seat": "Maya",
+      "stage": "mayor",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 7075
+    },
+    {
+      "seat": "Maya",
+      "stage": "mayor",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 2830
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1134
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/shop",
+      "status": 200,
+      "ms": 2171
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 2177
+    },
+    {
+      "seat": "Maya",
+      "stage": "village",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 4722
+    },
+    {
+      "seat": "Maya",
+      "stage": "village",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 7811
+    },
+    {
+      "seat": "Maya",
+      "stage": "debug",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 4971
+    },
+    {
+      "seat": "Maya",
+      "stage": "seat-persistence",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/stream",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "seat": "Maya",
+      "stage": "seat-persistence",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1093
+    },
+    {
+      "seat": "Mario",
+      "stage": "seat",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1220
+    },
+    {
+      "seat": "Mario",
+      "stage": "seat",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 7407
+    },
+    {
+      "seat": "Mario",
+      "stage": "seat",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/stream",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "seat": "Mario",
+      "stage": "map",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 5587
+    },
+    {
+      "seat": "Mario",
+      "stage": "map",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 4559
+    },
+    {
+      "seat": "Mario",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/shop",
+      "status": 200,
+      "ms": 1205
+    },
+    {
+      "seat": "Mario",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1220
+    },
+    {
+      "seat": "Mario",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3029
+    },
+    {
+      "seat": "Mario",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 1680
+    },
+    {
+      "seat": "Mario",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1018
+    },
+    {
+      "seat": "Mario",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 1021
+    },
+    {
+      "seat": "Mario",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1294
+    },
+    {
+      "seat": "Mario",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1517
+    },
+    {
+      "seat": "Mario",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 1329
+    },
+    {
+      "seat": "Mario",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1683
+    },
+    {
+      "seat": "Mario",
+      "stage": "wardrobe",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1718
+    },
+    {
+      "seat": "Mario",
+      "stage": "house",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3219
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1041
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2738
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 6137
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 4600
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1552
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 2138
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 2698
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2865
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 2767
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 2773
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 3342
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/messages/unread",
+      "status": 200,
+      "ms": 1903
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "POST",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 1904
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 7632
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2158
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 6347
+    },
+    {
+      "seat": "Mario",
+      "stage": "week",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 1385
+    },
+    {
+      "seat": "Mario",
+      "stage": "week",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 1746
+    },
+    {
+      "seat": "Mario",
+      "stage": "week",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 1747
+    },
+    {
+      "seat": "Mario",
+      "stage": "week",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1748
+    },
+    {
+      "seat": "Mario",
+      "stage": "week",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1749
+    },
+    {
+      "seat": "Mario",
+      "stage": "week",
+      "method": "POST",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 1753
+    },
+    {
+      "seat": "Mario",
+      "stage": "week",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1760
+    },
+    {
+      "seat": "Mario",
+      "stage": "accomplishments",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1004
+    },
+    {
+      "seat": "Mario",
+      "stage": "accomplishments",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1914
+    },
+    {
+      "seat": "Mario",
+      "stage": "inbox",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2395
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/shop",
+      "status": 200,
+      "ms": 1635
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop",
+      "method": "POST",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 1637
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop",
+      "method": "POST",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 1022
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/messages/unread",
+      "status": 200,
+      "ms": 1026
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2006
+    },
+    {
+      "seat": "Mario",
+      "stage": "village",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3540
+    },
+    {
+      "seat": "Mario",
+      "stage": "village",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 5480
+    },
+    {
+      "seat": "Mario",
+      "stage": "debug",
+      "method": "GET",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1404
+    },
+    {
+      "seat": "Mario",
+      "stage": "seat-persistence",
+      "url": "http://127.0.0.1:4173/api/villages/13370000-0000-4000-8000-000000000000/presence/stream",
+      "failure": "net::ERR_ABORTED"
+    }
+  ],
+  "console": [
+    {
+      "seat": "Iraj",
+      "stage": "seat",
+      "type": "warning",
+      "text": "[.WebGL-0x2dec02b1b800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "seat",
+      "type": "warning",
+      "text": "[.WebGL-0x2dec02b1b800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "seat",
+      "type": "warning",
+      "text": "[.WebGL-0x2dec02b1b800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "seat",
+      "type": "warning",
+      "text": "[.WebGL-0x2dec02b1b800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "profile",
+      "type": "warning",
+      "text": "WARNING: Multiple instances of Three.js being imported."
+    },
+    {
+      "seat": "Lance",
+      "stage": "profile",
+      "type": "warning",
+      "text": "WARNING: Multiple instances of Three.js being imported."
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "profile",
+      "type": "warning",
+      "text": "WARNING: Multiple instances of Three.js being imported."
+    },
+    {
+      "seat": "Maya",
+      "stage": "profile",
+      "type": "warning",
+      "text": "WARNING: Multiple instances of Three.js being imported."
+    },
+    {
+      "seat": "Mario",
+      "stage": "profile",
+      "type": "warning",
+      "text": "WARNING: Multiple instances of Three.js being imported."
+    }
+  ],
+  "blocked": [],
+  "browser": "145.0.7632.6"
+}

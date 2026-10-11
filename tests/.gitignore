@@ -1,0 +1,7 @@
+.runtime/
+__pycache__/
+test-results/
+node_modules/
+playwright-report/
+.venv/
+tests/artifacts/

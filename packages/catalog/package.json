@@ -1,0 +1,13 @@
+{
+  "name": "@village/catalog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "bun validate.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "ajv": "8.17.1",
+    "json-schema-to-typescript": "15.0.4"
+  }
+}

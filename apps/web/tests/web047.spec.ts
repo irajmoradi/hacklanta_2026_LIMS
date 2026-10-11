@@ -1,0 +1,115 @@
+import { test, expect, type Locator, type Page } from '@playwright/test';
+import { useDemoSeat } from './demoSeat';
+useDemoSeat();
+async function inView(locator: Locator, page: Page) {
+  const box = await locator.boundingBox();
+  expect(box).not.toBeNull();
+  expect(box!.y).toBeGreaterThanOrEqual(0);
+  expect(box!.y + box!.height).toBeLessThanOrEqual(page.viewportSize()!.height + 1);
+}
+async function profile(page: Page) {
+  return page.evaluate(async () => {
+    const {api} = await import('/src/api/client.ts' as string);
+    const me = await api.me(); return (await api.profile(me.villages[0].id, api.user)).villager;
+  });
+}
+async function outfit(page: Page) {
+  await page.getByRole('tab',{name:'Outfit',exact:true}).click();
+  await page.getByRole('region',{name:'Owned items',exact:true}).locator('[data-item-id="outfit_hoodie"]').click();
+  await page.getByRole('button',{name:'Choose colors',exact:true}).click();
+}
+test('pinned previews, immediate colors, save and Escape cancellation', async ({page}, info) => {
+  const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));
+  await page.goto('/');
+  // Seed only the in-memory mock collection with a known recolorable item.
+  await page.evaluate(async () => {
+    const {api} = await import('/src/api/client.ts' as string); const me = await api.me();
+    const vid=me.villages[0].id; const shop=await api.shop(vid);
+    if (!shop.items.find((i:{id:string})=>i.id==='outfit_hoodie').owned) await api.buy(vid,'outfit_hoodie');
+    await api.buy(vid,'house_backyard'); await api.unequip(vid,'house_backyard');
+  });
+  await page.getByRole('button',{name:'My profile',exact:true}).click();
+  await outfit(page);
+  const dialog=page.locator('.preview-editor');
+  await expect(dialog.locator('canvas')).toHaveAttribute('data-rendered','true');
+  await page.evaluate(async()=>{ (window as any).web047 = await import('/tests/web047Scene.ts' as string); });
+  await dialog.getByRole('button',{name:'Twilight',exact:true}).click();
+  await expect.poll(()=>page.evaluate(()=> (window as any).web047.colors())).toContain('#557ca7');
+  const ms=await page.evaluate(()=> (window as any).web047.changeAndMeasure('.preview-editor [aria-label="Use #689b68"]','#689b68'));
+  console.log(`${info.project.name} color preview: ${ms.toFixed(1)}ms`);
+  expect.soft(ms).toBeLessThan(100);
+  await dialog.locator('.editor-scroll').evaluate(el=>el.scrollTop=el.scrollHeight);
+  expect(await dialog.evaluate(el=>el.scrollWidth<=el.clientWidth)).toBe(true);
+  await inView(dialog.locator('canvas'),page);
+  await inView(dialog.getByRole('button',{name:'Save colors',exact:true}),page);
+  await inView(dialog.getByRole('button',{name:'Cancel colors',exact:true}),page);
+  await page.screenshot({path:`artifacts/web047/${info.project.name}-outfit-after.png`});
+  const original=(await profile(page)).equipped.find((i:{item_id:string})=>i.item_id==='outfit_hoodie')?.colors;
+  await page.keyboard.press('Escape'); await expect(dialog).toHaveCount(0);
+  expect((await profile(page)).equipped.find((i:{item_id:string})=>i.item_id==='outfit_hoodie')?.colors).toEqual(original);
+  await page.getByRole('button',{name:'Choose colors',exact:true}).click();
+  await dialog.getByRole('button',{name:'Twilight',exact:true}).click();
+  await dialog.getByRole('button',{name:'Save colors',exact:true}).click();
+  await expect(dialog).toHaveCount(0);
+  expect((await profile(page)).equipped.find((i:{item_id:string})=>i.item_id==='outfit_hoodie')?.colors.primary).toBe('#557ca7');
+  await page.getByRole('tab',{name:'House',exact:true}).click();
+  await page.getByRole('button',{name:'Edit my house',exact:true}).click();
+  await dialog.getByRole('button',{name:'Beach',exact:true}).click();
+  await dialog.getByRole('button',{name:'Paint wall #487d6b',exact:true}).click();
+  await expect(dialog.locator('.house-preview')).toHaveAttribute('data-colors', /"wall":"#487d6b"/);
+  await expect.poll(()=>page.evaluate(()=> (window as any).web047.colors())).toContain('#487d6b');
+  expect(await dialog.evaluate(el=>el.scrollWidth<=el.clientWidth)).toBe(true);
+  await inView(dialog.locator('canvas'),page);
+  await inView(dialog.getByRole('button',{name:'Save house',exact:true}),page);
+  await inView(dialog.getByRole('button',{name:'Cancel house',exact:true}),page);
+  await page.screenshot({path:`artifacts/web047/${info.project.name}-house-after.png`});
+  await dialog.getByRole('button',{name:'Save house',exact:true}).click();
+  await expect.poll(async () => (await profile(page)).house_colors.wall).toBe('#487d6b');
+  await dialog.getByRole('button',{name:'Paint wall #69566b',exact:true}).click();
+  await page.keyboard.press('Escape'); await expect(dialog).toHaveCount(0);
+  expect((await profile(page)).house_colors.wall).toBe('#487d6b');
+  await page.getByRole('button',{name:'Edit my house',exact:true}).click();
+  await expect(dialog.locator('.house-preview')).toHaveAttribute('data-colors', /"wall":"#487d6b"/);
+  await dialog.getByRole('button',{name:'Cancel house',exact:true}).click();
+  const decorTile=page.getByRole('region',{name:'Owned house items',exact:true}).locator('[data-item-id="house_backyard"]');
+  await decorTile.click();
+  await expect(dialog.getByRole('img',{name:/House turntable/})).toBeVisible();
+  await inView(dialog.getByRole('button',{name:'Save house item',exact:true}),page);
+  expect((await profile(page)).equipped_ids).not.toContain('house_backyard');
+  await page.screenshot({path:`artifacts/web047/${info.project.name}-exterior-decor-after.png`});
+  await page.keyboard.press('Escape'); await expect(dialog).toHaveCount(0);
+  await decorTile.click();
+  await dialog.getByRole('button',{name:'Save house item',exact:true}).click();
+  await expect(dialog).toHaveCount(0);
+  expect((await profile(page)).equipped_ids).not.toContain('house_backyard');
+  await page.getByRole('region',{name:'House showcase',exact:true}).getByRole('button',{name:'Save decor',exact:true}).click();
+  await expect.poll(async () => (await profile(page)).equipped_ids).toContain('house_backyard');
+  await page.getByRole('button',{name:'Go inside',exact:true}).click();
+  const room=page.locator('.interior-dialog');
+  await room.getByRole('button',{name:'Decorate',exact:true}).click();
+  await room.getByRole('button',{name:'Place Armchair',exact:true}).click();
+  await room.getByText('Room inventory',{exact:true}).click();
+  await expect(room.locator('[data-testid^="position-armchair_"]')).toBeVisible();
+  const sofa=room.getByTestId('position-sofa');
+  await expect(sofa).toHaveAttribute('data-x','-2');
+  const before=await page.evaluate(()=>localStorage.getItem('village-interior:00000000-0000-4000-8000-000000000001'));
+  await room.getByRole('button',{name:'Move sofa right',exact:true}).click();
+  await expect(sofa).toHaveAttribute('data-x','-1.75');
+  expect(await page.evaluate(()=>localStorage.getItem('village-interior:00000000-0000-4000-8000-000000000001'))).toBe(before);
+  await room.locator('.interior-scroll').evaluate(el=>el.scrollTop=el.scrollHeight);
+  await inView(room.locator('canvas'),page);
+  await inView(room.getByRole('button',{name:'Save decor',exact:true}),page);
+  await inView(room.getByRole('button',{name:'Cancel decor',exact:true}),page);
+  await page.screenshot({path:`artifacts/web047/${info.project.name}-interior-after.png`});
+  await page.keyboard.press('Escape'); await expect(room).toBeVisible();
+  await expect(sofa).toHaveAttribute('data-x','-2');
+  await expect(room.locator('[data-testid^="position-armchair_"]')).toHaveCount(0);
+  await room.getByRole('button',{name:'Decorate',exact:true}).click();
+  await room.getByRole('button',{name:'Move sofa right',exact:true}).click();
+  await room.getByRole('button',{name:'Save decor',exact:true}).click();
+  await expect(sofa).toHaveAttribute('data-x','-1.75');
+  const saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('village-interior:00000000-0000-4000-8000-000000000001')!));
+  expect(saved.find((i:{item_id:string})=>i.item_id==='sofa').x).toBe(-1.75);
+  await page.keyboard.press('Escape');await expect(room).toHaveCount(0);
+  expect(errors).toEqual([]);
+});

@@ -1,0 +1,113 @@
+{
+  "5": {
+    "village": {
+      "p50_ms": 110.39,
+      "p95_ms": 232.61,
+      "bytes": 6030
+    },
+    "feed": {
+      "p50_ms": 13.43,
+      "p95_ms": 16.75,
+      "bytes": 18650
+    },
+    "week_review": {
+      "p50_ms": 12.2,
+      "p95_ms": 16.03,
+      "bytes": 2158
+    },
+    "profile": {
+      "p50_ms": 63.46,
+      "p95_ms": 79.67,
+      "bytes": 10904
+    },
+    "presence": {
+      "p50_ms": 4.44,
+      "p95_ms": 4.88,
+      "bytes": 437
+    },
+    "gazette": {
+      "p50_ms": 5.17,
+      "p95_ms": 7.93,
+      "bytes": 335
+    },
+    "competitions": {
+      "p50_ms": 5.92,
+      "p95_ms": 8.18,
+      "bytes": 1625
+    }
+  },
+  "25": {
+    "village": {
+      "p50_ms": 106.58,
+      "p95_ms": 203.44,
+      "bytes": 27145
+    },
+    "feed": {
+      "p50_ms": 12.6,
+      "p95_ms": 14.78,
+      "bytes": 18167
+    },
+    "week_review": {
+      "p50_ms": 15.45,
+      "p95_ms": 18.22,
+      "bytes": 9708
+    },
+    "profile": {
+      "p50_ms": 63.02,
+      "p95_ms": 80.36,
+      "bytes": 10906
+    },
+    "presence": {
+      "p50_ms": 4.71,
+      "p95_ms": 7.08,
+      "bytes": 2137
+    },
+    "gazette": {
+      "p50_ms": 5.7,
+      "p95_ms": 8.54,
+      "bytes": 335
+    },
+    "competitions": {
+      "p50_ms": 5.05,
+      "p95_ms": 7.5,
+      "bytes": 1625
+    }
+  },
+  "100": {
+    "village": {
+      "p50_ms": 147.51,
+      "p95_ms": 248.3,
+      "bytes": 106717
+    },
+    "feed": {
+      "p50_ms": 16.52,
+      "p95_ms": 20.1,
+      "bytes": 17842
+    },
+    "week_review": {
+      "p50_ms": 20.24,
+      "p95_ms": 29.86,
+      "bytes": 38023
+    },
+    "profile": {
+      "p50_ms": 52.2,
+      "p95_ms": 65.85,
+      "bytes": 10922
+    },
+    "presence": {
+      "p50_ms": 6.16,
+      "p95_ms": 8.2,
+      "bytes": 8512
+    },
+    "gazette": {
+      "p50_ms": 4.47,
+      "p95_ms": 5.88,
+      "bytes": 335
+    },
+    "competitions": {
+      "p50_ms": 5.74,
+      "p95_ms": 8.17,
+      "bytes": 1625
+    }
+  }
+}

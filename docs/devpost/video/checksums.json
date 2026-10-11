@@ -1,0 +1,70 @@
+{
+  "village-demo-v3.webm": {
+    "sha256": "7af188a5091a47d5ed1af31d95534672a523a1f34e1da1d9373cd65a2c2b9c0f",
+    "bytes": 39829690
+  },
+  "village-demo-v3.mp4": {
+    "sha256": "c2a26ab84d9999625aa2277a4ca7e7e54967e1cbf3c2601243789b2f6972f4de",
+    "bytes": 9707203
+  },
+  "village-highlight-10s.mp4": {
+    "sha256": "848eb204f8903ede95e9af3e5bffb34327128372d489a65e0719cb8cde34d080",
+    "bytes": 1020944
+  },
+  "capture.json": {
+    "sha256": "4115a91736a8a8b65263b5741d6d301870468bd890dc05b41d1e9be4059dfe05",
+    "bytes": 2462
+  },
+  "verification.json": {
+    "sha256": "4004d2f855ef16a9f34381eb0ac4b9ecbf3066fabee347f285d2b32145a40305",
+    "bytes": 552
+  },
+  "assembly.json": {
+    "sha256": "9d2441a0a70b1766a799f88a28348ff6e813f0c48d67a7bf79a54e55061bca3f",
+    "bytes": 1184
+  },
+  "contact-sheet.jpg": {
+    "sha256": "d5ec7bc6e1df204968596fc3a2abe3bba61f53a1cc0f1bd37344d1d196958932",
+    "bytes": 185111
+  },
+  "frame-010.png": {
+    "sha256": "a3207ef5039ac90b36bbb55cb30d38bd97ea3aff66cac40737727d564837d0ac",
+    "bytes": 1229046
+  },
+  "frame-025.png": {
+    "sha256": "3f4f2ad38da41e21afffe6b633560cbf85c0e9b8e12f8046652c81f02fb2e7eb",
+    "bytes": 765649
+  },
+  "frame-050.png": {
+    "sha256": "53c28af71d6f4e3a28219f27826a276e1ac49e99fbcc1f962f4ec282c8b0a34e",
+    "bytes": 1099841
+  },
+  "frame-065.png": {
+    "sha256": "8d19cdd49394c085957f3c5b1a093ea6d0bf4347e673470f64cedb333ffbf152",
+    "bytes": 702115
+  },
+  "frame-085.png": {
+    "sha256": "936db76bac21a109fa3967eb5177377ef2d8259556054e378d6b16ba0a436edc",
+    "bytes": 929002
+  },
+  "frame-092.png": {
+    "sha256": "5166174cd7927a65952913c2eb60e3147f2649dafb7b7710328fe943864c652b",
+    "bytes": 732154
+  },
+  "frame-110.png": {
+    "sha256": "95e59f073eb203722a33f4316d0b6c0404e62f923223e924462d1b140f36f972",
+    "bytes": 841536
+  },
+  "frame-130.png": {
+    "sha256": "6b2890a05d9f3105730a54b91401084126d3dcd1ef13fc7707538df65db33bd0",
+    "bytes": 776759
+  },
+  "frame-140.png": {
+    "sha256": "45b67bb944b1d3f88ce55a1d3cab36dfff53cff5d1f3e1016e95fc2519075407",
+    "bytes": 832361
+  },
+  "frame-148.png": {
+    "sha256": "2f0bbe3f62bbeb227b319c1e8868454f608c5e88d04ffefa6b02b7ee4cfcfd0b",
+    "bytes": 1316436
+  }
+}

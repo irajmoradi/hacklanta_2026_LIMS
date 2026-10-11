@@ -1,0 +1,24 @@
+import assert from 'node:assert/strict';
+import { readFile, readdir, stat } from 'node:fs/promises';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+const out=resolve(dirname(fileURLToPath(import.meta.url)),'../../docs/submission/video/data/demo');
+const capture=JSON.parse(await readFile(out+'/v2-capture.json','utf8'));
+const verify=JSON.parse(await readFile(out+'/v2-verification.json','utf8'));
+const budget=JSON.parse(await readFile(out+'/v2-budget.json','utf8'));
+assert.equal(capture.shots.length,21);
+assert.equal(verify.outputs.length,2);
+assert.equal((await readdir(out+'/v2_stills')).filter(n=>n.endsWith('.png')).length,10);
+for(const f of verify.outputs){assert.equal(f.resolution,'1920x1080');assert.equal(f.decodeExit,0);assert.ok(f.frames>3700);assert.ok(f.audioPeakDb > -70);assert.ok((await stat(f.file)).size>1000000);}
+assert.ok(verify.outputs[0].durationSeconds>=180&&verify.outputs[0].durationSeconds<=210);
+assert.ok(Math.abs(verify.outputs[1].durationSeconds-150)<.1);
+assert.ok(budget.voice<=2&&budget.prayer+budget.suggestion<=2);
+assert.equal(budget.bribe,1);assert.equal(budget.equip,2);
+assert.ok(capture.mayorText?.length>20);assert.ok(capture.bribeText?.length>20);
+assert.ok(capture.walletText?.includes('DEVNET'));
+assert.ok(capture.artifacts.some((p:string)=>p.includes('cv006')));
+assert.ok(capture.artifacts.some((p:string)=>p.includes('/group/')));
+assert.ok(verify.audioClips>0);
+const shotFailures=capture.shots.filter((s:any)=>s.failure&&!verify.pickups.some((p:any)=>p.replaces===s.name));
+assert.equal(shotFailures.length,0,JSON.stringify(shotFailures));
+console.log(JSON.stringify({result:'PASS',outputs:verify.outputs,budget,knownBrowserIssues:[...new Set(capture.failures)],limitations:capture.limitations},null,2));

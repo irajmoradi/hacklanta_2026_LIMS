@@ -1,0 +1,218 @@
+[
+  {
+    "file": "day_birds_breeze.ogg",
+    "lufs": -17.98,
+    "peak": -3.12,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.060675788670778275,
+    "maxStep": 0.5146170407533646
+  },
+  {
+    "file": "day_birds_breeze.mp3",
+    "lufs": -17.98,
+    "peak": -3.29,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.09006806463003159,
+    "maxStep": 0.5144197642803192
+  },
+  {
+    "file": "village_life_distant.ogg",
+    "lufs": -18,
+    "peak": -2.62,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.00007645925506949425,
+    "maxStep": 0.6904570534825325
+  },
+  {
+    "file": "village_life_distant.mp3",
+    "lufs": -17.97,
+    "peak": -2.5,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.00009047798812389374,
+    "maxStep": 0.7048538774251938
+  },
+  {
+    "file": "fountain_trickle.ogg",
+    "lufs": -17.99,
+    "peak": -0.45,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.002293391153216362,
+    "maxStep": 0.9582168459892273
+  },
+  {
+    "file": "fountain_trickle.mp3",
+    "lufs": -18,
+    "peak": -0.83,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.02456153742969036,
+    "maxStep": 0.9962855875492096
+  },
+  {
+    "file": "creek_babble.ogg",
+    "lufs": -17.98,
+    "peak": -1.25,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.03502892190590501,
+    "maxStep": 0.7673590332269669
+  },
+  {
+    "file": "creek_babble.mp3",
+    "lufs": -18,
+    "peak": -1.52,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.040407725144177675,
+    "maxStep": 0.7756657004356384
+  },
+  {
+    "file": "night_soft.ogg",
+    "lufs": -22,
+    "peak": -7.29,
+    "target": -22,
+    "duration": 20,
+    "seamStep": 0.016242176294326782,
+    "maxStep": 0.3064012974500656
+  },
+  {
+    "file": "night_soft.mp3",
+    "lufs": -22,
+    "peak": -7.36,
+    "target": -22,
+    "duration": 20,
+    "seamStep": 0.03349980711936951,
+    "maxStep": 0.3162475526332855
+  },
+  {
+    "file": "rain_soft.ogg",
+    "lufs": -18,
+    "peak": -1.31,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.07610962353646755,
+    "maxStep": 0.9383265972137451
+  },
+  {
+    "file": "rain_soft.mp3",
+    "lufs": -18,
+    "peak": -1.7,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.05745993182063103,
+    "maxStep": 0.9566113948822021
+  },
+  {
+    "file": "wind_gust_light.ogg",
+    "lufs": -18.14,
+    "peak": -1.87,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.10594041552394629,
+    "maxStep": 0.8154529333114624
+  },
+  {
+    "file": "wind_gust_light.mp3",
+    "lufs": -18.11,
+    "peak": -1.91,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.1371817933395505,
+    "maxStep": 0.8419806659221649
+  },
+  {
+    "file": "arena_crowd_murmur.ogg",
+    "lufs": -18.04,
+    "peak": -1.87,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.012020304799079895,
+    "maxStep": 0.06405262649059296
+  },
+  {
+    "file": "arena_crowd_murmur.mp3",
+    "lufs": -18,
+    "peak": -1.96,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.019407495856285095,
+    "maxStep": 0.06924065947532654
+  },
+  {
+    "file": "market_bustle_light.ogg",
+    "lufs": -17.91,
+    "peak": -1.68,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.06755965948104858,
+    "maxStep": 0.5626733303070068
+  },
+  {
+    "file": "market_bustle_light.mp3",
+    "lufs": -18,
+    "peak": -2.02,
+    "target": -18,
+    "duration": 20,
+    "seamStep": 0.05718645453453064,
+    "maxStep": 0.559575617313385
+  },
+  {
+    "file": "bird_chirp_1.ogg",
+    "lufs": -14.07,
+    "peak": -0.85,
+    "target": -14,
+    "duration": 3,
+    "seamStep": 0.0000016976671304291813,
+    "maxStep": 0.5847561359405518
+  },
+  {
+    "file": "bird_chirp_1.mp3",
+    "lufs": -14.02,
+    "peak": -1.47,
+    "target": -14,
+    "duration": 3,
+    "seamStep": 0.000012760863683070056,
+    "maxStep": 0.5770978331565857
+  },
+  {
+    "file": "bird_chirp_2.ogg",
+    "lufs": -14.06,
+    "peak": -2.34,
+    "target": -14,
+    "duration": 3,
+    "seamStep": 0.0000024881169338186737,
+    "maxStep": 0.43778957426548004
+  },
+  {
+    "file": "bird_chirp_2.mp3",
+    "lufs": -14.26,
+    "peak": -2.36,
+    "target": -14,
+    "duration": 3,
+    "seamStep": 0.00001389549449137828,
+    "maxStep": 0.4504377990961075
+  },
+  {
+    "file": "distant_dog.ogg",
+    "lufs": -14.07,
+    "peak": -2.25,
+    "target": -14,
+    "duration": 3,
+    "seamStep": 0.000015576277291984297,
+    "maxStep": 0.23540093004703522
+  },
+  {
+    "file": "distant_dog.mp3",
+    "lufs": -13.99,
+    "peak": -2.52,
+    "target": -14,
+    "duration": 3,
+    "seamStep": 0.00009597073949407786,
+    "maxStep": 0.25249186158180237
+  }
+]

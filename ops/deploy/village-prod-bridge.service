@@ -1,0 +1,23 @@
+[Unit]
+Description=Village production CPU bridge to Modal (opt in)
+After=network.target village-prod-api.service
+ConditionPathExists=/etc/village/prod.env
+
+[Service]
+User=village-prod
+Group=village-prod
+WorkingDirectory=/opt/village/prod-current
+EnvironmentFile=/etc/village/prod.env
+Environment=VILLAGE_ENV_FILE=/dev/null
+ExecStart=/opt/village/prod-current/apps/api/.venv/bin/python workers/gpu/bridge.py
+Restart=on-failure
+RestartSec=10
+TimeoutStopSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/village-prod/assets
+
+[Install]
+WantedBy=multi-user.target

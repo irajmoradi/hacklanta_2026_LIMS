@@ -1,0 +1,20 @@
+# Local ASSET-008 render diagnostics and browser-run scratch output.
+round2-*.log
+previews/round2-test-results/
+# Reproducible ASSET-009 intermediate renders and local command output.
+/*_009.log
+/previews/pack_009/
+
+# Reproducible ASSET-010 scratch output.
+/*_010.log
+/previews/tests_010/
+/test-results/
+/previews/colosseum_walkthrough.webm
+
+# ASSET-011 reproducible render intermediates and diagnostics.
+/*_011.log
+/previews/palette_011/
+
+# ASSET-012 reproducible local diagnostics and contact-sheet source renders.
+/*_012.log
+/previews/patio_012/

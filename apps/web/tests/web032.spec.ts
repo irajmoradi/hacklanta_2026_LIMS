@@ -1,0 +1,73 @@
+import {expect, test} from '@playwright/test';
+import {useDemoSeat} from './demoSeat';
+useDemoSeat();
+
+test('WEB-032 public trophies and shared grouped activity', async ({page}) => {
+ const errors: string[] = []; page.on('pageerror',e => errors.push(e.message));
+ await page.goto('/');
+ await expect(page.getByRole('button',{name:'My profile',exact:true})).toBeVisible();
+ // Deterministic synthetic data on the existing mock API, no real photos or provider calls.
+ await page.evaluate(async () => {
+  const {api} = await import('/src/api/client.ts' as string);
+  const fixtures = await import('/src/api/fixtures.ts' as string);
+  const source = fixtures.makeFixtures();
+  const neighbor = source.village.villagers.find((p: any) => p.display_name === 'Stefanny');
+  neighbor.streak_days = 5;
+  neighbor.equipped_ids = ['mayor_medal'];
+  neighbor.equipped = [{item_id:'mayor_medal',slot:'neck',asset_key:'mayor_medal',acquired_at:'2026-10-01T12:00:00Z'}];
+  neighbor.status_line = 'A little progress every day.';
+  const profile = source.profiles[neighbor.user_id];
+  const now = new Date().toISOString();
+  const rows = ['Goat Kid','Duckling','House Paddock'].map((name, i) => ({id:`purchase-${i}`,user_id:neighbor.user_id,type:'purchase',created_at:now,text:`Stefanny bought ${name}.`,payload:{name,item_id:['goat_kid','duckling','house_paddock'][i]},reactions:[]}));
+  rows.push({id:'goal-test',user_id:neighbor.user_id,type:'goal_set',created_at:now,text:'Stefanny set a weekly goal: Walk every day',payload:{name:'',item_id:''},reactions:[{emoji:'👏',count:2,mine:false}]} as any);
+  rows.push({id:'qa-test',user_id:neighbor.user_id,type:'checkin',created_at:now,text:'Stefanny checked in: QA-hidden',payload:{body:'QA-hidden'},reactions:[]} as any);
+  for (let i = 0; i < 4; i++) rows.push({id:`extra-${i}`,user_id:source.village.villagers[i % 2].user_id,type:'goal_set',created_at:now,text:'A neighbor set a weekly goal',payload:{},reactions:[]} as any);
+  const request = api.request.bind(api);
+  api.request = async (method: string, path: string, body: unknown) => {
+   if (method === 'GET' && path.includes('/feed?')) return rows;
+   if (method === 'GET' && path.endsWith(`/users/${neighbor.user_id}`)) return profile;
+   return request(method,path,body);
+  };
+ });
+ await page.getByTestId('villager-Stefanny').click();
+ await page.getByRole('tab',{name:'Rewards',exact:true}).click();
+ await expect(page.getByRole('heading',{name:"Stefanny's trophies"})).toBeVisible();
+ const earned = page.getByRole('region',{name:'Earned rewards',exact:true});
+ await expect(earned.locator('.reward-card')).toHaveCount(1);
+ await expect(earned).toContainText('Mayor’s Medal');
+ await expect(earned).toContainText('Showcase equipped');
+ await expect(earned).toContainText('Earned 10/1/2026');
+ await expect(page.getByRole('region',{name:'Still to earn',exact:true})).toContainText('5 / 28 days');
+ await expect(page.getByRole('region',{name:'Rewards',exact:true})).toContainText('More may be hidden');
+ await page.screenshot({animations:'disabled',path:'tests/screenshots/WEB-032-neighbor-rewards.png'});
+ await page.getByText('5 / 28 days',{exact:true}).scrollIntoViewIfNeeded();
+ await page.screenshot({animations:'disabled',path:'tests/screenshots/WEB-032-neighbor-progress.png'});
+ await page.getByRole('tab',{name:'Activity',exact:true}).click();
+ const activity = page.getByRole('region',{name:'Personal activity'});
+ await expect(activity.getByTestId('activity-group')).toHaveCount(2);
+ await expect(activity).toContainText('Stefanny bought 3 things today: Goat Kid, Duckling, House Paddock');
+ await expect(activity).not.toContainText('QA-');
+ await expect(activity.getByRole('button',{name:'Add reaction'})).toHaveCount(1);
+ await expect(activity.getByRole('button',{name:'React 🎉',exact:true})).toHaveCount(0);
+ await expect(activity.getByRole('button',{name:'React 👏',exact:true})).toHaveText('👏2');
+ await activity.getByRole('button',{name:'Add reaction'}).click();
+ await expect(activity.getByRole('button',{name:'React 🎉',exact:true})).toBeVisible();
+ await activity.getByRole('button',{name:'Add reaction'}).click();
+ await activity.getByText('Show 3 events', {exact:true}).click();
+ await expect(activity.getByText('Stefanny bought Duckling.',{exact:true})).toBeVisible();
+ await page.screenshot({animations:'disabled',path:'tests/screenshots/WEB-032-profile-activity.png'});
+ await page.getByRole('button',{name:'Close profile'}).click();
+ // The normal background poll also updates the dashboard.
+ await page.getByRole('button',{name:'My profile',exact:true}).click();
+ await page.getByRole('tab',{name:'Rewards',exact:true}).click();
+ await expect(page.getByRole('heading',{name:'Earn your next signature'})).toBeVisible();
+ await page.getByRole('button',{name:'Close profile'}).click();
+ await page.getByRole('button',{name:'Pop out Around the village'}).click();
+ const dashboard = page.getByRole('dialog',{name:'Around the village'});
+ await expect(dashboard).toContainText('Stefanny bought 3 things today', {timeout:20000});
+ await expect(dashboard.getByTestId('activity-group')).toHaveCount(6);
+ await expect(dashboard.getByRole('button',{name:'Add reaction'})).toHaveCount(5);
+ await expect(page.locator('[data-widget=feed]').getByTestId('activity-group')).toHaveCount(4);
+ await page.screenshot({animations:'disabled',path:'tests/screenshots/WEB-032-dashboard.png'});
+ expect(errors).toEqual([]);
+});

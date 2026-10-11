@@ -1,0 +1,12 @@
+Village original — 120 BPM oscillator score
+
+This original composition and recording was produced for TRAILER-001 using
+apps/trailer/scripts/prepare.py. It contains no recordings, samples, vocals,
+or third-party music. No generative service was called.
+
+To the extent any copyright or related rights exist in this generated material,
+the work is dedicated to the public domain under CC0 1.0 Universal.
+Source: ../../scripts/prepare.py (repository source; no external track URL).
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Full legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+No attribution required. No warranty is provided.

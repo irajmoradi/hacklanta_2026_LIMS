@@ -1,0 +1,20 @@
+# systemd unit for the GPU-less bridge on the VM. Install (as root, adjust paths/user):
+#   cp workers/modal/village-bridge.service /etc/systemd/system/ && systemctl daemon-reload
+#   systemctl enable --now village-bridge && journalctl -u village-bridge -f
+[Unit]
+Description=Village avatar job bridge (Postgres -> Modal GPU)
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=village
+WorkingDirectory=/opt/village
+Environment=GPU_WORKER_URL=
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/env bash /opt/village/workers/modal/run_bridge.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

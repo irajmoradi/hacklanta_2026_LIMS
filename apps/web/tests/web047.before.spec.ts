@@ -1,0 +1,23 @@
+import {test,expect} from '@playwright/test';
+import {useDemoSeat} from './demoSeat';
+useDemoSeat();
+test('original editing layout screenshots',async({page},info)=>{
+  await page.goto('/');
+  await page.evaluate(async()=>{const {api}=await import('/src/api/client.ts' as string);const me=await api.me();await api.buy(me.villages[0].id,'outfit_hoodie');});
+  await page.getByRole('button',{name:'My profile',exact:true}).click();
+  await page.getByRole('tab',{name:'Outfit',exact:true}).click();
+  await page.getByRole('region',{name:'Owned items',exact:true}).locator('[data-item-id="outfit_hoodie"]').click();
+  await page.getByRole('button',{name:'Choose colors',exact:true}).click();
+  await page.getByRole('button',{name:'Twilight',exact:true}).click();
+  await page.screenshot({path:`artifacts/web047/${info.project.name}-outfit.png`});
+  await page.getByRole('button',{name:'Cancel colors',exact:true}).click();
+  await page.getByRole('tab',{name:'House',exact:true}).click();
+  await page.getByRole('button',{name:'Edit my house',exact:true}).click();
+  await page.getByRole('button',{name:'Paint wall #487d6b',exact:true}).click();
+  await page.screenshot({path:`artifacts/web047/${info.project.name}-house.png`});
+  await page.getByRole('button',{name:'Go inside',exact:true}).click();
+  await page.getByRole('button',{name:'Decorate',exact:true}).click();
+  await page.locator('.interior-sidebar').evaluate(el=>el.scrollTop=el.scrollHeight);
+  await expect(page.locator('.interior-canvas canvas')).toBeVisible();
+  await page.screenshot({path:`artifacts/web047/${info.project.name}-interior.png`});
+});

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><title>AUDIO-002 night comparison</title>
+<style>body{background:#182329;color:#f4eee1;font:18px system-ui;max-width:780px;margin:60px auto;padding:24px}h1{font-size:30px}button{padding:14px;margin:10px 10px 10px 0;font:inherit;border-radius:8px;border:0;background:#e2c68e}audio{width:100%}small{color:#acc2c9}</style>
+<h1>A quieter village night</h1>
+<p>A/B: 0–10 seconds previous night; 10–20 seconds sparse crickets, fading in over four seconds.</p>
+<audio id="ab" controls preload="metadata"></audio>
+<p>Compare the full loops:</p>
+<button id="old">A · Previous night</button><button id="new">B · New night</button><button id="stop">Stop</button>
+<p id="status">Ready · audio starts only after a click</p>
+<small>Old asset: −18 LUFS · New asset: −22 LUFS<br>Full-loop buttons use the same production mixer and volume. The A/B file uses asset levels for easier review.</small>
+<script type="module">
+import {AmbienceMixer} from '../../apps/web/src/sound/ambience.ts';
+import baseline from '../../assets/audio/AUDIO-002-before.ogg';
+import comparison from '../../assets/audio/AUDIO-002-ab.ogg';
+document.querySelector('#ab').src=comparison;
+const mixer=new AmbienceMixer();
+const previous=new AmbienceMixer();
+mixer.setAssets([{name:'night_soft',file:'/sfx/night_soft.ogg',fallback:'/sfx/night_soft.mp3',loop:true}]);
+previous.setAssets([{name:'night_soft',file:baseline,loop:true}]);
+window.mixer=mixer;
+function stop(){mixer.stop();previous.stop();}
+function play(selected){document.querySelector('#ab').pause();stop();selected.setBed('night_soft');selected.unlock();selected.configure(true,.65);document.querySelector('#status').textContent=selected===mixer?'B · Sparse cricket night · four-second fade':'A · Previous night';}
+document.querySelector('#old').onclick=()=>play(previous);
+document.querySelector('#new').onclick=()=>play(mixer);
+document.querySelector('#stop').onclick=()=>{stop();document.querySelector('#ab').pause();document.querySelector('#status').textContent='Stopped';};
+document.querySelector('#ab').onplay=stop;
+</script></html>

@@ -1,0 +1,8 @@
+.emote-wheel { position: absolute; right: 14px; top: 48px; z-index: 25; }
+.emote-wheel button { border: 1px solid #b9aa88; background: #fff8e6; color: #423a30; border-radius: 24px; min-height: 44px; cursor: pointer; box-shadow: 0 2px 6px #0002; }
+.emote-toggle { width: 44px; font-size: 26px; }
+.emote-options { position: absolute; right: 54px; top: 0; display: flex; gap: 6px; }
+.emote-options button { white-space: nowrap; padding: 8px 14px; }
+.emote-options small { margin-left: 8px; opacity: .6; }
+.emote-wheel button:focus-visible { outline: 3px solid #4f8062; outline-offset: 3px; }
+.emote-wheel button:disabled { opacity: .5; cursor: default; }

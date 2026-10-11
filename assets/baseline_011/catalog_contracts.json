@@ -1,0 +1,457 @@
+[
+  {
+    "id": "pet_shelter",
+    "kind": "building",
+    "name": "Pet Shelter",
+    "description": "Dog shelter community unlock",
+    "price_coins": 0,
+    "unlock": {
+      "village_level": 4
+    },
+    "asset": {
+      "glb": "/models/pet_shelter.glb",
+      "tint_materials": [
+        "accent",
+        "glass",
+        "light",
+        "metal",
+        "roof",
+        "stone",
+        "trim",
+        "wall",
+        "wood"
+      ],
+      "attach": {
+        "anchor": "ground",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1
+      }
+    },
+    "tags": [
+      "scene",
+      "unlock"
+    ],
+    "source": "earned:village_progression",
+    "rarity": "common"
+  },
+  {
+    "id": "shop",
+    "kind": "decoration",
+    "slot": "decoration",
+    "name": "Shop",
+    "description": "Village shop building for cosmetic purchases.",
+    "price_coins": 0,
+    "asset": {
+      "glb": "/models/shop.glb",
+      "tint_materials": [
+        "accent",
+        "glass",
+        "light",
+        "roof",
+        "stone",
+        "trim",
+        "wall",
+        "wood"
+      ],
+      "attach": {
+        "anchor": "ground",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1
+      }
+    },
+    "tags": [
+      "scene",
+      "prop"
+    ],
+    "source": "earned:village_progression",
+    "rarity": "common"
+  },
+  {
+    "id": "storefront_cafe",
+    "kind": "decoration",
+    "slot": "decoration",
+    "name": "Storefront Cafe",
+    "description": "Cafe with coffee-cup sign and outdoor table",
+    "price_coins": 500,
+    "requires": [],
+    "asset": {
+      "glb": "/models/storefront_cafe.glb",
+      "attach": {
+        "anchor": "ground",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1
+      },
+      "tint_materials": [
+        "accent",
+        "glass",
+        "light",
+        "metal",
+        "paper",
+        "roof",
+        "stone",
+        "trim",
+        "wall",
+        "wood"
+      ]
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "source": "earned:village_progression",
+    "rarity": "common"
+  },
+  {
+    "id": "storefront_records",
+    "kind": "decoration",
+    "slot": "decoration",
+    "name": "Storefront Records",
+    "description": "Festival vinyl shop with record sign",
+    "price_coins": 500,
+    "requires": [],
+    "asset": {
+      "glb": "/models/storefront_records.glb",
+      "attach": {
+        "anchor": "ground",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1
+      },
+      "tint_materials": [
+        "accent",
+        "glass",
+        "light",
+        "metal",
+        "roof",
+        "stone",
+        "trim",
+        "wall",
+        "wood"
+      ]
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "source": "earned:village_progression",
+    "rarity": "common"
+  },
+  {
+    "id": "storefront_bakery",
+    "kind": "decoration",
+    "slot": "decoration",
+    "name": "Storefront Bakery",
+    "description": "Bakery with bread sign",
+    "price_coins": 500,
+    "requires": [],
+    "asset": {
+      "glb": "/models/storefront_bakery.glb",
+      "attach": {
+        "anchor": "ground",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1
+      },
+      "tint_materials": [
+        "accent",
+        "glass",
+        "hay",
+        "light",
+        "paper",
+        "roof",
+        "stone",
+        "trim",
+        "wall",
+        "wood"
+      ]
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "source": "earned:village_progression",
+    "rarity": "common"
+  },
+  {
+    "id": "town_hall",
+    "kind": "decoration",
+    "slot": "decoration",
+    "name": "Town Hall",
+    "description": "Mayor HQ with columns and clock",
+    "price_coins": 500,
+    "requires": [],
+    "asset": {
+      "glb": "/models/town_hall.glb",
+      "attach": {
+        "anchor": "ground",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1
+      },
+      "tint_materials": [
+        "accent",
+        "glass",
+        "light",
+        "metal",
+        "roof",
+        "stone",
+        "trim",
+        "wall"
+      ]
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "source": "earned:village_progression",
+    "rarity": "common"
+  },
+  {
+    "id": "gym",
+    "kind": "decoration",
+    "slot": "decoration",
+    "name": "Gym",
+    "description": "Lance gym with dumbbell sign",
+    "price_coins": 500,
+    "requires": [],
+    "asset": {
+      "glb": "/models/gym.glb",
+      "attach": {
+        "anchor": "ground",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1
+      },
+      "tint_materials": [
+        "accent",
+        "glass",
+        "light",
+        "metal",
+        "roof",
+        "stone",
+        "trim",
+        "wall"
+      ]
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "source": "earned:village_progression",
+    "rarity": "common"
+  },
+  {
+    "id": "studio_art",
+    "kind": "decoration",
+    "slot": "decoration",
+    "name": "Studio Art",
+    "description": "Stefanny art studio with paint palette sign",
+    "price_coins": 500,
+    "requires": [],
+    "asset": {
+      "glb": "/models/studio_art.glb",
+      "attach": {
+        "anchor": "ground",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1
+      },
+      "tint_materials": [
+        "accent",
+        "glass",
+        "light",
+        "paper",
+        "roof",
+        "stone",
+        "trim",
+        "wall",
+        "wood"
+      ]
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "source": "earned:village_progression",
+    "rarity": "common"
+  },
+  {
+    "id": "library",
+    "kind": "decoration",
+    "slot": "decoration",
+    "name": "Library",
+    "description": "Community library with book sign",
+    "price_coins": 500,
+    "requires": [],
+    "asset": {
+      "glb": "/models/library.glb",
+      "attach": {
+        "anchor": "ground",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1
+      },
+      "tint_materials": [
+        "accent",
+        "glass",
+        "light",
+        "roof",
+        "stone",
+        "trim",
+        "wall",
+        "wood"
+      ]
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "source": "earned:village_progression",
+    "rarity": "common"
+  },
+  {
+    "id": "arcade",
+    "kind": "decoration",
+    "slot": "decoration",
+    "name": "Arcade",
+    "description": "Arcade with voxel mascot sign",
+    "price_coins": 500,
+    "requires": [],
+    "asset": {
+      "glb": "/models/arcade.glb",
+      "attach": {
+        "anchor": "ground",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": 1
+      },
+      "tint_materials": [
+        "accent",
+        "glass",
+        "light",
+        "metal",
+        "neon_cyan",
+        "neon_pink",
+        "roof",
+        "stone",
+        "trim",
+        "wall"
+      ]
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "source": "earned:village_progression",
+    "rarity": "common"
+  },
+  {
+    "id": "farm_store",
+    "kind": "building",
+    "name": "Farm Store",
+    "description": "A red barn with baby animals for your house paddock.",
+    "price_coins": 0,
+    "unlock": {
+      "village_level": 4
+    },
+    "asset": {
+      "glb": "/models/farm_store.glb"
+    },
+    "tags": [
+      "farm"
+    ],
+    "source": "earned:village_progression",
+    "rarity": "common"
+  }
+]

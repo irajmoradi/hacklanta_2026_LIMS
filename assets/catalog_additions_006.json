@@ -1,0 +1,900 @@
+{
+  "entries": [
+    {
+      "id": "house_cottage_lv1",
+      "kind": "house",
+      "slot": "house",
+      "name": "Cottage Level 1",
+      "description": "Four-sided cottage home, level 1; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "cottage",
+        "level_1"
+      ],
+      "asset": {
+        "glb": "/models/house_cottage_lv1.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_cottage_lv2",
+      "kind": "house",
+      "slot": "house",
+      "name": "Cottage Level 2",
+      "description": "Four-sided cottage home, level 2; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "cottage",
+        "level_2"
+      ],
+      "asset": {
+        "glb": "/models/house_cottage_lv2.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_cottage_lv3",
+      "kind": "house",
+      "slot": "house",
+      "name": "Cottage Level 3",
+      "description": "Four-sided cottage home, level 3; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "cottage",
+        "level_3"
+      ],
+      "asset": {
+        "glb": "/models/house_cottage_lv3.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_modern_lv1",
+      "kind": "house",
+      "slot": "house",
+      "name": "Modern Level 1",
+      "description": "Four-sided modern home, level 1; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "modern",
+        "level_1"
+      ],
+      "asset": {
+        "glb": "/models/house_modern_lv1.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_modern_lv2",
+      "kind": "house",
+      "slot": "house",
+      "name": "Modern Level 2",
+      "description": "Four-sided modern home, level 2; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "modern",
+        "level_2"
+      ],
+      "asset": {
+        "glb": "/models/house_modern_lv2.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_modern_lv3",
+      "kind": "house",
+      "slot": "house",
+      "name": "Modern Level 3",
+      "description": "Four-sided modern home, level 3; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "modern",
+        "level_3"
+      ],
+      "asset": {
+        "glb": "/models/house_modern_lv3.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_aframe_lv1",
+      "kind": "house",
+      "slot": "house",
+      "name": "Aframe Level 1",
+      "description": "Four-sided aframe home, level 1; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "aframe",
+        "level_1"
+      ],
+      "asset": {
+        "glb": "/models/house_aframe_lv1.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_aframe_lv2",
+      "kind": "house",
+      "slot": "house",
+      "name": "Aframe Level 2",
+      "description": "Four-sided aframe home, level 2; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "aframe",
+        "level_2"
+      ],
+      "asset": {
+        "glb": "/models/house_aframe_lv2.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_aframe_lv3",
+      "kind": "house",
+      "slot": "house",
+      "name": "Aframe Level 3",
+      "description": "Four-sided aframe home, level 3; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "aframe",
+        "level_3"
+      ],
+      "asset": {
+        "glb": "/models/house_aframe_lv3.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_tudor_lv1",
+      "kind": "house",
+      "slot": "house",
+      "name": "Tudor Level 1",
+      "description": "Four-sided tudor home, level 1; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "tudor",
+        "level_1"
+      ],
+      "asset": {
+        "glb": "/models/house_tudor_lv1.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_tudor_lv2",
+      "kind": "house",
+      "slot": "house",
+      "name": "Tudor Level 2",
+      "description": "Four-sided tudor home, level 2; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "tudor",
+        "level_2"
+      ],
+      "asset": {
+        "glb": "/models/house_tudor_lv2.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_tudor_lv3",
+      "kind": "house",
+      "slot": "house",
+      "name": "Tudor Level 3",
+      "description": "Four-sided tudor home, level 3; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "tudor",
+        "level_3"
+      ],
+      "asset": {
+        "glb": "/models/house_tudor_lv3.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_beach_lv1",
+      "kind": "house",
+      "slot": "house",
+      "name": "Beach Level 1",
+      "description": "Four-sided beach home, level 1; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "beach",
+        "level_1"
+      ],
+      "asset": {
+        "glb": "/models/house_beach_lv1.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_beach_lv2",
+      "kind": "house",
+      "slot": "house",
+      "name": "Beach Level 2",
+      "description": "Four-sided beach home, level 2; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "beach",
+        "level_2"
+      ],
+      "asset": {
+        "glb": "/models/house_beach_lv2.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_beach_lv3",
+      "kind": "house",
+      "slot": "house",
+      "name": "Beach Level 3",
+      "description": "Four-sided beach home, level 3; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "beach",
+        "level_3"
+      ],
+      "asset": {
+        "glb": "/models/house_beach_lv3.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_townhouse_lv1",
+      "kind": "house",
+      "slot": "house",
+      "name": "Townhouse Level 1",
+      "description": "Four-sided townhouse home, level 1; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "townhouse",
+        "level_1"
+      ],
+      "asset": {
+        "glb": "/models/house_townhouse_lv1.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_townhouse_lv2",
+      "kind": "house",
+      "slot": "house",
+      "name": "Townhouse Level 2",
+      "description": "Four-sided townhouse home, level 2; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "townhouse",
+        "level_2"
+      ],
+      "asset": {
+        "glb": "/models/house_townhouse_lv2.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    },
+    {
+      "id": "house_townhouse_lv3",
+      "kind": "house",
+      "slot": "house",
+      "name": "Townhouse Level 3",
+      "description": "Four-sided townhouse home, level 3; three runtime palettes in palette_presets.",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "house_styles_006",
+        "townhouse",
+        "level_3"
+      ],
+      "asset": {
+        "glb": "/models/house_townhouse_lv3.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "wall",
+          "roof",
+          "trim",
+          "door",
+          "accent"
+        ]
+      }
+    }
+  ],
+  "palette_presets": {
+    "cottage": [
+      {
+        "wall": "#F1D9AD",
+        "roof": "#B69B55",
+        "trim": "#715038",
+        "door": "#487D6B",
+        "accent": "#CA795D"
+      },
+      {
+        "wall": "#D9DDD0",
+        "roof": "#737955",
+        "trim": "#EEE3C8",
+        "door": "#AA6351",
+        "accent": "#718C73"
+      },
+      {
+        "wall": "#E7BCA3",
+        "roof": "#886448",
+        "trim": "#F5DEB5",
+        "door": "#536F87",
+        "accent": "#AD7354"
+      }
+    ],
+    "modern": [
+      {
+        "wall": "#E4E4DC",
+        "roof": "#424D58",
+        "trim": "#394653",
+        "door": "#DC9D50",
+        "accent": "#4E8E91"
+      },
+      {
+        "wall": "#B6C6C9",
+        "roof": "#344652",
+        "trim": "#E9E2D5",
+        "door": "#AD6454",
+        "accent": "#D7A95F"
+      },
+      {
+        "wall": "#D5C3B1",
+        "roof": "#61574D",
+        "trim": "#EEEAE1",
+        "door": "#4A7C71",
+        "accent": "#BA785F"
+      }
+    ],
+    "aframe": [
+      {
+        "wall": "#B78456",
+        "roof": "#485E68",
+        "trim": "#E2C795",
+        "door": "#9C4F3C",
+        "accent": "#D0A251"
+      },
+      {
+        "wall": "#C4A586",
+        "roof": "#344C42",
+        "trim": "#F1D8A4",
+        "door": "#976950",
+        "accent": "#6F9D8A"
+      },
+      {
+        "wall": "#99634C",
+        "roof": "#574C68",
+        "trim": "#E8C9A0",
+        "door": "#729C9F",
+        "accent": "#CFA268"
+      }
+    ],
+    "tudor": [
+      {
+        "wall": "#EEDBBC",
+        "roof": "#69566B",
+        "trim": "#4F3C35",
+        "door": "#A65B49",
+        "accent": "#7B9870"
+      },
+      {
+        "wall": "#D9DFCF",
+        "roof": "#526B69",
+        "trim": "#5C4839",
+        "door": "#9B6849",
+        "accent": "#C29056"
+      },
+      {
+        "wall": "#D5BFAE",
+        "roof": "#8D5148",
+        "trim": "#453B39",
+        "door": "#677EAA",
+        "accent": "#B49362"
+      }
+    ],
+    "beach": [
+      {
+        "wall": "#9DC9CC",
+        "roof": "#D2AB74",
+        "trim": "#F3E8CD",
+        "door": "#DB8469",
+        "accent": "#497B92"
+      },
+      {
+        "wall": "#ECCBA3",
+        "roof": "#899B82",
+        "trim": "#F7EDD8",
+        "door": "#568C8B",
+        "accent": "#C97962"
+      },
+      {
+        "wall": "#C4B3D6",
+        "roof": "#778D9E",
+        "trim": "#F4E4D3",
+        "door": "#CF936E",
+        "accent": "#669995"
+      }
+    ],
+    "townhouse": [
+      {
+        "wall": "#B86C52",
+        "roof": "#4F515B",
+        "trim": "#E0C49A",
+        "door": "#3F6D72",
+        "accent": "#799A72"
+      },
+      {
+        "wall": "#C49A75",
+        "roof": "#5C6767",
+        "trim": "#F1DCC0",
+        "door": "#865A64",
+        "accent": "#61919C"
+      },
+      {
+        "wall": "#987367",
+        "roof": "#38495B",
+        "trim": "#D6D7C8",
+        "door": "#B99156",
+        "accent": "#829B70"
+      }
+    ]
+  },
+  "selection_suggestion": {
+    "status": "Proposal only; integrator merges entries and implements runtime tint selection.",
+    "styles": [
+      "cottage",
+      "modern",
+      "aframe",
+      "tudor",
+      "beach",
+      "townhouse"
+    ],
+    "hash": "FNV-1a 32-bit over UTF-8 user ID bytes. Initialize h=2166136261; for each byte: h=Math.imul(h ^ byte,16777619) >>> 0.",
+    "style": "styles[h % 6]",
+    "palette": "palette_presets[style][Math.floor(h / 6) % 3]",
+    "level": "Clamp integer house level to [1,3]; levels 4 and 5 use style level 3 until additional style tiers exist.",
+    "model": "`/models/house_${style}_lv${level}.glb`",
+    "tint": "Clone each mesh material per member, then set material.color from the five named sRGB hex colors. Never tint the shared cached material.",
+    "fallback": "If style load fails, keep the existing fixture/current house model; no network generation needed.",
+    "scale": "Style GLBs use compact lots, max 3.31 x 3.31 m footprint, ground Y=0, front +Z. Legacy replacements retain their individual original bounds.",
+    "pricing": "Zero prices are suggested demo defaults, not an economy change.",
+    "legacy": {
+      "house_lv1": {
+        "style": "cottage",
+        "level": 1,
+        "palette": 0
+      },
+      "house_lv1_b": {
+        "style": "tudor",
+        "level": 1,
+        "palette": 1
+      },
+      "house_lv2": {
+        "style": "modern",
+        "level": 2,
+        "palette": 0
+      },
+      "house_lv2_b": {
+        "style": "beach",
+        "level": 2,
+        "palette": 1
+      },
+      "house_lv3": {
+        "style": "aframe",
+        "level": 3,
+        "palette": 0
+      },
+      "house_lv3_b": {
+        "style": "townhouse",
+        "level": 3,
+        "palette": 1
+      },
+      "house_lv4": {
+        "style": "tudor",
+        "level": 3,
+        "palette": 0
+      },
+      "house_lv4_b": {
+        "style": "cottage",
+        "level": 3,
+        "palette": 1
+      },
+      "house_lv5": {
+        "style": "beach",
+        "level": 3,
+        "palette": 0
+      },
+      "house_lv5_b": {
+        "style": "modern",
+        "level": 3,
+        "palette": 1
+      }
+    }
+  }
+}

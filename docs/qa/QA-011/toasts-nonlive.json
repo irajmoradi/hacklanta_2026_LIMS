@@ -1,0 +1,61 @@
+{
+  "started": "2026-10-11T01:25:31.524Z",
+  "seat": "Lance",
+  "method": "Playwright clock paused after shop load; advanced explicitly for layout and dismissal",
+  "requests": [],
+  "responses": [],
+  "blocked": [],
+  "receipts": [
+    {
+      "id": "hat_cap",
+      "text": [
+        "Item equipped.Village Cap",
+        "Item equipped.Village Cap"
+      ]
+    },
+    {
+      "id": "shirt_stripes",
+      "text": [
+        "Item equipped.Striped Shirt",
+        "Item equipped.Striped Shirt"
+      ]
+    }
+  ],
+  "stack": [
+    {
+      "text": "Item equipped.Striped Shirt",
+      "box": {
+        "x": 665,
+        "y": 88,
+        "width": 380,
+        "height": 76,
+        "top": 88,
+        "right": 1045,
+        "bottom": 164,
+        "left": 665
+      }
+    },
+    {
+      "text": "Item equipped.Village Cap",
+      "box": {
+        "x": 665,
+        "y": 172,
+        "width": 380,
+        "height": 76,
+        "top": 172,
+        "right": 1045,
+        "bottom": 248,
+        "left": 665
+      }
+    }
+  ],
+  "screenshot": "Lance-toast-stack-nonlive.png",
+  "dismissed": [
+    "Dismiss Item equipped.",
+    "Dismiss Item equipped."
+  ],
+  "remaining": 0,
+  "pass": false,
+  "finished": "2026-10-11T01:26:22.251Z",
+  "qaNote": "No HTTP purchases were emitted; not valid live-purchase evidence. Screenshot renamed when archiving to prevent overwrite."
+}

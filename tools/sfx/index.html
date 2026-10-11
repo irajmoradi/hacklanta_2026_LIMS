@@ -1,0 +1,28 @@
+<!doctype html><html><meta charset="utf-8"><title>Village ambience A/B</title>
+<style>body{margin:0;background:#192b29;color:#eee;font:18px system-ui;display:grid;place-items:center}canvas{margin-top:24px;border-radius:20px}button{padding:12px 20px;margin:20px;border:0;border-radius:8px;background:#f2cf8d;font:inherit}p{font-size:14px}</style>
+<canvas width="960" height="540"></canvas><button id="start">Record A/B comparison</button><p>Audio QA harness · production mixer · schematic camera view</p>
+<script type="module">
+import {sound} from '@audio-engine';
+import baseline from '@baseline-audio';
+const canvas=document.querySelector('canvas'),g=canvas.getContext('2d');
+let title='Village • a quieter place',subtitle='Before → day → night → plaza zoom',zoom=1,night=false,recording=false;
+const draw=()=>{g.fillStyle=night?'#253447':'#abc5ab';g.fillRect(0,0,960,540);g.save();g.translate(480,325);g.scale(zoom,zoom);g.fillStyle='#dcccb0';g.fillRect(-340,-18,680,36);g.fillRect(-18,-160,36,320);for(const x of [-240,-130,130,240])for(const y of [-95,85]){g.fillStyle=night?'#596b74':'#e8dfc6';g.fillRect(x-32,y-22,64,44);g.fillStyle='#668779';g.beginPath();g.moveTo(x-40,y-22);g.lineTo(x,y-50);g.lineTo(x+40,y-22);g.fill();}g.fillStyle='#81b9c2';g.beginPath();g.ellipse(0,0,48,24,0,0,7);g.fill();g.strokeStyle='#ebf5ef';g.lineWidth=3;g.beginPath();g.arc(0,-4,17,Math.PI,2*Math.PI);g.stroke();g.restore();g.fillStyle=night?'#253447':'#abc5ab';g.fillRect(0,0,960,110);g.fillStyle=night?'#bed5ce':'#234438';g.font='32px system-ui';g.fillText(title,44,58);g.font='18px system-ui';g.fillText(subtitle,44,90);g.fillStyle=night?'#253447':'#abc5ab';g.fillRect(0,480,960,60);g.fillStyle=night?'#bed5ce':'#243c37';g.font='16px system-ui';g.fillText('Fountain at camera target • pan/zoom drives Web Audio distance',44,510);requestAnimationFrame(draw);};draw();
+await sound.init();window.sound=sound;
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+document.querySelector('#start').onclick=async()=>{
+ if(recording)return;recording=true;sound.unlock();sound.configure({muted:false,reduced:false,volume:.65});
+ await sleep(3500);
+ const ctx=sound.ambience.context,destination=ctx.createMediaStreamDestination();sound.ambience.master.connect(destination);
+ const legacy=new Audio(baseline);legacy.loop=true;legacy.volume=.28*.65;
+ const source=ctx.createMediaElementSource(legacy);source.connect(destination);source.connect(ctx.destination);
+ const stream=canvas.captureStream(30);destination.stream.getAudioTracks().forEach(t=>stream.addTrack(t));
+ const recorder=new MediaRecorder(stream,{mimeType:'video/webm;codecs=vp9,opus'}),chunks=[];
+ recorder.ondataavailable=e=>chunks.push(e.data);recorder.onstop=async()=>{const blob=new Blob(chunks,{type:'video/webm'});window.recordingBytes=Array.from(new Uint8Array(await blob.arrayBuffer()));window.done=true;};recorder.start();
+ title='A • previous ambience';subtitle='Day: silence, then the old constant cricket loop';await sleep(2000);night=true;await legacy.play();await sleep(4500);legacy.pause();
+ title='B • daytime garden';subtitle='Soft songbirds, leaves, distant village life';night=false;sound.setAmbient('day_birds_breeze');sound.ambience.setEmitter('qa:fountain','fountain_trickle',[0,0,0]);sound.ambience.setListener([0,0,0],1);await sleep(7000);
+ title='B • warm quiet night';subtitle='Three-second crossfade • sparse distant crickets';night=true;sound.setAmbient('night_soft');await sleep(6500);
+ title='B • plaza zoom';subtitle='Fountain grows closer as camera zoom increases';sound.setAmbient('day_birds_breeze');night=false;
+ for(let i=0;i<60;i++){zoom=1+i/45;sound.ambience.setListener([0,0,0],1+i/10);await sleep(70);}await sleep(3500);
+ recorder.stop();sound.stop();source.disconnect();stream.getTracks().forEach(t=>t.stop());
+};
+</script></html>

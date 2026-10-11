@@ -1,0 +1,74 @@
+import { expect, test } from '@playwright/test';
+import { useDemoSeat } from './demoSeat';
+useDemoSeat();
+const photo = {name:'synthetic.png',mimeType:'image/png',buffer:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Wl6lS8AAAAASUVORK5CYII=','base64')};
+
+for (const kind of ['Wearable','3D decoration']) test(`WEB-025 Make it real ${kind}`, async ({page}) => {
+  const errors: string[] = []; page.on('pageerror',e => errors.push(e.message));
+  await page.goto('/');
+  await page.getByRole('button',{name:'Shop',exact:true}).click();
+  await page.getByText('Photo gifts & villager-grams', {exact:true}).click();
+  const creator = page.getByRole('region',{name:'Make it real'});
+  await creator.getByRole('button',{name:/Buy photo token/}).click();
+  await expect(creator.getByText('1 photo token',{exact:true})).toBeVisible();
+  await creator.getByLabel('Item photo',{exact:true}).setInputFiles(photo);
+  await creator.getByLabel('Make a',{exact:true}).selectOption({label:kind});
+  await expect(creator.getByRole('button',{name:'Create',exact:true})).toBeDisabled();
+  await creator.getByRole('checkbox').check();
+  await creator.getByRole('button',{name:'Create',exact:true}).click();
+  await expect(creator.getByRole('status')).toContainText('Queued');
+  await page.screenshot({animations:'disabled',path:`tests/screenshots/WEB-025-${kind === 'Wearable' ? 'wearable' : 'object'}-progress.png`});
+  await creator.getByRole('button',{name:kind === 'Wearable' ? 'Equip wearable' : 'Place at my house'}).click();
+  await expect(creator.getByRole('button',{name:'In your village'})).toBeVisible();
+  await page.screenshot({animations:'disabled',path:`tests/screenshots/WEB-025-${kind === 'Wearable' ? 'wearable' : 'object'}-result.png`});
+  await page.getByRole('button',{name:'Close dialog'}).click();
+  await expect(page.getByRole('dialog')).toHaveCount(0);
+  await page.evaluate(async () => { await Promise.all(document.getAnimations().filter(a => a.effect?.getTiming().iterations !== Infinity).map(a => a.finished.catch(() => {}))); });
+  const equipped = await page.evaluate(async () => { const {api} = await import('/src/api/client.ts' as string); const me = await api.me(); return (await api.profile(me.villages[0].id,api.user)).villager.equipped; });
+  expect(equipped.some((i: any) => i.custom && i.slot === (kind === 'Wearable' ? 'torso' : 'decoration'))).toBe(true);
+  if (kind === 'Wearable') await expect(page.getByTestId('villager-Iraj')).toHaveAttribute('data-cosmetics',new RegExp(equipped.find((i: any) => i.custom).item_id));
+  else await expect(page.getByRole('button',{name:"Open Iraj's house profile"})).toHaveAttribute('data-photo-items',equipped.find((i: any) => i.custom).item_id);
+  await page.screenshot({animations:'disabled',path:`tests/screenshots/WEB-025-${kind === 'Wearable' ? 'wearable' : 'object'}-town.png`});
+  await page.getByRole('button',{name:'My profile',exact:true}).click();
+  await page.getByRole('tab',{name:'Outfit',exact:true}).click();
+  await page.getByRole('button',{name:'Customize my avatar',exact:true}).click();
+  await page.getByRole('button',{name:'Make it real',exact:true}).click();
+  await expect(page.getByRole('region',{name:'Make it real'})).toBeVisible();
+  expect(errors).toEqual([]);
+});
+
+test('WEB-025 failed creation refunds and can retry',async ({page}) => {
+  await page.goto('/'); await page.getByRole('button',{name:'Shop',exact:true}).click();
+  await page.getByText('Photo gifts & villager-grams', {exact:true}).click();
+  const creator = page.getByRole('region',{name:'Make it real'});
+  await creator.getByRole('button',{name:/Buy photo token/}).click();
+  await creator.getByLabel('Item photo',{exact:true}).setInputFiles({...photo,name:'failure.png'});
+  await creator.getByRole('checkbox').check(); await creator.getByRole('button',{name:'Create',exact:true}).click();
+  await expect(creator.getByRole('alert')).toContainText('Your token was refunded');
+  await expect(creator.getByText('1 photo token',{exact:true})).toBeVisible();
+  await expect(creator.getByRole('button',{name:'Create',exact:true})).toBeEnabled();
+  await page.screenshot({animations:'disabled',path:'tests/screenshots/WEB-025-refund.png'});
+});
+
+test('WEB-025 new person joins, builds with consent, enters and cleans up',async ({page}) => {
+  await page.goto('/'); await page.getByRole('button',{name:'Debug menu'}).click();
+  await page.getByRole('button',{name:'Start as a new person'}).click();
+  await expect(page.getByRole('heading',{name:'Your friends live here.'})).toBeVisible();
+  await expect(page.getByLabel('Display name')).toHaveValue('Guest 1');
+  await page.screenshot({animations:'disabled',path:'tests/screenshots/WEB-025-onboarding.png'});
+  await page.getByLabel('Display name').fill('Guest Rehearsal');
+  await page.getByLabel('Invite code').fill('HACKLANTA');
+  await page.getByRole('button',{name:'Join village',exact:true}).click();
+  await page.getByLabel('Avatar photo').setInputFiles(photo);
+  await expect(page.getByRole('button',{name:'Build my avatar'})).toBeDisabled();
+  await page.getByRole('checkbox',{name:/my photo and voice/}).check();
+  await page.getByRole('button',{name:'Build my avatar'}).click();
+  await expect(page.getByText(/GPU worker is offline/)).toBeVisible();
+  await page.screenshot({animations:'disabled',path:'tests/screenshots/WEB-025-avatar.png'});
+  await page.getByRole('button',{name:'Enter village'}).click();
+  await expect(page.getByRole('button',{name:/Testing as Guest Rehearsal/})).toBeVisible();
+  await page.getByRole('button',{name:'Debug menu'}).click();
+  await page.getByRole('button',{name:'Remove guest users'}).click();
+  await expect(page.getByRole('button',{name:/Testing as Iraj/})).toBeVisible();
+  await expect(page.getByLabel('Play as').locator('option')).toHaveCount(5);
+});

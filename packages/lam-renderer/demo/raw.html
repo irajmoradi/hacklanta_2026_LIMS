@@ -1,0 +1,20 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>LAM raw</title>
+<style>body{margin:0} #r{height:100vh;background:#fff}</style></head>
+<body><div id="r"></div>
+<script type="module">
+import * as GS from "gaussian-splat-renderer-for-lam";
+const q = new URLSearchParams(location.search);
+const mode = q.get("mode") ?? "official";
+const opts = { getChatState: () => "Idle", getExpressionData: () => ({}), backgroundColor: "0xff0000", alpha: 0.2 };
+if (mode === "ours") { opts.backgroundColor = "0xffffff"; opts.alpha = 1; }
+if (mode === "mount") {
+  const { mountLamHead } = await import("../src/index.ts");
+  const el = document.getElementById("r");
+  if (q.get("box")) { el.style.height = "auto"; el.style.width = "520px"; el.style.aspectRatio = "1 / 1"; el.style.position = "relative"; }
+  const o = { packageUrl: q.get("pkg") ?? "/local-assets/avatars/sample_palm/head/avatar.zip" };
+  if (q.get("prog")) o.onProgress = (p) => console.log("p", p);
+  if (q.get("audio")) o.audio = new Audio();
+  window.__r = await mountLamHead(el, o);
+} else window.__r = await GS.GaussianSplatRenderer.getInstance(document.getElementById("r"), q.get("pkg") ?? "/local-assets/avatars/sample_palm/head/avatar.zip", opts);
+</script></body></html>

@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-11T00:06:38.688Z",
+  "results": [
+    {
+      "seat": "Iraj",
+      "status": 200,
+      "ms": 358,
+      "items": 5,
+      "canEdit": true
+    },
+    {
+      "seat": "Lance",
+      "status": 200,
+      "ms": 236,
+      "items": 5,
+      "canEdit": true
+    },
+    {
+      "seat": "Stefanny",
+      "status": 200,
+      "ms": 232,
+      "items": 5,
+      "canEdit": true
+    },
+    {
+      "seat": "Maya",
+      "status": 200,
+      "ms": 223,
+      "items": 5,
+      "canEdit": true
+    },
+    {
+      "seat": "Mario",
+      "status": 200,
+      "ms": 228,
+      "items": 5,
+      "canEdit": true
+    }
+  ]
+}

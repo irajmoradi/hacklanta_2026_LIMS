@@ -1,0 +1,92 @@
+[
+  {
+    "name": "checkin_pop",
+    "start_seconds": 0.0,
+    "repetitions": 1
+  },
+  {
+    "name": "xp_ding",
+    "start_seconds": 1.28,
+    "repetitions": 1
+  },
+  {
+    "name": "level_up_fanfare",
+    "start_seconds": 2.677,
+    "repetitions": 1
+  },
+  {
+    "name": "coin_purchase",
+    "start_seconds": 5.477,
+    "repetitions": 1
+  },
+  {
+    "name": "equip_swoosh",
+    "start_seconds": 6.954,
+    "repetitions": 1
+  },
+  {
+    "name": "crown_ceremony",
+    "start_seconds": 8.17,
+    "repetitions": 1
+  },
+  {
+    "name": "mayor_gong",
+    "start_seconds": 10.97,
+    "repetitions": 1
+  },
+  {
+    "name": "prayer_chime",
+    "start_seconds": 13.05,
+    "repetitions": 1
+  },
+  {
+    "name": "event_drumroll",
+    "start_seconds": 15.33,
+    "repetitions": 1
+  },
+  {
+    "name": "evidence_stamp_ok",
+    "start_seconds": 17.93,
+    "repetitions": 1
+  },
+  {
+    "name": "evidence_buzzer_sus",
+    "start_seconds": 18.94,
+    "repetitions": 1
+  },
+  {
+    "name": "pet_bark_happy",
+    "start_seconds": 20.537,
+    "repetitions": 1
+  },
+  {
+    "name": "building_unlock_tada",
+    "start_seconds": 22.014,
+    "repetitions": 1
+  },
+  {
+    "name": "crater_boom_cartoon",
+    "start_seconds": 24.614,
+    "repetitions": 1
+  },
+  {
+    "name": "poke_boing",
+    "start_seconds": 26.651,
+    "repetitions": 1
+  },
+  {
+    "name": "message_blip",
+    "start_seconds": 27.781,
+    "repetitions": 1
+  },
+  {
+    "name": "night_crickets_loop",
+    "start_seconds": 28.858,
+    "repetitions": 2
+  },
+  {
+    "name": "festival_crowd_loop",
+    "start_seconds": 39.218,
+    "repetitions": 2
+  }
+]

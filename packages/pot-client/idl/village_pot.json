@@ -1,0 +1,515 @@
+{
+  "address": "4m7xFhBQcWfa7u3kP8i78QaTYjkQXSxt5iUfj2689Ehu",
+  "metadata": {
+    "name": "village_pot",
+    "version": "0.1.0",
+    "spec": "0.1.0"
+  },
+  "instructions": [
+    {
+      "name": "create_pot",
+      "discriminator": [
+        232,
+        45,
+        123,
+        181,
+        204,
+        121,
+        131,
+        9
+      ],
+      "accounts": [
+        {
+          "name": "creator",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "pot",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  112,
+                  111,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "creator"
+              },
+              {
+                "kind": "arg",
+                "path": "week_id"
+              }
+            ]
+          }
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pot"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "week_id",
+          "type": "u64"
+        },
+        {
+          "name": "entry_lamports",
+          "type": "u64"
+        },
+        {
+          "name": "auditor",
+          "type": "pubkey"
+        },
+        {
+          "name": "auditor_fee_bps",
+          "type": "u16"
+        },
+        {
+          "name": "deadline",
+          "type": "i64"
+        },
+        {
+          "name": "payout_mode",
+          "type": "u8"
+        },
+        {
+          "name": "ranked_bps",
+          "type": {
+            "vec": "u16"
+          }
+        }
+      ]
+    },
+    {
+      "name": "join",
+      "discriminator": [
+        206,
+        55,
+        2,
+        106,
+        113,
+        220,
+        17,
+        163
+      ],
+      "accounts": [
+        {
+          "name": "participant",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "pot",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  112,
+                  111,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pot.creator",
+                "account": "Pot"
+              },
+              {
+                "kind": "account",
+                "path": "pot.week_id",
+                "account": "Pot"
+              }
+            ]
+          }
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pot"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "refund_all",
+      "discriminator": [
+        174,
+        87,
+        222,
+        126,
+        23,
+        59,
+        189,
+        155
+      ],
+      "accounts": [
+        {
+          "name": "pot",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  112,
+                  111,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pot.creator",
+                "account": "Pot"
+              },
+              {
+                "kind": "account",
+                "path": "pot.week_id",
+                "account": "Pot"
+              }
+            ]
+          }
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pot"
+              }
+            ]
+          }
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "settle",
+      "discriminator": [
+        175,
+        42,
+        185,
+        87,
+        144,
+        131,
+        102,
+        212
+      ],
+      "accounts": [
+        {
+          "name": "auditor",
+          "writable": true,
+          "signer": true,
+          "relations": [
+            "pot"
+          ]
+        },
+        {
+          "name": "pot",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  112,
+                  111,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pot.creator",
+                "account": "Pot"
+              },
+              {
+                "kind": "account",
+                "path": "pot.week_id",
+                "account": "Pot"
+              }
+            ]
+          }
+        },
+        {
+          "name": "vault",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  118,
+                  97,
+                  117,
+                  108,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "pot"
+              }
+            ]
+          }
+        }
+      ],
+      "args": [
+        {
+          "name": "scores",
+          "type": {
+            "vec": "u64"
+          }
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Pot",
+      "discriminator": [
+        238,
+        118,
+        60,
+        175,
+        178,
+        191,
+        59,
+        58
+      ]
+    },
+    {
+      "name": "Vault",
+      "discriminator": [
+        211,
+        8,
+        232,
+        43,
+        2,
+        152,
+        117,
+        119
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "InvalidSplit",
+      "msg": "Invalid payout mode or ranked split"
+    },
+    {
+      "code": 6001,
+      "name": "FeeTooHigh",
+      "msg": "Auditor fee exceeds 2000 basis points"
+    },
+    {
+      "code": 6002,
+      "name": "InvalidEntry",
+      "msg": "Entry must be positive"
+    },
+    {
+      "code": 6003,
+      "name": "Overflow",
+      "msg": "Arithmetic overflow"
+    },
+    {
+      "code": 6004,
+      "name": "InvalidDeadline",
+      "msg": "Deadline must be in the future"
+    },
+    {
+      "code": 6005,
+      "name": "InvalidAuditor",
+      "msg": "Invalid auditor address"
+    },
+    {
+      "code": 6006,
+      "name": "AlreadyFinalized",
+      "msg": "Pot is already finalized"
+    },
+    {
+      "code": 6007,
+      "name": "JoiningClosed",
+      "msg": "Joining closes at the deadline"
+    },
+    {
+      "code": 6008,
+      "name": "AuditorCannotJoin",
+      "msg": "Auditor must sit out"
+    },
+    {
+      "code": 6009,
+      "name": "DuplicateParticipant",
+      "msg": "Participant already joined"
+    },
+    {
+      "code": 6010,
+      "name": "PotFull",
+      "msg": "Pot already has eight participants"
+    },
+    {
+      "code": 6011,
+      "name": "TooEarly",
+      "msg": "Deadline has not been reached"
+    },
+    {
+      "code": 6012,
+      "name": "SettlementExpired",
+      "msg": "Refund window has started"
+    },
+    {
+      "code": 6013,
+      "name": "InvalidWinners",
+      "msg": "Winners must be nonempty, unique participants"
+    },
+    {
+      "code": 6014,
+      "name": "InvalidRecipients",
+      "msg": "Supply exact writable recipients in the required order"
+    },
+    {
+      "code": 6015,
+      "name": "Underfunded",
+      "msg": "Vault cannot cover entries while retaining rent"
+    },
+    {
+      "code": 6016,
+      "name": "UnauthorizedAuditor",
+      "msg": "Only the assigned auditor may settle"
+    }
+  ],
+  "types": [
+    {
+      "name": "Pot",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "creator",
+            "type": "pubkey"
+          },
+          {
+            "name": "week_id",
+            "type": "u64"
+          },
+          {
+            "name": "entry_lamports",
+            "type": "u64"
+          },
+          {
+            "name": "auditor",
+            "type": "pubkey"
+          },
+          {
+            "name": "auditor_fee_bps",
+            "type": "u16"
+          },
+          {
+            "name": "deadline",
+            "type": "i64"
+          },
+          {
+            "name": "participants",
+            "type": {
+              "vec": "pubkey"
+            }
+          },
+          {
+            "name": "status",
+            "docs": [
+              "0 = open, 1 = settled, 2 = refunded. Retained to prevent reinitialization."
+            ],
+            "type": "u8"
+          },
+          {
+            "name": "bump",
+            "type": "u8"
+          },
+          {
+            "name": "vault_bump",
+            "type": "u8"
+          },
+          {
+            "name": "payout_mode",
+            "type": "u8"
+          },
+          {
+            "name": "ranked_bps",
+            "type": {
+              "vec": "u16"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vault",
+      "type": {
+        "kind": "struct",
+        "fields": []
+      }
+    }
+  ]
+}

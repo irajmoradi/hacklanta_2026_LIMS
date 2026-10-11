@@ -1,0 +1,258 @@
+[
+  {
+    "name": "checkin_pop",
+    "file": "/sfx/checkin_pop.mp3",
+    "duration_ms": 680,
+    "loop": false,
+    "volume": 0.7,
+    "description": "A happy bubble pop confirms a daily check-in."
+  },
+  {
+    "name": "xp_ding",
+    "file": "/sfx/xp_ding.mp3",
+    "duration_ms": 800,
+    "loop": false,
+    "volume": 0.65,
+    "description": "A bright bell rewards earned XP."
+  },
+  {
+    "name": "level_up_fanfare",
+    "file": "/sfx/level_up_fanfare.mp3",
+    "duration_ms": 2200,
+    "loop": false,
+    "volume": 0.8,
+    "description": "A silly toy fanfare celebrates a new level."
+  },
+  {
+    "name": "coin_purchase",
+    "file": "/sfx/coin_purchase.mp3",
+    "duration_ms": 880,
+    "loop": false,
+    "volume": 0.65,
+    "description": "A coin clink and cash-register chirp confirm a purchase."
+  },
+  {
+    "name": "equip_swoosh",
+    "file": "/sfx/equip_swoosh.mp3",
+    "duration_ms": 618,
+    "loop": false,
+    "volume": 0.65,
+    "description": "A soft swoosh and click equip an item."
+  },
+  {
+    "name": "crown_ceremony",
+    "file": "/sfx/crown_ceremony.mp3",
+    "duration_ms": 2200,
+    "loop": false,
+    "volume": 0.75,
+    "description": "A miniature regal flourish crowns the weekly winner."
+  },
+  {
+    "name": "mayor_gong",
+    "file": "/sfx/mayor_gong.mp3",
+    "duration_ms": 1480,
+    "loop": false,
+    "volume": 0.55,
+    "description": "A mellow little gong introduces the Mayor."
+  },
+  {
+    "name": "prayer_chime",
+    "file": "/sfx/prayer_chime.mp3",
+    "duration_ms": 1680,
+    "loop": false,
+    "volume": 0.5,
+    "description": "Soft wind chimes mark a peaceful prayer."
+  },
+  {
+    "name": "event_drumroll",
+    "file": "/sfx/event_drumroll.mp3",
+    "duration_ms": 2000,
+    "loop": false,
+    "volume": 0.65,
+    "description": "A toy drumroll announces a village event."
+  },
+  {
+    "name": "evidence_stamp_ok",
+    "file": "/sfx/evidence_stamp_ok.mp3",
+    "duration_ms": 413,
+    "loop": false,
+    "volume": 0.7,
+    "description": "A rubber stamp and chirp approve submitted evidence."
+  },
+  {
+    "name": "evidence_buzzer_sus",
+    "file": "/sfx/evidence_buzzer_sus.mp3",
+    "duration_ms": 1000,
+    "loop": false,
+    "volume": 0.65,
+    "description": "A goofy suspicious honk flags questionable evidence."
+  },
+  {
+    "name": "pet_bark_happy",
+    "file": "/sfx/pet_bark_happy.mp3",
+    "duration_ms": 880,
+    "loop": false,
+    "volume": 0.6,
+    "description": "A tiny cartoon puppy gives two happy yips."
+  },
+  {
+    "name": "building_unlock_tada",
+    "file": "/sfx/building_unlock_tada.mp3",
+    "duration_ms": 2000,
+    "loop": false,
+    "volume": 0.75,
+    "description": "A wooden pop and musical ta-da unlock a building."
+  },
+  {
+    "name": "crater_boom_cartoon",
+    "file": "/sfx/crater_boom_cartoon.mp3",
+    "duration_ms": 1437,
+    "loop": false,
+    "volume": 0.7,
+    "description": "A cushioned cartoon boom makes a crater."
+  },
+  {
+    "name": "poke_boing",
+    "file": "/sfx/poke_boing.mp3",
+    "duration_ms": 530,
+    "loop": false,
+    "volume": 0.6,
+    "description": "A springy boing reacts to a friendly poke."
+  },
+  {
+    "name": "message_blip",
+    "file": "/sfx/message_blip.mp3",
+    "duration_ms": 480,
+    "loop": false,
+    "volume": 0.5,
+    "description": "A soft two-note blip announces a message."
+  },
+  {
+    "name": "festival_crowd_loop",
+    "file": "/sfx/festival_crowd_loop.mp3",
+    "duration_ms": 4880,
+    "loop": true,
+    "volume": 0.3,
+    "description": "A gentle looping crowd brings the village festival to life."
+  },
+  {
+    "name": "day_birds_breeze",
+    "file": "/sfx/day_birds_breeze.ogg",
+    "fallback": "/sfx/day_birds_breeze.mp3",
+    "duration_ms": 20000,
+    "loop": true,
+    "volume": 1,
+    "ambience": true,
+    "description": "Soft sparse songbirds in a peaceful village garden, light breeze rustling leaves. NO cicadas, no insects, no music, no speech. Gentle spacious natural ambience."
+  },
+  {
+    "name": "village_life_distant",
+    "file": "/sfx/village_life_distant.ogg",
+    "fallback": "/sfx/village_life_distant.mp3",
+    "duration_ms": 20000,
+    "loop": true,
+    "volume": 1,
+    "ambience": true,
+    "description": "Very faint distant village chatter, unintelligible voices far away, one far-off bicycle bell, gentle quiet cozy afternoon, no close voices, no music."
+  },
+  {
+    "name": "fountain_trickle",
+    "file": "/sfx/fountain_trickle.ogg",
+    "fallback": "/sfx/fountain_trickle.mp3",
+    "duration_ms": 20000,
+    "loop": true,
+    "volume": 1,
+    "ambience": true,
+    "description": "Small stone plaza fountain, gentle clear trickling water, soft delicate droplets, relaxing, no loud splashes, no voices, no music."
+  },
+  {
+    "name": "creek_babble",
+    "file": "/sfx/creek_babble.ogg",
+    "fallback": "/sfx/creek_babble.mp3",
+    "duration_ms": 20000,
+    "loop": true,
+    "volume": 1,
+    "ambience": true,
+    "description": "Small shallow creek in a leafy park, soft warm babbling water flowing over smooth stones, calm quiet natural ambience, no birds or voices."
+  },
+  {
+    "name": "night_soft",
+    "file": "/sfx/night_soft.ogg",
+    "fallback": "/sfx/night_soft.mp3",
+    "duration_ms": 20000,
+    "loop": true,
+    "volume": 1,
+    "ambience": true,
+    "description": "Sparse distinct summer-night cricket chirps with quiet gaps; AUDIO-002 take 4, mastered to -22 LUFS, seamless 20-second loop."
+  },
+  {
+    "name": "rain_soft",
+    "file": "/sfx/rain_soft.ogg",
+    "fallback": "/sfx/rain_soft.mp3",
+    "duration_ms": 20000,
+    "loop": true,
+    "volume": 1,
+    "ambience": true,
+    "description": "Soft steady light rain on garden leaves, warm gentle pattering, no thunder, no heavy downpour, no music."
+  },
+  {
+    "name": "wind_gust_light",
+    "file": "/sfx/wind_gust_light.ogg",
+    "fallback": "/sfx/wind_gust_light.mp3",
+    "duration_ms": 20000,
+    "loop": true,
+    "volume": 1,
+    "ambience": true,
+    "description": "Very light gentle breeze softly swelling through leafy trees, quiet warm air, no howling, no rumble, no voices, no music."
+  },
+  {
+    "name": "arena_crowd_murmur",
+    "file": "/sfx/arena_crowd_murmur.ogg",
+    "fallback": "/sfx/arena_crowd_murmur.mp3",
+    "duration_ms": 20000,
+    "loop": true,
+    "volume": 1,
+    "ambience": true,
+    "description": "Warm distant small friendly crowd murmuring quietly in an outdoor arena, unintelligible low conversation, no roaring, no cheering, no shouting, no music."
+  },
+  {
+    "name": "market_bustle_light",
+    "file": "/sfx/market_bustle_light.ogg",
+    "fallback": "/sfx/market_bustle_light.mp3",
+    "duration_ms": 20000,
+    "loop": true,
+    "volume": 1,
+    "ambience": true,
+    "description": "Quiet small village market far away, gentle indistinct conversation, soft footsteps and light wooden stall sounds, warm and peaceful, no shouting, no music."
+  },
+  {
+    "name": "bird_chirp_1",
+    "file": "/sfx/bird_chirp_1.ogg",
+    "fallback": "/sfx/bird_chirp_1.mp3",
+    "duration_ms": 3000,
+    "loop": false,
+    "volume": 1,
+    "ambience": true,
+    "description": "One small songbird gives two soft clear chirps in a quiet garden. Isolated short natural sound, quiet background, no music."
+  },
+  {
+    "name": "bird_chirp_2",
+    "file": "/sfx/bird_chirp_2.ogg",
+    "fallback": "/sfx/bird_chirp_2.mp3",
+    "duration_ms": 3000,
+    "loop": false,
+    "volume": 1,
+    "ambience": true,
+    "description": "One distant robin sings a brief gentle three-note phrase. Isolated short natural sound, quiet background, no music."
+  },
+  {
+    "name": "distant_dog",
+    "file": "/sfx/distant_dog.ogg",
+    "fallback": "/sfx/distant_dog.mp3",
+    "duration_ms": 3000,
+    "loop": false,
+    "volume": 1,
+    "ambience": true,
+    "description": "One friendly dog gives a single soft bark far away across a quiet village, distant and mellow, no aggressive growling, no music."
+  }
+]

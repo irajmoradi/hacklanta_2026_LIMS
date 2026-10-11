@@ -1,0 +1,20 @@
+.modal.walk-shop.wide { width:100vw; max-width:none; height:100dvh; max-height:none; margin:0; padding:0; border:0; border-radius:0; overflow:hidden; background:#eee1cb; animation:none; }
+.walk-shop:not([open]) { display:block; visibility:hidden; pointer-events:none; z-index:-1; }
+.walk-shop > .eyebrow,.walk-shop > h2 { position:absolute; z-index:3; left:28px; margin:0; pointer-events:none; text-shadow:0 1px 8px #fff8; }
+.walk-shop > .eyebrow { top:22px; }.walk-shop > h2 { top:44px; font-size:26px; }
+.walk-shop > .modal-close { z-index:5; right:20px; top:20px; background:#fff5e5; }
+.shop-room { position:absolute; inset:70px 390px 0 0; }
+.shop-room-caption { position:absolute; left:24px; bottom:26px; display:flex; flex-direction:column; padding:12px 20px; border-radius:12px; background:#fff5e8dc; color:#394c42; pointer-events:none; }
+.shop-room-caption strong { font-family:Georgia,serif; font-size:20px; }.shop-room-caption span { font-size:12px; }
+.shop-overlay { position:absolute; right:0; top:80px; bottom:0; width:390px; padding:18px; overflow-y:auto; background:#fffaf0ed; border-left:1px solid #d4c5ae; }
+.shop-overlay .shop-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }.shop-overlay .shop-item { padding:10px; }.shop-overlay .item-art { height:80px; }.shop-overlay .shop-item h3 { font-size:14px; }
+.shop-overlay details { margin-top:20px; }.shop-overlay .farm-intro { font-size:12px; }
+.shop-back { position:absolute; left:28px; top:92px; z-index:4; background:#fff6e6ee; }
+.checkout-receipt { position:absolute; bottom:110px; left:50%; transform:translateX(-50%); pointer-events:none; white-space:nowrap; background:#357b67; color:white; padding:12px 18px; border-radius:16px; opacity:0; }
+.checkout-receipt[data-playing=true] { opacity:1; }.shop-3d-fallback { padding:180px 30px; }
+@media(max-width:760px) { .walk-shop > h2 { font-size:20px; }.shop-room { inset:65px 0 44% 0; }.shop-overlay { top:56%; width:100%; border-left:0; border-top:1px solid #d4c5ae; }.shop-back { top:80px; left:16px; }.shop-room-caption { bottom:8px; left:10px; padding:6px 10px; }.shop-room-caption strong { font-size:14px; }.checkout-receipt { bottom:65px; font-size:12px; }.shop-overlay .shop-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+@media(max-width:430px) { .shop-overlay .shop-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+/* R-125: in browser fullscreen (F11) Edge/Chrome reveal their toolbar over the top ~48px and swallow clicks there. */
+@media (display-mode: fullscreen) {
+  .walk-shop>.modal-header { padding-top:56px; }
+}

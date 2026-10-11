@@ -1,0 +1,62 @@
+[
+  {
+    "file": "village-trailer-v4-long.mp4",
+    "seconds": 168.0,
+    "video_seconds": 168.0,
+    "frames": 5040,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "bytes": 12672030,
+    "sha256": "57e05b020fd21efd32584ff5058fdff6287d0623e58970a3fcff19a68563035f",
+    "decode": "passed"
+  },
+  {
+    "file": "village-trailer-v4-long-discord.mp4",
+    "seconds": 168.0,
+    "video_seconds": 168.0,
+    "frames": 5040,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "bytes": 12672030,
+    "sha256": "57e05b020fd21efd32584ff5058fdff6287d0623e58970a3fcff19a68563035f",
+    "decode": "passed"
+  },
+  {
+    "file": "village-trailer-v4-90.mp4",
+    "seconds": 90.0,
+    "video_seconds": 90.0,
+    "frames": 2700,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "bytes": 9049079,
+    "sha256": "1ea30b40006dba5be844209efaab371eab435a1565fd00dff687a4a85161ed1b",
+    "decode": "passed"
+  },
+  {
+    "file": "village-trailer-v4-90-discord.mp4",
+    "seconds": 90.0,
+    "video_seconds": 90.0,
+    "frames": 2700,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "bytes": 9049079,
+    "sha256": "1ea30b40006dba5be844209efaab371eab435a1565fd00dff687a4a85161ed1b",
+    "decode": "passed"
+  },
+  {
+    "file": "village-trailer-v4-square.mp4",
+    "seconds": 39.0,
+    "video_seconds": 39.0,
+    "frames": 2340,
+    "fps": 60,
+    "width": 1080,
+    "height": 1080,
+    "bytes": 5354424,
+    "sha256": "7a937500efb450438fd09b2d8606ad994d7e28b6ee125e96ded6d6347c11abd1",
+    "decode": "passed"
+  }
+]

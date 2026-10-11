@@ -1,0 +1,299 @@
+{
+  "flowers_a": {
+    "materials": [
+      "blossom",
+      "hay",
+      "leaf"
+    ],
+    "nodes": [
+      "flower_center",
+      "flower_center.001",
+      "flower_center.002",
+      "flower_center.003",
+      "petal",
+      "petal.001",
+      "petal.002",
+      "petal.003",
+      "petal.004",
+      "petal.005",
+      "petal.006",
+      "petal.007",
+      "petal.008",
+      "petal.009",
+      "petal.010",
+      "petal.011",
+      "petal.012",
+      "petal.013",
+      "petal.014",
+      "petal.015",
+      "petal.016",
+      "petal.017",
+      "petal.018",
+      "petal.019",
+      "stem",
+      "stem.001",
+      "stem.002",
+      "stem.003"
+    ]
+  },
+  "fountain": {
+    "materials": [
+      "stone",
+      "water"
+    ],
+    "nodes": [
+      "base",
+      "basin_rim",
+      "jet",
+      "jet_tip",
+      "pedestal",
+      "upper_bowl",
+      "upper_water",
+      "water"
+    ]
+  },
+  "glasses_round": {
+    "materials": [
+      "metal"
+    ],
+    "nodes": [
+      "nose_bridge",
+      "round_frame",
+      "round_frame.001",
+      "temple",
+      "temple.001"
+    ]
+  },
+  "hat_beanie": {
+    "materials": [
+      "roof",
+      "wall"
+    ],
+    "nodes": [
+      "cuff",
+      "knit",
+      "pom"
+    ]
+  },
+  "hat_cap": {
+    "materials": [
+      "accent"
+    ],
+    "nodes": [
+      "bill",
+      "cap"
+    ]
+  },
+  "hat_cowboy": {
+    "materials": [
+      "roof",
+      "wood"
+    ],
+    "nodes": [
+      "band",
+      "brim",
+      "crown"
+    ]
+  },
+  "hat_crown": {
+    "materials": [
+      "accent",
+      "light"
+    ],
+    "nodes": [
+      "band",
+      "jewel",
+      "point",
+      "point.001",
+      "point.002",
+      "point.003",
+      "point.004",
+      "point.005"
+    ]
+  },
+  "hat_festival": {
+    "materials": [
+      "accent",
+      "blossom",
+      "light"
+    ],
+    "nodes": [
+      "badge",
+      "brim",
+      "bucket",
+      "ribbon"
+    ]
+  },
+  "hat_headphones": {
+    "materials": [
+      "accent",
+      "metal"
+    ],
+    "nodes": [
+      "ear_cushion",
+      "ear_cushion.001",
+      "ear_shell",
+      "ear_shell.001",
+      "headband",
+      "headband.001",
+      "headband.002",
+      "headband.003",
+      "headband.004",
+      "headband.005",
+      "headband.006",
+      "headband.007",
+      "headband.008",
+      "headband.009"
+    ]
+  },
+  "house_backyard": {
+    "materials": [
+      "accent",
+      "metal",
+      "roof",
+      "wall",
+      "wood"
+    ],
+    "nodes": [
+      "back_rail",
+      "back_rail.001",
+      "dog_bowl",
+      "dog_door",
+      "doghouse",
+      "fence_post",
+      "fence_post.001",
+      "fence_post.002",
+      "fence_post.003",
+      "fence_post.004",
+      "fence_post.005",
+      "gable_roof",
+      "side_rail",
+      "side_rail.001",
+      "side_rail.002",
+      "side_rail.003"
+    ]
+  },
+  "jacket_denim": {
+    "materials": [
+      "jacket",
+      "light"
+    ],
+    "nodes": [
+      "button",
+      "button.001",
+      "jacket_lapel",
+      "jacket_lapel.001",
+      "jacket_shell",
+      "pocket",
+      "pocket.001"
+    ]
+  },
+  "lantern": {
+    "materials": [
+      "light",
+      "metal",
+      "roof",
+      "stone"
+    ],
+    "nodes": [
+      "cap",
+      "foot",
+      "frame",
+      "frame.001",
+      "frame.002",
+      "frame.003",
+      "glow",
+      "post"
+    ]
+  },
+  "pet_dog": {
+    "materials": [
+      "accent",
+      "fur",
+      "metal",
+      "trim",
+      "wall"
+    ],
+    "nodes": [
+      "body",
+      "collar",
+      "ear",
+      "ear.001",
+      "eye",
+      "eye.001",
+      "head",
+      "muzzle",
+      "nose",
+      "paw",
+      "paw.001",
+      "paw.002",
+      "paw.003",
+      "tail"
+    ]
+  },
+  "pet_dog_b": {
+    "materials": [
+      "accent",
+      "blossom",
+      "fur",
+      "metal",
+      "wall"
+    ],
+    "nodes": [
+      "body",
+      "chest",
+      "collar",
+      "eye",
+      "eye.001",
+      "head",
+      "inner_ear",
+      "inner_ear.001",
+      "muzzle",
+      "nose",
+      "short_paw",
+      "short_paw.001",
+      "short_paw.002",
+      "short_paw.003",
+      "tail",
+      "upright_ear",
+      "upright_ear.001"
+    ]
+  },
+  "scarf": {
+    "materials": [
+      "hay",
+      "roof"
+    ],
+    "nodes": [
+      "fringe",
+      "fringe.001",
+      "fringe.002",
+      "neck_wrap",
+      "scarf_tail"
+    ]
+  },
+  "shirt_hoodie": {
+    "materials": [
+      "accent",
+      "shirt",
+      "wall"
+    ],
+    "nodes": [
+      "Arm_L",
+      "Arm_R",
+      "Head",
+      "Leg_L",
+      "Leg_R",
+      "Root",
+      "Spine",
+      "VillagerRig",
+      "drawstring",
+      "drawstring.001",
+      "hood",
+      "pocket",
+      "sleeve",
+      "sleeve.001",
+      "torso"
+    ]
+  }
+}

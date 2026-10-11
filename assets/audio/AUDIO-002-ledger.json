@@ -1,0 +1,34 @@
+[
+  {
+    "take": 1,
+    "prompt": "Quiet summer night in a small village, a few distinct crickets chirping slowly at different distances, soft distant frogs, very gentle warm breeze, no hiss, no white noise, calm and sparse, seamless loop. Clear individual tonal cricket chirps with quiet gaps; irregular overlapping short phrases, not rhythmic spraying water. No speech, music, rain, sprinklers, or continuous buzzing.",
+    "duration_seconds": 22,
+    "model_id": "eleven_text_to_sound_v2",
+    "status": "complete",
+    "credits": "242"
+  },
+  {
+    "take": 2,
+    "prompt": "Quiet summer night in a small village, a few distinct crickets chirping slowly at different distances, soft distant frogs, very gentle warm breeze, no hiss, no white noise, calm and sparse, seamless loop. Clear individual tonal cricket chirps with quiet gaps; irregular overlapping short phrases, not rhythmic spraying water. No speech, music, rain, sprinklers, or continuous buzzing. Extremely sparse: just two solitary field crickets trading short pure ringing chirps at irregular intervals, one near and one distant. Several seconds of near silence between their calls. Dry clean recording, no continuous insect chorus. Breeze barely perceptible.",
+    "duration_seconds": 22,
+    "model_id": "eleven_text_to_sound_v2",
+    "status": "HTTP 400",
+    "credits": null
+  },
+  {
+    "take": 3,
+    "prompt": "Quiet summer village night. Two solitary field crickets trade short pure ringing chirps slowly at irregular intervals, one near and one distant. Several seconds of near silence between calls. Soft distant frogs, barely perceptible warm breeze. No hiss, white noise, continuous insect chorus, water, music or speech. Dry clean recording, calm and extremely sparse. Seamless loop.",
+    "duration_seconds": 22,
+    "model_id": "eleven_text_to_sound_v2",
+    "status": "complete",
+    "credits": "242"
+  },
+  {
+    "take": 4,
+    "prompt": "One solitary cricket chirping softly in a silent summer village at night. Short bright tonal chirp chirp, then two seconds of silence, then another short chirp phrase slightly farther away. Clear 4 to 5 kHz ringing insect pulses with irregular timing. Very sparse, peaceful and dry. Only individual cricket calls. No continuous buzzing, background hiss, white noise, water, speech or music. Seamless loop.",
+    "duration_seconds": 22,
+    "model_id": "eleven_text_to_sound_v2",
+    "status": "complete",
+    "credits": "242"
+  }
+]

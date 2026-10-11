@@ -1,0 +1,15 @@
+{
+  "seat": "Maya",
+  "blocked": [],
+  "original": {
+    "village_id": "13370000-0000-4000-8000-000000000000",
+    "house_style": null,
+    "house_colors": null,
+    "house_variant": null,
+    "house_materials": null
+  },
+  "http": 200,
+  "interactionMs": 6150,
+  "result": "pass",
+  "restoreStatus": 200
+}

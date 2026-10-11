@@ -1,0 +1,90 @@
+name: village-prod
+services:
+  timescaledb:
+    image: timescale/timescaledb:2.25.2-pg17
+    environment:
+      POSTGRES_USER: village
+      POSTGRES_DB: village
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in infra/.env.prod or the environment}
+      TIMESCALEDB_TELEMETRY: 'off'
+    volumes:
+      - db:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U village -d village']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+  api:
+    build:
+      context: ..
+      dockerfile: apps/api/Dockerfile
+    env_file:
+      - path: .env.prod
+        required: false
+    environment:
+      DATABASE_URL: 'host=timescaledb port=5432 dbname=village user=village password=${POSTGRES_PASSWORD}'
+      ASSET_DIR: /app/data/assets
+      DEMO_AUTH: ${DEMO_AUTH:-0}
+      GPU_WORKER_URL: ${GPU_WORKER_URL:-http://127.0.0.1:8100/health}
+    command: [sh, -ec, 'python scripts/migrate.py && python scripts/seed.py && exec uvicorn app.main:create_app --factory --host 0.0.0.0 --port 8010']
+    volumes:
+      - assets:/app/data/assets
+    depends_on:
+      timescaledb:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, python, -c, 'import json,urllib.request; assert json.load(urllib.request.urlopen("http://127.0.0.1:8010/api/health", timeout=3))["ok"]']
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+    restart: unless-stopped
+  web:
+    build:
+      context: ..
+      dockerfile: apps/web/Dockerfile
+      args:
+        VITE_MOCK: ${VITE_MOCK:-1}
+    environment:
+      DOMAIN: ${DOMAIN:-:80}
+    ports:
+      - '${BIND_ADDRESS:-0.0.0.0}:${HTTP_PORT:-80}:80'
+      - '${BIND_ADDRESS:-0.0.0.0}:${HTTPS_PORT:-443}:443'
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      api:
+        condition: service_healthy
+    healthcheck:
+      test: [CMD, wget, -q, --spider, 'http://127.0.0.1:8081/health']
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+  imessage:
+    build:
+      context: ..
+      dockerfile: apps/imessage/Dockerfile
+    env_file:
+      - path: .env.prod
+        required: false
+    environment:
+      VILLAGE_API_URL: http://api:8010/api
+      IMESSAGE_ENABLED: ${IMESSAGE_ENABLED:-0}
+    depends_on:
+      api:
+        condition: service_healthy
+    # Liveness only: the current agent exposes no provider-readiness endpoint.
+    healthcheck:
+      test: [CMD, bun, -e, 'process.kill(1, 0)']
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+volumes:
+  db:
+  assets:
+  caddy_data:
+  caddy_config:

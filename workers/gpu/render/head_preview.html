@@ -1,0 +1,59 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Head Preview</title>
+<style>html,body{margin:0;height:100%;background:#eef3e8} canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+</head><body>
+<script type="module">
+// ?head=/data/assets/avatars/<id>/body/head.glb&mode=body|alone&yaw=deg&traits=/data/.../traits.json
+import * as THREE from "three";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+const q = new URLSearchParams(location.search);
+const mode = q.get("mode") ?? "body";
+const yaw = THREE.MathUtils.degToRad(+(q.get("yaw") ?? 25));
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setSize(innerWidth, innerHeight); renderer.setPixelRatio(1);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene(); scene.background = new THREE.Color(0xeef3e8);
+scene.add(new THREE.HemisphereLight(0xffffff, 0x88aa77, 1.6));
+const sun = new THREE.DirectionalLight(0xffffff, 1.6); sun.position.set(2, 4, 3); scene.add(sun);
+const cam = new THREE.PerspectiveCamera(30, innerWidth / innerHeight, 0.01, 50);
+const loader = new GLTFLoader();
+const load = (u) => new Promise((res, rej) => loader.load(u, res, undefined, rej));
+const PRESET_HEAD_NODES = ["head", "hair_cap", "eye", "eye001", "eye.001", "nose"];
+try {
+  let target, dist;
+  if (mode === "object") {   // CV-006 decoration: 0.6 m cube, origin at base
+    const obj = (await load(q.get("glb"))).scene; scene.add(obj);
+    const grid = new THREE.Mesh(new THREE.PlaneGeometry(0.9, 0.9), new THREE.MeshStandardMaterial({ color: 0xd9e4cc }));
+    grid.rotation.x = -Math.PI / 2; scene.add(grid);
+    target = new THREE.Vector3(0, 0.25, 0); dist = 1.6;
+    cam.position.set(Math.sin(yaw) * dist, 0.75, Math.cos(yaw) * dist); cam.lookAt(target);
+    renderer.render(scene, cam); window.__done = "ok"; throw "done";
+  }
+  const head = q.get("head") ? (await load(q.get("head"))).scene : new THREE.Group();
+  if (mode === "alone") {
+    scene.add(head); target = new THREE.Vector3(0, 0.35, 0); dist = 2.0;
+  } else {
+    const body = (await load(q.get("body") ?? "/models/villager_base.glb")).scene;
+    scene.add(body);
+    body.traverse((o) => { if (PRESET_HEAD_NODES.includes(o.name)) o.visible = false; });
+    let bone; body.traverse((o) => { if (o.isBone && o.name === "Head") bone = o; });
+    if (!bone) throw new Error("no Head bone");
+    bone.add(head);
+    if (q.get("pattern")) {  // CV-006 outfit: seamless swatch on the shirt material (+ tint primary)
+      const tex = await new THREE.TextureLoader().loadAsync(q.get("pattern"));
+      tex.colorSpace = THREE.SRGBColorSpace; tex.wrapS = tex.wrapT = THREE.RepeatWrapping; tex.repeat.set(3, 3);
+      body.traverse((o) => { if (o.isMesh && o.material?.name === "shirt") { o.material = o.material.clone(); o.material.map = tex; o.material.color.set(0xffffff); o.material.needsUpdate = true; } });
+    }
+    if (q.get("traits")) {  // tint preset body with SAM 3 colors (same idea as the web app)
+      const t = await (await fetch(q.get("traits"))).json();
+      body.traverse((o) => { if (o.isMesh && o.material && t.colors[o.material.name] && !(q.get("pattern") && o.material.name === "shirt")) { o.material = o.material.clone(); o.material.color.set(t.colors[o.material.name]); } });
+    }
+    target = new THREE.Vector3(0, 1.05, 0); dist = 4.6;
+  }
+  cam.position.set(Math.sin(yaw) * dist, target.y + 0.25, Math.cos(yaw) * dist); cam.lookAt(target);
+  renderer.render(scene, cam);
+  window.__done = "ok";
+} catch (e) { if (e !== "done") { console.error(e); window.__done = "error: " + e; } }
+</script></body></html>

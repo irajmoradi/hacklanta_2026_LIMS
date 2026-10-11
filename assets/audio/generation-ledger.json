@@ -1,0 +1,86 @@
+[
+  {
+    "name": "day_birds_breeze",
+    "duration": 22,
+    "prompt": "Soft sparse songbirds in a peaceful village garden, light breeze rustling leaves. NO cicadas, no insects, no music, no speech. Gentle spacious natural ambience. Seamless continuous ambience loop with consistent texture, no intro or ending.",
+    "status": "complete",
+    "credits": "242"
+  },
+  {
+    "name": "village_life_distant",
+    "duration": 22,
+    "prompt": "Very faint distant village chatter, unintelligible voices far away, one far-off bicycle bell, gentle quiet cozy afternoon, no close voices, no music. Seamless continuous ambience loop with consistent texture, no intro or ending.",
+    "status": "complete",
+    "credits": "242"
+  },
+  {
+    "name": "fountain_trickle",
+    "duration": 22,
+    "prompt": "Small stone plaza fountain, gentle clear trickling water, soft delicate droplets, relaxing, no loud splashes, no voices, no music. Seamless continuous ambience loop with consistent texture, no intro or ending.",
+    "status": "complete",
+    "credits": "242"
+  },
+  {
+    "name": "creek_babble",
+    "duration": 22,
+    "prompt": "Small shallow creek in a leafy park, soft warm babbling water flowing over smooth stones, calm quiet natural ambience, no birds or voices. Seamless continuous ambience loop with consistent texture, no intro or ending.",
+    "status": "complete",
+    "credits": "242"
+  },
+  {
+    "name": "night_soft",
+    "duration": 22,
+    "prompt": "Warm calm quiet countryside night, very sparse distant soft cricket chirps with long quiet gaps, occasional distant soft owl. NO cicadas, no harsh continuous insect buzzing, no music. Seamless continuous ambience loop with consistent texture, no intro or ending.",
+    "status": "complete",
+    "credits": "242"
+  },
+  {
+    "name": "rain_soft",
+    "duration": 22,
+    "prompt": "Soft steady light rain on garden leaves, warm gentle pattering, no thunder, no heavy downpour, no music. Seamless continuous ambience loop with consistent texture, no intro or ending.",
+    "status": "complete",
+    "credits": "242"
+  },
+  {
+    "name": "wind_gust_light",
+    "duration": 22,
+    "prompt": "Very light gentle breeze softly swelling through leafy trees, quiet warm air, no howling, no rumble, no voices, no music. Seamless continuous ambience loop with consistent texture, no intro or ending.",
+    "status": "complete",
+    "credits": "242"
+  },
+  {
+    "name": "arena_crowd_murmur",
+    "duration": 22,
+    "prompt": "Warm distant small friendly crowd murmuring quietly in an outdoor arena, unintelligible low conversation, no roaring, no cheering, no shouting, no music. Seamless continuous ambience loop with consistent texture, no intro or ending.",
+    "status": "complete",
+    "credits": "242"
+  },
+  {
+    "name": "market_bustle_light",
+    "duration": 22,
+    "prompt": "Quiet small village market far away, gentle indistinct conversation, soft footsteps and light wooden stall sounds, warm and peaceful, no shouting, no music. Seamless continuous ambience loop with consistent texture, no intro or ending.",
+    "status": "complete",
+    "credits": "242"
+  },
+  {
+    "name": "bird_chirp_1",
+    "duration": 3,
+    "prompt": "One small songbird gives two soft clear chirps in a quiet garden. Isolated short natural sound, quiet background, no music.",
+    "status": "complete",
+    "credits": "33"
+  },
+  {
+    "name": "bird_chirp_2",
+    "duration": 3,
+    "prompt": "One distant robin sings a brief gentle three-note phrase. Isolated short natural sound, quiet background, no music.",
+    "status": "complete",
+    "credits": "33"
+  },
+  {
+    "name": "distant_dog",
+    "duration": 3,
+    "prompt": "One friendly dog gives a single soft bark far away across a quiet village, distant and mellow, no aggressive growling, no music.",
+    "status": "complete",
+    "credits": "33"
+  }
+]

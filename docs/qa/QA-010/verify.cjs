@@ -1,0 +1,31 @@
+// Read-only follow-up: actual toggle state assertions, hover discovery and viewport QA.
+const {chromium,expect}=require(process.env.QA_PLAYWRIGHT||'C:/Users/mourn/Downloads/hacklanta/apps/web/node_modules/@playwright/test');
+const fs=require('node:fs'),path=require('node:path');
+const report={started:new Date().toISOString(),seats:[],network:[],blocked:[]};
+(async()=>{
+ const b=await chromium.launch({headless:true,args:['--enable-gpu','--ignore-gpu-blocklist','--use-angle=d3d11']});
+ for(const seat of ['Iraj','Lance','Stefanny','Maya','Mario']){
+  const c=await b.newContext({viewport:{width:1440,height:1000}}),p=await c.newPage();p.setDefaultTimeout(20000);
+  await p.route('**/api/**',route=>{const r=route.request(),url=new URL(r.url()).pathname;if(['GET','HEAD','OPTIONS'].includes(r.method())||/\/demo\/seat$|\/presence\/heartbeat$/.test(url))return route.continue();report.blocked.push({seat,method:r.method(),url});return route.abort('blockedbyclient');});
+  p.on('response',r=>{if(r.status()>=400)report.network.push({seat,status:r.status(),url:new URL(r.url()).pathname});});
+  const shot=async name=>p.screenshot({path:path.join(__dirname,`${seat}-verify-${name}.png`),style:'img,.portrait canvas,[data-lam-host],.conversation-log,input[type="tel"]{visibility:hidden!important}'});
+  const row={seat,toggles:[],hover:[]};report.seats.push(row);
+  try{
+   const start=Date.now();await p.goto('http://127.0.0.1:4173');await p.locator('.demo-seat-grid button').filter({hasText:seat}).click();await expect(p.getByRole('button',{name:`Testing as ${seat} · switch`})).toBeVisible({timeout:30000});await expect(p.getByText('Connected',{exact:true})).toBeVisible();row.uid=await p.getByLabel('Play as').inputValue();if(row.uid!=='13370000-0000-4000-8000-00000000000'+(['Iraj','Lance','Stefanny','Maya','Mario'].indexOf(seat)+1))throw Error('Unexpected live identity');row.seatMs=Date.now()-start;row.renderer=await p.locator('canvas').first().evaluate(el=>{const gl=el.getContext('webgl2');const extension=gl?.getExtension('WEBGL_debug_renderer_info');return extension?gl.getParameter(extension.UNMASKED_RENDERER_WEBGL):'unknown';});
+   await p.getByRole('button',{name:'Open Settings',exact:true}).click();await p.getByLabel('Display name',{exact:true}).waitFor();
+   const switches=p.getByRole('switch');for(let i=0;i<await switches.count();i++){const s=switches.nth(i),before=await s.isChecked(),label=await s.evaluate(e=>[...e.labels].map(l=>l.textContent).join(' '));await s.setChecked(!before);await expect(s).toBeChecked({checked:!before});await s.setChecked(before);await expect(s).toBeChecked({checked:before});row.toggles.push({label,before,flippedAndRestored:true});}
+   await shot('settings');await p.getByRole('button',{name:'Close dialog',exact:true}).click();
+   await p.getByRole('button',{name:'Reset camera'}).click();await p.waitForTimeout(300);
+   const home=p.getByRole('button',{name:`Open ${seat}'s house profile`}),box=await home.boundingBox();
+   // DOM projection is a locator, not a simulated event: hover actual canvas pixels near it.
+   if(box){for(const [dx,dy] of [[0,-20],[0,-45],[-25,-45],[25,-45],[0,0],[0,20]]){await p.mouse.move(box.x+box.width/2+dx,box.y+box.height/2+dy);await p.waitForTimeout(200);const revealed=await home.evaluate(e=>getComputedStyle(e).opacity==='1');row.hover.push({dx,dy,revealed});if(revealed){await shot('house-hover');break;}}}
+   await p.getByRole('button',{name:'Shop',exact:true}).click();await p.getByRole('button',{name:/^Buy photo token/}).waitFor();await p.locator('[data-testid="shop-balance"]').waitFor({timeout:25000});row.shop={balance:await p.getByTestId('shop-balance').textContent(),tokenDisabled:await p.getByRole('button',{name:/^Buy photo token/}).isDisabled(),tokenLabel:await p.getByRole('button',{name:/^Buy photo token/}).textContent()};await shot('shop');await p.getByRole('button',{name:'Close dialog',exact:true}).click();
+   await p.getByRole('button',{name:'Compete',exact:true}).click();await p.locator('.competition-list button, .arena-banner').first().click();await p.getByRole('button',{name:'View open',exact:true}).click();await shot('arena-open');await p.getByRole('button',{name:'View current',exact:true}).click();const progress=p.getByRole('button',{name:/^Progress of /});if(await progress.count()){await progress.first().click();row.evidence=await p.getByRole('complementary',{name:'Participant evidence'}).innerText();await p.getByRole('button',{name:/Back to arena/}).click();}await p.getByRole('button',{name:'Submit / manage competition',exact:true}).click();row.arenaButtons=await p.locator('.arena-manage button').evaluateAll(es=>es.map(e=>{const s=getComputedStyle(e);return {text:e.textContent.trim(),color:s.color,background:s.backgroundColor,disabled:e.disabled,fontSize:s.fontSize};}));await shot('arena-contrast');await p.locator('.arena-header').getByRole('button',{name:/[Vv]illage/}).click();await expect(p.locator('.arena-modal')).toHaveCount(0);
+   await p.getByRole('button',{name:'Village',exact:true}).click();await p.getByRole('button',{name:'Our group photo',exact:true}).click();row.groupPhoto=await p.getByRole('dialog').innerText();await shot('group-photo');await p.getByRole('button',{name:'Close dialog',exact:true}).click();
+   await p.setViewportSize({width:390,height:844});await shot('mobile-town');row.viewport=await p.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,controls:[...document.querySelectorAll('.topbar button,.topbar select')].map(e=>{const r=e.getBoundingClientRect();return {text:e.getAttribute('aria-label')||e.textContent?.trim(),x:r.x,y:r.y,width:r.width,height:r.height,display:getComputedStyle(e).display};})}));
+   await p.getByRole('button',{name:'Open Settings',exact:true}).click();await p.getByLabel('Display name',{exact:true}).waitFor();await shot('mobile-settings');row.status='pass';
+  }catch(e){row.status='failed';row.error=e.message;await shot('failure').catch(()=>{});}
+  await c.close();fs.writeFileSync(path.join(__dirname,'verify-results.json'),JSON.stringify(report,null,2));console.log(seat,row.status);
+ }
+ await b.close();if(report.seats.some(s=>s.status==='failed')||report.blocked.length)process.exitCode=1;
+})().catch(e=>{console.error(e);process.exitCode=1;});

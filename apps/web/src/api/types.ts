@@ -1,0 +1,60 @@
+// Mirror of packages/contracts/api.md v2. Keep changes integrator-owned upstream.
+export type IdleActivity = 'working_out' | 'gaming' | 'studying' | 'gardening' | 'dancing' | 'reading' | 'home' | 'food' | 'walk_pet';
+export type JobState = 'none' | 'queued' | 'running' | 'ready' | 'failed';
+export type AvatarManifest = {
+  schema_version: 1; user_id: string; revision: number;
+  body: { kind: 'preset'; preset_id: string; head_glb_url?: string; head_card_url?: string; colors: { hair: string; shirt: string; pants: string; shoes: string; skin: string } };
+  portrait: { kind: 'initials' | 'photo' | 'lam_head'; asset_url?: string; head_package_url?: string; placeholder?: boolean };
+  generation: { segment: JobState; head: JobState; body: JobState; stylized_head?: JobState };
+};
+export type EquipmentSlot = 'head' | 'face' | 'torso' | 'neck' | 'pet' | 'house' | 'voice_style' | 'decoration' | 'farm_animal' | 'house_addon';
+export type ItemColors = { primary: string; secondary?: string; accent?: string };
+export type ItemMetadata = { source?: string | null; rarity?: string; description?: string; acquired_at?: string | null };
+export type EquippedItem = ItemMetadata & { colors?: Partial<ItemColors>; item_id: string; slot: EquipmentSlot; asset_key: string | null; name?: string; custom?: boolean; kind?: string; tint?: string | {primary: string; secondary: string} | null; pattern_url?: string | null; glb_url?: string | null; preview?: string | null };
+export type Equipment = { equipped: EquippedItem[]; equipped_ids: string[] };
+export type HouseColors = Record<'wall' | 'roof' | 'trim' | 'door' | 'accent', string>;
+export type HouseSettings = import('../scene/houseOptions').HouseOptions & { village_id: string; house_style: import('../scene/houseStyles').HouseStyle | null; house_colors: HouseColors | null };
+export type Villager = { treasury_xp?: number } & import('../scene/houseOptions').HouseOptions & { idle_activity?: IdleActivity; house_style?: HouseSettings['house_style']; house_colors?: HouseColors | null; user_id: string; display_name: string; house_slot: number; house_level: number;
+  coins: number; xp: number; level: number; streak_days: number; avatar: AvatarManifest; equipped: EquippedItem[]; equipped_ids: string[];
+  status_line: string | null; has_crown: boolean; star_badges?: {week_start: string; kind: string}[]; auditor?: boolean; celebrated?: boolean; goalBurst?: string };
+export type CheckIn = { stretch_tier?: number | null; id: string; created_at: string; user_id: string; kind: 'status' | 'progress'; body: string; goal_id: string | null; evidence_url: string | null; review?: Review | null };
+export type StretchTier = { goal_id: string; tier: number; title: string; status: 'active' | 'done'; completed_at: string | null };
+export type Goal = { stretches?: StretchTier[]; stretch_bonus?: number; completed_at?: string | null; reactions?: import('./reactions').Reaction[]; id: string; user_id: string; week_start: string; title: string; detail: string | null; status: 'active' | 'done' | 'missed' | 'stretch' };
+export type MayorEvent = import('./gazette').EventTerms & { repairs_event_id?:string|null; created_at?: string; model?: string; id: string; kind: 'challenge' | 'recap' | 'random_event' | 'prayer_response'; title: string; body: string; reward_xp: number; penalty: string | null; status: string; ends_at: string | null };
+export type FeedItem = { reactions?: import('./reactions').Reaction[]; id: string; created_at: string; user_id: string | null; type: string; text: string; payload: object };
+export type Building = { id: string; name: string; xp?: number };
+export type RepairKind = 'hangout' | 'checkins' | 'workout_together' | 'study_session' | 'cook_together' | 'call_a_friend' | 'help_a_neighbor';
+export type RepairPlan = {tasks: {kind: RepairKind; title: string; target: number; progress: number}[]; reasoning: string; model: string; example: boolean};
+export type Disaster = {repair_plan?: RepairPlan;kind: "scorch"|"outbreak"|"blackout"|"blight"; title:string; body:string; started_at:string; deadline:string; repair_event_id:string; target_checkins:number; target_people:number; checkins:number; people:number; closed_building:string|null; pets_away:boolean};
+export type VillageWorld = { disaster?: Disaster|null; rebuilt_at?:string|null; gardening_available?:boolean; level: number; xp: number; next_level_xp: number | null; unlocked: (Building | string)[]; upcoming: { id: string; name: string; xp: number }[]; weather: string; time_of_day?: string };
+// API-007 additions; optional fields allow older servers to keep working.
+export type GroupCrop = { crop_id: string; url: string; bbox: [number, number, number, number]; claimed_by?: string | null; claimed_name?: string | null; avatar_job_id?: string };
+export type GroupPhoto = { job_id?: string; status: string; crops: GroupCrop[]; photo_url?: string; width?: number; height?: number; error?: string | null };
+export type Village = { world?: VillageWorld; group_photo_job_id?: string | null; owner_user_id?: string; my_role?: string; id: string; name: string; seed: number; villagers: Villager[]; active_events: MayorEvent[] };
+export type Profile = { villager: Villager; goal: Goal | null; past_goals: Goal[]; check_ins: CheckIn[] };
+// The contract leaves these nested shapes unspecified; follow schema.sql's column names.
+export type VillageRecord = { id: string; name: string; seed: number; invite_code: string };
+export type VoiceConsent = { voice_id: string | null; voice_consent: boolean; voice_consent_at: string | null; voice_consent_version: string | null };
+export type SettingsInput = Partial<HouseSettings> & { idle_activity?: IdleActivity; display_name: string; phone_e164: string | null; roast_ok: boolean; agent_msgs_ok: boolean; allow_voice_by_friends?: boolean; receive_villagergrams?: boolean };
+export type Me = { user: { has_equipped_pet?: boolean; id: string; display_name: string; face_verified_at?: string | null } & Partial<SettingsInput & VoiceConsent>; villages: { id: string; name: string; joined_at?: string }[] };
+export type ShopItem = ItemMetadata & { away?:boolean; colors?: Partial<ItemColors>; tint?: string; id: string; kind: string; name: string; price_coins: number; requires: string | string[] | null; requires_item: string | null; requires_building: string | null; slot: EquipmentSlot | 'consumable'; asset_key: string | null; voice_style: 'pirate' | 'hype_coach' | 'shakespearean' | null; owned: boolean };
+export type Shop = { items: ShopItem[]; balance: number; inventory?: (string | {item_id: string})[]; unlocks?: (string | Building)[] };
+export type CheckInInput = { repair_task?: RepairKind; stretch_tier?: number; kind: CheckIn['kind']; body: string; goal_id?: string; idempotency_key: string; evidence_asset_id?: string };
+export type CheckInResult = { check_in: CheckIn; xp_awarded: number };
+export type Health = { ok: boolean; db: string; gpu_worker: 'up' | 'down'; build: string };
+export type Job = { id: string; stage: string; status: string; error: string | null };
+export const levelFor = (xp: number) => Math.floor(Math.sqrt(Math.max(0, xp) / 50)) + 1;
+
+export type Review = { verdict: 'verified' | 'suspicious' | 'rejected' | 'error'; confidence: number; reason: string; model?: string };
+export type AgentLog = { repair_plan?: RepairPlan; created_at: string; agent: 'mayor' | 'auditor' | 'scheduler'; action: string; target_user_id: string | null; reason: string; model: string };
+export type Grade = { ambition: number; evidence_quality: number; progress: number; completed: boolean; rationale: string };
+export type Suggestion = { suggestion: Grade; model: string };
+export type WeekGoal = Goal & { excluded: boolean; suggestion: Grade | null; grade: Grade | null };
+export type WeekState = { reading_bonus?: {user_id: string; completed: number; xp: number}[]; id: string; village_id: string; week_start: string; auditor_id: string | null; generation: number; status: 'open' | 'finalized'; winner_id: string | null; finalized_at: string | null; votes: number; stars: string[]; goals: WeekGoal[] };
+export type Scoring = 'cumulative' | 'scoreboard' | 'ordinal';
+export type CompetitionInput = { payout_mode?: PayoutMode; ranked_bps?: number[]; entry_coins?: number; deadline?: string; scoring?: Scoring; unit?: string | null; target?: number | null; auditor_fee_bps?: number; title: string; terms: string; friendly: boolean; auditor_id?: string; entry_lamports?: number };
+export type CompetitionEntry = { value?: number | null; claimed_value?: number | null; created_at?: string; confirmed_at?: string | null; id: string; user_id: string; body: string; evidence_asset_id: string | null; idempotency_key: string; review: Review | null; decision: 'pending' | 'confirmed' | 'rejected'; points: number; reason: string | null };
+export type PayoutMode = 'winner_take_all' | 'proportional' | 'ranked';
+export type PayoutProjection = {currency: string; fee: string; refund: boolean; payouts: {user_id:string;amount:string}[]};
+export type Competition = CompetitionInput & { created_at?: string; chain_config?: {program:string;auditor:string}; chain_status?:string; projected_payouts?:PayoutProjection; pot_address?: string; id: string; creator_id: string; status: 'open' | 'settled'; result: { winners: string[]; scores: {user_id: string; points: number}[]; payments_executed: boolean } | null };
+export type CompetitionDetail = Competition & { participants: { user_id: string; entry_lamports: number }[]; entries: CompetitionEntry[] };

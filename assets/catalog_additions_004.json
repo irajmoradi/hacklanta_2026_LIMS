@@ -1,0 +1,1185 @@
+{
+  "entries": [
+    {
+      "id": "neon_arch",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Neon Arch",
+      "description": "Neon arch",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_festival_night"
+      ],
+      "asset": {
+        "glb": "/models/neon_arch.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "metal"
+        ]
+      }
+    },
+    {
+      "id": "glow_sticks_pile",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Glow Sticks Pile",
+      "description": "Glow sticks pile",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_festival_night"
+      ],
+      "asset": {
+        "glb": "/models/glow_sticks_pile.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "fire",
+          "glass",
+          "leaf",
+          "light"
+        ]
+      }
+    },
+    {
+      "id": "light_tower",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Light Tower",
+      "description": "Light tower",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_festival_night"
+      ],
+      "asset": {
+        "glb": "/models/light_tower.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "light",
+          "metal",
+          "stone"
+        ]
+      }
+    },
+    {
+      "id": "confetti_cannon",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Confetti Cannon",
+      "description": "Confetti cannon",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_festival_night"
+      ],
+      "asset": {
+        "glb": "/models/confetti_cannon.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "fire",
+          "glass",
+          "leaf",
+          "light",
+          "metal"
+        ]
+      }
+    },
+    {
+      "id": "dj_booth",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Dj Booth",
+      "description": "Dj booth",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_festival_night"
+      ],
+      "asset": {
+        "glb": "/models/dj_booth.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "light",
+          "metal",
+          "stone"
+        ]
+      }
+    },
+    {
+      "id": "pumpkin_lantern",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Pumpkin Lantern",
+      "description": "Pumpkin lantern",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_spooky"
+      ],
+      "asset": {
+        "glb": "/models/pumpkin_lantern.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "fire",
+          "leaf",
+          "metal"
+        ]
+      }
+    },
+    {
+      "id": "ghost_sheet",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Ghost Sheet",
+      "description": "Ghost sheet",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_spooky"
+      ],
+      "asset": {
+        "glb": "/models/ghost_sheet.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "metal",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "spider_web_corner",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Spider Web Corner",
+      "description": "Spider web corner",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_spooky"
+      ],
+      "asset": {
+        "glb": "/models/spider_web_corner.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "metal",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "bat_garland",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Bat Garland",
+      "description": "Bat garland",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_spooky"
+      ],
+      "asset": {
+        "glb": "/models/bat_garland.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "metal"
+        ]
+      }
+    },
+    {
+      "id": "tombstone_cartoon",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Tombstone Cartoon",
+      "description": "Tombstone cartoon",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_spooky"
+      ],
+      "asset": {
+        "glb": "/models/tombstone_cartoon.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "blossom",
+          "stone",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "snowman",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Snowman",
+      "description": "Snowman",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_winter"
+      ],
+      "asset": {
+        "glb": "/models/snowman.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "fire",
+          "metal",
+          "roof",
+          "wall",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "snow_pile",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Snow Pile",
+      "description": "Snow pile",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_winter"
+      ],
+      "asset": {
+        "glb": "/models/snow_pile.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "string_lights_icicle",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "String Lights Icicle",
+      "description": "String lights icicle",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_winter"
+      ],
+      "asset": {
+        "glb": "/models/string_lights_icicle.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "glass",
+          "metal"
+        ]
+      }
+    },
+    {
+      "id": "gift_box_stack",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Gift Box Stack",
+      "description": "Gift box stack",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_winter"
+      ],
+      "asset": {
+        "glb": "/models/gift_box_stack.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "light",
+          "roof"
+        ]
+      }
+    },
+    {
+      "id": "pine_decorated",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Pine Decorated",
+      "description": "Pine decorated",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_winter"
+      ],
+      "asset": {
+        "glb": "/models/pine_decorated.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "fire",
+          "glass",
+          "leaf",
+          "light",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "party_balloons",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Party Balloons",
+      "description": "Party balloons",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_birthday"
+      ],
+      "asset": {
+        "glb": "/models/party_balloons.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "fire",
+          "leaf",
+          "light",
+          "metal",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "cake_giant",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Cake Giant",
+      "description": "Cake giant",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_birthday"
+      ],
+      "asset": {
+        "glb": "/models/cake_giant.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "fire",
+          "glass",
+          "leaf",
+          "light",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "gift_table",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Gift Table",
+      "description": "Gift table",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_birthday"
+      ],
+      "asset": {
+        "glb": "/models/gift_table.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "light",
+          "roof",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "bunting_rainbow",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Bunting Rainbow",
+      "description": "Bunting rainbow",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_birthday"
+      ],
+      "asset": {
+        "glb": "/models/bunting_rainbow.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "fire",
+          "glass",
+          "leaf",
+          "light",
+          "metal"
+        ]
+      }
+    },
+    {
+      "id": "party_hat_villager",
+      "kind": "decoration",
+      "slot": "head",
+      "name": "Party Hat Villager",
+      "description": "Birthday cone hat; Head bone offset (0,0.68,0)",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_birthday"
+      ],
+      "asset": {
+        "glb": "/models/party_hat_villager.glb",
+        "attach": {
+          "offset": [
+            0,
+            0.68,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "bone": "Head"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "light"
+        ]
+      }
+    },
+    {
+      "id": "projector_screen",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Projector Screen",
+      "description": "Freestanding blank outdoor cinema screen; front +Z",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_movie_night"
+      ],
+      "asset": {
+        "glb": "/models/projector_screen.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "metal",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "popcorn_stand",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Popcorn Stand",
+      "description": "Popcorn stand",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_movie_night"
+      ],
+      "asset": {
+        "glb": "/models/popcorn_stand.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "light",
+          "metal",
+          "roof",
+          "wall",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "bean_bags",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Bean Bags",
+      "description": "Bean bags",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_movie_night"
+      ],
+      "asset": {
+        "glb": "/models/bean_bags.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom"
+        ]
+      }
+    },
+    {
+      "id": "film_reel_sign",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Film Reel Sign",
+      "description": "Film reel sign",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_movie_night"
+      ],
+      "asset": {
+        "glb": "/models/film_reel_sign.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "metal",
+          "stone"
+        ]
+      }
+    },
+    {
+      "id": "arcade_cabinet_outdoor",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Arcade Cabinet Outdoor",
+      "description": "Arcade cabinet outdoor",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_game_night"
+      ],
+      "asset": {
+        "glb": "/models/arcade_cabinet_outdoor.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "glass",
+          "light",
+          "metal",
+          "roof"
+        ]
+      }
+    },
+    {
+      "id": "giant_controller_statue",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Giant Controller Statue",
+      "description": "Giant controller statue",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_game_night"
+      ],
+      "asset": {
+        "glb": "/models/giant_controller_statue.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "fire",
+          "light",
+          "metal",
+          "stone",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "pixel_trophy",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Pixel Trophy",
+      "description": "Pixel trophy",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_game_night"
+      ],
+      "asset": {
+        "glb": "/models/pixel_trophy.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "light",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "minecraft_style_block_stack",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Minecraft Style Block Stack",
+      "description": "Original generic colored cubes; no branded textures",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "pack_game_night"
+      ],
+      "asset": {
+        "glb": "/models/minecraft_style_block_stack.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "leaf",
+          "soil",
+          "stone",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "cloud_rain",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Cloud Rain",
+      "description": "Rain cloud; translate drops locally along Y, reset periodically",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "weather_fx"
+      ],
+      "asset": {
+        "glb": "/models/cloud_rain.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "wall",
+          "water"
+        ]
+      }
+    },
+    {
+      "id": "cloud_puffy",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Cloud Puffy",
+      "description": "Cloud puffy",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "weather_fx"
+      ],
+      "asset": {
+        "glb": "/models/cloud_puffy.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "fog_bank_card",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Fog Bank Card",
+      "description": "Double-sided translucent fog silhouette; front +Z",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "weather_fx"
+      ],
+      "asset": {
+        "glb": "/models/fog_bank_card.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "glass"
+        ]
+      }
+    },
+    {
+      "id": "rainbow_arc",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Rainbow Arc",
+      "description": "Rainbow arc",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "weather_fx"
+      ],
+      "asset": {
+        "glb": "/models/rainbow_arc.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "fire",
+          "leaf",
+          "light",
+          "roof"
+        ]
+      }
+    },
+    {
+      "id": "sun_rays_card",
+      "kind": "decoration",
+      "slot": "decoration",
+      "name": "Sun Rays Card",
+      "description": "Double-sided translucent radial sun card; front +Z",
+      "price_xp": 0,
+      "requires": [],
+      "tags": [
+        "event_pack",
+        "weather_fx"
+      ],
+      "asset": {
+        "glb": "/models/sun_rays_card.glb",
+        "attach": {
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "anchor": "ground"
+        },
+        "tint_materials": [
+          "light"
+        ]
+      }
+    }
+  ]
+}

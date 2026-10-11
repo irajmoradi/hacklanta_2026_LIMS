@@ -1,0 +1,96 @@
+{
+  "markerColors": [
+    "#ff2020",
+    "#20ff20",
+    "#2020ff",
+    "#ffff20",
+    "#20ffff",
+    "#ff20ff",
+    "#ff9020",
+    "#9020ff",
+    "#909090"
+  ],
+  "mode": "browser fixtures; disposable seeded Postgres/API health verified",
+  "rehearsal": false,
+  "shots": [
+    {
+      "start": 0,
+      "end": 15,
+      "title": "A small town for the people in your group chat.",
+      "actualStart": 0.006,
+      "actualActionEnd": 6.062,
+      "overrunSeconds": 0
+    },
+    {
+      "start": 15,
+      "end": 35,
+      "title": "The CV pipeline · This recording uses preset avatars.",
+      "actualStart": 15.001,
+      "actualActionEnd": 15.381,
+      "overrunSeconds": 0
+    },
+    {
+      "start": 35,
+      "end": 55,
+      "title": "A weekly goal. Small check-ins. Coins now, XP over time.",
+      "actualStart": 35.001,
+      "actualActionEnd": 44.012,
+      "overrunSeconds": 0
+    },
+    {
+      "start": 55,
+      "end": 75,
+      "title": "Try an outfit, turn it around, then leave without buying.",
+      "actualStart": 55,
+      "actualActionEnd": 72.529,
+      "overrunSeconds": 0
+    },
+    {
+      "start": 75,
+      "end": 95,
+      "title": "The Mayor uses recorded activity. Simulated output; people keep the final say.",
+      "actualStart": 75.001,
+      "actualActionEnd": 82.505,
+      "overrunSeconds": 0
+    },
+    {
+      "start": 95,
+      "end": 115,
+      "title": "Villager-grams require consent. Preview / simulated transport; handset delivery unverified.",
+      "actualStart": 95,
+      "actualActionEnd": 102.517,
+      "overrunSeconds": 0
+    },
+    {
+      "start": 115,
+      "end": 135,
+      "title": "The Colosseum: human review, game coins and XP. SOL is devnet intent, not payment.",
+      "actualStart": 115,
+      "actualActionEnd": 124.397,
+      "overrunSeconds": 0
+    },
+    {
+      "start": 135,
+      "end": 145,
+      "title": "Measured in isolated tests. A village that works with the GPU off.",
+      "actualStart": 135.001,
+      "actualActionEnd": 135.371,
+      "overrunSeconds": 0
+    },
+    {
+      "start": 145,
+      "end": 150,
+      "title": "Make checking on a friend feel like dropping by.",
+      "actualStart": 145,
+      "actualActionEnd": 145.003,
+      "overrunSeconds": 0
+    }
+  ],
+  "errors": [],
+  "blocked": [],
+  "trimStart": 23.548900000000373,
+  "coinsBefore": "350 coins",
+  "coinsAfter": "375 coins",
+  "actualDuration": 150.001,
+  "raw": "7a4c3f3bb52376dd1579e2468ebaf09c.webm"
+}

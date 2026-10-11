@@ -1,0 +1,16 @@
+{$DOMAIN::80} {
+  encode zstd gzip
+  handle /api/* {
+    reverse_proxy api:8010
+  }
+  handle {
+    root * /srv
+    try_files {path} /index.html
+    file_server
+  }
+}
+
+# Internal-only health endpoint also works when the public site uses HTTPS.
+:8081 {
+  respond /health "ok" 200
+}

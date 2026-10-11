@@ -1,0 +1,140 @@
+{
+  "cottage": [
+    {
+      "wall": "#F1D9AD",
+      "roof": "#B69B55",
+      "trim": "#715038",
+      "door": "#487D6B",
+      "accent": "#CA795D"
+    },
+    {
+      "wall": "#D9DDD0",
+      "roof": "#737955",
+      "trim": "#EEE3C8",
+      "door": "#AA6351",
+      "accent": "#718C73"
+    },
+    {
+      "wall": "#E7BCA3",
+      "roof": "#886448",
+      "trim": "#F5DEB5",
+      "door": "#536F87",
+      "accent": "#AD7354"
+    }
+  ],
+  "modern": [
+    {
+      "wall": "#E4E4DC",
+      "roof": "#424D58",
+      "trim": "#394653",
+      "door": "#DC9D50",
+      "accent": "#4E8E91"
+    },
+    {
+      "wall": "#B6C6C9",
+      "roof": "#344652",
+      "trim": "#E9E2D5",
+      "door": "#AD6454",
+      "accent": "#D7A95F"
+    },
+    {
+      "wall": "#D5C3B1",
+      "roof": "#61574D",
+      "trim": "#EEEAE1",
+      "door": "#4A7C71",
+      "accent": "#BA785F"
+    }
+  ],
+  "aframe": [
+    {
+      "wall": "#B78456",
+      "roof": "#485E68",
+      "trim": "#E2C795",
+      "door": "#9C4F3C",
+      "accent": "#D0A251"
+    },
+    {
+      "wall": "#C4A586",
+      "roof": "#344C42",
+      "trim": "#F1D8A4",
+      "door": "#976950",
+      "accent": "#6F9D8A"
+    },
+    {
+      "wall": "#99634C",
+      "roof": "#574C68",
+      "trim": "#E8C9A0",
+      "door": "#729C9F",
+      "accent": "#CFA268"
+    }
+  ],
+  "tudor": [
+    {
+      "wall": "#EEDBBC",
+      "roof": "#69566B",
+      "trim": "#4F3C35",
+      "door": "#A65B49",
+      "accent": "#7B9870"
+    },
+    {
+      "wall": "#D9DFCF",
+      "roof": "#526B69",
+      "trim": "#5C4839",
+      "door": "#9B6849",
+      "accent": "#C29056"
+    },
+    {
+      "wall": "#D5BFAE",
+      "roof": "#8D5148",
+      "trim": "#453B39",
+      "door": "#677EAA",
+      "accent": "#B49362"
+    }
+  ],
+  "beach": [
+    {
+      "wall": "#9DC9CC",
+      "roof": "#D2AB74",
+      "trim": "#F3E8CD",
+      "door": "#DB8469",
+      "accent": "#497B92"
+    },
+    {
+      "wall": "#ECCBA3",
+      "roof": "#899B82",
+      "trim": "#F7EDD8",
+      "door": "#568C8B",
+      "accent": "#C97962"
+    },
+    {
+      "wall": "#C4B3D6",
+      "roof": "#778D9E",
+      "trim": "#F4E4D3",
+      "door": "#CF936E",
+      "accent": "#669995"
+    }
+  ],
+  "townhouse": [
+    {
+      "wall": "#B86C52",
+      "roof": "#4F515B",
+      "trim": "#E0C49A",
+      "door": "#3F6D72",
+      "accent": "#799A72"
+    },
+    {
+      "wall": "#C49A75",
+      "roof": "#5C6767",
+      "trim": "#F1DCC0",
+      "door": "#865A64",
+      "accent": "#61919C"
+    },
+    {
+      "wall": "#987367",
+      "roof": "#38495B",
+      "trim": "#D6D7C8",
+      "door": "#B99156",
+      "accent": "#829B70"
+    }
+  ]
+}

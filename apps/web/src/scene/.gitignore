@@ -1,0 +1,3 @@
+# Local browser evidence may contain live profile photos. Never commit it.
+artifacts/
+.qa/

@@ -1,0 +1,2 @@
+﻿import { defineConfig } from '@playwright/test';
+export default defineConfig({testDir:'.',testMatch:'fix016.spec.ts',outputDir:'../artifacts/fix016/runs',workers:1,timeout:90000,use:{contextOptions:{reducedMotion:'reduce'},baseURL:'http://127.0.0.1:5198',viewport:{width:1280,height:900},video:'on',launchOptions:{args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']}},webServer:{cwd:new URL('..',import.meta.url).pathname.replace(/^\/([A-Za-z]:)/,'$1'),command:'bunx vite --config tests/fix016.vite.config.ts',url:'http://127.0.0.1:5198',reuseExistingServer:false}});

@@ -1,0 +1,57 @@
+import { useDemoSeat } from './demoSeat';
+useDemoSeat();
+import {expect, test} from '@playwright/test';
+
+test('house editor previews, saves, survives reopening and resets in offline mode', async ({page}) => {
+  await page.goto('/');
+  await page.getByRole('button',{name:'My profile'}).click();
+  await page.getByRole('tab',{name:'House',exact:true}).click();
+  await page.getByRole('button',{name:'Edit my house',exact:true}).click();
+  const editor = page.getByRole('region',{name:'House editor'});
+  await editor.getByRole('button',{name:'Beach',exact:true}).click();
+  await editor.getByRole('button',{name:'Preset palette 2'}).click();
+  await editor.getByRole('button',{name:'roof',exact:true}).click();
+  await editor.getByLabel('Custom hex',{exact:true}).fill('#xyz');
+  await expect(editor.getByRole('button',{name:'Apply hex'})).toBeDisabled();
+  await expect(editor.getByRole('button',{name:'Save house'})).toBeDisabled();
+  await editor.getByLabel('Custom hex',{exact:true}).fill('#69566B');
+  await editor.getByRole('button',{name:'Apply hex'}).click();
+  await expect(editor.getByLabel('Rotating house preview')).toHaveAttribute('data-colors', /"roof":"#69566b"/);
+  await editor.getByRole('button',{name:'Save house'}).click();
+  await expect(page.locator('.village-toast')).toContainText('House saved. Welcome home!');
+  await expect(page.getByRole('button',{name:/Open Iraj.s house profile/})).toHaveAttribute('data-house-colors', /"roof":"#69566b"/);
+  await expect(page.getByRole('button',{name:/Open Iraj.s house profile/})).toHaveAttribute('data-house-model', 'house_beach_lv2');
+  await page.getByRole('button',{name:'Close profile'}).click();
+  await page.getByRole('button',{name:/Open Iraj.s house profile/}).click();
+  await page.getByRole('tab',{name:'House',exact:true}).click();
+  await page.getByRole('button',{name:'Edit my house',exact:true}).click();
+  await expect(editor.getByRole('button',{name:'Beach',exact:true})).toHaveAttribute('aria-pressed','true');
+  await expect(editor.getByLabel('Rotating house preview')).toHaveAttribute('data-colors', /"roof":"#69566b"/);
+  await editor.evaluate(el => el.scrollIntoView({block:'start'}));
+  await page.waitForTimeout(1800);
+  await page.screenshot({path:'artifacts/web020-house-desktop.png',fullPage:true});
+  await page.setViewportSize({width:390,height:844});
+  await expect(page.getByRole('dialog',{name:'Villager profile'})).toBeVisible();
+  await editor.evaluate(el => el.scrollIntoView({block:'start'}));
+  await page.waitForTimeout(1500);
+  await page.screenshot({path:'artifacts/web020-house-mobile.png',fullPage:true});
+  await editor.getByRole('group',{name:'Paint each part'}).evaluate(el => el.scrollIntoView({block:'start'}));
+  expect(await editor.evaluate(el => el.scrollWidth <= el.clientWidth)).toBe(true);
+  await page.screenshot({path:'artifacts/web020-house-colors.png',fullPage:true});
+  await editor.getByRole('button',{name:'Auto style',exact:true}).click();
+  await editor.getByRole('button',{name:'Use automatic palette'}).click();
+  await editor.getByRole('button',{name:'Save house'}).click();
+  await expect(page.locator('.village-toast')).toContainText('House saved. Welcome home!');
+});
+
+test('house editing remains usable without model assets', async ({page}) => {
+  await page.route('**/models/*.glb*', route => route.fulfill({status:404,body:''}));
+  await page.goto('/');
+  await page.getByRole('button',{name:'My profile'}).click();
+  await page.getByRole('tab',{name:'House',exact:true}).click();
+  await page.getByRole('button',{name:'Edit my house',exact:true}).click();
+  const editor = page.getByRole('region',{name:'House editor'});
+  await editor.getByRole('button',{name:'Paint wall #487d6b'}).click();
+  await editor.getByRole('button',{name:'Save house'}).click();
+  await expect(page.locator('.village-toast')).toContainText('House saved. Welcome home!');
+});

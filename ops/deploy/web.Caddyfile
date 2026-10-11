@@ -1,0 +1,15 @@
+{
+    admin off
+    auto_https off
+}
+http://:8081 {
+    bind 127.0.0.1
+    handle /api/* {
+        reverse_proxy 127.0.0.1:8011
+    }
+    handle {
+        root * /opt/village/current/apps/web/dist
+        try_files {path} /index.html
+        file_server
+    }
+}

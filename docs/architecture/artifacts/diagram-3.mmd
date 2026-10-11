@@ -1,0 +1,18 @@
+sequenceDiagram
+    actor User
+    participant API as FastAPI
+    participant EL as ElevenLabs
+    participant GPU as Local or Modal GPU
+    participant A2E as Audio2Expression
+    participant LAM as LAM renderer
+    User->>API: Explicit consented speech / Villager-gram action
+    API->>EL: Budgeted TTS
+    EL-->>API: Audio bytes
+    API->>GPU: Audio + existing portrait for optional video
+    GPU->>A2E: Infer facial coefficients
+    A2E-->>GPU: Expression frames
+    GPU->>LAM: Animate Gaussian head and render
+    LAM-->>GPU: Frames for H.264/AAC MP4
+    GPU-->>API: Artifact bytes or authorized local path
+    API-->>User: Playback, messaging outbox if requested
+    Note over API,GPU: Deadline expired: audio + portrait fallback

@@ -1,0 +1,4 @@
+{
+  "lanceHouseResetToAutomatic": 200,
+  "reason": "Temporary Modern palette from QA pass; earlier harness read seat identity before transition completed. Original custom override was not retained; automatic style selected to match baseline appearance."
+}

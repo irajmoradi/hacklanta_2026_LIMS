@@ -1,0 +1,36 @@
+.head-tools{position:absolute;right:8px;bottom:8px;z-index:3;display:flex;gap:6px}
+.head-tools button{border:1px solid #ffffff50;border-radius:8px;background:#192321dd;color:white;padding:6px 10px;cursor:pointer;font-size:12px;line-height:1.2;text-transform:none}
+.head-stage{width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;border:0;padding:48px 20px;background:radial-gradient(ellipse at 35% 20%,#384656,#11151d 65%);color:#fff;text-align:center}
+.head-stage::backdrop{background:#10151ef5}
+.head-stage .lam-head{position:relative;display:block;width:min(85vw,80dvh);height:min(85vw,80dvh);margin:auto;border-radius:24px;box-shadow:0 0 100px #bedcff18}
+.head-stage p{font-size:13px;color:#bcc6ce}
+.lam-canvas{touch-action:none}
+.head-studio{display:grid;gap:10px;justify-items:center;width:100%;padding:12px 0}
+.head-studio select{max-width:100%;width:100%;padding:9px;border:1px solid #b8c5af;border-radius:9px;background:#fff;color:#263824}
+.head-studio label{display:grid;gap:5px;text-align:left;width:100%;font-size:12px}
+.head-studio .speech-actions{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.head-studio .speech-status{font-size:12px;max-width:42ch;text-align:center;margin:0}
+.chorus-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px;width:100%}
+.chorus-grid article{display:grid;justify-items:center;gap:8px;padding:12px;border:1px solid #d1dacb;border-radius:14px;background:#f3f6ee}
+.chorus-grid article[data-speaking=true]{border-color:#537b40;box-shadow:0 0 0 2px #76975c55}
+.chorus-grid .portrait.large{width:120px;height:140px}
+.chorus-entry{margin:8px 14px}
+.head-studio audio{max-width:100%;height:32px}
+.profile-panel>.head-studio{grid-template-columns:180px minmax(0,1fr);column-gap:18px;row-gap:8px;flex-shrink:0;padding:12px 0 18px}
+.profile-panel>.head-studio>div:first-child{grid-column:1;grid-row:1 / 7;align-self:center}
+.profile-panel>.head-studio>:not(div:first-child){grid-column:2}
+.profile-panel>.head-studio .portrait.large{width:180px;height:200px;border-radius:20px;overflow:hidden}
+.profile-panel>.head-studio .speech-actions{justify-content:flex-start}
+.profile-panel>.head-studio .speech-status{text-align:left;justify-self:start}
+@media(max-width:700px){.profile-panel>.head-studio{grid-template-columns:120px minmax(0,1fr);column-gap:10px}.profile-panel>.head-studio .portrait.large{width:120px;height:160px}.head-tools{right:4px;bottom:4px;gap:3px}.head-tools button{padding:5px 7px}.profile-panel>.head-studio .button{font-size:11px;padding:8px}}
+.head-tools{opacity:0;pointer-events:none;transition:opacity .2s}.lam-head:hover .head-tools,.lam-head:focus-within .head-tools{opacity:1;pointer-events:auto}
+.head-studio{gap:16px;padding:12px 0;min-width:0}.chorus-stage{width:100%;border-radius:22px;background:radial-gradient(ellipse at 50% 0,#46574f 0,#192a29 45%,#111d23 100%);color:#f6f5e9;padding:22px 14px 12px;box-sizing:border-box;overflow:hidden}.stage-caption{text-align:center;font-size:10px;letter-spacing:.18em;color:#b7cfbc;margin-bottom:24px}.chorus-row{display:flex;justify-content:center;flex-wrap:wrap;gap:18px}.chorus-row article{display:flex;flex:1 1 150px;max-width:210px;min-width:0;align-items:center;flex-direction:column;gap:9px;transition:transform .3s}.chorus-row article[data-speaking=true]{transform:scale(1.035)}.chorus-row .portrait.large{width:150px;height:170px;border-radius:65px 65px 25px 25px;box-shadow:0 10px 30px #0005;animation:face-breathe 5s ease-in-out infinite}.chorus-row article[data-speaking=true] .portrait{box-shadow:0 0 32px #dcf3ad65;outline:1px solid #d5e8ae}.chorus-row strong{font-size:16px}.chorus-row small{font-size:9px;letter-spacing:.12em;color:#c6d3c4}.karaoke{min-height:42px;text-align:center;font-size:13px;line-height:1.6;color:#b6c2be;overflow-wrap:anywhere}.karaoke span[data-current=true]{color:#fff3b7;background:#ffffff1c;border-radius:4px}.warming{font-size:12px;display:flex;align-items:center;justify-content:center;gap:12px}.warming progress{width:80px;accent-color:#d3e8ae}.chorus-quiet{width:100%;color:#60705e}.chorus-quiet>div{display:flex;flex-wrap:wrap;gap:14px;margin-top:8px}.chorus-quiet>div>span{display:flex;gap:7px;align-items:center;font-size:12px}.chorus-quiet small{display:block;font-size:10px}.chorus-quiet .portrait{width:30px;height:30px}.chorus-quiet .placeholder-label{display:none}.placeholder-label{position:absolute;bottom:2px;left:3px;right:3px;font-size:9px;background:#17241ddd;color:white;border-radius:4px;text-align:center;z-index:4}.line-chips{display:flex;flex-wrap:wrap;gap:7px;width:100%}.line-chips button{border:1px solid #c8d2c0;border-radius:20px;padding:8px 12px;color:#40513e;background:#f7f8f2;font:inherit;font-size:12px;cursor:pointer}.line-chips button[aria-pressed=true]{background:#e1e9cd;border-color:#688257}.custom-line input{width:100%;box-sizing:border-box;border:1px solid #c8d2c0;background:#fffdf7;padding:12px;border-radius:12px;font:inherit}.voice-wave{display:flex;gap:3px;height:16px;align-items:center}.voice-wave i{width:3px;height:12px;background:#e0edbd;animation:voice-wave .6s infinite alternate}.stage-empty{text-align:center;font-size:13px;padding:20px}.profile-panel>.head-studio{display:flex;flex-direction:column;padding:12px 0}.profile-panel>.head-studio>*{width:100%}.profile-panel>.head-studio .portrait.large{width:140px;height:155px}.profile-panel>.head-studio .speech-actions{justify-content:center}.profile-panel>.head-studio>small{text-align:center;font-size:10px}.profile-panel>.head-studio .speech-status{text-align:center}.head-shimmer{background:linear-gradient(100deg,#263c3b,#6a8076,#263c3b);background-size:200% 100%;animation:head-warm 1.5s linear infinite;color:white}
+@keyframes head-warm{to{background-position:-200% 0}}@keyframes face-breathe{50%{transform:translateY(-3px)}}@keyframes voice-wave{to{height:3px}}@media(prefers-reduced-motion:reduce){.chorus-row .portrait.large,.voice-wave i,.head-shimmer{animation:none}.chorus-row article{transition:none}}@media(max-width:500px){.chorus-row article{flex-basis:110px}.chorus-row .portrait.large{width:110px;height:130px}.chorus-stage{padding:18px 10px 10px}.head-studio .speech-actions .button{padding:9px;font-size:12px}}
+.chorus-row .portrait.large{overflow:hidden}
+
+.chorus-face{position:relative}.chorus-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:65px 65px 25px 25px;pointer-events:none}
+
+/* Long friend names must fit the narrowest profile and chorus layouts. */
+.chorus-quiet>div>span{min-width:0;max-width:100%}
+.chorus-quiet>div>span>span:last-child{min-width:0;overflow-wrap:anywhere}
+.chorus-quiet .portrait{flex-shrink:0}

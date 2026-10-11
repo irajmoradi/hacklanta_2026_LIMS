@@ -1,0 +1,11 @@
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import {api} from '../src/api/client';
+import {DEMO_VILLAGE_ID, DEMO_USER_ID} from '../src/api/fixtures';
+import {HouseInterior} from '../src/components/HouseInterior';
+import '../src/styles.css';
+if (import.meta.env.VITE_MOCK !== '1') throw new Error('WEB-049 observer is mock-only.');
+const vid=DEMO_VILLAGE_ID;
+api.user=DEMO_USER_ID;
+const root=createRoot(document.getElementById('root')!);
+void api.initialize().then(()=>api.village(vid)).then(v=>root.render(<HouseInterior person={v.villagers.find(p=>p.user_id===api.user)!} vid={vid} onClose={()=>root.render(<p>Room closed</p>)}/>));

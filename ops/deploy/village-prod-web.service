@@ -1,0 +1,17 @@
+[Unit]
+Description=Village production static web and API proxy
+After=network.target
+
+[Service]
+User=village-prod
+Group=village-prod
+ExecStart=/usr/bin/caddy run --config /opt/village/prod-current/ops/deploy/prod.Caddyfile --adapter caddyfile
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

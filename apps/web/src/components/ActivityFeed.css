@@ -1,0 +1,25 @@
+.activity-avatar.activity-avatar-mayor{color:#833f35}
+.activity-avatar.activity-avatar-scheduler,.activity-avatar.activity-avatar-agent{color:#354e5b}
+.activity-avatar.activity-avatar-system{color:#344d38}
+.activity-avatar:is(.activity-avatar-mayor,.activity-avatar-scheduler,.activity-avatar-agent,.activity-avatar-system){background:transparent;border:0;box-shadow:none}
+.activity-summary time{color:#526047}
+.activity-summary>.village-icon{margin-top:2px;color:var(--widget-ink,#536348)}
+/* R-154: evidence photos show right in the feed; click opens the full photo. */
+.activity-evidence{margin:6px 0 2px;max-width:220px}
+.activity-evidence img{width:100%;max-height:140px;object-fit:cover;border-radius:10px;cursor:zoom-in}
+.activity-feed.compact .activity-evidence{max-width:150px}
+.activity-feed.compact .activity-evidence img{max-height:90px}
+/* Keep navigation separate from evidence, reaction and disclosure controls. */
+.activity-feed .activity-link{display:block;width:100%;min-width:0;border:0;border-radius:6px;background:transparent;color:inherit;text-align:left;padding:3px;cursor:pointer;font:inherit}
+.activity-feed .activity-link:hover{background:#e7eddf;color:#28472d}
+.activity-feed .activity-link:focus-visible{outline:2px solid #416b45;outline-offset:2px}
+.activity-feed .activity-title{white-space:normal;overflow:visible;overflow-wrap:anywhere;flex:1;min-width:0;font-size:13px;font-weight:600;line-height:1.4}
+.activity-feed.compact .activity-title{font-size:11px}
+.activity-feed .activity-subtitle{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;font-size:12px;color:#526047;line-height:1.5}
+.activity-feed.compact .activity-subtitle{font-size:11px}
+.activity-chevron{flex:none;align-self:center;transition:transform .15s}
+.activity-link:hover .activity-chevron{transform:translateX(2px)}
+.activity-feed .activity-event{display:block;min-width:0}
+.activity-feed .activity-event .activity-title{display:flex;align-items:center;gap:6px}
+.activity-destination{outline:2px solid #416b45;outline-offset:3px;border-radius:6px}
+@media(prefers-reduced-motion:reduce){.activity-chevron{transition:none}}

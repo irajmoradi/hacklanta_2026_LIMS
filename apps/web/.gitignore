@@ -1,0 +1,42 @@
+node_modules/
+dist/
+*.tsbuildinfo
+playwright-report/
+test-results/*
+!test-results/village-overview.png
+!test-results/village-profile.png
+!test-results/village-overview-1920.png
+!test-results/village-profile-1920.png
+
+!test-results/village-ai-panel.png
+!test-results/village-onboarding.png
+!test-results/village-avatar.png
+openapi.runtime.json
+!test-results/weekly-ai-grading.png
+!test-results/weekly-finalized-crown.png
+!test-results/web007-prayer-card.png
+!test-results/web007-compete-list.png
+
+# FEAT-015 temporary QA captures; reviewed artifacts live one level above.
+/artifacts/feat015/results/
+/artifacts/feat015/video/
+/artifacts/feat015/debug.png
+/artifacts/feat015/video-frame.png
+
+# Generated mock browser evidence for pinned editors and their integration.
+/artifacts/web047/
+/artifacts/integ017/
+
+# Generated integration evidence; selected INTEG-019 proofs are committed separately.
+/artifacts/web049/
+/tests/test-results/
+/tests/artifacts/feat022/*.webm
+/artifacts/integ015/*-build/
+
+/artifacts/integ015/before/
+/artifacts/integ015/before-verified/
+/artifacts/integ015/after/
+
+/artifacts/integ018/
+/tests/perf/baseline-source.tar
+/.integ018-baseline/

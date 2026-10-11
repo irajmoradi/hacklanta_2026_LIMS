@@ -1,0 +1,7 @@
+.location-closeup{position:absolute;z-index:35;right:24px;top:100px;width:300px;max-height:55vh;overflow:auto;padding:16px;border:1px solid #d8cbb4;border-radius:18px;background:#fff9edf5;box-shadow:0 12px 40px #283a3026;color:#304638;pointer-events:auto}.location-closeup>div{display:flex;align-items:center;gap:12px;justify-content:space-between}.location-closeup h2{font-size:18px;margin:0}.location-closeup p{font-size:13px}.location-closeup ul{list-style:none;margin:0;padding:0}.location-closeup li button{display:flex;gap:10px;align-items:center;background:transparent;border:0;text-align:left;width:100%;padding:8px;border-radius:10px;color:inherit;cursor:pointer}.location-closeup li button:hover{background:#e7efdf}.location-closeup li button>span:not(.portrait) small{display:block;margin-top:3px}.location-closeup .portrait{width:36px;height:36px}.scene:has(.location-closeup) .player-hint{display:none}@media(max-width:600px){.location-closeup{top:auto;bottom:130px;left:12px;right:12px;width:auto;max-height:27vh;padding:12px}.location-closeup h2{font-size:16px}}
+
+.scene:has(.location-closeup) .villager-label{visibility:hidden}
+
+.scene .scene-label{touch-action:manipulation}
+
+.location-closeup .portrait{flex-shrink:0}.location-closeup .placeholder-label{display:none}

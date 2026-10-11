@@ -1,0 +1,14 @@
+**/.env
+**/.env.*
+**/node_modules
+**/.venv
+**/__pycache__
+**/.runtime
+**/dist
+.git
+data
+workers
+**/*.pem
+**/*.key
+**/*.log
+API Keys.md

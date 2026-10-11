@@ -1,0 +1,1611 @@
+{
+  "entries": [
+    {
+      "id": "road_straight",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Road Straight",
+      "description": "4 m road; north/south connections (+/-Z)",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/road_straight.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "light",
+          "metal",
+          "path"
+        ]
+      }
+    },
+    {
+      "id": "road_corner",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Road Corner",
+      "description": "4 m road; north/east connections (+Z,+X)",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/road_corner.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "light",
+          "metal",
+          "path"
+        ]
+      }
+    },
+    {
+      "id": "road_t",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Road T",
+      "description": "4 m road; north/east/west connections (+Z,+/-X)",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/road_t.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "light",
+          "metal",
+          "path"
+        ]
+      }
+    },
+    {
+      "id": "road_cross",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Road Cross",
+      "description": "4 m four-way road",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/road_cross.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "light",
+          "metal",
+          "path"
+        ]
+      }
+    },
+    {
+      "id": "crosswalk",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Crosswalk",
+      "description": "4 m north/south road with zebra crossing",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/crosswalk.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "metal",
+          "path",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "sidewalk",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Sidewalk",
+      "description": "4 m paved pedestrian tile",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/sidewalk.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "path",
+          "stone"
+        ]
+      }
+    },
+    {
+      "id": "curb_corner",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Curb Corner",
+      "description": "4 m sidewalk with rounded southwest curb",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/curb_corner.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "path",
+          "stone",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "streetlight",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Streetlight",
+      "description": "Street lamp; named lamp pivot",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/streetlight.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "light",
+          "metal",
+          "stone"
+        ]
+      }
+    },
+    {
+      "id": "bus_stop",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Bus Stop",
+      "description": "Bus stop",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/bus_stop.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "glass",
+          "light",
+          "metal",
+          "path",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "bike_rack",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Bike Rack",
+      "description": "Bike rack",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/bike_rack.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "metal",
+          "stone"
+        ]
+      }
+    },
+    {
+      "id": "trash_bin",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Trash Bin",
+      "description": "Trash bin",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/trash_bin.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "metal"
+        ]
+      }
+    },
+    {
+      "id": "planter",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Planter",
+      "description": "Planter",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/planter.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "blossom",
+          "leaf",
+          "roof",
+          "soil"
+        ]
+      }
+    },
+    {
+      "id": "traffic_cone",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Traffic Cone",
+      "description": "Traffic cone",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/traffic_cone.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "fire",
+          "metal",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "plaza_tile",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Plaza Tile",
+      "description": "4 m decorative plaza paving",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/plaza_tile.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "path",
+          "stone"
+        ]
+      }
+    },
+    {
+      "id": "hedge_row",
+      "kind": "decoration",
+      "slot": "world",
+      "name": "Hedge Row",
+      "description": "Hedge row",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/hedge_row.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "leaf",
+          "soil"
+        ]
+      }
+    },
+    {
+      "id": "house_lv4",
+      "kind": "house",
+      "slot": "house",
+      "name": "House Lv4",
+      "description": "House lv4",
+      "price_xp": 500,
+      "requires": [],
+      "asset": {
+        "glb": "/models/house_lv4.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "door",
+          "glass",
+          "leaf",
+          "light",
+          "metal",
+          "roof",
+          "soil",
+          "stone",
+          "trim",
+          "wall",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "house_lv4_b",
+      "kind": "house",
+      "slot": "house",
+      "name": "House Lv4 B",
+      "description": "House lv4 b",
+      "price_xp": 500,
+      "requires": [],
+      "asset": {
+        "glb": "/models/house_lv4_b.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "door",
+          "glass",
+          "leaf",
+          "light",
+          "metal",
+          "roof",
+          "soil",
+          "stone",
+          "trim",
+          "wall",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "house_lv5",
+      "kind": "house",
+      "slot": "house",
+      "name": "House Lv5",
+      "description": "House lv5",
+      "price_xp": 500,
+      "requires": [],
+      "asset": {
+        "glb": "/models/house_lv5.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "door",
+          "glass",
+          "leaf",
+          "light",
+          "metal",
+          "roof",
+          "soil",
+          "stone",
+          "trim",
+          "wall",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "house_lv5_b",
+      "kind": "house",
+      "slot": "house",
+      "name": "House Lv5 B",
+      "description": "House lv5 b",
+      "price_xp": 500,
+      "requires": [],
+      "asset": {
+        "glb": "/models/house_lv5_b.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "door",
+          "glass",
+          "leaf",
+          "light",
+          "metal",
+          "roof",
+          "soil",
+          "stone",
+          "trim",
+          "wall",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "storefront_cafe",
+      "kind": "building",
+      "slot": "building",
+      "name": "Storefront Cafe",
+      "description": "Cafe with coffee-cup sign and outdoor table",
+      "price_xp": 500,
+      "requires": [],
+      "asset": {
+        "glb": "/models/storefront_cafe.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "glass",
+          "light",
+          "metal",
+          "paper",
+          "roof",
+          "stone",
+          "trim",
+          "wall",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "storefront_records",
+      "kind": "building",
+      "slot": "building",
+      "name": "Storefront Records",
+      "description": "Festival vinyl shop with record sign",
+      "price_xp": 500,
+      "requires": [],
+      "asset": {
+        "glb": "/models/storefront_records.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "checker_trim",
+          "glass",
+          "light",
+          "metal",
+          "roof",
+          "stone",
+          "trim",
+          "wall",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "storefront_bakery",
+      "kind": "building",
+      "slot": "building",
+      "name": "Storefront Bakery",
+      "description": "Bakery with bread sign",
+      "price_xp": 500,
+      "requires": [],
+      "asset": {
+        "glb": "/models/storefront_bakery.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "awning_pink",
+          "glass",
+          "hay",
+          "light",
+          "paper",
+          "roof",
+          "stone",
+          "trim",
+          "wall",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "town_hall",
+      "kind": "building",
+      "slot": "building",
+      "name": "Town Hall",
+      "description": "Mayor HQ with columns and clock",
+      "price_xp": 500,
+      "requires": [],
+      "asset": {
+        "glb": "/models/town_hall.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "glass",
+          "light",
+          "metal",
+          "roof",
+          "stone",
+          "trim",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "apartment_small",
+      "kind": "building",
+      "slot": "building",
+      "name": "Apartment Small",
+      "description": "Three-storey apartments with balconies",
+      "price_xp": 500,
+      "requires": [],
+      "asset": {
+        "glb": "/models/apartment_small.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "glass",
+          "metal",
+          "roof",
+          "stone",
+          "trim",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "gym",
+      "kind": "building",
+      "slot": "building",
+      "name": "Gym",
+      "description": "Lance gym with dumbbell sign",
+      "price_xp": 500,
+      "requires": [],
+      "asset": {
+        "glb": "/models/gym.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "glass",
+          "light",
+          "metal",
+          "roof",
+          "stone",
+          "trim",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "studio_art",
+      "kind": "building",
+      "slot": "building",
+      "name": "Studio Art",
+      "description": "Stefanny art studio with paint palette sign",
+      "price_xp": 500,
+      "requires": [],
+      "asset": {
+        "glb": "/models/studio_art.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "glass",
+          "light",
+          "paint_splash_trim",
+          "paper",
+          "roof",
+          "stone",
+          "trim",
+          "wall",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "library",
+      "kind": "building",
+      "slot": "building",
+      "name": "Library",
+      "description": "Community library with book sign",
+      "price_xp": 500,
+      "requires": [],
+      "asset": {
+        "glb": "/models/library.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "glass",
+          "light",
+          "roof",
+          "stone",
+          "trim",
+          "wall",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "arcade",
+      "kind": "building",
+      "slot": "building",
+      "name": "Arcade",
+      "description": "Arcade with voxel mascot sign",
+      "price_xp": 500,
+      "requires": [],
+      "asset": {
+        "glb": "/models/arcade.glb",
+        "attach": {
+          "anchor": "ground",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "glass",
+          "light",
+          "metal",
+          "neon_cyan",
+          "neon_pink",
+          "roof",
+          "stone",
+          "trim",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "shirt_tee",
+      "kind": "clothing",
+      "slot": "torso",
+      "name": "Shirt Tee",
+      "description": "Shirt tee",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/shirt_tee.glb",
+        "attach": {
+          "anchor": "villager_base",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "shirt"
+        ]
+      },
+      "tags": [
+        "skinned",
+        "rebind-villager-skeleton"
+      ]
+    },
+    {
+      "id": "shirt_hoodie",
+      "kind": "clothing",
+      "slot": "torso",
+      "name": "Shirt Hoodie",
+      "description": "Shirt hoodie",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/shirt_hoodie.glb",
+        "attach": {
+          "anchor": "villager_base",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "metal",
+          "shirt",
+          "wall"
+        ]
+      },
+      "tags": [
+        "skinned",
+        "rebind-villager-skeleton"
+      ]
+    },
+    {
+      "id": "shirt_flannel",
+      "kind": "clothing",
+      "slot": "torso",
+      "name": "Shirt Flannel",
+      "description": "Shirt flannel",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/shirt_flannel.glb",
+        "attach": {
+          "anchor": "villager_base",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "shirt",
+          "wall"
+        ]
+      },
+      "tags": [
+        "skinned",
+        "rebind-villager-skeleton"
+      ]
+    },
+    {
+      "id": "pants_jeans",
+      "kind": "clothing",
+      "slot": "legs",
+      "name": "Pants Jeans",
+      "description": "Pants jeans",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/pants_jeans.glb",
+        "attach": {
+          "anchor": "villager_base",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "pants"
+        ]
+      },
+      "tags": [
+        "skinned",
+        "rebind-villager-skeleton"
+      ]
+    },
+    {
+      "id": "pants_shorts",
+      "kind": "clothing",
+      "slot": "legs",
+      "name": "Pants Shorts",
+      "description": "Pants shorts",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/pants_shorts.glb",
+        "attach": {
+          "anchor": "villager_base",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "pants",
+          "skin"
+        ]
+      },
+      "tags": [
+        "skinned",
+        "rebind-villager-skeleton"
+      ]
+    },
+    {
+      "id": "shoes_sneakers",
+      "kind": "clothing",
+      "slot": "feet",
+      "name": "Shoes Sneakers",
+      "description": "Shoes sneakers",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/shoes_sneakers.glb",
+        "attach": {
+          "anchor": "villager_base",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "shoes",
+          "wall"
+        ]
+      },
+      "tags": [
+        "skinned",
+        "rebind-villager-skeleton"
+      ]
+    },
+    {
+      "id": "shoes_boots",
+      "kind": "clothing",
+      "slot": "feet",
+      "name": "Shoes Boots",
+      "description": "Shoes boots",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/shoes_boots.glb",
+        "attach": {
+          "anchor": "villager_base",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "shoes",
+          "wall"
+        ]
+      },
+      "tags": [
+        "skinned",
+        "rebind-villager-skeleton"
+      ]
+    },
+    {
+      "id": "backpack",
+      "kind": "clothing",
+      "slot": "back",
+      "name": "Backpack",
+      "description": "Backpack",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/backpack.glb",
+        "attach": {
+          "offset": [
+            0,
+            0.12,
+            -0.26
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "bone": "Spine"
+        },
+        "tint_materials": [
+          "accent",
+          "roof",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "hat_cowboy",
+      "kind": "clothing",
+      "slot": "head",
+      "name": "Hat Cowboy",
+      "description": "Hat cowboy",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/hat_cowboy.glb",
+        "attach": {
+          "offset": [
+            0,
+            0.68,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "bone": "Head"
+        },
+        "tint_materials": [
+          "roof",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "hat_beret",
+      "kind": "clothing",
+      "slot": "head",
+      "name": "Hat Beret",
+      "description": "Hat beret",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/hat_beret.glb",
+        "attach": {
+          "offset": [
+            0,
+            0.68,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "bone": "Head"
+        },
+        "tint_materials": [
+          "metal",
+          "roof"
+        ]
+      }
+    },
+    {
+      "id": "hat_party",
+      "kind": "clothing",
+      "slot": "head",
+      "name": "Hat Party",
+      "description": "Hat party",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/hat_party.glb",
+        "attach": {
+          "offset": [
+            0,
+            0.68,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "bone": "Head"
+        },
+        "tint_materials": [
+          "accent",
+          "blossom",
+          "light"
+        ]
+      }
+    },
+    {
+      "id": "glasses_sun",
+      "kind": "clothing",
+      "slot": "face",
+      "name": "Glasses Sun",
+      "description": "Glasses sun",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/glasses_sun.glb",
+        "attach": {
+          "offset": [
+            0,
+            0.25,
+            0.31
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "bone": "Head"
+        },
+        "tint_materials": [
+          "glass",
+          "metal"
+        ]
+      }
+    },
+    {
+      "id": "necklace_chain",
+      "kind": "clothing",
+      "slot": "neck",
+      "name": "Necklace Chain",
+      "description": "Necklace chain",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/necklace_chain.glb",
+        "attach": {
+          "offset": [
+            0,
+            0.37,
+            0.02
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1,
+          "bone": "Spine"
+        },
+        "tint_materials": [
+          "accent",
+          "light"
+        ]
+      }
+    },
+    {
+      "id": "wristband_festival",
+      "kind": "clothing",
+      "slot": "wrist",
+      "name": "Wristband Festival",
+      "description": "Wristband festival",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/wristband_festival.glb",
+        "attach": {
+          "offset": [
+            0,
+            0.35,
+            0
+          ],
+          "rotation": [
+            3.141592653589793,
+            0,
+            0
+          ],
+          "scale": 1,
+          "bone": "Arm_L"
+        },
+        "tint_materials": [
+          "blossom",
+          "light"
+        ]
+      }
+    },
+    {
+      "id": "pet_collar",
+      "kind": "decoration",
+      "slot": "pet_neck",
+      "name": "Pet Collar",
+      "description": "Pet collar",
+      "price_xp": 75,
+      "requires": [
+        "pet_dog"
+      ],
+      "asset": {
+        "glb": "/models/pet_collar.glb",
+        "attach": {
+          "anchor": "pet_dog",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "light"
+        ]
+      }
+    },
+    {
+      "id": "pet_bandana",
+      "kind": "decoration",
+      "slot": "pet_neck",
+      "name": "Pet Bandana",
+      "description": "Pet bandana",
+      "price_xp": 75,
+      "requires": [
+        "pet_dog"
+      ],
+      "asset": {
+        "glb": "/models/pet_bandana.glb",
+        "attach": {
+          "anchor": "pet_dog",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "roof"
+        ]
+      }
+    },
+    {
+      "id": "upgrade_solar_roof",
+      "kind": "decoration",
+      "slot": "house_upgrade",
+      "name": "Upgrade Solar Roof",
+      "description": "Upgrade solar roof",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/upgrade_solar_roof.glb",
+        "attach": {
+          "anchor": "house_roof",
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0.306,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "glass",
+          "metal",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "upgrade_porch",
+      "kind": "decoration",
+      "slot": "house_upgrade",
+      "name": "Upgrade Porch",
+      "description": "Upgrade porch",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/upgrade_porch.glb",
+        "attach": {
+          "anchor": "house_ground",
+          "offset": [
+            0,
+            0,
+            3.35
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "roof",
+          "stone",
+          "wall",
+          "wood"
+        ]
+      }
+    },
+    {
+      "id": "upgrade_garden_gnome",
+      "kind": "decoration",
+      "slot": "house_upgrade",
+      "name": "Upgrade Garden Gnome",
+      "description": "Upgrade garden gnome",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/upgrade_garden_gnome.glb",
+        "attach": {
+          "anchor": "house_ground",
+          "offset": [
+            2.5,
+            0,
+            3.3
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "accent",
+          "metal",
+          "roof",
+          "skin",
+          "wall"
+        ]
+      }
+    },
+    {
+      "id": "upgrade_neon_sign",
+      "kind": "decoration",
+      "slot": "house_upgrade",
+      "name": "Upgrade Neon Sign",
+      "description": "Upgrade neon sign",
+      "price_xp": 75,
+      "requires": [],
+      "asset": {
+        "glb": "/models/upgrade_neon_sign.glb",
+        "attach": {
+          "anchor": "house_ground",
+          "offset": [
+            0,
+            2.6,
+            2.8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": 1
+        },
+        "tint_materials": [
+          "blossom",
+          "light",
+          "metal"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+.house-editor { padding: 16px 0; }
+.house-editor h3 { margin: 0 0 6px; }
+.house-editor fieldset { border: 0; padding: 12px 0; margin: 0; min-width: 0; }
+.house-editor legend { font-weight: 700; padding: 0; }
+.house-preview { height: 210px; border-radius: 16px; overflow: hidden; margin: 14px 0; }
+.house-style-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 7px; }
+.house-style-grid button,.house-parts button { border: 1px solid #d8d6c8; background: #faf8f0; border-radius: 9px; padding: 6px; color: #394c3b; }
+.house-style-grid svg { width: 100%; display: block; }
+.house-editor button[aria-pressed=true] { outline: 2px solid #487d6b; outline-offset: 1px; }
+.house-levels { display: flex; flex-wrap: wrap; gap: 8px; font-size: 11px; color: #65715e; }
+.house-presets { display: flex; gap: 10px; margin-bottom: 10px; }
+.house-presets button { display: flex; flex: 1; padding: 4px; height: 36px; border: 1px solid #d8d6c8; border-radius: 8px; background: white; }
+.house-presets span { flex: 1; }
+.house-parts { display: flex; gap: 5px; flex-wrap: wrap; }
+.house-parts button { text-transform: capitalize; font-size: 12px; }
+.house-parts i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; }
+.house-swatches { display: grid; grid-template-columns: repeat(8,1fr); gap: 8px; margin: 14px 2px; }
+.house-swatches button { aspect-ratio: 1; border: 1px solid #0002; border-radius: 50%; min-width: 24px; }
+.house-editor label { display: block; font-size: 13px; margin: 10px 0; }
+.house-editor input { display: block; width: 100%; box-sizing: border-box; padding: 9px; border: 1px solid #d8d6c8; border-radius: 8px; margin-top: 5px; }
+@media (max-width:1050px) { .house-swatches { grid-template-columns: repeat(6,minmax(0,1fr)); } }

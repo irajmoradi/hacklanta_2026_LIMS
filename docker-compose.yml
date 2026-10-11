@@ -1,0 +1,16 @@
+# Local dev database. TimescaleDB = same engine as Tiger Data, so prod is a DATABASE_URL swap.
+services:
+  db:
+    image: timescale/timescaledb:latest-pg17
+    container_name: village-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: village
+      POSTGRES_DB: village
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - village-db:/var/lib/postgresql/data
+volumes:
+  village-db:

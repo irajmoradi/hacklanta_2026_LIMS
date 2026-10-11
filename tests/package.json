@@ -1,0 +1,10 @@
+{
+  "name": "village-regression-gate",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "integration": "bun test integration",
+    "e2e": "playwright test"
+  },
+  "devDependencies": { "@playwright/test": "1.58.2" }
+}

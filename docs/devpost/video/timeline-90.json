@@ -1,0 +1,282 @@
+[
+  {
+    "key": "hook",
+    "start": 0,
+    "seconds": 2,
+    "title": "Group chats go quiet.",
+    "caption": "",
+    "source": "full"
+  },
+  {
+    "key": "promise",
+    "start": 2,
+    "seconds": 2,
+    "title": "A reason to show up.",
+    "caption": "AI that gets your people together.",
+    "source": "town"
+  },
+  {
+    "key": "photo",
+    "start": 4,
+    "seconds": 1,
+    "title": "Real photo",
+    "caption": "",
+    "source": "full"
+  },
+  {
+    "key": "mask",
+    "start": 5,
+    "seconds": 1,
+    "title": "SAM 3",
+    "caption": "",
+    "source": "full"
+  },
+  {
+    "key": "traits",
+    "start": 6,
+    "seconds": 1,
+    "title": "Extracted traits",
+    "caption": "",
+    "source": "full"
+  },
+  {
+    "key": "villager",
+    "start": 7,
+    "seconds": 2,
+    "title": "Your villager",
+    "caption": "",
+    "source": "full"
+  },
+  {
+    "key": "splat",
+    "start": 9,
+    "seconds": 4,
+    "title": "LAM Gaussian splat",
+    "caption": "",
+    "source": "full"
+  },
+  {
+    "key": "memo",
+    "start": 13,
+    "seconds": 6,
+    "title": "Original voice",
+    "caption": "",
+    "source": "full"
+  },
+  {
+    "key": "clone",
+    "start": 19,
+    "seconds": 4,
+    "title": "ElevenLabs clone",
+    "caption": "",
+    "source": "full"
+  },
+  {
+    "key": "checkin",
+    "start": 23,
+    "seconds": 3,
+    "title": "A little moment, every day.",
+    "caption": "Check in. Share a small win.",
+    "source": "checkin"
+  },
+  {
+    "key": "goals",
+    "start": 26,
+    "seconds": 3,
+    "title": "Keep going. Then go further.",
+    "caption": "Weekly goals. Stretch goals when you finish.",
+    "source": "goals"
+  },
+  {
+    "key": "friends",
+    "start": 29,
+    "seconds": 2,
+    "title": "Show up for each other.",
+    "caption": "Friends and cheers keep you going.",
+    "source": "friends"
+  },
+  {
+    "key": "gram",
+    "start": 31,
+    "seconds": 2,
+    "title": "Send a little encouragement.",
+    "caption": "Villager-grams: your avatar, your AI voice, on video.",
+    "source": "talk"
+  },
+  {
+    "key": "challenges",
+    "start": 33,
+    "seconds": 2,
+    "title": "Pick a challenge together.",
+    "caption": "Shared challenges turn effort into collective XP.",
+    "source": "colosseum"
+  },
+  {
+    "key": "growth",
+    "start": 35,
+    "seconds": 2,
+    "title": "Your progress builds the town.",
+    "caption": "Check-ins + challenges \u2192 collective XP \u2192 village levels.",
+    "source": "growth"
+  },
+  {
+    "key": "unlock",
+    "start": 37,
+    "seconds": 5,
+    "title": "Unlock the town together.",
+    "caption": "Level up. Open the Pet Shelter.",
+    "source": "growth-unlock"
+  },
+  {
+    "key": "pets",
+    "start": 42,
+    "seconds": 2,
+    "title": "A friend for your friend.",
+    "caption": "The Shelter unlocks pets. Preview an adoption.",
+    "source": "pets"
+  },
+  {
+    "key": "disaster",
+    "start": 44,
+    "seconds": 2,
+    "title": "Then the town needs you.",
+    "caption": "An outbreak closes the Shelter.",
+    "source": "disaster-repair"
+  },
+  {
+    "key": "repair-task",
+    "start": 46,
+    "seconds": 2,
+    "title": "The Mayor gives you a mission.",
+    "caption": "Repair tasks bring everyone back to their check-ins.",
+    "source": "disaster-repair"
+  },
+  {
+    "key": "repair",
+    "start": 48,
+    "seconds": 2,
+    "title": "Save it together.",
+    "caption": "Everyone contributes. The Shelter reopens.",
+    "source": "disaster-repair"
+  },
+  {
+    "key": "walking",
+    "start": 50,
+    "seconds": 3,
+    "title": "One town. Everyone together.",
+    "caption": "Two browsers. The same villager walking in both.",
+    "source": "synced-walking"
+  },
+  {
+    "key": "shop",
+    "start": 53,
+    "seconds": 2,
+    "title": "Make it yours.",
+    "caption": "Spend earned coins in the Village Shop.",
+    "source": "shop"
+  },
+  {
+    "key": "wardrobe",
+    "start": 55,
+    "seconds": 2,
+    "title": "Find your look.",
+    "caption": "Try on an outfit before you buy.",
+    "source": "wardrobe"
+  },
+  {
+    "key": "object",
+    "start": 57,
+    "seconds": 4,
+    "title": "An idea becomes an object.",
+    "caption": "Hunyuan3D: generated plant \u2192 textured mesh.",
+    "source": "object-turntable"
+  },
+  {
+    "key": "room",
+    "start": 61,
+    "seconds": 2,
+    "title": "Bring it home.",
+    "caption": "That same generated plant, placed in a house.",
+    "source": "object-room"
+  },
+  {
+    "key": "house",
+    "start": 63,
+    "seconds": 3,
+    "title": "A home that stays yours.",
+    "caption": "TigerData live sync \u00b7 LISTEN/NOTIFY \u00b7 saved house state.",
+    "source": "house-sync"
+  },
+  {
+    "key": "hall",
+    "start": 66,
+    "seconds": 2,
+    "title": "A place you build together.",
+    "caption": "Decorate the Community Hall. See the edit in both windows.",
+    "source": "hall-decor"
+  },
+  {
+    "key": "routines",
+    "start": 68,
+    "seconds": 2,
+    "title": "Life goes on here.",
+    "caption": "Daily routines. Lasting homes. A lived-in world.",
+    "source": "routines"
+  },
+  {
+    "key": "arena",
+    "start": 70,
+    "seconds": 2,
+    "title": "A little friendly competition.",
+    "caption": "The Colosseum turns shared goals into a spectator sport.",
+    "source": "competition"
+  },
+  {
+    "key": "payouts",
+    "start": 72,
+    "seconds": 3,
+    "title": "Choose how the pot is shared.",
+    "caption": "Solana devnet \u00b7 test assets \u00b7 payout modes preview",
+    "source": "payout-card"
+  },
+  {
+    "key": "mayor",
+    "start": 75,
+    "seconds": 3,
+    "title": "Meet your Gemini Mayor.",
+    "caption": "Recaps, repair missions and a nudge to show up.",
+    "source": "mayor"
+  },
+  {
+    "key": "gazette",
+    "start": 78,
+    "seconds": 2,
+    "title": "Your week becomes village history.",
+    "caption": "The Gazette remembers what you did together.",
+    "source": "gazette"
+  },
+  {
+    "key": "imessage",
+    "start": 80,
+    "seconds": 3,
+    "title": "The nudge leaves the screen.",
+    "caption": "",
+    "source": "full"
+  },
+  {
+    "key": "stack",
+    "start": 83,
+    "seconds": 3,
+    "title": "Built to bring people together.",
+    "caption": "",
+    "source": "stack-card"
+  },
+  {
+    "key": "end",
+    "start": 86,
+    "seconds": 4,
+    "title": "Get your people together.",
+    "caption": "Your people. One living village.",
+    "source": "end-card"
+  }
+]

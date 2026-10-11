@@ -1,0 +1,110 @@
+{
+  "checkin_pop": {
+    "source_samples": 29999,
+    "processed_samples": 29999,
+    "gain_db": -5.4,
+    "peak_constrained": true
+  },
+  "xp_ding": {
+    "source_samples": 35280,
+    "processed_samples": 35280,
+    "gain_db": 9.958,
+    "peak_constrained": false
+  },
+  "level_up_fanfare": {
+    "source_samples": 97020,
+    "processed_samples": 97020,
+    "gain_db": -9.623,
+    "peak_constrained": false
+  },
+  "coin_purchase": {
+    "source_samples": 38808,
+    "processed_samples": 38808,
+    "gain_db": -6.025,
+    "peak_constrained": true
+  },
+  "equip_swoosh": {
+    "source_samples": 29999,
+    "processed_samples": 27256,
+    "gain_db": -7.504,
+    "peak_constrained": false
+  },
+  "crown_ceremony": {
+    "source_samples": 97020,
+    "processed_samples": 97020,
+    "gain_db": -15.891,
+    "peak_constrained": false
+  },
+  "mayor_gong": {
+    "source_samples": 65268,
+    "processed_samples": 65268,
+    "gain_db": -9.084,
+    "peak_constrained": false
+  },
+  "prayer_chime": {
+    "source_samples": 74088,
+    "processed_samples": 74088,
+    "gain_db": 0.379,
+    "peak_constrained": false
+  },
+  "event_drumroll": {
+    "source_samples": 88200,
+    "processed_samples": 88200,
+    "gain_db": -11.695,
+    "peak_constrained": false
+  },
+  "evidence_stamp_ok": {
+    "source_samples": 35280,
+    "processed_samples": 18233,
+    "gain_db": 4.86,
+    "peak_constrained": false
+  },
+  "evidence_buzzer_sus": {
+    "source_samples": 44100,
+    "processed_samples": 44100,
+    "gain_db": -7.093,
+    "peak_constrained": false
+  },
+  "pet_bark_happy": {
+    "source_samples": 38808,
+    "processed_samples": 38808,
+    "gain_db": -9.313,
+    "peak_constrained": false
+  },
+  "building_unlock_tada": {
+    "source_samples": 88200,
+    "processed_samples": 88200,
+    "gain_db": 1.464,
+    "peak_constrained": true
+  },
+  "crater_boom_cartoon": {
+    "source_samples": 74088,
+    "processed_samples": 63374,
+    "gain_db": -9.626,
+    "peak_constrained": false
+  },
+  "poke_boing": {
+    "source_samples": 35280,
+    "processed_samples": 23356,
+    "gain_db": -11.833,
+    "peak_constrained": false
+  },
+  "message_blip": {
+    "source_samples": 21168,
+    "processed_samples": 21168,
+    "gain_db": -14.084,
+    "peak_constrained": false
+  },
+  "night_crickets_loop": {
+    "source_samples": 220500,
+    "processed_samples": 215208,
+    "gain_db": -6.981,
+    "peak_constrained": false
+  },
+  "festival_crowd_loop": {
+    "source_samples": 220500,
+    "processed_samples": 215208,
+    "gain_db": -6.872,
+    "peak_constrained": false
+  }
+}

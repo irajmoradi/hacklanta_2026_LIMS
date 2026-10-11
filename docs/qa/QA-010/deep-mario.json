@@ -1,0 +1,2343 @@
+{
+  "started": "2026-10-10T20:10:12.325Z",
+  "steps": [
+    {
+      "seat": "Mario",
+      "stage": "seat",
+      "status": "pass",
+      "ms": 21135,
+      "uid": "13370000-0000-4000-8000-000000000005"
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "status": "failed",
+      "error": "expect(locator).toBeEnabled() failed\n\nLocator:  locator('.idle-picker select')\nExpected: enabled\nReceived: disabled\nTimeout:  5000ms\n\nCall log:\n  - Expect \"to.be.enabled\" with timeout 5000ms\n  - waiting for locator('.idle-picker select')\n    7 × locator resolved to <select disabled aria-describedby=\":r3:\">…</select>\n      - unexpected value \"disabled\"\n",
+      "ms": 40442
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "status": "pass",
+      "ms": 67011,
+      "colorSave": "Draft only: original palette unset; API has no reset-to-null operation"
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "status": "pass",
+      "ms": 81107,
+      "interactionMs": 19593,
+      "restoreStatus": 200
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "status": "pass",
+      "ms": 17027,
+      "interactionMs": 5818
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "status": "pass",
+      "ms": 22169,
+      "http": 200,
+      "interactionMs": 11679,
+      "xp": 10,
+      "resultKeys": [
+        "check_in",
+        "xp_awarded"
+      ]
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-progress",
+      "status": "pass",
+      "ms": 13699,
+      "unavailable": "No active goal; progress disabled"
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "status": "pass",
+      "ms": 33907,
+      "http": 200,
+      "interactionMs": 28427
+    },
+    {
+      "seat": "Mario",
+      "stage": "accomplishments-reaction",
+      "status": "pass",
+      "ms": 16711,
+      "cards": 10
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "status": "pass",
+      "ms": 46131,
+      "purchases": [
+        {
+          "name": "photo token",
+          "status": 409,
+          "body": {
+            "detail": "Not enough XP"
+          }
+        }
+      ],
+      "speakers": 1,
+      "recipients": 1,
+      "preview": true,
+      "createDisabled": true,
+      "locks": [
+        "Earn-only: earned:auditor",
+        "Earn-only: earned:weekly_crown",
+        "Earn-only: earned:competition_win",
+        "Earn-only: earned:festival_vip",
+        "Earn-only: earned:mayor_event",
+        "Earn-only: earned:perfect_week",
+        "Earn-only: earned:streak_28",
+        "Need 10 more XP",
+        "Need 15 more XP",
+        "Need 20 more XP",
+        "Need 20 more XP",
+        "Need 25 more XP",
+        "Need 25 more XP",
+        "Need 30 more XP",
+        "Need 30 more XP",
+        "Need 35 more XP",
+        "Need 40 more XP",
+        "Need 50 more XP",
+        "Need 50 more XP",
+        "Need 60 more XP",
+        "Need 70 more XP",
+        "Need 70 more XP",
+        "Need 70 more XP",
+        "Need 80 more XP",
+        "Need 80 more XP",
+        "Need 90 more XP",
+        "Need 90 more XP",
+        "Needs Backyard (100 XP) firstNeed 90 more XP",
+        "Needs Backyard (100 XP) firstNeed 90 more XP",
+        "Need 100 more XP",
+        "Need 110 more XP",
+        "Need 110 more XP",
+        "Need 120 more XP",
+        "Need 130 more XP",
+        "Need 140 more XP",
+        "Need 140 more XP",
+        "Need 150 more XP",
+        "Need 160 more XP",
+        "Need 170 more XP",
+        "Need 180 more XP",
+        "Need 240 more XP",
+        "Need 490 more XP"
+      ]
+    },
+    {
+      "seat": "Mario",
+      "stage": "gazette-archive",
+      "status": "pass",
+      "ms": 7182,
+      "issues": 1
+    },
+    {
+      "seat": "Mario",
+      "stage": "colosseum",
+      "status": "pass",
+      "ms": 6643,
+      "text": "CHOOSE YOUR CHALLENGE\nOpen\nCurrent\nMine\nPast\n+ Create\nA challenge worth showing up for\nh\nOrdinal\nopen\n1 contenders\n0 SOL pot intent / 0 SOL entry\nMinecraft hours\nFriendly\nactive\n2 contenders\n0 SOL pot intent / 0 SOL entry\nStudy streak\nOrdinal\nactive\n2 contenders\n0.02 SOL pot intent / 0.01 SOL entry\nTHE VILLAGE COLOSSEUM\nMake your mark.\n\nOrdinal · Every small step counts\n\nSound on\nView competitions\n← Village\nView open\nView current\n0 participants · Arena floor\nTHE FLOOR IS YOURS\nSmall steps.\nLegendary rivalries.\n\nPreview a banner. Read the terms. Take your place.",
+      "detail": "#1 Iraj\nTHE VILLAGE COLOSSEUM\nh\n\nOrdinal · Every small step counts\n\nSound on\nView competitions\n← Village\nView open\nView current\n1 participants · Arena floor\nLEADERBOARD\nThe contenders\n#1\nIraj\n0 points\nBring the evidence. Earn your place.\nClose competition controls\nh\n\nh\n\nAuditor: Stefanny · sits out\nopen\n0 SOL intent — settles on devnet after approval. No payment executed.\nParticipants (1)\n\nIraj\n\nEntries (0)\nRead terms & join"
+    },
+    {
+      "seat": "Mario",
+      "stage": "group-photo",
+      "status": "pass",
+      "ms": 12589,
+      "text": "A VILLAGE STARTS WITH YOUR PEOPLE\n\nOur group photo\n\nFind yourself in the group, then choose “This is me” to build your villager. Your preset works while you wait.\n\nThe village owner uploads the shared photo. Each person claims only themselves.\n\nOpen a shared photo job"
+    },
+    {
+      "seat": "Mario",
+      "stage": "responsive",
+      "status": "pass",
+      "ms": 7730,
+      "overflow": {
+        "width": 390,
+        "scrollWidth": 390
+      }
+    }
+  ],
+  "requests": [
+    {
+      "seat": "Mario",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 55
+    },
+    {
+      "seat": "Mario",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1326
+    },
+    {
+      "seat": "Mario",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 5705
+    },
+    {
+      "seat": "Mario",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 138
+    },
+    {
+      "seat": "Mario",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 138
+    },
+    {
+      "seat": "Mario",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1472
+    },
+    {
+      "seat": "Mario",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 37
+    },
+    {
+      "seat": "Mario",
+      "stage": "seat",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3267
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 21
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1215
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1019
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1306
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 4562
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 50
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1156
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2800
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 212
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 322
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1312
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1313
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3268
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 21
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1010
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1010
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 152
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3179
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1086
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1142
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 1030
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 1030
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1033
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1035
+    },
+    {
+      "seat": "Mario",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3266
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 398
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 399
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 1803
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1123
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 4412
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 129
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 11100
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 3011
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 73
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 1010
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 1012
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1408
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1425
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1437
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000005/body/head.glb",
+      "status": 200,
+      "ms": 1148
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1484
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 761
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1722
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/messages/unread",
+      "status": 200,
+      "ms": 1722
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 12012
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1552
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1572
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 377
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 11710
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1548
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/shop",
+      "status": 200,
+      "ms": 2103
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 1053
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/messages/unread",
+      "status": 200,
+      "ms": 1062
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 15923
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 2178
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2419
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2420
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 2927
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 2927
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 2991
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 3218
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 16
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 12424
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 13192
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 3282
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 3283
+    },
+    {
+      "seat": "Mario",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 37
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 235
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1006
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 42
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 20444
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1626
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 3279
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 4512
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 4782
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 5086
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 6637
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 9375
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 274
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 25249
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1484
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 30481
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 5981
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 7948
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 3158
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/messages/unread",
+      "status": 200,
+      "ms": 4199
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 2011
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 798
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1572
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 625
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/messages/unread",
+      "status": 200,
+      "ms": 1890
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/items",
+      "status": 200,
+      "ms": 2760
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/shop",
+      "status": 200,
+      "ms": 2933
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/items",
+      "status": 200,
+      "ms": 4844
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/shop",
+      "status": 200,
+      "ms": 4845
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/assets/evidence/13370000-0000-4000-8000-000000000000/demo-story/steps.png",
+      "status": 200,
+      "ms": 5494
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/check-ins/7e668f44-0bbd-49a3-b8dc-bb4dc66e00c7/review",
+      "status": 200,
+      "ms": 5505
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 7427
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 30044
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 9693
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 11872
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 12050
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 12156
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 13302
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 13321
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 13351
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000005/body/head.glb",
+      "status": 200,
+      "ms": 13565
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 6558
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 7224
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000005/head/avatar.zip",
+      "status": 200,
+      "ms": 17173
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/messages/unread",
+      "status": 200,
+      "ms": 8218
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 9246
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 5077
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 26248
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 5813
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 2671
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/messages/unread",
+      "status": 200,
+      "ms": 2704
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 7088
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 783
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 25653
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 15734
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2677
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2679
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 2432
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 435
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 15117
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2242
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2248
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1900
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 1906
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 2323
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 2348
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2388
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 10882
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 10639
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 812
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 10185
+    },
+    {
+      "seat": "Mario",
+      "stage": "house-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 452
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 83
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2223
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2259
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 522
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 5433
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 258
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 257
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 143
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 1017
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1018
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1022
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1169
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 3280
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 5060
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 608
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 608
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 9210
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1103
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 3001
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 20
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1477
+    },
+    {
+      "seat": "Mario",
+      "stage": "settings-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 436
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3012
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 18
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 163
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 48
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/check-ins",
+      "status": 200,
+      "ms": 246
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 1003
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1006
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1008
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1030
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1028
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2802
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2811
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 43
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 79
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-progress",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1492
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 263
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-progress",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2204
+    },
+    {
+      "seat": "Mario",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 82
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 110
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 10543
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 63
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 297
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 2008
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 2011
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2042
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 2700
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 2743
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2743
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 8492
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 465
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 462
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1523
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 14525
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/goals",
+      "status": 200,
+      "ms": 11886
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2554
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 2905
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 2336
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/messages/unread",
+      "status": 200,
+      "ms": 2556
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 14543
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 10419
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 10347
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 3213
+    },
+    {
+      "seat": "Mario",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "seat": "Mario",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Mario",
+      "stage": "accomplishments-reaction",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1327
+    },
+    {
+      "seat": "Mario",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Mario",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/reactions",
+      "status": 200,
+      "ms": 19
+    },
+    {
+      "seat": "Mario",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Mario",
+      "stage": "accomplishments-reaction",
+      "method": "DELETE",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/reactions",
+      "status": 200,
+      "ms": 19
+    },
+    {
+      "seat": "Mario",
+      "stage": "accomplishments-reaction",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1631
+    },
+    {
+      "seat": "Mario",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 60
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 1213
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 826
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1933
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3222
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1935
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/items/token",
+      "status": 409,
+      "ms": 757,
+      "error": "{\"detail\":\"Not enough XP\"}"
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 19
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 4290
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 38
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 50
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 1671
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/feed",
+      "status": 200,
+      "ms": 1676
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1956
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 1957
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1963
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1966
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 5052
+    },
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 33
+    },
+    {
+      "seat": "Mario",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 35
+    },
+    {
+      "seat": "Mario",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "seat": "Mario",
+      "stage": "gazette-archive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1649
+    },
+    {
+      "seat": "Mario",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Mario",
+      "stage": "colosseum",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 39
+    },
+    {
+      "seat": "Mario",
+      "stage": "colosseum",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "seat": "Mario",
+      "stage": "colosseum",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 191
+    },
+    {
+      "seat": "Mario",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000005/body/head.glb",
+      "status": 200,
+      "ms": 1183
+    },
+    {
+      "seat": "Mario",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000003/body/head.glb",
+      "status": 200,
+      "ms": 1158
+    },
+    {
+      "seat": "Mario",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/assets/avatars/13370000-0000-4000-8000-000000000004/body/head.glb",
+      "status": 200,
+      "ms": 1166
+    },
+    {
+      "seat": "Mario",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000001",
+      "status": 200,
+      "ms": 1066
+    },
+    {
+      "seat": "Mario",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000002",
+      "status": 200,
+      "ms": 1079
+    },
+    {
+      "seat": "Mario",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000003",
+      "status": 200,
+      "ms": 1369
+    },
+    {
+      "seat": "Mario",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000005",
+      "status": 200,
+      "ms": 1398
+    },
+    {
+      "seat": "Mario",
+      "stage": "colosseum",
+      "method": "GET",
+      "url": "/api/avatars/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1399
+    },
+    {
+      "seat": "Mario",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 58
+    },
+    {
+      "seat": "Mario",
+      "stage": "group-photo",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 4616
+    },
+    {
+      "seat": "Mario",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 24
+    },
+    {
+      "seat": "Mario",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 26
+    },
+    {
+      "seat": "Mario",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 30
+    },
+    {
+      "seat": "Mario",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 19
+    },
+    {
+      "seat": "Mario",
+      "stage": "group-photo",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2300
+    },
+    {
+      "seat": "Mario",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 48
+    },
+    {
+      "seat": "Mario",
+      "stage": "responsive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 248
+    },
+    {
+      "seat": "Mario",
+      "stage": "responsive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Mario",
+      "stage": "responsive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 26
+    }
+  ],
+  "errors": [
+    {
+      "seat": "Mario",
+      "stage": "shop-buy-and-grams",
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 409 (Conflict)"
+    }
+  ],
+  "blocked": []
+}

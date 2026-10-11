@@ -1,0 +1,104 @@
+.app.in-cinematic :is(.toast,.welcome,.dashboard-ribbon,.widget-popout,.topbar,.action-dock,.neighbors-strip,.dashboard,.camera-hint,.player-hint,.emote-wheel,.profile-panel){opacity:0;pointer-events:none;transition:opacity 180ms ease}
+.app.in-cinematic .scene-label{visibility:hidden}
+dialog.modal.cinematic-scene{position:fixed;inset:0;transform:none;margin:0;width:100vw;max-width:none;height:100dvh;max-height:none;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;overflow:hidden;animation:scene-arrive 300ms ease both;color:#342c29}
+dialog.modal.cinematic-scene::backdrop{background:transparent;backdrop-filter:none}
+.cinematic-scene>h2,.cinematic-scene>.eyebrow{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.cinematic-scene>.modal-close{position:absolute;top:20px;right:24px;z-index:3;background:#fff7e8;color:#342c29}
+.scene-vignette{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 30% 50%,transparent 15%,#25233238 65%,#181b266e 100%)}
+.scene-conversation{position:absolute;right:6vw;top:17vh;width:min(490px,44vw);max-height:77dvh;overflow:auto;padding:24px;border:1px solid #e0ceae;border-radius:26px;background:#fff8eaf5;box-shadow:0 15px 65px #2e292e38;scrollbar-width:thin}
+.scene-speaker{font-size:22px;font-weight:800}.scene-speaker small{display:block;font-size:10px;letter-spacing:2px;color:#726955;margin:8px 0 18px}
+.scene-speech{position:relative;font-size:clamp(20px,2vw,28px);line-height:1.4;margin:0 0 22px;white-space:pre-wrap;overflow-wrap:anywhere;min-height:2.8em}
+.scene-speech:before{content:'';position:absolute;left:-40px;top:8px;border:9px solid transparent;border-right-color:#fff8ea}
+.speech-caret{display:inline-block;width:5px;height:1em;background:#b79460;margin-left:3px;vertical-align:middle}
+.scene-choices{display:grid;gap:10px}.scene-choices button{display:flex;gap:12px;align-items:center;min-height:53px;text-align:left;padding:13px 16px;border:1px solid #d8c3a0;border-radius:13px;background:#f1e4ce;color:#362d29;font-family:inherit;font-size:15px;font-weight:700;cursor:pointer;box-shadow:0 3px 0 #d4bf9f}.scene-choices button:hover{background:#e7d5b4}.scene-choices button:disabled{opacity:.55;cursor:not-allowed}.scene-choices kbd{font:inherit;font-size:11px;color:#75644d}
+.scene-choices button:focus-visible,.scene-back:focus-visible{outline:3px solid #437a70;outline-offset:3px}
+.scene-key-hint{font-size:11px;color:#746854;margin:20px 0 0}.scene-back{margin-bottom:16px}.scene-form{animation:scene-panel 220ms ease both}.scene-form h2{font-size:20px}.scene-form .mayor-welcome{display:none}.scene-form .modal-footnote{margin-bottom:0}
+.scene-reward{font-size:18px;font-weight:800;color:#fff8d4;white-space:nowrap;text-shadow:0 2px 4px #332a22;background:#53765bdc;padding:10px 16px;border-radius:18px;animation:scene-reward 1.4s ease both}
+@keyframes scene-arrive{from{opacity:0}to{opacity:1}}@keyframes scene-panel{from{opacity:0;transform:translateX(18px)}to{opacity:1;transform:translateX(0)}}@keyframes scene-reward{from{opacity:0;transform:translateY(12px)}25%,80%{opacity:1}to{opacity:0;transform:translateY(-30px)}}
+@media(max-width:700px){.scene-conversation{left:12px;right:12px;top:auto;bottom:12px;width:auto;max-height:53dvh;padding:18px;border-radius:22px}.scene-conversation.has-form{max-height:62dvh}.scene-vignette{background:radial-gradient(ellipse at 50% 25%,transparent,#25233255)}.scene-speech{font-size:20px;min-height:0;margin-bottom:14px}.scene-speaker{font-size:18px}.scene-speaker small{margin:4px 0 12px}.scene-choices{grid-template-columns:1fr 1fr;gap:8px}.scene-choices button{font-size:13px;padding:10px;gap:6px}.scene-choices p{grid-column:1/-1}.scene-key-hint{margin-top:12px}.scene-speech:before{display:none}}
+@media(prefers-reduced-motion:reduce){dialog.modal.cinematic-scene,.scene-form,.scene-reward{animation:none}.app.in-cinematic *{transition:none!important}.speech-caret{display:none}}
+
+.cinematic-scene .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Keep the town drawing buffer prewarmed at its final scene size. */
+.app .village-main>.scene>div:has(canvas){position:fixed!important;inset:0;width:100vw!important;height:100dvh!important}
+
+.app.has-profile .village-main>.scene>div:has(canvas){position:relative!important;inset:auto;width:100%!important;height:100%!important}
+/* A personal postcard: the Mayor retains the original scene styling above. */
+.checkin-scene .scene-vignette{background:linear-gradient(90deg,#123c3940,#102f32a8)}
+.checkin-letterbox{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;pointer-events:none;border-block:28px solid #122f30;color:#fff2c9}
+.checkin-letterbox span{position:absolute;left:28px;font-size:10px;font-weight:800;letter-spacing:2px;top:-21px}
+.checkin-letterbox span+span{top:auto;bottom:-21px;letter-spacing:1px}
+dialog.modal.checkin-scene{animation-duration:80ms}
+.checkin-scene .scene-conversation{top:50%;transform:translateY(-50%);right:5vw;width:min(520px,48vw);max-height:calc(100dvh - 100px);padding:24px;border:3px solid #244e49;border-radius:12px 30px 30px 30px;background:#f7fbef;box-shadow:7px 7px 0 #153b39,0 20px 70px #102e3240;color:#183b37}
+.checkin-portrait{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+.checkin-portrait .portrait{width:68px;height:68px;flex-shrink:0;border:3px solid #fff;outline:2px solid #35665d;box-shadow:3px 3px 0 #cad8b9}
+.checkin-portrait>span:last-child{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#46645a;font-weight:800}
+.checkin-scene .scene-speaker{display:block;background:#24564e;color:white;width:fit-content;max-width:100%;overflow-wrap:anywhere;padding:7px 15px;border-radius:16px 16px 3px 3px;font-size:17px}
+.checkin-scene .scene-speaker small{display:none}
+.checkin-scene .scene-speech{border-top:2px solid #24564e;padding-top:12px;font-size:25px;min-height:2em;margin-bottom:18px}
+.checkin-scene .scene-speech:before{display:none}
+.checkin-scene .speech-caret{background:#24564e}
+.checkin-scene .scene-choices button{background:#fffef4;border:2px solid #497369;border-radius:6px 16px 16px 16px;box-shadow:2px 3px 0 #bfd0b4;color:#193f38;transition:background 80ms,transform 80ms}
+.checkin-scene .scene-choices button:hover{background:#e1eed6;transform:translateX(2px)}
+.checkin-scene .scene-choices button:disabled{opacity:1;background:#e6e9df;color:#58645b;border-color:#97a495;box-shadow:none;transform:none}
+.checkin-scene .scene-choices p{font-size:13px;line-height:1.5}
+.checkin-scene .scene-choices .text-button{display:inline;min-height:32px;padding:2px 6px;font-size:13px}
+.checkin-choices-leaving{position:absolute!important;inset:180px 24px auto;pointer-events:none;animation:checkin-choice-out 80ms ease forwards}
+.checkin-scene .scene-back{padding:3px 0;min-height:32px;margin:0 0 10px;border:0;background:transparent;box-shadow:none;color:#24564e;text-decoration:underline;font-size:13px}
+.checkin-branch{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.checkin-branch h2{font-size:23px;margin:0;color:#183b37}
+.checkin-token{display:inline-flex;align-items:center;gap:4px;background:#fff1ad;color:#493c13;border:1px solid #b59a3b;border-radius:20px;padding:7px 10px;box-shadow:0 2px 0 #c7ad52;font-size:12px}
+.checkin-letter{animation:checkin-branch-in 80ms ease both}
+.checkin-letter :is(textarea,input){transition:border-color 80ms,box-shadow 80ms}
+.checkin-letter textarea{background:#fffefa;border:2px solid #a6bca1;border-radius:12px;color:#193b36;min-height:88px}
+.checkin-letter label{color:#24483f}
+.checkin-letter .checkin-polaroid{margin:8px 0 10px;padding:16px 12px 22px;background:#fff;border:6px solid #fff;outline:1px solid #b7c4ad;box-shadow:2px 3px 0 #d7dfca;border-radius:2px;min-width:0}
+.checkin-polaroid span{overflow-wrap:anywhere;min-width:0}
+.checkin-letter .help-text,.checkin-letter .modal-footnote,.checkin-scene .scene-key-hint{color:#4a6051;font-size:12px}
+.checkin-letter .checkin-send{background:#24564e;color:#fff8dd;border:2px solid #183e38;border-radius:8px;box-shadow:0 3px 0 #153b35;letter-spacing:.4px;transition:transform 80ms,background 80ms;margin-top:12px}
+.checkin-letter .checkin-send:active{transform:translateY(2px);box-shadow:none}
+.checkin-letter .checkin-send:disabled{opacity:1;background:#d5ddcf;color:#53604f;border-color:#a3b29a;box-shadow:none}
+.checkin-scene :is(button,textarea,input):focus-visible{outline:3px solid #ae5a27;outline-offset:3px}
+.checkin-stamp{width:fit-content;border:3px double #24604b;color:#24604b;padding:12px 18px;font-weight:900;text-transform:uppercase;letter-spacing:1px;transform:rotate(-4deg);animation:checkin-stamp-in 80ms ease-out both}
+@keyframes checkin-choice-out{to{opacity:0;transform:translateX(16px)}}
+@keyframes checkin-branch-in{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+@keyframes checkin-stamp-in{from{opacity:0;transform:scale(1.1) rotate(-4deg)}to{opacity:1;transform:scale(1) rotate(-4deg)}}
+@media(max-width:700px){
+ .checkin-scene .scene-conversation,.checkin-scene .scene-conversation.has-form{left:12px;right:16px;top:auto;bottom:44px;transform:none;width:auto;max-height:calc(100dvh - 116px);padding:18px}
+ .checkin-scene .scene-choices{grid-template-columns:1fr}
+ .checkin-scene .scene-choices button{min-height:44px}
+ .checkin-scene .scene-speech{font-size:22px;margin-bottom:12px}
+ .checkin-portrait{margin-bottom:10px}.checkin-portrait .portrait{width:48px;height:48px}
+ .checkin-portrait>span:last-child{font-size:10px}
+ .checkin-branch h2{font-size:21px}.checkin-branch{margin-bottom:12px}
+ .checkin-letterbox span{left:16px}.checkin-letterbox{border-block-width:24px}
+ .checkin-scene>.modal-close{top:30px;right:16px}
+}
+@media(prefers-reduced-motion:reduce){.checkin-letter,.checkin-stamp,.checkin-choices-leaving{animation:none}.checkin-choices-leaving{visibility:hidden}.checkin-scene *{transition:none!important}}
+.checkin-photo{width:64px;height:64px;object-fit:cover;border:1px solid #cbd4c0;flex-shrink:0}
+.checkin-scene .checkin-letter :is(textarea,input){font-size:16px}
+.checkin-scene .checkin-letter .character-count{color:#52674d;font-size:11px}
+.checkin-scene .checkin-letter .goal-context{color:#37502b}
+.checkin-scene .checkin-letter .upload-label small{color:#53634a}
+.checkin-scene .checkin-letter textarea::placeholder{color:#60735b;opacity:1}
+/* The shared sticky modal header must not cover the cinematic letterbox. */
+dialog.modal.checkin-scene>.modal-header{position:absolute;inset:0 0 auto;margin:0;padding:0;min-height:0;height:0;border:0;background:transparent;box-shadow:none;z-index:4;pointer-events:none}
+dialog.modal.checkin-scene>.modal-header .modal-header-copy{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+dialog.modal.checkin-scene>.modal-header .modal-close{position:absolute;top:34px;right:20px;pointer-events:auto;background:#f7fbef;color:#183b37}
+.checkin-scene .checkin-portrait .portrait{width:68px;height:68px;font-size:24px}
+.checkin-scene .checkin-portrait .portrait:not(:has(img)){background:#24564e!important;color:#fffaf0}
+.checkin-scene .button.scene-back{border:0;background:transparent;box-shadow:none}
+.checkin-scene .checkin-letter .button.checkin-send{background:#24564e;color:#fff8dd;border:2px solid #183e38;transition:transform 80ms,background 80ms}
+.checkin-scene .checkin-letter .button.checkin-send:disabled{background:#d5ddcf;color:#53604f;border-color:#a3b29a}
+@media(max-width:700px){.checkin-scene .checkin-portrait .portrait{width:48px;height:48px;font-size:20px}}
+
+/* Shared option anatomy with the Mayor, in the check-in postcard palette. */
+.checkin-option-icon{display:grid;place-items:center;flex:0 0 42px;height:42px;border:1px solid #a6bca1;border-radius:12px;background:#e1eed6;color:#24564e}
+.checkin-option-copy{flex:1;min-width:0}
+.checkin-option-copy strong,.checkin-option-copy small{display:block}
+.checkin-option-copy small{margin-top:4px;font-size:12px;font-weight:400;line-height:1.4;color:#4a6051}
+.checkin-scene .scene-choices kbd{display:grid;place-items:center;flex:0 0 24px;height:26px;border:1px solid #a6bca1;border-radius:6px;background:#f7fbef;color:#24564e}
+.checkin-proof h3{font-size:15px;margin:12px 0}
+.checkin-proof h3 small{font-size:12px;font-weight:400;margin-left:8px;color:#4a6051}
+.checkin-proof{margin-bottom:16px}

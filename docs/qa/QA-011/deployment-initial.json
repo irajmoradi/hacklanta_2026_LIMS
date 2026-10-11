@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-10T23:45:02.252Z",
+  "base": "https://207-246-81-187.sslip.io",
+  "bundles": [
+    {
+      "script": "/assets/index-DhZQMLG5.js",
+      "status": 200,
+      "sha256": "d36d42550c2a69d63121a0abe3c8fb7204a682f995b3c2acd8bde9c7699d0904",
+      "bytes": 915793,
+      "markers": {
+        "CinematicScene": false,
+        "HouseInterior": false,
+        "Go beyond": false,
+        "A moment with your villager": false,
+        "A visit to the Mayor": false,
+        "What did I do today?": false
+      },
+      "relatedChunks": [
+        "ShopInterior-BydIhj0Q.js"
+      ]
+    }
+  ]
+}

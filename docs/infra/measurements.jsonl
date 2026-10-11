@@ -1,0 +1,16 @@
+{"label": "remote-web-unit-cold", "command": ["python", "../../ops/runner/remote_run.py", "bun", "run", "test"], "exit_code": 1, "seconds": 23.35, "peak_local_rss_mib": 47.2}
+{"label": "remote-web-unit", "command": ["python", "../../ops/runner/remote_run.py", "bun", "run", "test"], "exit_code": 0, "seconds": 8.47, "peak_local_rss_mib": 50.1}
+{"label": "local-web-install", "command": ["bun", "install", "--frozen-lockfile"], "exit_code": 0, "seconds": 20.29, "peak_local_rss_mib": 576.4}
+{"label": "remote-web-build", "command": ["python", "../../ops/runner/remote_run.py", "bun", "run", "build"], "exit_code": 0, "seconds": 37.37, "peak_local_rss_mib": 50.1}
+{"label": "remote-api-pytest", "command": ["python", "../../ops/runner/remote_run.py", "python", "-m", "uv", "run", "pytest", "-q"], "exit_code": 1, "seconds": 12.74, "peak_local_rss_mib": 43.8}
+{"label": "local-web-unit", "command": ["bun", "run", "test"], "exit_code": 0, "seconds": 2.85, "peak_local_rss_mib": 579.1}
+{"label": "local-api-install", "command": ["python", "-m", "uv", "sync", "--frozen", "--python", "3.12"], "exit_code": 0, "seconds": 1.15, "peak_local_rss_mib": 60.3}
+{"label": "local-web-build", "command": ["bun", "run", "build"], "exit_code": 0, "seconds": 19.23, "peak_local_rss_mib": 1608.3}
+{"label": "remote-playwright", "command": ["python", "../../ops/runner/remote_run.py", "bunx", "playwright", "test", "--config", "../../ops/runner/playwright.config.mjs"], "exit_code": 23, "seconds": 11.68, "peak_local_rss_mib": 44.1}
+{"label": "local-playwright", "command": ["bunx", "playwright", "test", "--config", "../../ops/runner/playwright.config.mjs"], "exit_code": 0, "seconds": 5.51, "peak_local_rss_mib": 2333.1}
+{"label": "remote-api-pytest-fixed", "command": ["python", "../../ops/runner/remote_run.py", "python", "-m", "uv", "run", "pytest", "-q"], "exit_code": 2, "seconds": 5.06, "peak_local_rss_mib": 44.1}
+{"label": "local-api-pytest", "command": ["python", "-m", "uv", "run", "pytest", "-q"], "exit_code": 0, "seconds": 388.11, "peak_local_rss_mib": 322.3}
+{"label": "remote-api-pytest-final", "command": ["python", "../../ops/runner/remote_run.py", "python", "-m", "uv", "run", "pytest", "-q"], "exit_code": 0, "seconds": 580.03, "peak_local_rss_mib": 50.4}
+{"label": "remote-playwright-final", "command": ["python", "../../ops/runner/remote_run.py", "bunx", "playwright", "test", "--config", "../../ops/runner/playwright.config.mjs"], "exit_code": 0, "seconds": 564.83, "peak_local_rss_mib": 50.5}
+{"label": "remote-playwright-uncontended", "command": ["python", "../../ops/runner/remote_run.py", "bunx", "playwright", "test", "--config", "../../ops/runner/playwright.config.mjs"], "exit_code": 0, "seconds": 10.63, "peak_local_rss_mib": 50.9}
+{"label": "remote-web-unit-final", "command": ["python", "../../ops/runner/remote_run.py", "bun", "run", "test"], "exit_code": 0, "seconds": 8.51, "peak_local_rss_mib": 44.2}

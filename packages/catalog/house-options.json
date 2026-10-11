@@ -1,0 +1,55 @@
+{
+  "variants": {
+    "1": [
+      "classic",
+      "porch",
+      "bay"
+    ],
+    "2": [
+      "classic",
+      "balcony",
+      "bay"
+    ],
+    "3": [
+      "classic",
+      "tower",
+      "greenhouse"
+    ],
+    "4": [
+      "classic",
+      "tower",
+      "greenhouse"
+    ],
+    "5": [
+      "classic",
+      "tower",
+      "greenhouse"
+    ]
+  },
+  "materials": {
+    "wall": [
+      "wood",
+      "brick",
+      "stone"
+    ],
+    "roof": [
+      "shingle",
+      "tile",
+      "metal"
+    ],
+    "trim": [
+      "wood",
+      "stone",
+      "metal"
+    ],
+    "door": [
+      "wood",
+      "metal"
+    ],
+    "accent": [
+      "ceramic",
+      "brass",
+      "wood"
+    ]
+  }
+}

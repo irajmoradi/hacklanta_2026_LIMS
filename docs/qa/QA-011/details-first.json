@@ -1,0 +1,714 @@
+{
+  "started": "2026-10-11T00:49:29.068Z",
+  "steps": [
+    {
+      "seat": "Iraj",
+      "name": "purchase-toasts",
+      "status": "failed",
+      "error": "locator.focus: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator('.village-toast').nth(1).locator('button').first()\n",
+      "screenshot": "Iraj-detail-purchase-toasts-failed.png",
+      "ms": 65190
+    },
+    {
+      "seat": "Iraj",
+      "name": "qa010-mobile-banner",
+      "status": "pass",
+      "screenshot": "Iraj-detail-mobile-banner.png",
+      "ms": 6783
+    },
+    {
+      "seat": "Iraj",
+      "name": "sound",
+      "status": "pass",
+      "before": "true",
+      "after": "false",
+      "restored": true,
+      "ms": 897
+    },
+    {
+      "seat": "Iraj",
+      "name": "map-controls",
+      "status": "pass",
+      "canvasVisible": true,
+      "ms": 8906
+    },
+    {
+      "seat": "Iraj",
+      "name": "inbox-unread-label",
+      "status": "pass",
+      "checks": [
+        {
+          "width": 1440,
+          "label": "Inbox",
+          "screenshot": null,
+          "closed": true,
+          "focusReturned": true
+        },
+        {
+          "width": 1280,
+          "label": "Inbox",
+          "screenshot": null,
+          "closed": true,
+          "focusReturned": true
+        }
+      ],
+      "ms": 7281
+    },
+    {
+      "seat": "Iraj",
+      "name": "arena",
+      "status": "failed",
+      "error": "locator.click: Error: strict mode violation: getByRole('button', { name: 'Close competition controls', exact: true }) resolved to 2 elements:\n    1) <button>Close competition controls</button> aka getByText('Close competition controls')\n    2) <button type=\"button\" class=\"icon-button modal-close\" aria-label=\"Close competition controls\">…</button> aka getByLabel('Close competition controls')\n\nCall log:\n  - waiting for getByRole('button', { name: 'Close competition controls', exact: true })\n",
+      "screenshot": "Iraj-detail-arena-failed.png",
+      "ms": 25760
+    },
+    {
+      "seat": "Iraj",
+      "name": "profile-details",
+      "status": "failed",
+      "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByLabel('Idle activity', { exact: true }) to be visible\n",
+      "screenshot": "Iraj-detail-profile-details-failed.png",
+      "ms": 48091
+    },
+    {
+      "seat": "Iraj",
+      "name": "cinematic-menus",
+      "status": "pass",
+      "checkinChoices": [
+        "1📝 Daily note",
+        "2🎯 Goal progress",
+        "3📸 Add proof",
+        "4✕ Not now"
+      ],
+      "menus": [
+        {
+          "index": 0,
+          "speech": "The village keeps building. Today's reports from around town. 0 check-ins recorded today (UTC).",
+          "forms": 0
+        },
+        {
+          "index": 1,
+          "speech": "5 neighbors live here. 3 of 5 weekly goals completed. Village XP leaders: Stefanny: 4325 XP · Lance: 885 XP · Iraj: 860 XP.",
+          "forms": 0
+        },
+        {
+          "index": 2,
+          "speech": "What should happen around town?",
+          "forms": 1
+        },
+        {
+          "index": 3,
+          "speech": "Here are our village games and challenges. Choose a challenge.",
+          "forms": 1
+        },
+        {
+          "index": 4,
+          "speech": "An offering starts at 1 coin. Your purse holds 154 coins. Choose your cost below; wishes are never guaranteed.",
+          "forms": 0
+        },
+        {
+          "index": 5,
+          "speech": "The town hall kettle is campaigning for a longer tea break.",
+          "forms": 0
+        }
+      ],
+      "screenshot": "Iraj-detail-cinematic-mayor.png",
+      "ms": 49985
+    },
+    {
+      "seat": "Iraj",
+      "name": "stretch-goal",
+      "status": "pass",
+      "text": "Ship the hackathon project\nMark goal done",
+      "screenshot": "Iraj-detail-stretch-goal.png",
+      "ms": 9569
+    },
+    {
+      "seat": "Iraj",
+      "name": "house-interior",
+      "status": "pass",
+      "text": "In the room\n\n● Iraj\n\nRoom inventory",
+      "header": "MAKE YOURSELF AT HOME · tudor\nIraj's place\nLive · changes saved automatically\nDecorateBack to village",
+      "screenshot": "Iraj-detail-house-interior.png",
+      "closed": true,
+      "focusReturned": false,
+      "focused": "Close profile",
+      "returnScreenshot": "Iraj-detail-interior-focus-return.png",
+      "ms": 25089
+    },
+    {
+      "seat": "Iraj",
+      "name": "chorus-readiness",
+      "status": "pass",
+      "heads": [
+        {
+          "name": "Iraj",
+          "fallback": "false",
+          "states": [
+            "ready"
+          ],
+          "canvases": 1
+        },
+        {
+          "name": "Stefanny",
+          "fallback": "false",
+          "states": [
+            "loading"
+          ],
+          "canvases": 0
+        }
+      ],
+      "screenshot": "Iraj-detail-chorus.png",
+      "ms": 18335
+    },
+    {
+      "seat": "Iraj",
+      "name": "group-photo",
+      "status": "pass",
+      "title": "Our group photo",
+      "screenshot": "Iraj-detail-group-photo.png",
+      "ms": 14111
+    },
+    {
+      "seat": "Iraj",
+      "name": "shop-details",
+      "status": "pass",
+      "catalogScreenshot": "Iraj-detail-catalog.png",
+      "currency": [
+        {
+          "text": "30 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "30 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "30 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "35 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "40 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "45 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "50 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "60 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "60 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "70 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        }
+      ],
+      "colorPreview": {
+        "label": "Terracotta",
+        "pressed": "true"
+      },
+      "screenshot": "Iraj-detail-try-on.png",
+      "tryOnFocusReturned": true,
+      "farm": [
+        "Ducklingfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Duckling Friendfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Chickenfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Chicken Friendfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Goat Kidfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Goat Kid Friendfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Hamster in a CagepetBuyable65 coins👁 Try on",
+        "Calffarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Calf Friendfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "House Paddockhouse addonBuyable80 coins👁 Try on",
+        "BunnypetBuyable80 coins👁 Try on",
+        "Black CatpetBuyable100 coins👁 Try on",
+        "Tabby CatpetBuyable100 coins👁 Try on",
+        "Village DogpetLockedNeeds Backyard (100 coins) firstView BackyardLocked👁 Try on",
+        "Shelter DogpetLockedNeeds Backyard (100 coins) firstView BackyardLocked👁 Try on",
+        "Calico CatpetBuyable120 coins👁 Try on",
+        "PugpetBuyable120 coins👁 Try on",
+        "HuskypetBuyable140 coins👁 Try on"
+      ],
+      "tokenState": {
+        "disabled": false,
+        "text": "Buy photo token · 25 coins",
+        "reason": null,
+        "screenshot": "Iraj-detail-photo-token.png"
+      },
+      "gramPreview": false,
+      "ms": 37597
+    },
+    {
+      "seat": "Lance",
+      "name": "sound",
+      "status": "pass",
+      "before": "true",
+      "after": "false",
+      "restored": true,
+      "ms": 9309
+    },
+    {
+      "seat": "Lance",
+      "name": "map-controls",
+      "status": "pass",
+      "canvasVisible": true,
+      "ms": 21140
+    },
+    {
+      "seat": "Lance",
+      "name": "inbox-unread-label",
+      "status": "pass",
+      "checks": [
+        {
+          "width": 1440,
+          "label": "Inbox\n1",
+          "screenshot": "Lance-detail-inbox-1440.png",
+          "closed": true,
+          "focusReturned": true
+        },
+        {
+          "width": 1280,
+          "label": "Inbox\n1",
+          "screenshot": "Lance-detail-inbox-1280.png",
+          "closed": true,
+          "focusReturned": true
+        }
+      ],
+      "ms": 32618
+    },
+    {
+      "seat": "Lance",
+      "name": "escape-compete-1440",
+      "status": "pass",
+      "closeMs": 502,
+      "focusReturned": true,
+      "ms": 2917
+    },
+    {
+      "seat": "Lance",
+      "name": "escape-chorus-1440",
+      "status": "pass",
+      "closeMs": 585,
+      "focusReturned": true,
+      "ms": 1611
+    },
+    {
+      "seat": "Lance",
+      "name": "escape-goal-1280",
+      "status": "pass",
+      "closeMs": 779,
+      "focusReturned": true,
+      "ms": 5347
+    },
+    {
+      "seat": "Lance",
+      "name": "escape-accomplishments-1280",
+      "status": "pass",
+      "closeMs": 1108,
+      "focusReturned": true,
+      "ms": 5724
+    },
+    {
+      "seat": "Lance",
+      "name": "arena",
+      "status": "failed",
+      "error": "locator.click: Error: strict mode violation: getByRole('button', { name: 'Close competition controls', exact: true }) resolved to 2 elements:\n    1) <button>Close competition controls</button> aka getByText('Close competition controls')\n    2) <button type=\"button\" class=\"icon-button modal-close\" aria-label=\"Close competition controls\">…</button> aka getByLabel('Close competition controls')\n\nCall log:\n  - waiting for getByRole('button', { name: 'Close competition controls', exact: true })\n",
+      "screenshot": "Lance-detail-arena-failed.png",
+      "ms": 41138
+    },
+    {
+      "seat": "Lance",
+      "name": "profile-details",
+      "status": "failed",
+      "error": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n  - waiting for getByLabel('Idle activity', { exact: true }) to be visible\n",
+      "screenshot": "Lance-detail-profile-details-failed.png",
+      "ms": 60397
+    },
+    {
+      "seat": "Lance",
+      "name": "cinematic-menus",
+      "status": "pass",
+      "checkinChoices": [
+        "1📝 Daily note",
+        "2🎯 Goal progress",
+        "3📸 Add proof",
+        "4✕ Not now",
+        "🚀 Go beyond"
+      ],
+      "menus": [
+        {
+          "index": 0,
+          "speech": "The village keeps building. Today's reports from around town. 0 check-ins recorded today (UTC).",
+          "forms": 0
+        },
+        {
+          "index": 1,
+          "speech": "5 neighbors live here. 3 of 5 weekly goals completed. Village XP leaders: Stefanny: 4325 XP · Lance: 885 XP · Iraj: 860 XP.",
+          "forms": 0
+        },
+        {
+          "index": 2,
+          "speech": "What should happen around town?",
+          "forms": 1
+        },
+        {
+          "index": 3,
+          "speech": "Here are our village games and challenges. Choose a challenge.",
+          "forms": 1
+        },
+        {
+          "index": 4,
+          "speech": "An offering starts at 1 coin. Your purse holds 640 coins. Choose your cost below; wishes are never guaranteed.",
+          "forms": 0
+        },
+        {
+          "index": 5,
+          "speech": "The town hall kettle is campaigning for a longer tea break.",
+          "forms": 0
+        }
+      ],
+      "screenshot": "Lance-detail-cinematic-mayor.png",
+      "ms": 42081
+    },
+    {
+      "seat": "Lance",
+      "name": "stretch-goal",
+      "status": "pass",
+      "text": "✓ 45 hours of Overwatch\nStretch target (optional)🚀 Go beyond\n\nEarn 10 XP and 10 coins per completed tier, up to 3 this week. Each adds 1 ambition point to an approved weekly completion.",
+      "screenshot": "Lance-detail-stretch-goal.png",
+      "ms": 9674
+    },
+    {
+      "seat": "Lance",
+      "name": "house-interior",
+      "status": "pass",
+      "text": "In the room\n\n● Lance\n\nRoom inventory",
+      "header": "MAKE YOURSELF AT HOME · beach\nLance's place\nLive · changes saved automatically\nDecorateBack to village",
+      "screenshot": "Lance-detail-house-interior.png",
+      "closed": true,
+      "focusReturned": false,
+      "focused": "Close profile",
+      "returnScreenshot": null,
+      "ms": 23277
+    },
+    {
+      "seat": "Lance",
+      "name": "chorus-readiness",
+      "status": "pass",
+      "heads": [
+        {
+          "name": "Iraj",
+          "fallback": "false",
+          "states": [
+            "loading"
+          ],
+          "canvases": 1
+        },
+        {
+          "name": "Lance",
+          "fallback": "false",
+          "states": [
+            "loading"
+          ],
+          "canvases": 0
+        },
+        {
+          "name": "Stefanny",
+          "fallback": "false",
+          "states": [
+            "loading"
+          ],
+          "canvases": 0
+        }
+      ],
+      "screenshot": "Lance-detail-chorus.png",
+      "ms": 28791
+    },
+    {
+      "seat": "Lance",
+      "name": "group-photo",
+      "status": "pass",
+      "title": "Our group photo",
+      "screenshot": "Lance-detail-group-photo.png",
+      "ms": 12287
+    },
+    {
+      "seat": "Lance",
+      "name": "shop-details",
+      "status": "pass",
+      "catalogScreenshot": "Lance-detail-catalog.png",
+      "currency": [
+        {
+          "text": "25 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "25 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "30 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "30 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "30 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "35 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "35 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "40 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "40 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        },
+        {
+          "text": "50 coins",
+          "height": 16.1875,
+          "iconHeight": 15.515625,
+          "centerDelta": -0.0078125
+        }
+      ],
+      "colorPreview": {
+        "label": "Terracotta",
+        "pressed": "true"
+      },
+      "screenshot": "Lance-detail-try-on.png",
+      "tryOnFocusReturned": true,
+      "farm": [
+        "Ducklingfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Duckling Friendfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Chickenfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Chicken Friendfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Goat Kidfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Goat Kid Friendfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Hamster in a CagepetBuyable65 coins👁 Try on",
+        "Calffarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "Calf Friendfarm animalLockedNeeds House Paddock (80 coins) firstView House PaddockLocked👁 Try on",
+        "House Paddockhouse addonBuyable80 coins👁 Try on",
+        "BunnypetBuyable80 coins👁 Try on",
+        "Black CatpetBuyable100 coins👁 Try on",
+        "Tabby CatpetBuyable100 coins👁 Try on",
+        "Village Dogpet · EquippedOwnedOwned👁 Try onUnequip",
+        "Shelter DogpetBuyable100 coins👁 Try on",
+        "Calico CatpetBuyable120 coins👁 Try on",
+        "PugpetBuyable120 coins👁 Try on",
+        "HuskypetBuyable140 coins👁 Try on"
+      ],
+      "tokenState": {
+        "disabled": false,
+        "text": "Buy photo token · 25 coins",
+        "reason": null,
+        "screenshot": "Lance-detail-photo-token.png"
+      },
+      "gramPreview": false,
+      "ms": 37400
+    },
+    {
+      "seat": "Stefanny",
+      "name": "sound",
+      "status": "pass",
+      "before": "true",
+      "after": "false",
+      "restored": true,
+      "ms": 11790
+    },
+    {
+      "seat": "Stefanny",
+      "name": "map-controls",
+      "status": "pass",
+      "canvasVisible": true,
+      "ms": 16431
+    },
+    {
+      "seat": "Stefanny",
+      "name": "inbox-unread-label",
+      "status": "pass",
+      "checks": [
+        {
+          "width": 1440,
+          "label": "Inbox",
+          "screenshot": null,
+          "closed": true,
+          "focusReturned": true
+        },
+        {
+          "width": 1280,
+          "label": "Inbox",
+          "screenshot": null,
+          "closed": true,
+          "focusReturned": true
+        }
+      ],
+      "ms": 10311
+    },
+    {
+      "seat": "Stefanny",
+      "name": "escape-week-1440",
+      "status": "pass",
+      "closeMs": 2812,
+      "focusReturned": true,
+      "ms": 5655
+    },
+    {
+      "seat": "Stefanny",
+      "name": "escape-compete-1440",
+      "status": "pass",
+      "closeMs": 663,
+      "focusReturned": true,
+      "ms": 8640
+    },
+    {
+      "seat": "Stefanny",
+      "name": "escape-village-1440",
+      "status": "pass",
+      "closeMs": 350,
+      "focusReturned": true,
+      "ms": 2366
+    },
+    {
+      "seat": "Stefanny",
+      "name": "escape-week-1280",
+      "status": "pass",
+      "closeMs": 1054,
+      "focusReturned": true,
+      "ms": 6915
+    },
+    {
+      "seat": "Stefanny",
+      "name": "escape-chorus-1280",
+      "status": "pass",
+      "closeMs": 1369,
+      "focusReturned": true,
+      "ms": 10449
+    },
+    {
+      "seat": "Stefanny",
+      "name": "arena",
+      "status": "failed",
+      "error": "locator.click: Error: strict mode violation: getByRole('button', { name: 'Close competition controls', exact: true }) resolved to 2 elements:\n    1) <button>Close competition controls</button> aka getByText('Close competition controls')\n    2) <button type=\"button\" class=\"icon-button modal-close\" aria-label=\"Close competition controls\">…</button> aka getByLabel('Close competition controls')\n\nCall log:\n  - waiting for getByRole('button', { name: 'Close competition controls', exact: true })\n",
+      "screenshot": null,
+      "ms": 37957
+    }
+  ],
+  "errors": [
+    {
+      "seat": "Iraj",
+      "url": "/api/demo/debug",
+      "status": 404
+    },
+    {
+      "seat": "Iraj",
+      "url": "/api/demo/debug",
+      "status": 404
+    },
+    {
+      "seat": "Lance",
+      "url": "/api/demo/debug",
+      "status": 404
+    },
+    {
+      "seat": "Lance",
+      "url": "/api/demo/debug",
+      "status": 404
+    },
+    {
+      "seat": "Stefanny",
+      "url": "/api/demo/debug",
+      "status": 404
+    },
+    {
+      "seat": "Stefanny",
+      "url": "/api/demo/debug",
+      "status": 404
+    }
+  ],
+  "blocked": [],
+  "purchases": [
+    {
+      "seat": "Iraj",
+      "item": "hat_cap"
+    },
+    {
+      "seat": "Iraj",
+      "item": "shirt_stripes"
+    }
+  ],
+  "purchaseResponses": [
+    {
+      "seat": "Iraj",
+      "item": "hat_cap",
+      "status": 200,
+      "ms": 264
+    },
+    {
+      "seat": "Iraj",
+      "item": "shirt_stripes",
+      "status": 200,
+      "ms": 281
+    }
+  ]
+}

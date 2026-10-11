@@ -1,0 +1,4 @@
+.tools/
+raw/
+__pycache__/
+.generation.lock

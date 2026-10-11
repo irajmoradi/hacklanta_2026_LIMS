@@ -1,0 +1,23 @@
+[Unit]
+Description=Village staging API (scratch DB only)
+After=network-online.target docker.service
+Wants=network-online.target
+ConditionPathExists=/etc/village/env
+
+[Service]
+User=village
+Group=village
+WorkingDirectory=/opt/village/current/apps/api
+EnvironmentFile=/etc/village/env
+ExecStart=/opt/village/current/apps/api/.venv/bin/python /opt/village/current/ops/deploy/api-start.py
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/village
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

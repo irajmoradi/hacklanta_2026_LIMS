@@ -1,0 +1,40 @@
+{
+  "name": "@village/web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "postinstall": "npm ci --prefix src/components/pot --install-links --no-audit --no-fund",
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test src/components/decorDraft.test.ts src/components/previewColors.test.ts src/components/friendsData.test.ts src/components/tryOn.test.ts src/components/VillageIcon.test.tsx src/scene/disasterVisuals.test.ts src/components/activityFeed.test.ts src/scene/layout/idleActivities.test.ts src/api/disasters.test.ts src/api/house.test.ts src/api/reactions.test.ts src/api/shopState.test.ts src/api/face.test.ts src/api/equipment.test.ts src/scene/cosmeticAssets.test.ts src/api/settings.test.ts src/api/audits.test.ts src/api/mock.test.ts src/api/v2.test.ts src/scene/OptionalModel.test.ts src/scene/generatedHead.test.ts src/components/GaussianHead.test.tsx src/scene/houseStyles.test.ts src/scene/houseOptions.test.ts src/components/showcaseData.test.ts src/components/colosseumData.test.ts src/scene/itemColors.test.ts src/api/itemColors.test.ts src/components/previewMotion.test.ts src/api/farm.test.ts src/scene/paddock.test.ts src/scene/layout/studySeats.test.ts src/scene/layout/town.test.ts src/components/ItemThumbnail.test.tsx src/scene/quality.test.ts src/scene/staticModel.test.ts src/components/Currency.test.tsx src/api/coins.test.ts src/scene/playerControl.test.ts src/scene/emotes.test.ts src/api/retry.test.ts src/components/headControls.test.ts src/scene/bodyVisibility.test.ts src/components/headPlayback.test.ts src/components/toastStore.test.ts src/api/gazette.test.ts src/api/stretch.test.ts src/scene/interior.test.ts src/api/reading.test.ts tests/MayorScene.test.tsx src/components/houseHistory.test.ts src/components/HouseLeaveGuard.test.tsx src/api/movement.test.ts tests/interiorWalk.test.ts src/api/social.test.ts src/components/reviewPage.test.ts src/scene/asset013.test.ts src/scene/crowdBudget.test.ts src/scene/labelPlacement.test.ts src/scene/locationFraming.test.ts src/scene/registryData.test.ts src/scene/seatedPose.test.ts src/scene/walkingFocus.test.ts src/scene/worldTypes.test.ts src/sound/ambience.test.ts src/sound/engine.test.ts src/scene/layout/cafeSeats.test.ts",
+    "test:e2e": "playwright test",
+    "test:e2e:real": "playwright test --config playwright.real.config.ts"
+  },
+  "dependencies": {
+    "@auth0/auth0-react": "^2.28.2",
+    "@react-three/drei": "9.122.0",
+    "@react-three/fiber": "8.18.0",
+    "gaussian-splat-renderer-for-lam": "0.0.9-alpha.1",
+    "lucide-react": "0.468.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "1.58.2",
+    "@types/bun": "1.3.10",
+    "@types/react": "18.3.18",
+    "@types/react-dom": "18.3.5",
+    "@types/three": "0.170.0",
+    "@vitejs/plugin-react": "4.4.1",
+    "happy-dom": "20.8.4",
+    "pixelmatch": "^8.0.0",
+    "pngjs": "^7.0.0",
+    "typescript": "5.8.3",
+    "vite": "6.4.1"
+  }
+}

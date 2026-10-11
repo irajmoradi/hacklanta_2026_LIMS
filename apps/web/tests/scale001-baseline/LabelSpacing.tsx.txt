@@ -1,0 +1,38 @@
+import { useRef } from 'react';
+import { useFrame, useThree } from '@react-three/fiber';
+
+type Rect = {left: number; right: number; top: number; bottom: number};
+const intersects = (a: Rect, b: Rect) => a.left < b.right+4 && a.right+4 > b.left && a.top < b.bottom+4 && a.bottom+4 > b.top;
+
+/** Keep badges clear of neighboring house plates without changing the HUD's hit-test order. */
+export function LabelSpacing() {
+  const {gl} = useThree();
+  const elapsed = useRef(0), offsets = useRef(new WeakMap<HTMLElement, number>());
+  useFrame((_, dt) => {
+    elapsed.current += dt;
+    if (elapsed.current < .15) return;
+    elapsed.current = 0;
+    const scene = gl.domElement.closest('.scene');
+    if (!scene) return;
+    const bounds = scene.getBoundingClientRect();
+    const occupied: Rect[] = Array.from(scene.querySelectorAll('.house-nameplate'), el => el.getBoundingClientRect());
+    for (const label of scene.querySelectorAll<HTMLElement>('.villager-label')) {
+      const rect = label.getBoundingClientRect(), previous = offsets.current.get(label) ?? 0;
+      const base = {left:rect.left,right:rect.right,top:rect.top-previous,bottom:rect.bottom-previous};
+      // A wider profile and two-line activity badges can fill the space above a
+      // house. Search below as well, and never push a hit target into the header.
+      const minOffset = bounds.top + 8 - base.top;
+      const maxOffset = bounds.bottom - 8 - base.bottom;
+      const clamp = (value: number) => Math.max(minOffset, Math.min(maxOffset, value));
+      let offset = clamp(0);
+      for (const candidate of [0, ...Array.from({length:20}, (_, i) => [-(i+1)*12, (i+1)*12]).flat()]) {
+        const next = clamp(candidate);
+        const box = {...base, top:base.top+next, bottom:base.bottom+next};
+        if (!occupied.some(other => intersects(box, other))) { offset = next; break; }
+      }
+      occupied.push({...base, top:base.top+offset, bottom:base.bottom+offset});
+      if (offset !== previous) { label.style.translate = `0 ${offset}px`; offsets.current.set(label, offset); }
+    }
+  });
+  return null;
+}

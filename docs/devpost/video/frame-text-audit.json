@@ -1,0 +1,38 @@
+[
+  {
+    "file": "village-trailer-v4-long.mp4",
+    "sha256": "57e05b020fd21efd32584ff5058fdff6287d0623e58970a3fcff19a68563035f",
+    "frames": 5040,
+    "ocr_unique_frames": 4506,
+    "exact_duplicate_frames": 534,
+    "ocr_dimensions": [
+      960,
+      540
+    ],
+    "flags": []
+  },
+  {
+    "file": "village-trailer-v4-90.mp4",
+    "sha256": "1ea30b40006dba5be844209efaab371eab435a1565fd00dff687a4a85161ed1b",
+    "frames": 2700,
+    "ocr_unique_frames": 2432,
+    "exact_duplicate_frames": 268,
+    "ocr_dimensions": [
+      960,
+      540
+    ],
+    "flags": []
+  },
+  {
+    "file": "village-trailer-v4-square.mp4",
+    "sha256": "7a937500efb450438fd09b2d8606ad994d7e28b6ee125e96ded6d6347c11abd1",
+    "frames": 2340,
+    "ocr_unique_frames": 2268,
+    "exact_duplicate_frames": 72,
+    "ocr_dimensions": [
+      960,
+      540
+    ],
+    "flags": []
+  }
+]

@@ -1,0 +1,82 @@
+import { useDemoSeat } from './demoSeat';
+useDemoSeat();
+﻿import { expect, test } from '@playwright/test';
+const photo = {name:'synthetic.png', mimeType:'image/png', buffer:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Wl6lS8AAAAASUVORK5CYII=','base64')};
+test('AI pre-grade can be accepted, edited, finalized, and crowned without models', async ({page}) => {
+  await page.route('**/models/*.glb*', route => route.fulfill({status:404,body:'Offline'}));
+  await page.setViewportSize({width:1440,height:1000});
+  await page.goto('/'); await page.getByRole('button',{name:'Weekly review',exact:true}).click();
+  await expect(page.getByText('Iraj is the auditor and sits out this week',{exact:true})).toBeVisible();
+  await expect(page.getByRole('button',{name:'Finalize week'})).toBeDisabled();
+  for (const name of ['Lance','Stefanny','Maya','Mario']) {
+    const card = page.getByRole('article',{name:`${name}'s weekly goal`});
+    await card.getByRole('button',{name:'Load AI pre-grade',exact:true}).click();
+    await expect(card.getByText('Model: scripted-demo')).toBeVisible();
+    await card.getByRole('button',{name:'Accept suggestion into grade'}).click();
+    if (name === 'Lance') {
+      await card.getByLabel('Ambition',{exact:true}).fill('5');
+      await card.getByLabel('Grading rationale').fill('Ambitious and supported by the progress report. Human-reviewed.');
+      await card.scrollIntoViewIfNeeded();
+      await page.screenshot({path:'test-results/weekly-ai-grading.png',animations:'disabled'});
+    }
+    await card.getByRole('button',{name:'Submit human grade'}).click();
+    await expect(card.getByText('Human graded',{exact:true})).toBeVisible();
+  }
+  await page.getByRole('button',{name:'Finalize week'}).click();
+  await expect(page.getByRole('dialog')).not.toBeVisible();
+  await expect(page.getByRole('status').filter({hasText:'Week finalized'})).toBeVisible();
+  await expect(page.getByTestId('villager-Lance').getByLabel('Weekly crown')).toBeVisible();
+  await expect(page.getByLabel('Completion star')).toHaveCount(4);
+  await page.waitForTimeout(2300);
+  await page.screenshot({path:'test-results/weekly-finalized-crown.png',animations:'disabled'});
+  await page.getByRole('button',{name:'Weekly review',exact:true}).click();
+  await expect(page.getByText('Crown: Lance · 4 completion stars')).toBeVisible();
+  await expect(page.getByRole('button',{name:'Finalize week'})).toHaveCount(0);
+});
+test('audited competition opts in, uploads evidence, confirms and rejects, settles winners', async ({page}) => {
+  await page.goto('/'); await page.getByRole('button',{name:'Compete',exact:true}).click();
+  await page.getByRole('button',{name:/\+ Create/}).click();
+  await page.getByLabel('Competition title').fill('Weekend study sprint'); await page.getByLabel('Terms',{exact:true}).fill('Read a chapter and submit your notes.');
+  await page.getByLabel('Auditor',{exact:true}).selectOption({label:'Lance'});
+  await page.getByLabel('Optional SOL entry intent').fill('0.01');
+  await page.getByRole('button',{name:'Create competition with these terms'}).click();
+  await page.getByRole('button',{name:'Open',exact:true}).click();
+  await page.getByRole('button',{name:'Open',exact:true}).click(); await page.getByRole('button',{name:/^Join ?/}).click(); await page.getByRole('button',{name:/^Confirm join ?/}).click(); await page.getByRole('button',{name:'Submit / manage competition'}).click();
+  await page.getByLabel('Entry description').fill('Chapter one with written notes.'); await page.getByLabel('Entry evidence photo').setInputFiles(photo);
+  await page.getByRole('button',{name:'Submit entry',exact:true}).click();
+  await expect(page.getByText('Evidence: verified',{exact:true})).toHaveCount(1);
+  await page.getByLabel('Entry description').fill('Unrelated second claim.'); await page.getByRole('button',{name:'Submit entry',exact:true}).click();
+  await expect(page.getByRole('article',{name:'Entry by Iraj'})).toHaveCount(2);
+  await page.getByRole('button',{name:'\u2190 Village'}).click();
+  await page.getByRole('button', {name: /Testing as Iraj/}).click();
+  await page.getByRole('dialog', {name: 'Who are you testing as?'}).getByRole('button', {name: /Lance/}).click();
+  await expect(page.getByTestId('my-xp')).toHaveText('275');
+  await page.getByRole('button',{name:'Compete',exact:true}).click(); await page.getByRole('button',{name:/^Weekend study sprint/}).click(); await page.getByRole('button',{name:'Submit / manage competition'}).click();
+  await expect(page.getByRole('button',{name:'Settle competition'})).toBeDisabled();
+  const allEntries = page.getByRole('article',{name:'Entry by Iraj'});
+  const entries = [allEntries.filter({hasText:'Chapter one with written notes.'}), allEntries.filter({hasText:'Unrelated second claim.'})];
+  await entries[0].getByLabel('Award points',{exact:true}).fill('75'); await entries[0].getByLabel('Auditor note').fill('Verified the chapter notes.'); await entries[0].getByRole('button',{name:'Approve',exact:true}).click();
+  await expect(entries[0].getByText('Human decision: confirmed · 75 points')).toBeVisible();
+  await entries[1].getByLabel('Auditor note').fill('Does not meet the agreed terms.'); await entries[1].getByRole('button',{name:'Reject',exact:true}).click();
+  await expect(entries[1].getByText('Human decision: rejected · 0 points')).toBeVisible();
+  await page.getByRole('button',{name:'Settle competition'}).click(); await expect(page.getByRole('dialog')).not.toBeVisible();
+  await expect(page.getByTestId('villager-Iraj').getByText('✦ Winner ✦')).toBeVisible();
+  await page.getByRole('button',{name:'Compete',exact:true}).click(); await page.getByRole('button',{name:'Past',exact:true}).click(); await page.getByRole('button',{name:/^Weekend study sprint/}).click(); await page.getByRole('button',{name:'Submit / manage competition'}).click();
+  await expect(page.getByText('Winners: Iraj',{exact:true})).toBeVisible(); await expect(page.getByText('No payments executed.',{exact:true})).toBeVisible();
+});
+test('friendly competition and emergency votes work on a narrow viewport', async ({page}) => {
+  await page.setViewportSize({width:390,height:844}); await page.goto('/');
+  await page.getByRole('button',{name:'Compete',exact:true}).click(); await page.getByRole('button',{name:/\+ Create/}).click();
+  await page.getByLabel('Competition title').fill('One lap'); await page.getByLabel('Terms',{exact:true}).fill('Walk together.'); await page.getByLabel(/Friendly mode/).check();
+  await expect(page.getByLabel('Optional SOL entry intent')).toHaveCount(0);
+  await page.getByRole('button',{name:'Create competition with these terms'}).click(); await page.getByRole('button',{name:'Open',exact:true}).click(); await page.getByRole('button',{name:/^Join ?/}).click(); await page.getByRole('button',{name:/^Confirm join ?/}).click(); await page.getByRole('button',{name:'Submit / manage competition'}).click();
+  await page.getByLabel('Entry description').fill('Walked a lap.'); await page.getByRole('button',{name:'Submit entry',exact:true}).click();
+  await expect(page.getByText('Human decision: Self-reported · 1 points')).toBeVisible(); await page.getByRole('button',{name:'Settle competition'}).click();
+  await expect(page.getByRole('dialog')).not.toBeVisible(); await expect(page.getByTestId('my-xp')).toHaveText('420');
+  await page.getByRole('button', {name: /Testing as Iraj/}).click();
+  await page.getByRole('dialog', {name: 'Who are you testing as?'}).getByRole('button', {name: /Lance/}).click();
+  await expect(page.getByTestId('my-xp')).toHaveText('275');
+  await page.getByRole('button',{name:'Weekly review',exact:true}).click(); await page.getByText('Emergency: auditor insufficient',{exact:true}).click();
+  await page.getByRole('button',{name:'Vote auditor insufficient'}).click(); await expect(page.getByText('Live tally: 1 / 3 votes needed · generation 1')).toBeVisible();
+  await page.getByRole('button',{name:'Vote auditor insufficient'}).click(); await expect(page.getByText('Live tally: 1 / 3 votes needed · generation 1')).toBeVisible();
+});

@@ -1,0 +1,17 @@
+[Unit]
+Description=Village staging static web server
+After=network.target
+
+[Service]
+User=village
+Group=village
+ExecStart=/usr/bin/caddy run --config /opt/village/current/ops/deploy/web.Caddyfile --adapter caddyfile
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,292 @@
+[
+  {
+    "id": "sofa",
+    "name": "Sofa",
+    "width": 2,
+    "depth": 1,
+    "shape": "seat",
+    "price": 0,
+    "color": "#cb7c65",
+    "thumbnail": "/thumbs/furniture/sofa.svg"
+  },
+  {
+    "id": "armchair",
+    "name": "Armchair",
+    "width": 1,
+    "depth": 1,
+    "shape": "seat",
+    "price": 0,
+    "color": "#d5aa67",
+    "thumbnail": "/thumbs/furniture/armchair.svg"
+  },
+  {
+    "id": "coffee_table",
+    "name": "Coffee Table",
+    "width": 1.25,
+    "depth": 0.75,
+    "shape": "table",
+    "price": 0,
+    "color": "#67877b",
+    "thumbnail": "/thumbs/furniture/coffee_table.svg"
+  },
+  {
+    "id": "bed",
+    "name": "Bed",
+    "width": 1.5,
+    "depth": 2,
+    "shape": "bed",
+    "price": 0,
+    "color": "#8e89b1",
+    "thumbnail": "/thumbs/furniture/bed.svg"
+  },
+  {
+    "id": "desk",
+    "name": "Desk",
+    "width": 1.5,
+    "depth": 0.75,
+    "shape": "table",
+    "price": 40,
+    "color": "#689fac",
+    "thumbnail": "/thumbs/furniture/desk.svg"
+  },
+  {
+    "id": "chair",
+    "name": "Chair",
+    "width": 0.5,
+    "depth": 0.5,
+    "shape": "seat",
+    "price": 0,
+    "color": "#cb7c65",
+    "thumbnail": "/thumbs/furniture/chair.svg"
+  },
+  {
+    "id": "bookshelf",
+    "name": "Bookshelf",
+    "width": 1,
+    "depth": 0.5,
+    "shape": "shelf",
+    "price": 40,
+    "color": "#d5aa67",
+    "thumbnail": "/thumbs/furniture/bookshelf.svg"
+  },
+  {
+    "id": "floor_lamp",
+    "name": "Floor Lamp",
+    "width": 0.5,
+    "depth": 0.5,
+    "shape": "lamp",
+    "price": 0,
+    "color": "#67877b",
+    "thumbnail": "/thumbs/furniture/floor_lamp.svg"
+  },
+  {
+    "id": "rug_round",
+    "name": "Rug Round",
+    "width": 2,
+    "depth": 2,
+    "shape": "rug",
+    "price": 0,
+    "color": "#8e89b1",
+    "thumbnail": "/thumbs/furniture/rug_round.svg"
+  },
+  {
+    "id": "rug_stripe",
+    "name": "Rug Stripe",
+    "width": 2.5,
+    "depth": 1.5,
+    "shape": "rug",
+    "price": 30,
+    "color": "#689fac",
+    "thumbnail": "/thumbs/furniture/rug_stripe.svg"
+  },
+  {
+    "id": "plant_fern",
+    "name": "Plant Fern",
+    "width": 0.5,
+    "depth": 0.5,
+    "shape": "plant",
+    "price": 0,
+    "color": "#cb7c65",
+    "thumbnail": "/thumbs/furniture/plant_fern.svg"
+  },
+  {
+    "id": "plant_cactus",
+    "name": "Plant Cactus",
+    "width": 0.5,
+    "depth": 0.5,
+    "shape": "plant",
+    "price": 20,
+    "color": "#d5aa67",
+    "thumbnail": "/thumbs/furniture/plant_cactus.svg"
+  },
+  {
+    "id": "plant_palm",
+    "name": "Plant Palm",
+    "width": 0.75,
+    "depth": 0.75,
+    "shape": "plant",
+    "price": 35,
+    "color": "#67877b",
+    "thumbnail": "/thumbs/furniture/plant_palm.svg"
+  },
+  {
+    "id": "wall_art_sunset",
+    "name": "Wall Art Sunset",
+    "width": 1,
+    "depth": 0.25,
+    "shape": "wall",
+    "price": 20,
+    "color": "#8e89b1",
+    "thumbnail": "/thumbs/furniture/wall_art_sunset.svg"
+  },
+  {
+    "id": "wall_art_shapes",
+    "name": "Wall Art Shapes",
+    "width": 1,
+    "depth": 0.25,
+    "shape": "wall",
+    "price": 20,
+    "color": "#689fac",
+    "thumbnail": "/thumbs/furniture/wall_art_shapes.svg"
+  },
+  {
+    "id": "wall_art_moon",
+    "name": "Wall Art Moon",
+    "width": 1,
+    "depth": 0.25,
+    "shape": "wall",
+    "price": 20,
+    "color": "#cb7c65",
+    "thumbnail": "/thumbs/furniture/wall_art_moon.svg"
+  },
+  {
+    "id": "tv_console",
+    "name": "Tv Console",
+    "width": 1.5,
+    "depth": 0.5,
+    "shape": "tv",
+    "price": 80,
+    "color": "#d5aa67",
+    "thumbnail": "/thumbs/furniture/tv_console.svg"
+  },
+  {
+    "id": "kitchen_counter",
+    "name": "Kitchen Counter",
+    "width": 2,
+    "depth": 0.75,
+    "shape": "counter",
+    "price": 60,
+    "color": "#67877b",
+    "thumbnail": "/thumbs/furniture/kitchen_counter.svg"
+  },
+  {
+    "id": "fridge",
+    "name": "Fridge",
+    "width": 0.75,
+    "depth": 0.75,
+    "shape": "fridge",
+    "price": 60,
+    "color": "#8e89b1",
+    "thumbnail": "/thumbs/furniture/fridge.svg"
+  },
+  {
+    "id": "dining_table",
+    "name": "Dining Table",
+    "width": 1.5,
+    "depth": 1.5,
+    "shape": "table",
+    "price": 50,
+    "color": "#689fac",
+    "thumbnail": "/thumbs/furniture/dining_table.svg"
+  },
+  {
+    "id": "record_player",
+    "name": "Record Player",
+    "width": 0.75,
+    "depth": 0.5,
+    "shape": "record",
+    "price": 40,
+    "color": "#cb7c65",
+    "thumbnail": "/thumbs/furniture/record_player.svg"
+  },
+  {
+    "id": "pet_bed",
+    "name": "Pet Bed",
+    "width": 0.75,
+    "depth": 0.75,
+    "shape": "pet",
+    "price": 25,
+    "color": "#d5aa67",
+    "thumbnail": "/thumbs/furniture/pet_bed.svg"
+  },
+  {
+    "id": "disco_ball",
+    "name": "Disco Ball",
+    "width": 0.5,
+    "depth": 0.5,
+    "shape": "disco",
+    "price": 50,
+    "color": "#67877b",
+    "thumbnail": "/thumbs/furniture/disco_ball.svg"
+  },
+  {
+    "id": "arcade_cabinet",
+    "name": "Arcade Cabinet",
+    "width": 0.75,
+    "depth": 0.75,
+    "shape": "arcade",
+    "price": 100,
+    "color": "#8e89b1",
+    "thumbnail": "/thumbs/furniture/arcade_cabinet.svg"
+  },
+  {
+    "id": "fish_tank",
+    "name": "Fish Tank",
+    "width": 1,
+    "depth": 0.5,
+    "shape": "fish",
+    "price": 80,
+    "color": "#689fac",
+    "thumbnail": "/thumbs/furniture/fish_tank.svg"
+  },
+  {
+    "id": "lava_lamp",
+    "name": "Lava Lamp",
+    "width": 0.5,
+    "depth": 0.5,
+    "shape": "lava",
+    "price": 35,
+    "color": "#cb7c65",
+    "thumbnail": "/thumbs/furniture/lava_lamp.svg"
+  },
+  {
+    "id": "neon_sign",
+    "name": "Neon Sign",
+    "width": 1,
+    "depth": 0.25,
+    "shape": "wall",
+    "price": 50,
+    "color": "#d5aa67",
+    "thumbnail": "/thumbs/furniture/neon_sign.svg"
+  },
+  {
+    "id": "trophy_shelf",
+    "name": "Trophy Shelf",
+    "width": 1,
+    "depth": 0.25,
+    "shape": "wall",
+    "price": 0,
+    "color": "#67877b",
+    "thumbnail": "/thumbs/furniture/trophy_shelf.svg"
+  },
+  {
+    "id": "photo_frame",
+    "name": "Photo Frame",
+    "width": 0.75,
+    "depth": 0.25,
+    "shape": "wall",
+    "price": 0,
+    "color": "#8e89b1",
+    "thumbnail": "/thumbs/furniture/photo_frame.svg"
+  }
+]

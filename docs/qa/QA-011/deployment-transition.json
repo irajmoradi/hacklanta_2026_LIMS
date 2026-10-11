@@ -1,0 +1,1015 @@
+{
+  "started": "2026-10-10T23:58:24.088Z",
+  "steps": [
+    {
+      "seat": "Iraj",
+      "width": 1440,
+      "stage": "seat",
+      "status": "pass",
+      "ms": 23562,
+      "identity": "13370000-0000-4000-8000-000000000001",
+      "screenshot": "Iraj-1440-town.png"
+    },
+    {
+      "seat": "Iraj",
+      "width": 1440,
+      "stage": "town-layout",
+      "status": "pass",
+      "ms": 12425,
+      "screenshot": "Iraj-1440-town.png",
+      "header": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "buttons": [
+          {
+            "label": "Village",
+            "box": {
+              "x": 203,
+              "y": 21.5,
+              "width": 151,
+              "height": 32,
+              "top": 21.5,
+              "right": 354,
+              "bottom": 53.5,
+              "left": 203
+            },
+            "hit": {
+              "self": true,
+              "tag": "SELECT",
+              "label": "Village",
+              "text": "Hacklanta CrewJoin with invite code"
+            }
+          },
+          {
+            "label": "Enter clean fullscreen view",
+            "box": {
+              "x": 465,
+              "y": 15.5,
+              "width": 45,
+              "height": 44,
+              "top": 15.5,
+              "right": 510,
+              "bottom": 59.5,
+              "left": 465
+            },
+            "hit": {
+              "self": true,
+              "tag": "BUTTON",
+              "label": "Enter clean fullscreen view",
+              "text": "⛶"
+            }
+          },
+          {
+            "label": "Mute sound",
+            "box": {
+              "x": 522,
+              "y": 31,
+              "width": 45,
+              "height": 13,
+              "top": 31,
+              "right": 567,
+              "bottom": 44,
+              "left": 522
+            },
+            "hit": {
+              "self": true,
+              "tag": "BUTTON",
+              "label": "Mute sound",
+              "text": "Sound on"
+            }
+          },
+          {
+            "label": "Testing as Iraj · switchShared seat",
+            "box": {
+              "x": 579,
+              "y": 28.5,
+              "width": 182,
+              "height": 18,
+              "top": 28.5,
+              "right": 761,
+              "bottom": 46.5,
+              "left": 579
+            },
+            "hit": {
+              "self": true,
+              "tag": "BUTTON",
+              "label": null,
+              "text": "Testing as Iraj · switchShared seat"
+            }
+          },
+          {
+            "label": "Debug menu",
+            "box": {
+              "x": 773,
+              "y": 15.5,
+              "width": 52,
+              "height": 44,
+              "top": 15.5,
+              "right": 825,
+              "bottom": 59.5,
+              "left": 773
+            },
+            "hit": {
+              "self": true,
+              "tag": "path",
+              "label": null,
+              "text": ""
+            }
+          },
+          {
+            "label": "Inbox ",
+            "box": {
+              "x": 837,
+              "y": 15.5,
+              "width": 94,
+              "height": 44,
+              "top": 15.5,
+              "right": 931,
+              "bottom": 59.5,
+              "left": 837
+            },
+            "hit": {
+              "self": true,
+              "tag": "BUTTON",
+              "label": null,
+              "text": "Inbox "
+            }
+          },
+          {
+            "label": "Open Settings",
+            "box": {
+              "x": 943,
+              "y": 15.5,
+              "width": 112,
+              "height": 44,
+              "top": 15.5,
+              "right": 1055,
+              "bottom": 59.5,
+              "left": 943
+            },
+            "hit": {
+              "self": true,
+              "tag": "BUTTON",
+              "label": "Open Settings",
+              "text": "Settings"
+            }
+          },
+          {
+            "label": "▶ Tour",
+            "box": {
+              "x": 1067,
+              "y": 31,
+              "width": 32,
+              "height": 13,
+              "top": 31,
+              "right": 1099,
+              "bottom": 44,
+              "left": 1067
+            },
+            "hit": {
+              "self": true,
+              "tag": "BUTTON",
+              "label": null,
+              "text": "▶ Tour"
+            }
+          },
+          {
+            "label": " AI at work",
+            "box": {
+              "x": 1111,
+              "y": 15.5,
+              "width": 118,
+              "height": 44,
+              "top": 15.5,
+              "right": 1229,
+              "bottom": 59.5,
+              "left": 1111
+            },
+            "hit": {
+              "self": true,
+              "tag": "BUTTON",
+              "label": null,
+              "text": " AI at work"
+            }
+          },
+          {
+            "label": "Play as",
+            "box": {
+              "x": 1286,
+              "y": 21.5,
+              "width": 79,
+              "height": 32,
+              "top": 21.5,
+              "right": 1365,
+              "bottom": 53.5,
+              "left": 1286
+            },
+            "hit": {
+              "self": false,
+              "tag": "svg",
+              "label": null,
+              "text": ""
+            }
+          },
+          {
+            "label": "Alerts, 4 active",
+            "box": {
+              "x": 1312,
+              "y": 15.5,
+              "width": 44,
+              "height": 44,
+              "top": 15.5,
+              "right": 1356,
+              "bottom": 59.5,
+              "left": 1312
+            },
+            "hit": {
+              "self": true,
+              "tag": "svg",
+              "label": null,
+              "text": ""
+            }
+          },
+          {
+            "label": "My profile",
+            "box": {
+              "x": 1372,
+              "y": 15.5,
+              "width": 44,
+              "height": 44,
+              "top": 15.5,
+              "right": 1416,
+              "bottom": 59.5,
+              "left": 1372
+            },
+            "hit": {
+              "self": true,
+              "tag": "IMG",
+              "label": null,
+              "text": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "seat": "Iraj",
+      "width": 1440,
+      "stage": "profile-tabs",
+      "status": "pass",
+      "ms": 35900,
+      "tabs": [
+        {
+          "tab": "Overview",
+          "text": "Your profile\nIraj\nLevel 5\n860 / 1250 XP\nstar / 2026-09-28\n4 day streak\n\n“Iraj is making progress. One small step closer!”\n\nHear them\n\nAI-generated voice\n\n A LITTLE MIC MOMENT\nLOADING 3D PORTRAIT…\nIraj\nReady for a line\n\nWarming up faces… 0/1\n\nI have been training for this moment my whole life.\nWho ate my sandwich?\nI am the mayor now.\nShe sells seashells by the seashore.\nMake it your own\nPlay\nSurprise me\nAI voice · 10 new lines per day · Cached replays are free\n\nOverview\nOutfit\nHouse\nRewards\nActivity\nTHIS WEEK’S GOAL\nShip the hackathon project\n\nSmall daily updates; attach evidence when there is something to show.\n\n5 progress check-ins\n\nGoal: active\n\n+😊\nMark done\nMark missed\nShip the hackathon project\nMark goal done\nShare progress\nRECENT CHECK-INS\n Progress\nToday\n\nIraj is making progress. One small step closer!\n\n Progress\nToday\n\nDemo rehearsal survived. One bug left and it knows I am looking.\n\n VerifiedOverride review\nView evidence ↗\nAccomplishments\n\nWeekly completion star\n\nOct 4\n+😊\n\nPrototype the village\n\nSep 28\n+😊"
+        },
+        {
+          "tab": "Outfit",
+          "text": "Your profile\nIraj\nLevel 5\n860 / 1250 XP\nstar / 2026-09-28\n4 day streak\n\n“Iraj is making progress. One small step closer!”\n\nHear them\n\nAI-generated voice\n\n A LITTLE MIC MOMENT\nLOADING 3D PORTRAIT…\nIraj\nReady for a line\n\nWarming up faces… 0/1\n\nI have been training for this moment my whole life.\nWho ate my sandwich?\nI am the mayor now.\nShe sells seashells by the seashore.\nMake it your own\nPlay\nSurprise me\nAI voice · 10 new lines per day · Cached replays are free\n\nOverview\nOutfit\nHouse\nRewards\nActivity\nTHE COLLECTION\nVillager showcase\nHEAD / HAT\nHeadphones\nEquipped\nFACE / GLASSES\nRound Glasses\nEquipped\nTOP / JACKET\nHackathon Hoodie\nEquipped\nNECK / SCARF\nEmpty slot\nDrag to rotate · Scroll or pinch to zoom · Double-click to reset\nPET\nEmpty slot\nVOICE STYLE\nPirate\nEquipped\nOwned items\nRound Glasses\nEquipped\nHackathon Hoodie\nEquipped\nPirate\nEquipped\nHeadphones\nEquipped\nHype coach\nOwned\nCreate a photo item\n\nNo custom photo items equipped.\n\nCustomize my avatar"
+        },
+        {
+          "tab": "House",
+          "text": "Your profile\nIraj\nLevel 5\n860 / 1250 XP\nstar / 2026-09-28\n4 day streak\n\n“Iraj is making progress. One small step closer!”\n\nHear them\n\nAI-generated voice\n\n A LITTLE MIC MOMENT\nReset\n⤢\nIraj\nReady for a line\nI have been training for this moment my whole life.\nWho ate my sandwich?\nI am the mayor now.\nShe sells seashells by the seashore.\nMake it your own\nPlay\nSurprise me\nAI voice · 10 new lines per day · Cached replays are free\n\nOverview\nOutfit\nHouse\nRewards\nActivity\nGo inside\nA PLACE TO CALL YOUR OWN\nHouse showcase\nFlower Bed\nEquipped\nDrag to rotate · Scroll or pinch to zoom · Double-click to reset\nHouse Level 2\nEquipped\nOwned house items\nEdit my house"
+        },
+        {
+          "tab": "Rewards",
+          "text": "Your profile\nIraj\nLevel 5\n860 / 1250 XP\nstar / 2026-09-28\n4 day streak\n\n“Iraj is making progress. One small step closer!”\n\nHear them\n\nAI-generated voice\n\n A LITTLE MIC MOMENT\nReset\n⤢\nIraj\nReady for a line\nI have been training for this moment my whole life.\nWho ate my sandwich?\nI am the mayor now.\nShe sells seashells by the seashore.\nMake it your own\nPlay\nSurprise me\nAI voice · 10 new lines per day · Cached replays are free\n\nOverview\nOutfit\nHouse\nRewards\nActivity\nEarn your next signature\n\nEarned rewards stay in your collection.\n\nLoading rewards..."
+        },
+        {
+          "tab": "Activity",
+          "text": "Your profile\nIraj\nLevel 5\n860 / 1250 XP\nstar / 2026-09-28\n4 day streak\n\n“Iraj is making progress. One small step closer!”\n\nHear them\n\nAI-generated voice\n\n A LITTLE MIC MOMENT\nReset\n⤢\nIraj\nReady for a line\nI have been training for this moment my whole life.\nWho ate my sandwich?\nI am the mayor now.\nShe sells seashells by the seashore.\nMake it your own\nPlay\nSurprise me\nAI voice · 10 new lines per day · Cached replays are free\n\nOverview\nOutfit\nHouse\nRewards\nActivity\nActivity\n\nIraj created an AI voice line.\n\n2m\n\nIraj created an AI voice line.\n\n8m\n\nIraj created an AI voice line.\n\n1h\n\nIraj created an AI voice line.\n\n1h\n\nIraj created an AI voice line.\n\n1h\n\nIraj created an AI voice line. · 2 voice line events today\n\n1h\nShow 2 events"
+        }
+      ],
+      "screenshot": "Iraj-1440-profile.png"
+    },
+    {
+      "seat": "Iraj",
+      "width": 1440,
+      "stage": "settings",
+      "status": "pass",
+      "ms": 40159,
+      "openMs": 4403,
+      "before": {
+        "title": "Settings",
+        "scroll": 0,
+        "scrollHeight": 2185,
+        "height": 866,
+        "header": {
+          "x": 401,
+          "y": 24.193185806274414,
+          "w": 638,
+          "h": 86.03125
+        },
+        "close": {
+          "x": 967,
+          "y": 40.19318389892578,
+          "w": 44,
+          "h": 44
+        },
+        "overflow": false,
+        "buttons": [
+          {
+            "text": "Close dialog",
+            "disabled": false
+          },
+          {
+            "text": "Delete my voice",
+            "disabled": false
+          },
+          {
+            "text": "Refresh my face check",
+            "disabled": false
+          },
+          {
+            "text": "Delete my account",
+            "disabled": true
+          }
+        ]
+      },
+      "after": {
+        "title": "Settings",
+        "scroll": 1293,
+        "scrollHeight": 2159,
+        "height": 866,
+        "header": {
+          "x": 401,
+          "y": 17,
+          "w": 638,
+          "h": 60
+        },
+        "close": {
+          "x": 967,
+          "y": 25,
+          "w": 44,
+          "h": 44
+        },
+        "overflow": false,
+        "buttons": [
+          {
+            "text": "Close dialog",
+            "disabled": false
+          },
+          {
+            "text": "Delete my voice",
+            "disabled": false
+          },
+          {
+            "text": "Refresh my face check",
+            "disabled": false
+          },
+          {
+            "text": "Delete my account",
+            "disabled": true
+          }
+        ]
+      },
+      "switches": [
+        {
+          "changed": true,
+          "restored": true
+        },
+        {
+          "changed": true,
+          "restored": true
+        },
+        {
+          "changed": true,
+          "restored": true
+        },
+        {
+          "changed": true,
+          "restored": true
+        },
+        {
+          "changed": true,
+          "restored": true
+        },
+        {
+          "changed": true,
+          "restored": true
+        }
+      ],
+      "screenshot": "Iraj-1440-settings-scrolled.png",
+      "escapeClosed": true,
+      "focusReturned": true
+    },
+    {
+      "seat": "Iraj",
+      "width": 1440,
+      "stage": "checkin",
+      "status": "failed",
+      "error": "locator.fill: Timeout 12000ms exceeded.\nCall log:\n  - waiting for locator('#checkin-body')\n",
+      "screenshot": "Iraj-1440-checkin-failure.png",
+      "ms": 24333
+    },
+    {
+      "seat": "Iraj",
+      "width": 1440,
+      "stage": "goal",
+      "status": "pass",
+      "ms": 9305,
+      "openMs": 1181,
+      "before": {
+        "title": "My goal",
+        "scroll": 0,
+        "scrollHeight": 658,
+        "height": 658,
+        "header": {
+          "x": 491,
+          "y": 128.890625,
+          "w": 458,
+          "h": 86.03125
+        },
+        "close": {
+          "x": 877,
+          "y": 144.890625,
+          "w": 44,
+          "h": 44
+        },
+        "overflow": false,
+        "buttons": [
+          {
+            "text": "Close dialog",
+            "disabled": false
+          },
+          {
+            "text": "Mark goal done",
+            "disabled": false
+          },
+          {
+            "text": "Save my goal",
+            "disabled": false
+          }
+        ]
+      },
+      "after": {
+        "title": "My goal",
+        "scroll": 0,
+        "scrollHeight": 658,
+        "height": 658,
+        "header": {
+          "x": 491,
+          "y": 128.890625,
+          "w": 458,
+          "h": 86.03125
+        },
+        "close": {
+          "x": 877,
+          "y": 144.890625,
+          "w": 44,
+          "h": 44
+        },
+        "overflow": false,
+        "buttons": [
+          {
+            "text": "Close dialog",
+            "disabled": false
+          },
+          {
+            "text": "Mark goal done",
+            "disabled": false
+          },
+          {
+            "text": "Save my goal",
+            "disabled": false
+          }
+        ]
+      },
+      "screenshot": "Iraj-1440-goal-scrolled.png",
+      "escapeClosed": true,
+      "focusReturned": true
+    },
+    {
+      "seat": "Iraj",
+      "width": 1440,
+      "stage": "week",
+      "status": "pass",
+      "ms": 10731,
+      "openMs": 410,
+      "before": {
+        "title": "Weekly review",
+        "scroll": 0,
+        "scrollHeight": 849,
+        "height": 849,
+        "header": {
+          "x": 401,
+          "y": 33.6875,
+          "w": 638,
+          "h": 86.03125
+        },
+        "close": {
+          "x": 967,
+          "y": 49.6875,
+          "w": 44,
+          "h": 44
+        },
+        "overflow": false,
+        "buttons": [
+          {
+            "text": "Close dialog",
+            "disabled": false
+          },
+          {
+            "text": "View evidence",
+            "disabled": false
+          },
+          {
+            "text": "View evidence",
+            "disabled": false
+          },
+          {
+            "text": "View evidence",
+            "disabled": false
+          },
+          {
+            "text": "View evidence",
+            "disabled": false
+          },
+          {
+            "text": "Vote auditor insufficient",
+            "disabled": false
+          }
+        ]
+      },
+      "after": {
+        "title": "Weekly review",
+        "scroll": 0,
+        "scrollHeight": 849,
+        "height": 849,
+        "header": {
+          "x": 401,
+          "y": 33.6875,
+          "w": 638,
+          "h": 86.03125
+        },
+        "close": {
+          "x": 967,
+          "y": 49.6875,
+          "w": 44,
+          "h": 44
+        },
+        "overflow": false,
+        "buttons": [
+          {
+            "text": "Close dialog",
+            "disabled": false
+          },
+          {
+            "text": "View evidence",
+            "disabled": false
+          },
+          {
+            "text": "View evidence",
+            "disabled": false
+          },
+          {
+            "text": "View evidence",
+            "disabled": false
+          },
+          {
+            "text": "View evidence",
+            "disabled": false
+          },
+          {
+            "text": "Vote auditor insufficient",
+            "disabled": false
+          }
+        ]
+      },
+      "screenshot": "Iraj-1440-week-scrolled.png",
+      "escapeClosed": true,
+      "focusReturned": true
+    },
+    {
+      "seat": "Iraj",
+      "width": 1440,
+      "stage": "accomplishments",
+      "status": "pass",
+      "ms": 14231,
+      "openMs": 716,
+      "before": {
+        "title": "Accomplishments",
+        "scroll": 0,
+        "scrollHeight": 1181,
+        "height": 866,
+        "header": {
+          "x": 401,
+          "y": 25,
+          "w": 638,
+          "h": 86.03125
+        },
+        "close": {
+          "x": 967,
+          "y": 41,
+          "w": 44,
+          "h": 44
+        },
+        "overflow": false,
+        "buttons": [
+          {
+            "text": "Close dialog",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "React 😂",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          }
+        ]
+      },
+      "after": {
+        "title": "Accomplishments",
+        "scroll": 289,
+        "scrollHeight": 1155,
+        "height": 866,
+        "header": {
+          "x": 401,
+          "y": 17,
+          "w": 638,
+          "h": 60
+        },
+        "close": {
+          "x": 967,
+          "y": 25,
+          "w": 44,
+          "h": 44
+        },
+        "overflow": false,
+        "buttons": [
+          {
+            "text": "Close dialog",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "React 😂",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          },
+          {
+            "text": "Add reaction",
+            "disabled": false
+          }
+        ]
+      },
+      "screenshot": "Iraj-1440-accomplishments-scrolled.png",
+      "escapeClosed": true,
+      "focusReturned": true
+    },
+    {
+      "seat": "Iraj",
+      "width": 1440,
+      "stage": "gazette",
+      "status": "pass",
+      "ms": 13551,
+      "openMs": 643,
+      "before": {
+        "title": "The Village Gazette",
+        "scroll": 0,
+        "scrollHeight": 1479,
+        "height": 866,
+        "header": {
+          "x": 401,
+          "y": 25,
+          "w": 638,
+          "h": 86.03125
+        },
+        "close": {
+          "x": 967,
+          "y": 41,
+          "w": 44,
+          "h": 44
+        },
+        "overflow": false,
+        "buttons": [
+          {
+            "text": "Close dialog",
+            "disabled": false
+          },
+          {
+            "text": "Visit Stefanny →",
+            "disabled": false
+          },
+          {
+            "text": "Visit Maya →",
+            "disabled": false
+          },
+          {
+            "text": "Visit Mario →",
+            "disabled": false
+          },
+          {
+            "text": "Visit Iraj →",
+            "disabled": false
+          }
+        ]
+      },
+      "after": {
+        "title": "The Village Gazette",
+        "scroll": 587,
+        "scrollHeight": 1453,
+        "height": 866,
+        "header": {
+          "x": 401,
+          "y": 17,
+          "w": 638,
+          "h": 60
+        },
+        "close": {
+          "x": 967,
+          "y": 25,
+          "w": 44,
+          "h": 44
+        },
+        "overflow": false,
+        "buttons": [
+          {
+            "text": "Close dialog",
+            "disabled": false
+          },
+          {
+            "text": "Visit Stefanny →",
+            "disabled": false
+          },
+          {
+            "text": "Visit Maya →",
+            "disabled": false
+          },
+          {
+            "text": "Visit Mario →",
+            "disabled": false
+          },
+          {
+            "text": "Visit Iraj →",
+            "disabled": false
+          }
+        ]
+      },
+      "screenshot": "Iraj-1440-gazette-scrolled.png",
+      "escapeClosed": true,
+      "focusReturned": true
+    },
+    {
+      "seat": "Iraj",
+      "width": 1440,
+      "stage": "mayor",
+      "status": "pass",
+      "ms": 12253,
+      "openMs": 627,
+      "before": {
+        "title": "A visit to the Mayor",
+        "scroll": 0,
+        "scrollHeight": 778,
+        "height": 708,
+        "header": {
+          "x": 0,
+          "y": 176,
+          "w": 1440,
+          "h": 74
+        },
+        "close": {
+          "x": 1380,
+          "y": 192,
+          "w": 44,
+          "h": 44
+        },
+        "overflow": false,
+        "buttons": [
+          {
+            "text": "Close dialog",
+            "disabled": false
+          },
+          {
+            "text": "1🗞️ What's new?",
+            "disabled": false
+          },
+          {
+            "text": "2🎯 How's the village doing?",
+            "disabled": false
+          },
+          {
+            "text": "3🙏 Make a prayer",
+            "disabled": false
+          },
+          {
+            "text": "4🎲 Play",
+            "disabled": false
+          },
+          {
+            "text": "5💰 Bribe · 50 coins",
+            "disabled": false
+          },
+          {
+            "text": "6🤫 Rumours",
+            "disabled": false
+          },
+          {
+            "text": "Dismiss Reconnecting…",
+            "disabled": false
+          },
+          {
+            "text": "Dismiss Reconnecting…",
+            "disabled": false
+          }
+        ]
+      },
+      "after": {
+        "title": "A visit to the Mayor",
+        "scroll": 70,
+        "scrollHeight": 778,
+        "height": 708,
+        "header": {
+          "x": 0,
+          "y": 176,
+          "w": 1440,
+          "h": 60
+        },
+        "close": {
+          "x": 1380,
+          "y": 184,
+          "w": 44,
+          "h": 44
+        },
+        "overflow": false,
+        "buttons": [
+          {
+            "text": "Close dialog",
+            "disabled": false
+          },
+          {
+            "text": "1🗞️ What's new?",
+            "disabled": false
+          },
+          {
+            "text": "2🎯 How's the village doing?",
+            "disabled": false
+          },
+          {
+            "text": "3🙏 Make a prayer",
+            "disabled": false
+          },
+          {
+            "text": "4🎲 Play",
+            "disabled": false
+          },
+          {
+            "text": "5💰 Bribe · 50 coins",
+            "disabled": false
+          },
+          {
+            "text": "6🤫 Rumours",
+            "disabled": false
+          },
+          {
+            "text": "Dismiss Reconnecting…",
+            "disabled": false
+          },
+          {
+            "text": "Dismiss Reconnecting…",
+            "disabled": false
+          }
+        ]
+      },
+      "screenshot": "Iraj-1440-mayor-scrolled.png",
+      "escapeClosed": true,
+      "focusReturned": true
+    },
+    {
+      "seat": "Iraj",
+      "width": 1440,
+      "stage": "inbox",
+      "status": "failed",
+      "error": "page.screenshot: Target page, context or browser has been closed\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
+      "screenshot": null,
+      "ms": 3054
+    }
+  ],
+  "network": [
+    {
+      "seat": "Iraj",
+      "stage": "town-layout",
+      "url": "/models/colosseum.glb",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/scene-voice/checkin",
+      "failure": "net::ERR_FAILED"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "mayor",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/scene-voice/mayor",
+      "failure": "net::ERR_FAILED"
+    }
+  ],
+  "console": [
+    {
+      "seat": "Iraj",
+      "stage": "profile-tabs",
+      "type": "warning",
+      "text": "WARNING: Multiple instances of Three.js being imported."
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin",
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "mayor",
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_FAILED"
+    }
+  ],
+  "blocked": [
+    {
+      "seat": "Iraj",
+      "stage": "checkin",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/scene-voice/checkin"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "mayor",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/scene-voice/mayor"
+    }
+  ],
+  "browser": "145.0.7632.6"
+}

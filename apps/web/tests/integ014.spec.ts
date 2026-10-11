@@ -1,0 +1,37 @@
+import {test, expect} from '@playwright/test';
+import {useDemoSeat} from './demoSeat';
+useDemoSeat();
+
+test('interior, exterior, settings and cinematic check-in coexist offline', async ({page}) => {
+  const errors: string[] = [];
+  page.on('pageerror', e => errors.push(e.message));
+  await page.goto('/');
+  await page.getByRole('button', {name:'My profile', exact:true}).click();
+  await expect(page.getByRole('button', {name:'Profile settings'})).toBeVisible();
+  await page.getByRole('tab', {name:'House', exact:true}).click();
+  await page.getByRole('button', {name:'Edit my house', exact:true}).click();
+  await expect(page.getByRole('button', {name:'Close house editor', exact:true})).toBeVisible();
+  await page.getByRole('button', {name:'Go inside', exact:true}).click();
+  await expect(page.getByRole('status').filter({hasText:'Offline room'})).toBeVisible();
+  await page.getByRole('button', {name:'Decorate', exact:true}).click();
+  await page.getByText('Room inventory', {exact:true}).click();
+  const sofa = page.getByTestId('position-sofa');
+  const before = Number(await sofa.getAttribute('data-x'));
+  await page.getByRole('button', {name:'Move sofa right', exact:true}).click();
+  await expect(sofa).toHaveAttribute('data-x', String(before + .25));
+  await page.screenshot({path:'tests/artifacts/integ014/interior-desktop.png'});
+  await page.setViewportSize({width:390,height:844});
+  expect(await page.locator('.interior-dialog').evaluate(el => el.scrollWidth <= el.clientWidth)).toBe(true);
+  await page.screenshot({path:'tests/artifacts/integ014/interior-mobile.png'});
+  await page.getByRole('button', {name:'Back to village', exact:true}).click();
+  await page.getByRole('button', {name:'Go inside', exact:true}).click();
+  await page.getByText('Room inventory', {exact:true}).click();
+  await expect(sofa).toHaveAttribute('data-x', String(before + .25));
+  await page.getByRole('button', {name:'Back to village', exact:true}).click();
+  await page.getByRole('button', {name:'Close profile', exact:true}).click();
+  await page.getByRole('button', {name:'Check in', exact:true}).click();
+  await expect(page.getByRole('dialog', {name:'A moment with your villager'})).toBeVisible();
+  await page.screenshot({path:'tests/artifacts/integ014/checkin-after-interior.png'});
+  await page.keyboard.press('Escape');
+  expect(errors).toEqual([]);
+});

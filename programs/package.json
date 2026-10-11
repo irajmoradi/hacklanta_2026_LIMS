@@ -1,0 +1,11 @@
+{
+  "name": "village-pot-local-tests",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.12" },
+  "scripts": { "test": "node --test tests/*.test.mjs" },
+  "devDependencies": {
+    "@solana/kit": "8.4.0",
+    "litesvm": "1.6.0"
+  }
+}

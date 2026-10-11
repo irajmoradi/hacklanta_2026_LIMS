@@ -1,0 +1,1444 @@
+{
+  "started": "2026-10-10T19:57:00.434Z",
+  "steps": [
+    {
+      "seat": "Iraj",
+      "stage": "seat",
+      "status": "pass",
+      "ms": 4816
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "status": "pass",
+      "ms": 25124,
+      "reveals": [
+        {
+          "dy": 35,
+          "revealed": false,
+          "tooltip": []
+        },
+        {
+          "dy": 65,
+          "revealed": false,
+          "tooltip": []
+        },
+        {
+          "dy": 95,
+          "revealed": false,
+          "tooltip": []
+        }
+      ],
+      "options": [
+        {
+          "value": "home",
+          "disabled": false
+        },
+        {
+          "value": "gardening",
+          "disabled": false
+        },
+        {
+          "value": "dancing",
+          "disabled": false
+        },
+        {
+          "value": "reading",
+          "disabled": false
+        },
+        {
+          "value": "food",
+          "disabled": false
+        },
+        {
+          "value": "walk_pet",
+          "disabled": true
+        }
+      ],
+      "checks": [
+        {
+          "value": "home",
+          "ms": 2731,
+          "badge": "🏠 Chilling at Home"
+        },
+        {
+          "value": "gardening",
+          "ms": 2564,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "dancing",
+          "ms": 2537,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "reading",
+          "ms": 2535,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "food",
+          "ms": 2634,
+          "badge": "🚶 Walking"
+        }
+      ]
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "status": "pass",
+      "ms": 12404,
+      "colorSave": "Draft only: original palette unset; API has no reset-to-null operation"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "status": "pass",
+      "ms": 8663,
+      "interactionMs": 2499,
+      "restoreStatus": 200
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "status": "pass",
+      "ms": 3208,
+      "interactionMs": 1243
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-status",
+      "status": "pass",
+      "ms": 3729,
+      "http": 200,
+      "interactionMs": 2185,
+      "xp": 0,
+      "resultKeys": [
+        "check_in",
+        "xp_awarded"
+      ]
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-progress",
+      "status": "pass",
+      "ms": 4788,
+      "http": 200,
+      "interactionMs": 2188,
+      "xp": 25,
+      "resultKeys": [
+        "check_in",
+        "xp_awarded"
+      ]
+    },
+    {
+      "seat": "Iraj",
+      "stage": "goal-save-existing",
+      "status": "pass",
+      "ms": 2887,
+      "http": 200,
+      "interactionMs": 2006
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments-reaction",
+      "status": "pass",
+      "ms": 3596,
+      "cards": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "status": "pass",
+      "ms": 14165,
+      "purchases": [
+        {
+          "name": "Buy Flower Bed",
+          "status": 200
+        },
+        {
+          "name": "photo token",
+          "status": 201,
+          "body": {
+            "id": "978c6956-71cd-40ff-91a6-b866bacf0353"
+          }
+        }
+      ],
+      "speakers": 1,
+      "recipients": 1,
+      "preview": true,
+      "createDisabled": true,
+      "locks": [
+        "Earn-only: earned:auditor",
+        "Earn-only: earned:weekly_crown",
+        "Earn-only: earned:competition_win",
+        "Earn-only: earned:festival_vip",
+        "Earn-only: earned:mayor_event",
+        "Earn-only: earned:perfect_week",
+        "Earn-only: earned:streak_28",
+        "Needs Backyard (100 XP) first",
+        "Needs Backyard (100 XP) first",
+        "Need 6 more XP",
+        "Need 56 more XP",
+        "Need 256 more XP"
+      ]
+    },
+    {
+      "seat": "Iraj",
+      "stage": "gazette-archive",
+      "status": "pass",
+      "ms": 21281,
+      "issues": 1
+    },
+    {
+      "seat": "Iraj",
+      "stage": "colosseum",
+      "status": "pass",
+      "ms": 2438,
+      "text": "A LITTLE FRIENDLY MOTIVATION\n\nCompetitions\n\nAgree on the terms, opt in, and cheer each other on.\n\nCreate competition\nAll competitions\nOpen to join\nCurrent competitions\nh\nAI evidence + human auditor · open\nMinecraft hours\nFriendly · no XP or stakes · open\nStudy streak\nAI evidence + human auditor · open",
+      "detail": "#1 Iraj\nTHE VILLAGE COLOSSEUM\nh\n\nOrdinal · Every small step counts\n\nSound on\nView competitions\nBack to village\nView open\nView current\n1 participants · Arena floor\nLEADERBOARD\nThe contenders\n#1\nIraj\n0 points\n\nConfirmed points only. Ties share a rank.\n\nBring the evidence. Earn your place.\nClose competition controls\n← All competitions\nh\n\nh\n\nAuditor: Stefanny · sits out\nopen\n0 SOL intent — settles on devnet after approval. No payment executed.\nParticipants (1)\n\nIraj\n\nEntries (0)\nSubmit your entry\nEntry description\nEntry evidence photo\n\nPhoto evidence is shared with village members and reviewed by AI when you submit.\n\nSubmit entry"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "group-photo",
+      "status": "pass",
+      "ms": 2131,
+      "text": "A VILLAGE STARTS WITH YOUR PEOPLE\n\nOur group photo\n\nFind yourself in the group, then choose “This is me” to build your villager. Your preset works while you wait.\n\nGroup photo\nEveryone in this group photo consents to its use to build their avatar.\nFind our people\nOpen a shared photo job"
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "status": "pass",
+      "ms": 2102,
+      "overflow": {
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "status": "pass",
+      "ms": 4883
+    },
+    {
+      "seat": "Lance",
+      "stage": "idle-and-house-hover",
+      "status": "pass",
+      "ms": 23943,
+      "reveals": [
+        {
+          "dy": 35,
+          "revealed": false,
+          "tooltip": []
+        },
+        {
+          "dy": 65,
+          "revealed": false,
+          "tooltip": []
+        },
+        {
+          "dy": 95,
+          "revealed": false,
+          "tooltip": []
+        }
+      ],
+      "options": [
+        {
+          "value": "home",
+          "disabled": false
+        },
+        {
+          "value": "gardening",
+          "disabled": false
+        },
+        {
+          "value": "dancing",
+          "disabled": false
+        },
+        {
+          "value": "reading",
+          "disabled": false
+        },
+        {
+          "value": "food",
+          "disabled": false
+        },
+        {
+          "value": "walk_pet",
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "value": "home",
+          "ms": 1636,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "gardening",
+          "ms": 2490,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "dancing",
+          "ms": 2500,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "reading",
+          "ms": 1418,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "food",
+          "ms": 2469,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "walk_pet",
+          "ms": 1451,
+          "badge": "🚶 Walking"
+        }
+      ]
+    },
+    {
+      "seat": "Lance",
+      "stage": "showcase-wardrobe-rotate",
+      "status": "pass",
+      "ms": 11742,
+      "colorSave": "Draft only: original palette unset; API has no reset-to-null operation"
+    },
+    {
+      "seat": "Lance",
+      "stage": "house-save",
+      "status": "pass",
+      "ms": 8488,
+      "interactionMs": 2546,
+      "restoreStatus": 200
+    },
+    {
+      "seat": "Lance",
+      "stage": "settings-save",
+      "status": "failed",
+      "error": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Settings saved.', { exact: true }) to be visible\u001b[22m\n",
+      "ms": 21547
+    },
+    {
+      "seat": "Lance",
+      "stage": "checkin-status",
+      "status": "pass",
+      "ms": 3767,
+      "http": 200,
+      "interactionMs": 2181,
+      "xp": 0,
+      "resultKeys": [
+        "check_in",
+        "xp_awarded"
+      ]
+    },
+    {
+      "seat": "Lance",
+      "stage": "checkin-progress",
+      "status": "pass",
+      "ms": 1859,
+      "unavailable": "No active goal; progress disabled"
+    },
+    {
+      "seat": "Lance",
+      "stage": "goal-save-existing",
+      "status": "pass",
+      "ms": 2931,
+      "http": 200,
+      "interactionMs": 2013
+    },
+    {
+      "seat": "Lance",
+      "stage": "accomplishments-reaction",
+      "status": "pass",
+      "ms": 3648,
+      "cards": 10
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop-buy-and-grams",
+      "status": "pass",
+      "ms": 12000,
+      "purchases": [
+        {
+          "name": "Buy Flower Bed",
+          "status": 200
+        },
+        {
+          "name": "photo token",
+          "status": 201,
+          "body": {
+            "id": "03a61a28-aa13-42da-a050-7799740f2511"
+          }
+        }
+      ],
+      "speakers": 1,
+      "recipients": 1,
+      "preview": true,
+      "createDisabled": true,
+      "locks": [
+        "Earn-only: earned:auditor",
+        "Earn-only: earned:weekly_crown",
+        "Earn-only: earned:competition_win",
+        "Earn-only: earned:festival_vip",
+        "Earn-only: earned:mayor_event",
+        "Earn-only: earned:perfect_week",
+        "Earn-only: earned:streak_28",
+        "Needs House Level 2 (150 XP) first"
+      ]
+    },
+    {
+      "seat": "Lance",
+      "stage": "gazette-archive",
+      "status": "pass",
+      "ms": 21329,
+      "issues": 1
+    },
+    {
+      "seat": "Lance",
+      "stage": "colosseum",
+      "status": "pass",
+      "ms": 2407,
+      "text": "A LITTLE FRIENDLY MOTIVATION\n\nCompetitions\n\nAgree on the terms, opt in, and cheer each other on.\n\nCreate competition\nAll competitions\nOpen to join\nCurrent competitions\nh\nAI evidence + human auditor · open\nMinecraft hours\nFriendly · no XP or stakes · open\nStudy streak\nAI evidence + human auditor · open",
+      "detail": "#1 Iraj\nTHE VILLAGE COLOSSEUM\nh\n\nOrdinal · Every small step counts\n\nSound on\nView competitions\nBack to village\nView open\nView current\n1 participants · Arena floor\nLEADERBOARD\nThe contenders\n#1\nIraj\n0 points\n\nConfirmed points only. Ties share a rank.\n\nBring the evidence. Earn your place.\nClose competition controls\n← All competitions\nh\n\nh\n\nAuditor: Stefanny · sits out\nopen\n0 SOL intent — settles on devnet after approval. No payment executed.\nParticipants (1)\n\nIraj\n\nEntries (0)\nRead terms & join"
+    },
+    {
+      "seat": "Lance",
+      "stage": "group-photo",
+      "status": "pass",
+      "ms": 2262,
+      "text": "A VILLAGE STARTS WITH YOUR PEOPLE\n\nOur group photo\n\nFind yourself in the group, then choose “This is me” to build your villager. Your preset works while you wait.\n\nThe village owner uploads the shared photo. Each person claims only themselves.\n\nOpen a shared photo job"
+    }
+  ],
+  "requests": [
+    {
+      "seat": "Iraj",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 38
+    },
+    {
+      "seat": "Iraj",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 22
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1054
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1151
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 1158
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 16
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 18
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 23
+    },
+    {
+      "seat": "Iraj",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 83
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Iraj",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 23
+    },
+    {
+      "seat": "Iraj",
+      "stage": "house-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Iraj",
+      "stage": "settings-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/check-ins",
+      "status": 200,
+      "ms": 139
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/check-ins",
+      "status": 200,
+      "ms": 33
+    },
+    {
+      "seat": "Iraj",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Iraj",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Iraj",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/goals",
+      "status": 200,
+      "ms": 18
+    },
+    {
+      "seat": "Iraj",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 8
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/reactions",
+      "status": 200,
+      "ms": 16
+    },
+    {
+      "seat": "Iraj",
+      "stage": "accomplishments-reaction",
+      "method": "DELETE",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/reactions",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 75
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 248
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1498
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/shop/buy",
+      "status": 200,
+      "ms": 183
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 155
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/items/token",
+      "status": 201,
+      "ms": 418
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Iraj",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 8
+    },
+    {
+      "seat": "Iraj",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Iraj",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 8
+    },
+    {
+      "seat": "Iraj",
+      "stage": "colosseum",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 8
+    },
+    {
+      "seat": "Iraj",
+      "stage": "colosseum",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Iraj",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Iraj",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 8
+    },
+    {
+      "seat": "Iraj",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Iraj",
+      "stage": "responsive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 34
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Lance",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Lance",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Lance",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 154
+    },
+    {
+      "seat": "Lance",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Lance",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 88
+    },
+    {
+      "seat": "Lance",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "seat": "Lance",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Lance",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Lance",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 8
+    },
+    {
+      "seat": "Lance",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 16
+    },
+    {
+      "seat": "Lance",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Lance",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Lance",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 78
+    },
+    {
+      "seat": "Lance",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Lance",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Lance",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Lance",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 8
+    },
+    {
+      "seat": "Lance",
+      "stage": "house-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Lance",
+      "stage": "house-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Lance",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Lance",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Lance",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Lance",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Lance",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 16
+    },
+    {
+      "seat": "Lance",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Lance",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 88
+    },
+    {
+      "seat": "Lance",
+      "stage": "settings-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 101
+    },
+    {
+      "seat": "Lance",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Lance",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/check-ins",
+      "status": 200,
+      "ms": 31
+    },
+    {
+      "seat": "Lance",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Lance",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Lance",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Lance",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Lance",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/goals",
+      "status": 200,
+      "ms": 24
+    },
+    {
+      "seat": "Lance",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Lance",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Lance",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Lance",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/reactions",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Lance",
+      "stage": "accomplishments-reaction",
+      "method": "DELETE",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/reactions",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 517
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1009
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1202
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1878
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/shop/buy",
+      "status": 200,
+      "ms": 202
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/items/token",
+      "status": 201,
+      "ms": 418
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2662
+    },
+    {
+      "seat": "Lance",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Lance",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Lance",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Lance",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Lance",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Lance",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Lance",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Lance",
+      "stage": "colosseum",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Lance",
+      "stage": "colosseum",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Lance",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Lance",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Lance",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Lance",
+      "stage": "responsive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Lance",
+      "stage": "responsive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    }
+  ],
+  "errors": [
+    {
+      "seat": "Lance",
+      "stage": "settings-save",
+      "type": "console",
+      "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "blocked": [
+    {
+      "seat": "Lance",
+      "stage": "settings-save",
+      "url": "/api/me",
+      "method": "PATCH"
+    }
+  ]
+}

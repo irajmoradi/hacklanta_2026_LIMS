@@ -1,0 +1,403 @@
+[
+  {
+    "id": "storefront_cafe",
+    "kind": "decoration",
+    "placement": {
+      "district": "commercial",
+      "size": 5.5,
+      "color": "#bb8868"
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "requires": []
+  },
+  {
+    "id": "storefront_records",
+    "kind": "decoration",
+    "placement": {
+      "district": "commercial",
+      "size": 5.5,
+      "color": "#839fa3"
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "requires": []
+  },
+  {
+    "id": "storefront_bakery",
+    "kind": "decoration",
+    "placement": {
+      "district": "commercial",
+      "size": 5.5,
+      "color": "#d6aa87"
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "requires": []
+  },
+  {
+    "id": "arcade",
+    "kind": "decoration",
+    "placement": {
+      "district": "commercial",
+      "size": 5.5,
+      "color": "#a194bc"
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "requires": []
+  },
+  {
+    "id": "gym",
+    "kind": "decoration",
+    "placement": {
+      "district": "commercial",
+      "size": 5.5,
+      "color": "#88a0b2"
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "requires": []
+  },
+  {
+    "id": "studio_art",
+    "kind": "decoration",
+    "placement": {
+      "district": "commercial",
+      "size": 5.5,
+      "color": "#c99d9f"
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "requires": []
+  },
+  {
+    "id": "library",
+    "kind": "decoration",
+    "placement": {
+      "district": "commercial",
+      "size": 5.5,
+      "color": "#9cab88"
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "requires": []
+  },
+  {
+    "id": "town_hall",
+    "kind": "decoration",
+    "placement": {
+      "district": "plaza",
+      "size": 6,
+      "shape": "building"
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "requires": []
+  },
+  {
+    "id": "mayor_podium",
+    "kind": "decoration",
+    "placement": {
+      "district": "plaza",
+      "size": 4,
+      "shape": "plaza",
+      "action": "mayor"
+    },
+    "tags": [
+      "scene",
+      "prop",
+      "district_central_plaza"
+    ]
+  },
+  {
+    "id": "shop",
+    "kind": "decoration",
+    "placement": {
+      "district": "commercial",
+      "size": 5,
+      "shape": "building",
+      "action": "shop"
+    },
+    "tags": [
+      "scene",
+      "prop"
+    ]
+  },
+  {
+    "id": "festival_stage",
+    "kind": "building",
+    "placement": {
+      "district": "festival",
+      "size": 5,
+      "shape": "stage"
+    }
+  },
+  {
+    "id": "ferris_wheel",
+    "kind": "building",
+    "placement": {
+      "district": "festival",
+      "size": 5.8,
+      "shape": "wheel",
+      "offset": [
+        3,
+        0,
+        -4
+      ]
+    },
+    "tags": [
+      "scene",
+      "unlock"
+    ],
+    "unlock": {
+      "village_level": 5
+    }
+  },
+  {
+    "id": "food_truck",
+    "kind": "decoration",
+    "placement": {
+      "district": "festival",
+      "size": 4,
+      "shape": "building"
+    },
+    "tags": [
+      "scene",
+      "prop"
+    ]
+  },
+  {
+    "id": "tent_merch",
+    "kind": "decoration",
+    "placement": {
+      "district": "festival",
+      "size": 4,
+      "shape": "building"
+    },
+    "tags": [
+      "scene",
+      "prop"
+    ]
+  },
+  {
+    "id": "stage_lights",
+    "kind": "decoration",
+    "placement": {
+      "district": "festival",
+      "size": 5,
+      "shape": "prop"
+    },
+    "tags": [
+      "scene",
+      "prop",
+      "district_festival"
+    ]
+  },
+  {
+    "id": "pet_shelter",
+    "kind": "building",
+    "placement": {
+      "district": "shelter",
+      "size": 3.5,
+      "shape": "building",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "tags": [
+      "scene",
+      "unlock"
+    ],
+    "unlock": {
+      "village_level": 4
+    }
+  },
+  {
+    "id": "fountain",
+    "kind": "building",
+    "placement": {
+      "district": "park",
+      "size": 3,
+      "shape": "fountain"
+    }
+  },
+  {
+    "id": "lake_patch",
+    "kind": "decoration",
+    "placement": {
+      "district": "park",
+      "size": 8,
+      "shape": "lake"
+    },
+    "tags": [
+      "scene",
+      "prop"
+    ]
+  },
+  {
+    "id": "apartment_small",
+    "kind": "decoration",
+    "placement": {
+      "district": "residential",
+      "size": 5,
+      "shape": "building"
+    },
+    "tags": [
+      "scene",
+      "source_kind_building",
+      "source_slot_building"
+    ],
+    "requires": []
+  },
+  {
+    "id": "farm_store",
+    "kind": "building",
+    "placement": {
+      "district": "commercial",
+      "size": 4,
+      "color": "#ad443c",
+      "action": "shop",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "tags": [
+      "farm"
+    ],
+    "unlock": {
+      "village_level": 4
+    }
+  },
+  {
+    "id": "study_nook",
+    "kind": "building",
+    "placement": {
+      "district": "park",
+      "size": 5.5,
+      "shape": "study_nook",
+      "color": "#91a58a",
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "tags": [
+      "park",
+      "study",
+      "social"
+    ],
+    "unlock": {
+      "village_level": 1
+    }
+  },
+  {
+    "id": "fitness_corner",
+    "kind": "building",
+    "placement": {
+      "district": "park",
+      "size": 8,
+      "offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    "tags": [
+      "park",
+      "social"
+    ],
+    "unlock": {
+      "village_level": 1
+    }
+  },
+  {
+    "id": "garden",
+    "kind": "building",
+    "placement": {
+      "district": "park",
+      "offset": [
+        -1,
+        0,
+        3
+      ],
+      "size": 1.2
+    },
+    "tags": [
+      "scene",
+      "unlock"
+    ],
+    "unlock": {
+      "village_level": 2
+    }
+  },
+  {
+    "id": "festival_lights",
+    "kind": "building",
+    "placement": {
+      "district": "festival",
+      "offset": [
+        0,
+        0,
+        2
+      ],
+      "size": 10
+    },
+    "tags": [
+      "scene",
+      "unlock"
+    ],
+    "unlock": {
+      "village_level": 3
+    }
+  },
+  {
+    "id": "lake_bridge",
+    "kind": "building",
+    "placement": {
+      "district": "lake",
+      "offset": [
+        0,
+        0.12,
+        0
+      ],
+      "size": 5
+    },
+    "tags": [
+      "scene",
+      "unlock"
+    ],
+    "unlock": {
+      "village_level": 6
+    }
+  }
+]

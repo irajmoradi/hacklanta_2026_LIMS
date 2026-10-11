@@ -1,0 +1,56 @@
+import { useDemoSeat } from './demoSeat';
+import { expect, test } from '@playwright/test';
+useDemoSeat();
+
+for (const mode of ['glb','offline','missing-base']) test(`FEAT-006 wardrobe palette ${mode}`, async ({page}) => {
+  const errors: string[] = []; page.on('pageerror', e => errors.push(e.message));
+  if (mode === 'missing-base') await page.route('**/models/villager_base.glb*', route => route.fulfill({status:404,body:''}));
+  if (mode === 'offline') await page.route('**/models/**', route => route.fulfill({status:404,body:''}));
+  await page.setViewportSize({width:1440,height:1200});
+  await page.goto('/');
+  await page.getByRole('button',{name:'Shop',exact:true}).click();
+  await page.getByRole('button',{name:'Buy Cozy Hoodie',exact:true}).click();
+  await expect(page.getByTestId('villager-Iraj')).toHaveAttribute('data-cosmetics', /outfit_hoodie/);
+  await page.getByRole('button',{name:'Close dialog'}).click();
+  await page.getByRole('button',{name:'My profile',exact:true}).click();
+  await page.getByRole('tab',{name:'Outfit'}).click();
+  await page.getByRole('button',{name:'Cozy Hoodie',exact:true}).first().click();
+  await page.getByRole('button',{name:'Choose colors',exact:true}).click();
+  const panel = page.getByRole('region',{name:'Colors for Cozy Hoodie'});
+  await expect(panel.locator('.color-swatches button')).toHaveCount(16);
+  await panel.getByRole('button',{name:'Woodland',exact:true}).click();
+  await panel.getByLabel('Custom hex').fill('#123');
+  await expect(panel.getByRole('button',{name:'Save colors'})).toBeDisabled();
+  await panel.getByLabel('Custom hex').fill('#8876a8');
+  // Inspect actual Three materials; a DOM-only assertion would miss renderer bugs.
+  const materialColors = async (preview = false) => page.evaluate(async ({preview}) => {
+    const {_roots} = await import('/node_modules/.vite/deps/@react-three_fiber.js' as string);
+    const canvas = document.querySelector(preview ? '.showcase-preview canvas' : 'canvas');
+    const scene = _roots.get(canvas)?.store.getState().scene;
+    const owner = preview ? scene : scene?.getObjectByName('villager:00000000-0000-4000-8000-000000000001');
+    const outfit = owner?.getObjectByName('cosmetic:outfit_hoodie');
+    const colors: string[] = [];
+    outfit?.traverse((node: any) => { if (node.isMesh) for (const m of Array.isArray(node.material) ? node.material : [node.material]) if (m.name === 'primary') colors.push(m.color.getHexString()); });
+    return colors;
+  }, {preview});
+  await expect.poll(() => materialColors(true)).toContain('8876a8');
+  await expect.poll(() => materialColors()).not.toContain('8876a8');
+  await page.locator('.showcase-preview').scrollIntoViewIfNeeded();
+  await page.screenshot({path:`test-results/feat006-preview-${mode}.png`});
+  await panel.getByRole('button',{name:'Save colors'}).click();
+  await expect(panel).toHaveCount(0);
+  await expect.poll(() => materialColors()).toContain('8876a8');
+  await page.getByRole('button',{name:'Unequip Cozy Hoodie',exact:true}).click();
+  await page.getByRole('button',{name:'Equip Cozy Hoodie',exact:true}).click();
+  await expect.poll(() => materialColors()).toContain('8876a8');
+  await page.getByRole('button',{name:'Cozy Hoodie',exact:true}).first().click();
+  await page.getByRole('button',{name:'Choose colors',exact:true}).click();
+  await expect(panel.getByLabel('Custom hex')).toHaveValue('#8876a8');
+  await panel.getByRole('button',{name:'Terracotta',exact:true}).click();
+  await panel.getByRole('button',{name:'Cancel colors'}).click();
+  await expect.poll(() => materialColors(true)).toContain('8876a8');
+  await page.getByRole('button',{name:'Close profile'}).click();
+  await expect(page.getByTestId('villager-Iraj').locator('.portrait')).toHaveCSS('background-color','rgb(136, 118, 168)');
+  await page.screenshot({path:`test-results/feat006-village-${mode}.png`});
+  expect(errors).toEqual([]);
+});

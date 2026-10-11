@@ -1,0 +1,4 @@
+.python-deps/
+.validation-models/
+!dist/
+!dist/catalog.ts

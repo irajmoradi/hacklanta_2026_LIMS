@@ -1,0 +1,23 @@
+[Unit]
+Description=Village production API
+After=network.target docker.service
+ConditionPathExists=/etc/village/prod.env
+
+[Service]
+User=village-prod
+Group=village-prod
+WorkingDirectory=/opt/village/prod-current/apps/api
+EnvironmentFile=/etc/village/prod.env
+Environment=VILLAGE_ENV_FILE=/dev/null
+ExecStart=/opt/village/prod-current/apps/api/.venv/bin/python -m uvicorn app.main:app --host 127.0.0.1 --port 8012 --no-proxy-headers --timeout-graceful-shutdown 3
+TimeoutStopSec=5
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/village-prod/assets
+
+[Install]
+WantedBy=multi-user.target

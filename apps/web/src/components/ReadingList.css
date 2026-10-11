@@ -1,0 +1,21 @@
+.reading-library { color: #453c31; }
+.reading-shelf-art { display: flex; align-items: end; gap: 6px; padding: 0 14px; height: 68px; border-bottom: 8px solid #987756; background: #eee5d7; border-radius: 8px 8px 2px 2px; }
+.reading-shelf-art i { width: 22px; border-radius: 3px 3px 0 0; border: 1px solid #0002; box-shadow: inset 4px 0 #fff2; }
+.reading-intro { font-family: Georgia, serif; font-size: 24px; }
+.reading-weeks { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin: 20px 0 10px; }
+.reading-cards { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit,minmax(min(100%,270px),1fr)); }
+.reading-card { background: #fffaf0; border: 1px solid #d7c7ae; border-left: 6px solid #779184; border-radius: 8px; padding: 18px; overflow-wrap: anywhere; box-shadow: 0 4px 0 #e5dac8; }
+.reading-card h3 { margin: 0; font-family: Georgia,serif; font-size: 21px; }
+.reading-card a { color: #466a5b; }
+.reading-card form,.reading-add form { display: grid; gap: 12px; margin: 16px 0; }
+.reading-library label { display: grid; gap: 5px; font-size: 13px; }
+.reading-library input,.reading-library textarea { width: 100%; min-width: 0; box-sizing: border-box; }
+.reading-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.reading-reader { border-top: 1px dashed #d7c7ae; padding-top: 12px; margin-top: 12px; }
+.reading-reader > div:first-child { display: flex; align-items: center; gap: 8px; }
+.reading-reader blockquote { margin: 8px 0; font-style: italic; }
+.reading-done { color: #3e6750; font-weight: 600; }
+.reading-add { margin-top: 26px; padding: 18px; background: #eee5d7; border-radius: 8px; }
+.reading-empty { padding: 24px; border: 1px dashed #ad9471; border-radius: 8px; }
+.reading-suggestion { display: grid; text-align: left; gap: 6px; padding: 12px; margin-top: 8px; width: 100%; background: #fffaf0; border: 1px solid #d7c7ae; border-radius: 6px; }
+@media(max-width: 480px) { .reading-fields { grid-template-columns: 1fr; } .reading-weeks strong { order: -1; width: 100%; } .reading-add { padding: 12px; } }

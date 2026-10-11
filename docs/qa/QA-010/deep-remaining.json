@@ -1,0 +1,1855 @@
+{
+  "started": "2026-10-10T20:01:53.279Z",
+  "steps": [
+    {
+      "seat": "Stefanny",
+      "stage": "seat",
+      "status": "pass",
+      "ms": 7164,
+      "uid": "13370000-0000-4000-8000-000000000003"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "status": "pass",
+      "ms": 27312,
+      "reveals": [
+        {
+          "dy": 35,
+          "revealed": false,
+          "tooltip": []
+        },
+        {
+          "dy": 65,
+          "revealed": false,
+          "tooltip": []
+        },
+        {
+          "dy": 95,
+          "revealed": false,
+          "tooltip": []
+        }
+      ],
+      "options": [
+        {
+          "value": "home",
+          "disabled": false
+        },
+        {
+          "value": "gardening",
+          "disabled": false
+        },
+        {
+          "value": "dancing",
+          "disabled": false
+        },
+        {
+          "value": "reading",
+          "disabled": false
+        },
+        {
+          "value": "food",
+          "disabled": false
+        },
+        {
+          "value": "walk_pet",
+          "disabled": false
+        }
+      ],
+      "checks": [
+        {
+          "value": "home",
+          "ms": 2823,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "gardening",
+          "ms": 2587,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "dancing",
+          "ms": 2578,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "reading",
+          "ms": 2572,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "food",
+          "ms": 2605,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "walk_pet",
+          "ms": 2589,
+          "badge": "🚶 Walking"
+        }
+      ]
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "showcase-wardrobe-rotate",
+      "status": "pass",
+      "ms": 12031,
+      "colorSave": "Draft only: original palette unset; API has no reset-to-null operation"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "house-save",
+      "status": "pass",
+      "ms": 7735,
+      "interactionMs": 1883,
+      "restoreStatus": 200
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "settings-save",
+      "status": "pass",
+      "ms": 2879,
+      "interactionMs": 1147
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "checkin-status",
+      "status": "pass",
+      "ms": 3667,
+      "http": 200,
+      "interactionMs": 2085,
+      "xp": 0,
+      "resultKeys": [
+        "check_in",
+        "xp_awarded"
+      ]
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "checkin-progress",
+      "status": "pass",
+      "ms": 2054,
+      "unavailable": "No active goal; progress disabled"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "goal-save-existing",
+      "status": "failed",
+      "error": "page.waitForResponse: Timeout 20000ms exceeded while waiting for event \"response\"",
+      "ms": 20914
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "accomplishments-reaction",
+      "status": "pass",
+      "ms": 3844,
+      "cards": 10
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "shop-buy-and-grams",
+      "status": "pass",
+      "ms": 14482,
+      "purchases": [
+        {
+          "name": "Buy Village Cap",
+          "status": 200
+        },
+        {
+          "name": "photo token",
+          "status": 201,
+          "body": {
+            "id": "99d4693f-8148-43b2-b58e-5d0dbd45d9c2"
+          }
+        }
+      ],
+      "speakers": 1,
+      "recipients": 1,
+      "preview": true,
+      "createDisabled": true,
+      "locks": [
+        "Earn-only: earned:auditor",
+        "Earn-only: earned:weekly_crown",
+        "Earn-only: earned:competition_win",
+        "Earn-only: earned:festival_vip",
+        "Earn-only: earned:mayor_event",
+        "Earn-only: earned:perfect_week",
+        "Earn-only: earned:streak_28"
+      ]
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "gazette-archive",
+      "status": "pass",
+      "ms": 21443,
+      "issues": 1
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "colosseum",
+      "status": "pass",
+      "ms": 2457,
+      "text": "A LITTLE FRIENDLY MOTIVATION\n\nCompetitions\n\nAgree on the terms, opt in, and cheer each other on.\n\nCreate competition\nAll competitions\nOpen to join\nCurrent competitions\nh\nAI evidence + human auditor · open\nMinecraft hours\nFriendly · no XP or stakes · open\nStudy streak\nAI evidence + human auditor · open",
+      "detail": "#1 Iraj\nTHE VILLAGE COLOSSEUM\nh\n\nOrdinal · Every small step counts\n\nSound on\nView competitions\nBack to village\nView open\nView current\n1 participants · Arena floor\nLEADERBOARD\nThe contenders\n#1\nIraj\n0 points\n\nConfirmed points only. Ties share a rank.\n\nBring the evidence. Earn your place.\nClose competition controls\n← All competitions\nh\n\nh\n\nAuditor: Stefanny · sits out\nopen\n0 SOL intent — settles on devnet after approval. No payment executed.\nParticipants (1)\n\nIraj\n\nEntries (0)\n\nSettle after all entries are decided. Results and terms become final.\n\nSettle competition"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "group-photo",
+      "status": "pass",
+      "ms": 2399,
+      "text": "A VILLAGE STARTS WITH YOUR PEOPLE\n\nOur group photo\n\nFind yourself in the group, then choose “This is me” to build your villager. Your preset works while you wait.\n\nThe village owner uploads the shared photo. Each person claims only themselves.\n\nOpen a shared photo job"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "responsive",
+      "status": "failed",
+      "error": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Display name', { exact: true }) to be visible\u001b[22m\n",
+      "ms": 21433
+    },
+    {
+      "seat": "Maya",
+      "stage": "seat",
+      "status": "pass",
+      "ms": 12896,
+      "uid": "13370000-0000-4000-8000-000000000004"
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "status": "pass",
+      "ms": 52867,
+      "reveals": [
+        {
+          "dy": 35,
+          "revealed": false,
+          "tooltip": []
+        },
+        {
+          "dy": 65,
+          "revealed": false,
+          "tooltip": []
+        },
+        {
+          "dy": 95,
+          "revealed": false,
+          "tooltip": []
+        }
+      ],
+      "options": [
+        {
+          "value": "studying",
+          "disabled": false
+        },
+        {
+          "value": "home",
+          "disabled": false
+        },
+        {
+          "value": "gardening",
+          "disabled": false
+        },
+        {
+          "value": "dancing",
+          "disabled": false
+        },
+        {
+          "value": "reading",
+          "disabled": false
+        },
+        {
+          "value": "food",
+          "disabled": false
+        },
+        {
+          "value": "walk_pet",
+          "disabled": true
+        }
+      ],
+      "checks": [
+        {
+          "value": "studying",
+          "ms": 4101,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "home",
+          "ms": 3801,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "gardening",
+          "ms": 3759,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "dancing",
+          "ms": 3739,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "reading",
+          "ms": 3758,
+          "badge": "🚶 Walking"
+        },
+        {
+          "value": "food",
+          "ms": 4780,
+          "badge": "🚶 Walking"
+        }
+      ]
+    },
+    {
+      "seat": "Maya",
+      "stage": "showcase-wardrobe-rotate",
+      "status": "pass",
+      "ms": 35332,
+      "colorSave": "Draft only: original palette unset; API has no reset-to-null operation"
+    },
+    {
+      "seat": "Maya",
+      "stage": "house-save",
+      "status": "failed",
+      "error": "locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('House saved. Welcome home!', { exact: true }) to be visible\u001b[22m\n",
+      "ms": 38566
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings-save",
+      "status": "pass",
+      "ms": 12989,
+      "interactionMs": 5118
+    },
+    {
+      "seat": "Maya",
+      "stage": "checkin-status",
+      "status": "pass",
+      "ms": 14529,
+      "http": 200,
+      "interactionMs": 6246,
+      "xp": 10,
+      "resultKeys": [
+        "check_in",
+        "xp_awarded"
+      ]
+    },
+    {
+      "seat": "Maya",
+      "stage": "checkin-progress",
+      "status": "pass",
+      "ms": 9247,
+      "unavailable": "No active goal; progress disabled"
+    },
+    {
+      "seat": "Maya",
+      "stage": "goal-save-existing",
+      "status": "pass",
+      "ms": 9168,
+      "http": 200,
+      "interactionMs": 5535
+    },
+    {
+      "seat": "Maya",
+      "stage": "accomplishments-reaction",
+      "status": "pass",
+      "ms": 14808,
+      "cards": 10
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "status": "pass",
+      "ms": 48924,
+      "purchases": [
+        {
+          "name": "Buy Flower Bed",
+          "status": 200
+        },
+        {
+          "name": "photo token",
+          "status": 201,
+          "body": {
+            "id": "37b659f9-0568-4e84-b786-cbacd2ce87fd"
+          }
+        }
+      ],
+      "speakers": 1,
+      "recipients": 1,
+      "preview": true,
+      "createDisabled": true,
+      "locks": [
+        "Earn-only: earned:auditor",
+        "Earn-only: earned:weekly_crown",
+        "Earn-only: earned:competition_win",
+        "Earn-only: earned:festival_vip",
+        "Earn-only: earned:mayor_event",
+        "Earn-only: earned:perfect_week",
+        "Earn-only: earned:streak_28",
+        "Needs Backyard (100 XP) first",
+        "Needs Backyard (100 XP) first",
+        "Needs House Level 2 (150 XP) first",
+        "Need 120 more XP"
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "seat": "Stefanny",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 47
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 18
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 36
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1116
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1018
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 20
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 19
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 20
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 22
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "house-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 20
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "house-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 20
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "settings-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 99
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "settings-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 18
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/check-ins",
+      "status": 200,
+      "ms": 22
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 8
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/reactions",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "accomplishments-reaction",
+      "method": "DELETE",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/reactions",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 398
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1505
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/shop/buy",
+      "status": 200,
+      "ms": 191
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/items/token",
+      "status": 201,
+      "ms": 425
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 8
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "gazette-archive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000003",
+      "status": 500,
+      "ms": 19,
+      "error": "Internal Server Error"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "gazette-archive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 500,
+      "ms": 23,
+      "error": "Internal Server Error"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "colosseum",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 69
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "colosseum",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "colosseum",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 500,
+      "ms": 12,
+      "error": ""
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 500,
+      "ms": 5,
+      "error": ""
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "group-photo",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 500,
+      "ms": 5,
+      "error": ""
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/me",
+      "status": 500,
+      "ms": 6,
+      "error": ""
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "responsive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 500,
+      "ms": 6,
+      "error": ""
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "responsive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 500,
+      "ms": 5,
+      "error": ""
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/messages/unread",
+      "status": 500,
+      "ms": 5,
+      "error": ""
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "responsive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1180
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "responsive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 29
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "responsive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Maya",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 112
+    },
+    {
+      "seat": "Maya",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 16
+    },
+    {
+      "seat": "Maya",
+      "stage": "seat",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1093
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1075
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 8
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1145
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 28
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1206
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1368
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 90
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 155
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 155
+    },
+    {
+      "seat": "Maya",
+      "stage": "idle-and-house-hover",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1728
+    },
+    {
+      "seat": "Maya",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Maya",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1022
+    },
+    {
+      "seat": "Maya",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Maya",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1037
+    },
+    {
+      "seat": "Maya",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Maya",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "showcase-wardrobe-rotate",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1022
+    },
+    {
+      "seat": "Maya",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Maya",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 17
+    },
+    {
+      "seat": "Maya",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1040
+    },
+    {
+      "seat": "Maya",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Maya",
+      "stage": "house-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1056
+    },
+    {
+      "seat": "Maya",
+      "stage": "house-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 19
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1040
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings-save",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1479
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings-save",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "settings-save",
+      "method": "PATCH",
+      "url": "/api/me",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Maya",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/check-ins",
+      "status": 200,
+      "ms": 25
+    },
+    {
+      "seat": "Maya",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Maya",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 15
+    },
+    {
+      "seat": "Maya",
+      "stage": "checkin-status",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Maya",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Maya",
+      "stage": "checkin-progress",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1068
+    },
+    {
+      "seat": "Maya",
+      "stage": "checkin-progress",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 13
+    },
+    {
+      "seat": "Maya",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Maya",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/goals",
+      "status": 200,
+      "ms": 22
+    },
+    {
+      "seat": "Maya",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "goal-save-existing",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 9
+    },
+    {
+      "seat": "Maya",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 20
+    },
+    {
+      "seat": "Maya",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Maya",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/reactions",
+      "status": 200,
+      "ms": 18
+    },
+    {
+      "seat": "Maya",
+      "stage": "accomplishments-reaction",
+      "method": "DELETE",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/reactions",
+      "status": 200,
+      "ms": 18
+    },
+    {
+      "seat": "Maya",
+      "stage": "accomplishments-reaction",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1555
+    },
+    {
+      "seat": "Maya",
+      "stage": "accomplishments-reaction",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 20
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 780
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/users/13370000-0000-4000-8000-000000000004",
+      "status": 200,
+      "ms": 1177
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 2003
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 3381
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 21
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1432
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/shop/buy",
+      "status": 200,
+      "ms": 1350
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1620
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 76
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 75
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1655
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/items/token",
+      "status": 201,
+      "ms": 1833
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/weekly/current",
+      "status": 200,
+      "ms": 1019
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1392
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1641
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1350
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 14
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 10
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1347
+    },
+    {
+      "seat": "Maya",
+      "stage": "shop-buy-and-grams",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 21
+    },
+    {
+      "seat": "Maya",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "gazette-archive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1092
+    },
+    {
+      "seat": "Maya",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 12
+    },
+    {
+      "seat": "Maya",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 11
+    },
+    {
+      "seat": "Maya",
+      "stage": "gazette-archive",
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000",
+      "status": 200,
+      "ms": 1286
+    },
+    {
+      "seat": "Maya",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 28
+    },
+    {
+      "seat": "Maya",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/demo/seat",
+      "status": 200,
+      "ms": 31
+    },
+    {
+      "seat": "Maya",
+      "stage": "gazette-archive",
+      "method": "POST",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/heartbeat",
+      "status": 200,
+      "ms": 34
+    }
+  ],
+  "errors": [
+    {
+      "seat": "Stefanny",
+      "stage": "goal-save-existing",
+      "type": "console",
+      "text": "Failed to load resource: net::ERR_CONNECTION_FAILED"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "gazette-archive",
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "gazette-archive",
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "group-photo",
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "group-photo",
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "group-photo",
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "responsive",
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "responsive",
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "responsive",
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "responsive",
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+    },
+    {
+      "seat": "Stefanny",
+      "stage": "responsive",
+      "type": "console",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "seat": "Maya",
+      "stage": "house-save",
+      "type": "console",
+      "text": "Failed to load resource: net::ERR_BLOCKED_BY_CLIENT.Inspector"
+    }
+  ],
+  "blocked": [
+    {
+      "seat": "Maya",
+      "stage": "house-save",
+      "url": "/api/me",
+      "method": "PATCH"
+    }
+  ]
+}

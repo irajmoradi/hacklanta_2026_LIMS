@@ -1,0 +1,16 @@
+{
+  "failures": [
+    {
+      "method": "GET",
+      "url": "/api/villages/13370000-0000-4000-8000-000000000000/presence/stream",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "blocked": [],
+  "http": 200,
+  "runnerOutcome": {
+    "exitCode": 1,
+    "assertion": "Expected #goal-title count 0; remained 1 after 20000 ms following HTTP 200.",
+    "source": "Observed Playwright assertion in command output"
+  }
+}
